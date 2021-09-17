@@ -21211,7 +21211,7 @@ use @gtk_application_get_type[U64]()
     [PointerType size=64]->[FundamentalType(char) size=8]
     [Enumeration size=32,fid: f155]
 */
-use @gtk_application_new[NullablePointer[GtkApplication]](applicationid: Pointer[U8] tag, flags: I32)
+use @gtk_application_new[Pointer[GObject]](applicationid: Pointer[U8] tag, flags: I32)
 
 
 

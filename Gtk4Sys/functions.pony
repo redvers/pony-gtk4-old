@@ -21341,7 +21341,7 @@ primitive Gtk4Sys
     [PointerType size=64]->[FundamentalType(char) size=8]
     [Enumeration size=32,fid: f155]
 */
-  fun gtk_application_new(applicationid: Pointer[U8] tag, flags: I32): NullablePointer[GtkApplication] =>
+  fun gtk_application_new(applicationid: Pointer[U8] tag, flags: I32): Pointer[GObject] =>
     @gtk_application_new(applicationid, flags)
 
 
