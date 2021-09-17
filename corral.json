@@ -1,0 +1,33 @@
+{
+  "packages": ["Gtk4Sys"],
+  "deps": [
+    {
+      "locator": "../pony-glib",
+      "version": ""
+    },
+    {
+      "locator": "../pony-graphene",
+      "version": ""
+    },
+    {
+      "locator": "../pony-pango",
+      "version": ""
+    },
+    {
+      "locator": "../pony-cairo",
+      "version": ""
+    },
+    {
+      "locator": "../pony-graphene",
+      "version": ""
+    }
+  ],
+  "info": {
+    "description": "Pony wrapper for Gtk4",
+    "homepage": "",
+    "license": "",
+    "documentation_url": "",
+    "version": "0.1",
+    "name": "Gtk4Sys"
+  }
+}
