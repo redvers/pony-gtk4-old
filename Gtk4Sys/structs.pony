@@ -14642,7 +14642,7 @@ struct GtkCssStyleChange
 
   Fields (Offset in bits):
 */
-struct GtkEventController
+type GtkEventController is GObject
 
 
 /*
@@ -14653,7 +14653,7 @@ struct GtkEventController
 
   Fields (Offset in bits):
 */
-struct GtkGesture
+type GtkGesture is GObject
 
 
 /*
@@ -17330,8 +17330,7 @@ struct GtkDragSourceClass
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: widget
 */
-struct GtkDrawingArea
-  var widget: GtkWidget = GtkWidget
+type GtkDrawingArea is GtkWidget
 
 
 /*
@@ -17928,7 +17927,7 @@ struct GtkGestureClass
 
   Fields (Offset in bits):
 */
-struct GtkGestureSingle
+type GtkGestureSingle is GtkGesture
 
 
 /*
