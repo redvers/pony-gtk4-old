@@ -195,8 +195,7 @@ struct GdkAppLaunchContext
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-struct GdkSeat
-  embed parent_instance: GObject = GObject
+type GdkSeat is GObject
 
 
 /*
@@ -347,9 +346,7 @@ struct GdkPixbufFormat
      000000: [Struct size=192,fid: f141]: parent_instance
      000192: [PointerType size=64]->[FundamentalType(void) size=0]: priv
 */
-struct GdkPixbufLoader
-  embed parent_instance: GObject = GObject
-  var priv: Pointer[None] = Pointer[None]
+type GdkPixbufLoader is GObject
 
 
 /*
@@ -14590,8 +14587,7 @@ struct GtkBorder
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-struct GtkAdjustment
-  embed parent_instance: GObject = GObject
+type GtkAdjustment is GObject
 
 
 /*
@@ -14669,8 +14665,7 @@ struct GtkGesture
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-struct GtkLayoutManager
-  embed parent_instance: GObject = GObject
+type GtkLayoutManager is GObject
 
 
 /*
@@ -14810,9 +14805,10 @@ struct GtkTooltip
      000000: [Struct size=192,fid: f141]: parent_instance
      000192: [PointerType size=64]->[Struct size=,fid: f452]: priv
 */
-struct GtkWidget
-  embed parent_instance: GObject = GObject
-  var priv: NullablePointer[GtkWidgetPrivate] = NullablePointer[GtkWidgetPrivate].none()
+type GtkWidget is GObject
+//struct GtkWidget
+//  embed parent_instance: GObject = GObject
+//  var priv: NullablePointer[GtkWidgetPrivate] = NullablePointer[GtkWidgetPrivate].none()
 
 
 /*
@@ -14824,8 +14820,7 @@ struct GtkWidget
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-struct GtkWindow
-  embed parent_instance: GtkWidget = GtkWidget
+type GtkWindow is GtkWidget
 
 
 /*
@@ -15128,10 +15123,7 @@ struct GtkWindowClass
      000000: [Struct size=192,fid: f141]: parent_instance
      000192: [PointerType size=64]->[Struct size=,fid: f454]: priv
 */
-struct GtkWindowGroup
-  embed parent_instance: GObject = GObject
-  var priv: NullablePointer[GtkWindowGroupPrivate] = NullablePointer[GtkWindowGroupPrivate].none()
-
+type GtkWindowGroup is GObject
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindowgroup.h:51
@@ -15286,8 +15278,7 @@ struct GtkAppChooser
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f454]: parent_instance
 */
-struct GtkDialog
-  embed parent_instance: GtkWindow = GtkWindow
+type GtkDialog is GtkWindow
 
 
 /*
@@ -15377,8 +15368,7 @@ struct GtkApplicationWindowClass
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f454]: parent_instance
 */
-struct GtkApplicationWindow
-  embed parent_instance: GtkWindow = GtkWindow
+type GtkApplicationWindow is GtkWindow
 
 
 /*
@@ -15445,8 +15435,7 @@ struct GtkATContextClass
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-struct GtkLayoutChild
-  embed parent_instance: GObject = GObject
+type GtkLayoutChild is GObject
 
 
 /*
@@ -15612,8 +15601,7 @@ struct GtkCClosureExpression
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-struct GtkFilter
-  embed parent_instance: GObject = GObject
+type GtkFilter is GObject
 
 
 /*
@@ -15680,8 +15668,7 @@ struct GtkBoxLayout
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-struct GtkBox
-  embed parent_instance: GtkWidget = GtkWidget
+type GtkBox is GtkWidget
 
 
 /*
@@ -15740,8 +15727,7 @@ struct GtkBuilderCScopeClass
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-struct GtkBuilderCScope
-  embed parent_instance: GObject = GObject
+type GtkBuilderCScope is GObject
 
 
 /*
@@ -15873,8 +15859,7 @@ struct GtkBuilderListItemFactoryClass
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-struct GtkButton
-  embed parent_instance: GtkWidget = GtkWidget
+type GtkButton is GtkWidget
 
 
 /*
@@ -15958,9 +15943,7 @@ struct GtkCellEditableIface
      000000: [Struct size=192,fid: f141]: parent_instance
      000192: [PointerType size=64]->[Struct size=,fid: f490]: priv
 */
-struct GtkCellRenderer
-  embed parent_instance: GObject = GObject
-  var priv: NullablePointer[GtkCellRendererPrivate] = NullablePointer[GtkCellRendererPrivate].none()
+type GtkCellRenderer is GObject
 
 
 /*
@@ -16136,8 +16119,7 @@ struct GtkTreeModelIface
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-struct GtkCellArea
-  embed parent_instance: GObject = GObject
+type GtkCellArea is GObject
 
 
 /*
@@ -16202,8 +16184,7 @@ struct GtkCellAreaClass
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-struct GtkCellAreaContext
-  embed parent_instance: GObject = GObject
+type GtkCellAreaContext is GObject
 
 
 /*
@@ -16483,8 +16464,7 @@ struct GtkToggleButtonClass
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-struct GtkCheckButton
-  embed parent_instance: GtkWidget = GtkWidget
+type GtkCheckButton is GtkWidget
 
 
 /*
@@ -16582,8 +16562,7 @@ struct GtkColorChooserWidget
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-struct GtkSorter
-  embed parent_instance: GObject = GObject
+type GtkSorter is GObject
 
 
 /*
@@ -16814,8 +16793,7 @@ struct GtkEditableInterface
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-struct GtkIMContext
-  embed parent_instance: GObject = GObject
+type GtkIMContext is GObject
 
 
 /*
@@ -16886,8 +16864,7 @@ struct GtkIMContextClass
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-struct GtkEntryBuffer
-  embed parent_instance: GObject = GObject
+type GtkEntryBuffer is GObject
 
 
 /*
@@ -17048,8 +17025,7 @@ struct GtkImage
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-struct GtkEntry
-  embed parent_instance: GtkWidget = GtkWidget
+type GtkEntry is GtkWidget
 
 
 /*
@@ -17078,8 +17054,7 @@ struct GtkEntryClass
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-struct GtkTreeView
-  embed parent_instance: GtkWidget = GtkWidget
+type GtkTreeView is GtkWidget
 
 
 /*
@@ -17147,8 +17122,7 @@ struct GtkTreeSelection
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-struct GtkComboBox
-  embed parent_instance: GtkWidget = GtkWidget
+type GtkComboBox is GtkWidget
 
 
 /*
@@ -17256,8 +17230,7 @@ struct GtkConstraintLayout
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-struct GtkCssProvider
-  embed parent_instance: GObject = GObject
+type GtkCssProvider is GObject
 
 
 /*
@@ -17629,8 +17602,7 @@ struct GtkExpander
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-struct GtkFixed
-  embed parent_instance: GtkWidget = GtkWidget
+type GtkFixed is GtkWidget
 
 
 /*
@@ -17643,9 +17615,7 @@ struct GtkFixed
      000000: [Struct size=3264,fid: f452]: parent_class
      003264: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkFixedClass
-  var parent_class: GtkWidgetClass = GtkWidgetClass
-  var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]
+type GtkFixedClass is GtkWidgetClass
 
 
 /*
@@ -17712,8 +17682,7 @@ struct GtkFileChooserDialog
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-struct GtkNativeDialog
-  embed parent_instance: GObject = GObject
+type GtkNativeDialog is GObject
 
 
 /*
@@ -17818,8 +17787,7 @@ struct GtkFlowBox
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-struct GtkFlowBoxChild
-  embed parent_instance: GtkWidget = GtkWidget
+type GtkFlowBoxChild is GtkWidget
 
 
 /*
@@ -17921,8 +17889,7 @@ struct GtkFontChooserWidget
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-struct GtkFrame
-  embed parent_instance: GtkWidget = GtkWidget
+type GtkFrame is GtkWidget
 
 
 /*
@@ -18160,8 +18127,7 @@ struct GtkGestureZoomClass
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-struct GtkGLArea
-  embed parent_instance: GtkWidget = GtkWidget
+type GtkGLArea is GtkWidget
 
 
 /*
@@ -18194,8 +18160,7 @@ struct GtkGLAreaClass
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-struct GtkGrid
-  embed parent_instance: GtkWidget = GtkWidget
+type GtkGrid is GtkWidget
 
 
 /*
@@ -18473,8 +18438,7 @@ struct GtkListBox
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-struct GtkListBoxRow
-  embed parent_instance: GtkWidget = GtkWidget
+type GtkListBoxRow is GtkWidget
 
 
 /*
@@ -18558,8 +18522,7 @@ struct GtkMapListModel
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-struct GtkMediaStream
-  embed parent_instance: GObject = GObject
+type GtkMediaStream is GObject
 
 
 /*
@@ -18623,8 +18586,7 @@ struct GtkMediaControls
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f605]: parent_instance
 */
-struct GtkMediaFile
-  embed parent_instance: GtkMediaStream = GtkMediaStream
+type GtkMediaFile is GtkMediaStream
 
 
 /*
@@ -18704,8 +18666,7 @@ struct GtkMenuButton
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f464]: parent_instance
 */
-struct GtkMessageDialog
-  embed parent_instance: GtkDialog = GtkDialog
+type GtkMessageDialog is GtkDialog
 
 
 /*
@@ -18729,9 +18690,7 @@ struct GtkMessageDialogClass
      000000: [Struct size=256,fid: f185]: parent_instance
      000256: [PointerType size=64]->[Struct size=,fid: f611]: priv
 */
-struct GtkMountOperation
-  embed parent_instance: GMountOperation = GMountOperation
-  var priv: NullablePointer[GtkMountOperationPrivate] = NullablePointer[GtkMountOperationPrivate].none()
+type GtkMountOperation is GMountOperation
 
 
 /*
@@ -19242,9 +19201,7 @@ struct GtkPrintOperationPrivate
      000000: [Struct size=192,fid: f141]: parent_instance
      000192: [PointerType size=64]->[Struct size=,fid: f633]: priv
 */
-struct GtkPrintOperation
-  embed parent_instance: GObject = GObject
-  var priv: NullablePointer[GtkPrintOperationPrivate] = NullablePointer[GtkPrintOperationPrivate].none()
+type GtkPrintOperation is GObject
 
 
 /*
@@ -19267,8 +19224,7 @@ struct GtkProgressBar
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-struct GtkRange
-  embed parent_instance: GtkWidget = GtkWidget
+type GtkRange is GtkWidget
 
 
 /*
@@ -19342,9 +19298,7 @@ struct GtkRecentData
      000000: [Struct size=192,fid: f141]: parent_instance
      000192: [PointerType size=64]->[Struct size=,fid: f636]: priv
 */
-struct GtkRecentManager
-  embed parent_instance: GObject = GObject
-  var priv: NullablePointer[GtkRecentManagerPrivate] = NullablePointer[GtkRecentManagerPrivate].none()
+type GtkRecentManager is GObject
 
 
 /*
@@ -19412,8 +19366,7 @@ struct GtkRootInterface
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f635]: parent_instance
 */
-struct GtkScale
-  embed parent_instance: GtkRange = GtkRange
+type GtkScale is GtkRange
 
 
 /*
@@ -19442,8 +19395,7 @@ struct GtkScaleClass
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-struct GtkScaleButton
-  embed parent_instance: GtkWidget = GtkWidget
+type GtkScaleButton is GtkWidget
 
 
 /*
@@ -19889,8 +19841,7 @@ struct GtkStackSidebar
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-struct GtkSizeGroup
-  embed parent_instance: GObject = GObject
+type GtkSizeGroup is GObject
 
 
 /*
@@ -20052,8 +20003,7 @@ struct GtkSwitch
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-struct GtkText
-  embed parent_instance: GtkWidget = GtkWidget
+type GtkText is GtkWidget
 
 
 /*
@@ -20116,9 +20066,7 @@ struct GtkTextTagTable
      000000: [Struct size=192,fid: f141]: parent_instance
      000192: [PointerType size=64]->[Struct size=,fid: f677]: priv
 */
-struct GtkTextTag
-  embed parent_instance: GObject = GObject
-  var priv: NullablePointer[GtkTextTagPrivate] = NullablePointer[GtkTextTagPrivate].none()
+type GtkTextTag is GObject
 
 
 /*
@@ -20157,9 +20105,7 @@ struct GtkTextTagClass
      000000: [Struct size=192,fid: f141]: parent_instance
      000192: [PointerType size=64]->[FundamentalType(void) size=0]: segment
 */
-struct GtkTextChildAnchor
-  embed parent_instance: GObject = GObject
-  var segment: Pointer[None] = Pointer[None]
+type GtkTextChildAnchor is GObject
 
 
 /*
@@ -20193,9 +20139,7 @@ struct GtkTextChildAnchorClass
      000000: [Struct size=192,fid: f141]: parent_instance
      000192: [PointerType size=64]->[Struct size=,fid: f680]: priv
 */
-struct GtkTextBuffer
-  embed parent_instance: GObject = GObject
-  var priv: NullablePointer[GtkTextBufferPrivate] = NullablePointer[GtkTextBufferPrivate].none()
+type GtkTextBuffer is GObject
 
 
 /*
@@ -20208,9 +20152,7 @@ struct GtkTextBuffer
      000000: [Struct size=192,fid: f141]: parent_instance
      000192: [PointerType size=64]->[FundamentalType(void) size=0]: segment
 */
-struct GtkTextMark
-  embed parent_instance: GObject = GObject
-  var segment: Pointer[None] = Pointer[None]
+type GtkTextMark is GObject
 
 
 /*
@@ -20300,9 +20242,7 @@ struct GtkTextBufferClass
      000000: [Struct size=256,fid: f452]: parent_instance
      000256: [PointerType size=64]->[Struct size=,fid: f682]: priv
 */
-struct GtkTextView
-  embed parent_instance: GtkWidget = GtkWidget
-  var priv: NullablePointer[GtkTextViewPrivate] = NullablePointer[GtkTextViewPrivate].none()
+type GtkTextView is GtkWidget
 
 
 /*
