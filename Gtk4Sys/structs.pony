@@ -3,7 +3,7 @@ use "GrapheneSys"
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/css/gtkcsslocation.h:31
-  Original Name: _GtkCssLocation
+  Original Name: _SGtkCssLocation
   Struct Size (bits):  320
   Struct Align (bits): 64
 
@@ -14,7 +14,7 @@ use "GrapheneSys"
      000192: [FundamentalType(long unsigned int) size=64]: line_bytes
      000256: [FundamentalType(long unsigned int) size=64]: line_chars
 */
-struct GtkCssLocation
+struct SGtkCssLocation
   var bytes: U64 = U64(0)
   var chars: U64 = U64(0)
   var lines: U64 = U64(0)
@@ -24,13 +24,13 @@ struct GtkCssLocation
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/css/gtkcsssection.h:41
-  Original Name: _GtkCssSection
+  Original Name: _SGtkCssSection
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCssSection
+struct SGtkCssSection
 
 
 /*
@@ -14561,7 +14561,7 @@ struct GskCairoRendererClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkborder.h:52
-  Original Name: _GtkBorder
+  Original Name: _SGtkBorder
   Struct Size (bits):  64
   Struct Align (bits): 16
 
@@ -14571,7 +14571,7 @@ struct GskCairoRendererClass
      000032: [FundamentalType(short int) size=16]: top
      000048: [FundamentalType(short int) size=16]: bottom
 */
-struct GtkBorder
+struct SGtkBorder
   var left: I16 = I16(0)
   var right: I16 = I16(0)
   var top: I16 = I16(0)
@@ -14580,130 +14580,130 @@ struct GtkBorder
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkadjustment.h:47
-  Original Name: _GtkAdjustment
+  Original Name: _SGtkAdjustment
   Struct Size (bits):  192
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-type GtkAdjustment is GObject
+type SGtkAdjustment is GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktypes.h:37
-  Original Name: _GtkBitset
+  Original Name: _SGtkBitset
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkBitset
+struct SGtkBitset
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktypes.h:38
-  Original Name: _GtkBuilder
+  Original Name: _SGtkBuilder
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-type GtkBuilder is GObject
+type SGtkBuilder is GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktypes.h:39
-  Original Name: _GtkBuilderScope
+  Original Name: _SGtkBuilderScope
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkBuilderScope
+struct SGtkBuilderScope
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktypes.h:40
-  Original Name: _GtkCssStyleChange
+  Original Name: _SGtkCssStyleChange
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCssStyleChange
+struct SGtkCssStyleChange
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktypes.h:41
-  Original Name: _GtkEventController
+  Original Name: _SGtkEventController
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-type GtkEventController is GObject
+type SGtkEventController is GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktypes.h:42
-  Original Name: _GtkGesture
+  Original Name: _SGtkGesture
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-type GtkGesture is GObject
+type SGtkGesture is GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtklayoutmanager.h:31
-  Original Name: _GtkLayoutManager
+  Original Name: _SGtkLayoutManager
   Struct Size (bits):  192
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-type GtkLayoutManager is GObject
+type SGtkLayoutManager is GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktypes.h:44
-  Original Name: _GtkListItem
+  Original Name: _SGtkListItem
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkListItem
+struct SGtkListItem
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktypes.h:45
-  Original Name: _GtkListItemFactory
+  Original Name: _SGtkListItemFactory
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkListItemFactory
+struct SGtkListItemFactory
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktypes.h:46
-  Original Name: _GtkNative
+  Original Name: _SGtkNative
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-type GtkNative is GObject
+type SGtkNative is GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwidget.h:93
-  Original Name: _GtkRequisition
+  Original Name: _SGtkRequisition
   Struct Size (bits):  64
   Struct Align (bits): 32
 
@@ -14711,93 +14711,93 @@ type GtkNative is GObject
      000000: [FundamentalType(int) size=32]: width
      000032: [FundamentalType(int) size=32]: height
 */
-struct GtkRequisition
+struct SGtkRequisition
   var width: I32 = I32(0)
   var height: I32 = I32(0)
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktypes.h:48
-  Original Name: _GtkRoot
+  Original Name: _SGtkRoot
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkRoot
+struct SGtkRoot
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktypes.h:49
-  Original Name: _GtkSettings
+  Original Name: _SGtkSettings
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkSettings
+struct SGtkSettings
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktypes.h:50
-  Original Name: _GtkShortcut
+  Original Name: _SGtkShortcut
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkShortcut
+struct SGtkShortcut
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktypes.h:51
-  Original Name: _GtkShortcutAction
+  Original Name: _SGtkShortcutAction
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkShortcutAction
+struct SGtkShortcutAction
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktypes.h:52
-  Original Name: _GtkShortcutTrigger
+  Original Name: _SGtkShortcutTrigger
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkShortcutTrigger
+struct SGtkShortcutTrigger
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkstylecontext.h:42
-  Original Name: _GtkStyleContext
+  Original Name: _SGtkStyleContext
   Struct Size (bits):  192
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_object
 */
-struct GtkStyleContext
+struct SGtkStyleContext
   var parent_object: GObject = GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktypes.h:55
-  Original Name: _GtkTooltip
+  Original Name: _SGtkTooltip
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkTooltip
+struct SGtkTooltip
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwidget.h:104
-  Original Name: _GtkWidget
+  Original Name: _SGtkWidget
   Struct Size (bits):  256
   Struct Align (bits): 64
 
@@ -14805,181 +14805,181 @@ struct GtkTooltip
      000000: [Struct size=192,fid: f141]: parent_instance
      000192: [PointerType size=64]->[Struct size=,fid: f452]: priv
 */
-type GtkWidget is GObject
-//struct GtkWidget
+type SGtkWidget is GObject
+//struct SGtkWidget
 //  embed parent_instance: GObject = GObject
-//  var priv: NullablePointer[GtkWidgetPrivate] = NullablePointer[GtkWidgetPrivate].none()
+//  var priv: NullablePointer[SGtkWidgetPrivate] = NullablePointer[SGtkWidgetPrivate].none()
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindow.h:51
-  Original Name: _GtkWindow
+  Original Name: _SGtkWindow
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-type GtkWindow is GtkWidget
+type SGtkWindow is SGtkWidget
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutaction.h:60
-  Original Name: _GtkShortcutActionClass
+  Original Name: _SGtkShortcutActionClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkShortcutActionClass
+struct SGtkShortcutActionClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutaction.h:84
-  Original Name: _GtkNothingAction
+  Original Name: _SGtkNothingAction
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkNothingAction
+struct SGtkNothingAction
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutaction.h:84
-  Original Name: _GtkNothingActionClass
+  Original Name: _SGtkNothingActionClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkNothingActionClass
+struct SGtkNothingActionClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutaction.h:97
-  Original Name: _GtkCallbackAction
+  Original Name: _SGtkCallbackAction
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCallbackAction
+struct SGtkCallbackAction
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutaction.h:97
-  Original Name: _GtkCallbackActionClass
+  Original Name: _SGtkCallbackActionClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCallbackActionClass
+struct SGtkCallbackActionClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutaction.h:112
-  Original Name: _GtkMnemonicAction
+  Original Name: _SGtkMnemonicAction
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkMnemonicAction
+struct SGtkMnemonicAction
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutaction.h:112
-  Original Name: _GtkMnemonicActionClass
+  Original Name: _SGtkMnemonicActionClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkMnemonicActionClass
+struct SGtkMnemonicActionClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutaction.h:125
-  Original Name: _GtkActivateAction
+  Original Name: _SGtkActivateAction
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkActivateAction
+struct SGtkActivateAction
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutaction.h:125
-  Original Name: _GtkActivateActionClass
+  Original Name: _SGtkActivateActionClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkActivateActionClass
+struct SGtkActivateActionClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutaction.h:141
-  Original Name: _GtkSignalAction
+  Original Name: _SGtkSignalAction
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkSignalAction
+struct SGtkSignalAction
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutaction.h:141
-  Original Name: _GtkSignalActionClass
+  Original Name: _SGtkSignalActionClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkSignalActionClass
+struct SGtkSignalActionClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutaction.h:156
-  Original Name: _GtkNamedAction
+  Original Name: _SGtkNamedAction
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkNamedAction
+struct SGtkNamedAction
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutaction.h:156
-  Original Name: _GtkNamedActionClass
+  Original Name: _SGtkNamedActionClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkNamedActionClass
+struct SGtkNamedActionClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwidget.h:54
-  Original Name: _GtkWidgetPrivate
+  Original Name: _SGtkWidgetPrivate
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkWidgetPrivate
+struct SGtkWidgetPrivate
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwidget.h:184
-  Original Name: _GtkWidgetClass
+  Original Name: _SGtkWidgetClass
   Struct Size (bits):  3264
   Struct Align (bits): 64
 
@@ -15013,7 +15013,7 @@ struct GtkWidgetPrivate
      002688: [PointerType size=64]->[Struct size=,fid: f452]: priv
      002752: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkWidgetClass
+struct SGtkWidgetClass
   var parent_class: GObjectClass = GObjectClass
   var show: Pointer[None] = Pointer[None]
   var hide: Pointer[None] = Pointer[None]
@@ -15040,38 +15040,38 @@ struct GtkWidgetClass
   var system_setting_changed: Pointer[None] = Pointer[None]
   var snapshot: Pointer[None] = Pointer[None]
   var contains: Pointer[None] = Pointer[None]
-  var priv: NullablePointer[GtkWidgetClassPrivate] = NullablePointer[GtkWidgetClassPrivate].none()
+  var priv: NullablePointer[SGtkWidgetClassPrivate] = NullablePointer[SGtkWidgetClassPrivate].none()
   var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwidget.h:56
-  Original Name: _GtkWidgetClassPrivate
+  Original Name: _SGtkWidgetClassPrivate
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkWidgetClassPrivate
+struct SGtkWidgetClassPrivate
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkapplication.h:42
-  Original Name: _GtkApplication
+  Original Name: _SGtkApplication
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f165]: parent_instance
 */
-type GtkApplication is GObject
-//struct GtkApplication
+type SGtkApplication is GObject
+//struct SGtkApplication
 //  embed parent_instance: GApplication = GApplication
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkapplication.h:56
-  Original Name: _GtkApplicationClass
+  Original Name: _SGtkApplicationClass
   Struct Size (bits):  3136
   Struct Align (bits): 64
 
@@ -15081,7 +15081,7 @@ type GtkApplication is GObject
      002560: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: window_removed
      002624: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkApplicationClass
+struct SGtkApplicationClass
   var parent_class: GApplicationClass = GApplicationClass
   var window_added: Pointer[None] = Pointer[None]
   var window_removed: Pointer[None] = Pointer[None]
@@ -15090,7 +15090,7 @@ struct GtkApplicationClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindow.h:67
-  Original Name: _GtkWindowClass
+  Original Name: _SGtkWindowClass
   Struct Size (bits):  4096
   Struct Align (bits): 64
 
@@ -15103,8 +15103,8 @@ struct GtkApplicationClass
      003520: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: close_request
      003584: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkWindowClass
-  var parent_class: GtkWidgetClass = GtkWidgetClass
+struct SGtkWindowClass
+  var parent_class: SGtkWidgetClass = SGtkWidgetClass
   var activate_focus: Pointer[None] = Pointer[None]
   var activate_default: Pointer[None] = Pointer[None]
   var keys_changed: Pointer[None] = Pointer[None]
@@ -15115,7 +15115,7 @@ struct GtkWindowClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindowgroup.h:44
-  Original Name: _GtkWindowGroup
+  Original Name: _SGtkWindowGroup
   Struct Size (bits):  256
   Struct Align (bits): 64
 
@@ -15123,11 +15123,11 @@ struct GtkWindowClass
      000000: [Struct size=192,fid: f141]: parent_instance
      000192: [PointerType size=64]->[Struct size=,fid: f454]: priv
 */
-type GtkWindowGroup is GObject
+type SGtkWindowGroup is GObject
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindowgroup.h:51
-  Original Name: _GtkWindowGroupClass
+  Original Name: _SGtkWindowGroupClass
   Struct Size (bits):  1344
   Struct Align (bits): 64
 
@@ -15138,7 +15138,7 @@ type GtkWindowGroup is GObject
      001216: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved3
      001280: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved4
 */
-struct GtkWindowGroupClass
+struct SGtkWindowGroupClass
   var parent_class: GObjectClass = GObjectClass
   var _gtk_reserved1: Pointer[None] = Pointer[None]
   var _gtk_reserved2: Pointer[None] = Pointer[None]
@@ -15148,51 +15148,51 @@ struct GtkWindowGroupClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindow.h:49
-  Original Name: _GtkWindowGroupPrivate
+  Original Name: _SGtkWindowGroupPrivate
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkWindowGroupPrivate
+struct SGtkWindowGroupPrivate
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkaboutdialog.h:38
-  Original Name: _GtkAboutDialog
+  Original Name: _SGtkAboutDialog
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkAboutDialog
+struct SGtkAboutDialog
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkaccessible.h:36
-  Original Name: _GtkAccessible
+  Original Name: _SGtkAccessible
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkAccessible
+struct SGtkAccessible
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkaccessible.h:36
-  Original Name: _GtkAccessibleInterface
+  Original Name: _SGtkAccessibleInterface
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkAccessibleInterface
+struct SGtkAccessibleInterface
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkactionable.h:39
-  Original Name: _GtkActionableInterface
+  Original Name: _SGtkActionableInterface
   Struct Size (bits):  384
   Struct Align (bits): 64
 
@@ -15203,7 +15203,7 @@ struct GtkAccessibleInterface
      000256: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: get_action_target_value
      000320: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: set_action_target_value
 */
-struct GtkActionableInterface
+struct SGtkActionableInterface
   var g_iface: GTypeInterface = GTypeInterface
   var get_action_name: Pointer[None] = Pointer[None]
   var set_action_name: Pointer[None] = Pointer[None]
@@ -15213,29 +15213,29 @@ struct GtkActionableInterface
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkactionable.h:37
-  Original Name: _GtkActionable
+  Original Name: _SGtkActionable
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkActionable
+struct SGtkActionable
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkactionbar.h:35
-  Original Name: _GtkActionBar
+  Original Name: _SGtkActionBar
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkActionBar
+struct SGtkActionBar
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkadjustment.h:52
-  Original Name: _GtkAdjustmentClass
+  Original Name: _SGtkAdjustmentClass
   Struct Size (bits):  1472
   Struct Align (bits): 64
 
@@ -15248,7 +15248,7 @@ struct GtkActionBar
      001344: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved3
      001408: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved4
 */
-struct GtkAdjustmentClass
+struct SGtkAdjustmentClass
   var parent_class: GObjectClass = GObjectClass
   var changed: Pointer[None] = Pointer[None]
   var value_changed: Pointer[None] = Pointer[None]
@@ -15260,30 +15260,30 @@ struct GtkAdjustmentClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkappchooser.h:39
-  Original Name: _GtkAppChooser
+  Original Name: _SGtkAppChooser
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkAppChooser
+struct SGtkAppChooser
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkdialog.h:99
-  Original Name: _GtkDialog
+  Original Name: _SGtkDialog
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f454]: parent_instance
 */
-type GtkDialog is GtkWindow
+type SGtkDialog is SGtkWindow
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkdialog.h:110
-  Original Name: _GtkDialogClass
+  Original Name: _SGtkDialogClass
   Struct Size (bits):  4736
   Struct Align (bits): 64
 
@@ -15293,8 +15293,8 @@ type GtkDialog is GtkWindow
      004160: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: close
      004224: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkDialogClass
-  var parent_class: GtkWindowClass = GtkWindowClass
+struct SGtkDialogClass
+  var parent_class: SGtkWindowClass = SGtkWindowClass
   var response: Pointer[None] = Pointer[None]
   var close: Pointer[None] = Pointer[None]
   var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]
@@ -15302,51 +15302,51 @@ struct GtkDialogClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkappchooserdialog.h:41
-  Original Name: _GtkAppChooserDialog
+  Original Name: _SGtkAppChooserDialog
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkAppChooserDialog
+struct SGtkAppChooserDialog
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkappchooserwidget.h:41
-  Original Name: _GtkAppChooserWidget
+  Original Name: _SGtkAppChooserWidget
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkAppChooserWidget
+struct SGtkAppChooserWidget
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkappchooserbutton.h:38
-  Original Name: _GtkAppChooserButton
+  Original Name: _SGtkAppChooserButton
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkAppChooserButton
+struct SGtkAppChooserButton
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutswindow.h:35
-  Original Name: _GtkShortcutsWindow
+  Original Name: _SGtkShortcutsWindow
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkShortcutsWindow
+struct SGtkShortcutsWindow
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkapplicationwindow.h:56
-  Original Name: _GtkApplicationWindowClass
+  Original Name: _SGtkApplicationWindowClass
   Struct Size (bits):  4608
   Struct Align (bits): 64
 
@@ -15354,106 +15354,106 @@ struct GtkShortcutsWindow
      000000: [Struct size=4096,fid: f454]: parent_class
      004096: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkApplicationWindowClass
-  var parent_class: GtkWindowClass = GtkWindowClass
+struct SGtkApplicationWindowClass
+  var parent_class: SGtkWindowClass = SGtkWindowClass
   var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkapplicationwindow.h:47
-  Original Name: _GtkApplicationWindow
+  Original Name: _SGtkApplicationWindow
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f454]: parent_instance
 */
-type GtkApplicationWindow is GtkWindow
+type SGtkApplicationWindow is SGtkWindow
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkaspectframe.h:42
-  Original Name: _GtkAspectFrame
+  Original Name: _SGtkAspectFrame
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkAspectFrame
+struct SGtkAspectFrame
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkassistant.h:78
-  Original Name: _GtkAssistant
+  Original Name: _SGtkAssistant
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkAssistant
+struct SGtkAssistant
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkassistant.h:84
-  Original Name: _GtkAssistantPage
+  Original Name: _SGtkAssistantPage
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkAssistantPage
+struct SGtkAssistantPage
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkatcontext.h:36
-  Original Name: _GtkATContext
+  Original Name: _SGtkATContext
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkATContext
+struct SGtkATContext
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkatcontext.h:36
-  Original Name: _GtkATContextClass
+  Original Name: _SGtkATContextClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkATContextClass
+struct SGtkATContextClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtklayoutchild.h:14
-  Original Name: _GtkLayoutChild
+  Original Name: _SGtkLayoutChild
   Struct Size (bits):  192
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-type GtkLayoutChild is GObject
+type SGtkLayoutChild is GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtklayoutchild.h:16
-  Original Name: _GtkLayoutChildClass
+  Original Name: _SGtkLayoutChildClass
   Struct Size (bits):  1088
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=1088,fid: f141]: parent_class
 */
-struct GtkLayoutChildClass
+struct SGtkLayoutChildClass
   var parent_class: GObjectClass = GObjectClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtklayoutmanager.h:54
-  Original Name: _GtkLayoutManagerClass
+  Original Name: _SGtkLayoutManagerClass
   Struct Size (bits):  2560
   Struct Align (bits): 64
 
@@ -15468,7 +15468,7 @@ struct GtkLayoutChildClass
      001472: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: unroot
      001536: [ArrayType size=(0-15)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: _padding
 */
-struct GtkLayoutManagerClass
+struct SGtkLayoutManagerClass
   var parent_class: GObjectClass = GObjectClass
   var get_request_mode: Pointer[None] = Pointer[None]
   var measure: Pointer[None] = Pointer[None]
@@ -15482,131 +15482,131 @@ struct GtkLayoutManagerClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbinlayout.h:26
-  Original Name: _GtkBinLayout
+  Original Name: _SGtkBinLayout
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkBinLayout
+struct SGtkBinLayout
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbitset.h:145
-  Original Name: _GtkBitsetIter
+  Original Name: _SGtkBitsetIter
   Struct Size (bits):  640
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [ArrayType size=(0-9)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: private_data
 */
-struct GtkBitsetIter
+struct SGtkBitsetIter
   var private_data: Pointer[Pointer[None]] = Pointer[Pointer[None]]
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbookmarklist.h:38
-  Original Name: _GtkBookmarkList
+  Original Name: _SGtkBookmarkList
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkBookmarkList
+struct SGtkBookmarkList
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkexpression.h:34
-  Original Name: _GtkExpression
+  Original Name: _SGtkExpression
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkExpression
+struct SGtkExpression
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkexpression.h:35
-  Original Name: _GtkExpressionWatch
+  Original Name: _SGtkExpressionWatch
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkExpressionWatch
+struct SGtkExpressionWatch
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkexpression.h:87
-  Original Name: _GtkPropertyExpression
+  Original Name: _SGtkPropertyExpression
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkPropertyExpression
+struct SGtkPropertyExpression
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkexpression.h:106
-  Original Name: _GtkConstantExpression
+  Original Name: _SGtkConstantExpression
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkConstantExpression
+struct SGtkConstantExpression
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkexpression.h:121
-  Original Name: _GtkObjectExpression
+  Original Name: _SGtkObjectExpression
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkObjectExpression
+struct SGtkObjectExpression
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkexpression.h:133
-  Original Name: _GtkClosureExpression
+  Original Name: _SGtkClosureExpression
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkClosureExpression
+struct SGtkClosureExpression
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkexpression.h:145
-  Original Name: _GtkCClosureExpression
+  Original Name: _SGtkCClosureExpression
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCClosureExpression
+struct SGtkCClosureExpression
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkfilter.h:79
-  Original Name: _GtkFilter
+  Original Name: _SGtkFilter
   Struct Size (bits):  192
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-type GtkFilter is GObject
+type SGtkFilter is GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkfilter.h:81
-  Original Name: _GtkFilterClass
+  Original Name: _SGtkFilterClass
   Struct Size (bits):  1728
   Struct Align (bits): 64
 
@@ -15623,7 +15623,7 @@ type GtkFilter is GObject
      001600: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved7
      001664: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved8
 */
-struct GtkFilterClass
+struct SGtkFilterClass
   var parent_class: GObjectClass = GObjectClass
   var g_match: Pointer[None] = Pointer[None]
   var get_strictness: Pointer[None] = Pointer[None]
@@ -15639,41 +15639,41 @@ struct GtkFilterClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkboolfilter.h:34
-  Original Name: _GtkBoolFilter
+  Original Name: _SGtkBoolFilter
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkBoolFilter
+struct SGtkBoolFilter
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkboxlayout.h:33
-  Original Name: _GtkBoxLayout
+  Original Name: _SGtkBoxLayout
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkBoxLayout
+struct SGtkBoxLayout
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbox.h:50
-  Original Name: _GtkBox
+  Original Name: _SGtkBox
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-type GtkBox is GtkWidget
+type SGtkBox is SGtkWidget
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbox.h:59
-  Original Name: _GtkBoxClass
+  Original Name: _SGtkBoxClass
   Struct Size (bits):  3776
   Struct Align (bits): 64
 
@@ -15681,14 +15681,14 @@ type GtkBox is GtkWidget
      000000: [Struct size=3264,fid: f452]: parent_class
      003264: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkBoxClass
-  var parent_class: GtkWidgetClass = GtkWidgetClass
+struct SGtkBoxClass
+  var parent_class: SGtkWidgetClass = SGtkWidgetClass
   var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbuilderscope.h:74
-  Original Name: _GtkBuilderScopeInterface
+  Original Name: _SGtkBuilderScopeInterface
   Struct Size (bits):  320
   Struct Align (bits): 64
 
@@ -15698,7 +15698,7 @@ struct GtkBoxClass
      000192: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: get_type_from_function
      000256: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: create_closure
 */
-struct GtkBuilderScopeInterface
+struct SGtkBuilderScopeInterface
   var g_iface: GTypeInterface = GTypeInterface
   var get_type_from_name: Pointer[None] = Pointer[None]
   var get_type_from_function: Pointer[None] = Pointer[None]
@@ -15707,54 +15707,54 @@ struct GtkBuilderScopeInterface
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbuilderscope.h:97
-  Original Name: _GtkBuilderCScopeClass
+  Original Name: _SGtkBuilderCScopeClass
   Struct Size (bits):  1088
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=1088,fid: f141]: parent_class
 */
-struct GtkBuilderCScopeClass
+struct SGtkBuilderCScopeClass
   var parent_class: GObjectClass = GObjectClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbuilderscope.h:105
-  Original Name: _GtkBuilderCScope
+  Original Name: _SGtkBuilderCScope
   Struct Size (bits):  192
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-type GtkBuilderCScope is GObject
+type SGtkBuilderCScope is GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbuilder.h:40
-  Original Name: _GtkBuilderClass
+  Original Name: _SGtkBuilderClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkBuilderClass
+struct SGtkBuilderClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbuildable.h:35
-  Original Name: _GtkBuildable
+  Original Name: _SGtkBuildable
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkBuildable
+struct SGtkBuildable
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbuildable.h:139
-  Original Name: _GtkBuildableIface
+  Original Name: _SGtkBuildableIface
   Struct Size (bits):  768
   Struct Align (bits): 64
 
@@ -15771,7 +15771,7 @@ struct GtkBuildable
      000640: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: parser_finished
      000704: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: get_internal_child
 */
-struct GtkBuildableIface
+struct SGtkBuildableIface
   var g_iface: GTypeInterface = GTypeInterface
   var set_id: Pointer[None] = Pointer[None]
   var get_id: Pointer[None] = Pointer[None]
@@ -15787,18 +15787,18 @@ struct GtkBuildableIface
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbuildable.h:38
-  Original Name: _GtkBuildableParseContext
+  Original Name: _SGtkBuildableParseContext
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkBuildableParseContext
+struct SGtkBuildableParseContext
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbuildable.h:56
-  Original Name: _GtkBuildableParser
+  Original Name: _SGtkBuildableParser
   Struct Size (bits):  512
   Struct Align (bits): 64
 
@@ -15809,7 +15809,7 @@ struct GtkBuildableParseContext
      000192: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: error
      000256: [ArrayType size=(0-3)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkBuildableParser
+struct SGtkBuildableParser
   var start_element: Pointer[None] = Pointer[None]
   var end_element: Pointer[None] = Pointer[None]
   var text: Pointer[None] = Pointer[None]
@@ -15819,63 +15819,63 @@ struct GtkBuildableParser
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtklistitemfactory.h:27
-  Original Name: _GtkListItemFactoryClass
+  Original Name: _SGtkListItemFactoryClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkListItemFactoryClass
+struct SGtkListItemFactoryClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbuilderlistitemfactory.h:38
-  Original Name: _GtkBuilderListItemFactory
+  Original Name: _SGtkBuilderListItemFactory
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkBuilderListItemFactory
+struct SGtkBuilderListItemFactory
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbuilderlistitemfactory.h:39
-  Original Name: _GtkBuilderListItemFactoryClass
+  Original Name: _SGtkBuilderListItemFactoryClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkBuilderListItemFactoryClass
+struct SGtkBuilderListItemFactoryClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbutton.h:48
-  Original Name: _GtkButton
+  Original Name: _SGtkButton
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-type GtkButton is GtkWidget
+type SGtkButton is SGtkWidget
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbutton.h:45
-  Original Name: _GtkButtonPrivate
+  Original Name: _SGtkButtonPrivate
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkButtonPrivate
+struct SGtkButtonPrivate
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbutton.h:62
-  Original Name: _GtkButtonClass
+  Original Name: _SGtkButtonClass
   Struct Size (bits):  3904
   Struct Align (bits): 64
 
@@ -15885,8 +15885,8 @@ struct GtkButtonPrivate
      003328: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: activate
      003392: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkButtonClass
-  var parent_class: GtkWidgetClass = GtkWidgetClass
+struct SGtkButtonClass
+  var parent_class: SGtkWidgetClass = SGtkWidgetClass
   var clicked: Pointer[None] = Pointer[None]
   var activate: Pointer[None] = Pointer[None]
   var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]
@@ -15894,29 +15894,29 @@ struct GtkButtonClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcalendar.h:46
-  Original Name: _GtkCalendar
+  Original Name: _SGtkCalendar
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCalendar
+struct SGtkCalendar
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcelleditable.h:34
-  Original Name: _GtkCellEditable
+  Original Name: _SGtkCellEditable
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCellEditable
+struct SGtkCellEditable
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcelleditable.h:45
-  Original Name: _GtkCellEditableIface
+  Original Name: _SGtkCellEditableIface
   Struct Size (bits):  320
   Struct Align (bits): 64
 
@@ -15926,7 +15926,7 @@ struct GtkCellEditable
      000192: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: remove_widget
      000256: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: start_editing
 */
-struct GtkCellEditableIface
+struct SGtkCellEditableIface
   var g_iface: GTypeInterface = GTypeInterface
   var editing_done: Pointer[None] = Pointer[None]
   var remove_widget: Pointer[None] = Pointer[None]
@@ -15935,7 +15935,7 @@ struct GtkCellEditableIface
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcellrenderer.h:85
-  Original Name: _GtkCellRenderer
+  Original Name: _SGtkCellRenderer
   Struct Size (bits):  256
   Struct Align (bits): 64
 
@@ -15943,23 +15943,23 @@ struct GtkCellEditableIface
      000000: [Struct size=192,fid: f141]: parent_instance
      000192: [PointerType size=64]->[Struct size=,fid: f490]: priv
 */
-type GtkCellRenderer is GObject
+type SGtkCellRenderer is GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcellrenderer.h:81
-  Original Name: _GtkCellRendererPrivate
+  Original Name: _SGtkCellRendererPrivate
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCellRendererPrivate
+struct SGtkCellRendererPrivate
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcellrenderer.h:108
-  Original Name: _GtkCellRendererClass
+  Original Name: _SGtkCellRendererClass
   Struct Size (bits):  2304
   Struct Align (bits): 64
 
@@ -15978,7 +15978,7 @@ struct GtkCellRendererPrivate
      001728: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: editing_started
      001792: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkCellRendererClass
+struct SGtkCellRendererClass
   var parent_class: GObjectClass = GObjectClass
   var get_request_mode: Pointer[None] = Pointer[None]
   var get_preferred_width: Pointer[None] = Pointer[None]
@@ -15996,18 +15996,18 @@ struct GtkCellRendererClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcellrenderer.h:83
-  Original Name: _GtkCellRendererClassPrivate
+  Original Name: _SGtkCellRendererClassPrivate
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCellRendererClassPrivate
+struct SGtkCellRendererClassPrivate
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreemodel.h:93
-  Original Name: _GtkTreeIter
+  Original Name: _SGtkTreeIter
   Struct Size (bits):  256
   Struct Align (bits): 64
 
@@ -16017,7 +16017,7 @@ struct GtkCellRendererClassPrivate
      000128: [PointerType size=64]->[FundamentalType(void) size=0]: user_data2
      000192: [PointerType size=64]->[FundamentalType(void) size=0]: user_data3
 */
-struct GtkTreeIter
+struct SGtkTreeIter
   var stamp: I32 = I32(0)
   var user_data: Pointer[None] = Pointer[None]
   var user_data2: Pointer[None] = Pointer[None]
@@ -16026,40 +16026,40 @@ struct GtkTreeIter
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreemodel.h:40
-  Original Name: _GtkTreePath
+  Original Name: _SGtkTreePath
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkTreePath
+struct SGtkTreePath
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreemodel.h:41
-  Original Name: _GtkTreeRowReference
+  Original Name: _SGtkTreeRowReference
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkTreeRowReference
+struct SGtkTreeRowReference
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreemodel.h:42
-  Original Name: _GtkTreeModel
+  Original Name: _SGtkTreeModel
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkTreeModel
+struct SGtkTreeModel
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreemodel.h:130
-  Original Name: _GtkTreeModelIface
+  Original Name: _SGtkTreeModelIface
   Struct Size (bits):  1408
   Struct Align (bits): 64
 
@@ -16086,7 +16086,7 @@ struct GtkTreeModel
      001280: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: ref_node
      001344: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: unref_node
 */
-struct GtkTreeModelIface
+struct SGtkTreeModelIface
   var g_iface: GTypeInterface = GTypeInterface
   var row_changed: Pointer[None] = Pointer[None]
   var row_inserted: Pointer[None] = Pointer[None]
@@ -16112,19 +16112,19 @@ struct GtkTreeModelIface
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcellarea.h:93
-  Original Name: _GtkCellArea
+  Original Name: _SGtkCellArea
   Struct Size (bits):  192
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-type GtkCellArea is GObject
+type SGtkCellArea is GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcellarea.h:170
-  Original Name: _GtkCellAreaClass
+  Original Name: _SGtkCellAreaClass
   Struct Size (bits):  2816
   Struct Align (bits): 64
 
@@ -16151,7 +16151,7 @@ type GtkCellArea is GObject
      002240: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: activate
      002304: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkCellAreaClass
+struct SGtkCellAreaClass
   var parent_class: GObjectClass = GObjectClass
   var add: Pointer[None] = Pointer[None]
   var remove: Pointer[None] = Pointer[None]
@@ -16177,41 +16177,41 @@ struct GtkCellAreaClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcellareacontext.h:43
-  Original Name: _GtkCellAreaContext
+  Original Name: _SGtkCellAreaContext
   Struct Size (bits):  192
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-type GtkCellAreaContext is GObject
+type SGtkCellAreaContext is GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcellareabox.h:37
-  Original Name: _GtkCellAreaBox
+  Original Name: _SGtkCellAreaBox
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCellAreaBox
+struct SGtkCellAreaBox
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcellareacontext.h:40
-  Original Name: _GtkCellAreaContextPrivate
+  Original Name: _SGtkCellAreaContextPrivate
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCellAreaContextPrivate
+struct SGtkCellAreaContextPrivate
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcellareacontext.h:62
-  Original Name: _GtkCellAreaContextClass
+  Original Name: _SGtkCellAreaContextClass
   Struct Size (bits):  1856
   Struct Align (bits): 64
 
@@ -16223,7 +16223,7 @@ struct GtkCellAreaContextPrivate
      001280: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: get_preferred_width_for_height
      001344: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkCellAreaContextClass
+struct SGtkCellAreaContextClass
   var parent_class: GObjectClass = GObjectClass
   var allocate: Pointer[None] = Pointer[None]
   var reset: Pointer[None] = Pointer[None]
@@ -16234,18 +16234,18 @@ struct GtkCellAreaContextClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcelllayout.h:37
-  Original Name: _GtkCellLayout
+  Original Name: _SGtkCellLayout
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCellLayout
+struct SGtkCellLayout
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcelllayout.h:77
-  Original Name: _GtkCellLayoutIface
+  Original Name: _SGtkCellLayoutIface
   Struct Size (bits):  704
   Struct Align (bits): 64
 
@@ -16261,7 +16261,7 @@ struct GtkCellLayout
      000576: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: get_cells
      000640: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: get_area
 */
-struct GtkCellLayoutIface
+struct SGtkCellLayoutIface
   var g_iface: GTypeInterface = GTypeInterface
   var pack_start: Pointer[None] = Pointer[None]
   var pack_end: Pointer[None] = Pointer[None]
@@ -16276,20 +16276,20 @@ struct GtkCellLayoutIface
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcellrenderertext.h:42
-  Original Name: _GtkCellRendererText
+  Original Name: _SGtkCellRendererText
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f490]: parent
 */
-struct GtkCellRendererText
-  var parent: GtkCellRenderer = GtkCellRenderer
+struct SGtkCellRendererText
+  var parent: SGtkCellRenderer = SGtkCellRenderer
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcellrenderertext.h:47
-  Original Name: _GtkCellRendererTextClass
+  Original Name: _SGtkCellRendererTextClass
   Struct Size (bits):  2880
   Struct Align (bits): 64
 
@@ -16298,149 +16298,149 @@ struct GtkCellRendererText
      002304: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: edited
      002368: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkCellRendererTextClass
-  var parent_class: GtkCellRendererClass = GtkCellRendererClass
+struct SGtkCellRendererTextClass
+  var parent_class: SGtkCellRendererClass = SGtkCellRendererClass
   var edited: Pointer[None] = Pointer[None]
   var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcellrendereraccel.h:33
-  Original Name: _GtkCellRendererAccel
+  Original Name: _SGtkCellRendererAccel
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCellRendererAccel
+struct SGtkCellRendererAccel
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcellrenderercombo.h:34
-  Original Name: _GtkCellRendererCombo
+  Original Name: _SGtkCellRendererCombo
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCellRendererCombo
+struct SGtkCellRendererCombo
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcellrendererpixbuf.h:35
-  Original Name: _GtkCellRendererPixbuf
+  Original Name: _SGtkCellRendererPixbuf
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCellRendererPixbuf
+struct SGtkCellRendererPixbuf
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcellrendererprogress.h:41
-  Original Name: _GtkCellRendererProgress
+  Original Name: _SGtkCellRendererProgress
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCellRendererProgress
+struct SGtkCellRendererProgress
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcellrendererspin.h:33
-  Original Name: _GtkCellRendererSpin
+  Original Name: _SGtkCellRendererSpin
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCellRendererSpin
+struct SGtkCellRendererSpin
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcellrendererspinner.h:36
-  Original Name: _GtkCellRendererSpinner
+  Original Name: _SGtkCellRendererSpinner
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCellRendererSpinner
+struct SGtkCellRendererSpinner
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcellrenderertoggle.h:35
-  Original Name: _GtkCellRendererToggle
+  Original Name: _SGtkCellRendererToggle
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCellRendererToggle
+struct SGtkCellRendererToggle
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcellview.h:37
-  Original Name: _GtkCellView
+  Original Name: _SGtkCellView
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCellView
+struct SGtkCellView
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcenterbox.h:40
-  Original Name: _GtkCenterBox
+  Original Name: _SGtkCenterBox
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCenterBox
+struct SGtkCenterBox
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcenterbox.h:41
-  Original Name: _GtkCenterBoxClass
+  Original Name: _SGtkCenterBoxClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCenterBoxClass
+struct SGtkCenterBoxClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcenterlayout.h:27
-  Original Name: _GtkCenterLayout
+  Original Name: _SGtkCenterLayout
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCenterLayout
+struct SGtkCenterLayout
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktogglebutton.h:48
-  Original Name: _GtkToggleButton
+  Original Name: _SGtkToggleButton
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f487]: button
 */
-struct GtkToggleButton
-  var button: GtkButton = GtkButton
+struct SGtkToggleButton
+  var button: SGtkButton = SGtkButton
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktogglebutton.h:54
-  Original Name: _GtkToggleButtonClass
+  Original Name: _SGtkToggleButtonClass
   Struct Size (bits):  4480
   Struct Align (bits): 64
 
@@ -16449,27 +16449,27 @@ struct GtkToggleButton
      003904: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: toggled
      003968: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkToggleButtonClass
-  var parent_class: GtkButtonClass = GtkButtonClass
+struct SGtkToggleButtonClass
+  var parent_class: SGtkButtonClass = SGtkButtonClass
   var toggled: Pointer[None] = Pointer[None]
   var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcheckbutton.h:49
-  Original Name: _GtkCheckButton
+  Original Name: _SGtkCheckButton
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-type GtkCheckButton is GtkWidget
+type SGtkCheckButton is SGtkWidget
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcheckbutton.h:54
-  Original Name: _GtkCheckButtonClass
+  Original Name: _SGtkCheckButtonClass
   Struct Size (bits):  3840
   Struct Align (bits): 64
 
@@ -16479,8 +16479,8 @@ type GtkCheckButton is GtkWidget
      003328: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: activate
      003392: [ArrayType size=(0-6)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkCheckButtonClass
-  var parent_class: GtkWidgetClass = GtkWidgetClass
+struct SGtkCheckButtonClass
+  var parent_class: SGtkWidgetClass = SGtkWidgetClass
   var toggled: Pointer[None] = Pointer[None]
   var activate: Pointer[None] = Pointer[None]
   var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]
@@ -16488,29 +16488,29 @@ struct GtkCheckButtonClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcolorbutton.h:47
-  Original Name: _GtkColorButton
+  Original Name: _SGtkColorButton
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkColorButton
+struct SGtkColorButton
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcolorchooser.h:35
-  Original Name: _GtkColorChooser
+  Original Name: _SGtkColorChooser
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkColorChooser
+struct SGtkColorChooser
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcolorchooser.h:38
-  Original Name: _GtkColorChooserInterface
+  Original Name: _SGtkColorChooserInterface
   Struct Size (bits):  1152
   Struct Align (bits): 64
 
@@ -16522,7 +16522,7 @@ struct GtkColorChooser
      000320: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: color_activated
      000384: [ArrayType size=(0-11)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkColorChooserInterface
+struct SGtkColorChooserInterface
   var base_interface: GTypeInterface = GTypeInterface
   var get_rgba: Pointer[None] = Pointer[None]
   var set_rgba: Pointer[None] = Pointer[None]
@@ -16533,41 +16533,41 @@ struct GtkColorChooserInterface
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcolorchooserdialog.h:33
-  Original Name: _GtkColorChooserDialog
+  Original Name: _SGtkColorChooserDialog
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkColorChooserDialog
+struct SGtkColorChooserDialog
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcolorchooserwidget.h:33
-  Original Name: _GtkColorChooserWidget
+  Original Name: _SGtkColorChooserWidget
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkColorChooserWidget
+struct SGtkColorChooserWidget
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtksorter.h:74
-  Original Name: _GtkSorter
+  Original Name: _SGtkSorter
   Struct Size (bits):  192
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-type GtkSorter is GObject
+type SGtkSorter is GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtksorter.h:84
-  Original Name: _GtkSorterClass
+  Original Name: _SGtkSorterClass
   Struct Size (bits):  1728
   Struct Align (bits): 64
 
@@ -16584,7 +16584,7 @@ type GtkSorter is GObject
      001600: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved7
      001664: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved8
 */
-struct GtkSorterClass
+struct SGtkSorterClass
   var parent_class: GObjectClass = GObjectClass
   var compare: Pointer[None] = Pointer[None]
   var get_order: Pointer[None] = Pointer[None]
@@ -16600,29 +16600,29 @@ struct GtkSorterClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtksortlistmodel.h:38
-  Original Name: _GtkSortListModel
+  Original Name: _SGtkSortListModel
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkSortListModel
+struct SGtkSortListModel
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkselectionmodel.h:34
-  Original Name: _GtkSelectionModel
+  Original Name: _SGtkSelectionModel
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkSelectionModel
+struct SGtkSelectionModel
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkselectionmodel.h:72
-  Original Name: _GtkSelectionModelInterface
+  Original Name: _SGtkSelectionModelInterface
   Struct Size (bits):  704
   Struct Align (bits): 64
 
@@ -16638,7 +16638,7 @@ struct GtkSelectionModel
      000576: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: unselect_all
      000640: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: set_selection
 */
-struct GtkSelectionModelInterface
+struct SGtkSelectionModelInterface
   var g_iface: GTypeInterface = GTypeInterface
   var is_selected: Pointer[None] = Pointer[None]
   var get_selection_in_range: Pointer[None] = Pointer[None]
@@ -16653,62 +16653,62 @@ struct GtkSelectionModelInterface
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcolumnview.h:42
-  Original Name: _GtkColumnView
+  Original Name: _SGtkColumnView
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkColumnView
+struct SGtkColumnView
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcolumnview.h:43
-  Original Name: _GtkColumnViewClass
+  Original Name: _SGtkColumnViewClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkColumnViewClass
+struct SGtkColumnViewClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcolumnview.h:45
-  Original Name: _GtkColumnViewColumn
+  Original Name: _SGtkColumnViewColumn
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkColumnViewColumn
+struct SGtkColumnViewColumn
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcolumnviewcolumn.h:39
-  Original Name: _GtkColumnViewColumnClass
+  Original Name: _SGtkColumnViewColumnClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkColumnViewColumnClass
+struct SGtkColumnViewColumnClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreesortable.h:55
-  Original Name: _GtkTreeSortable
+  Original Name: _SGtkTreeSortable
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkTreeSortable
+struct SGtkTreeSortable
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreesortable.h:103
-  Original Name: _GtkTreeSortableIface
+  Original Name: _SGtkTreeSortableIface
   Struct Size (bits):  512
   Struct Align (bits): 64
 
@@ -16721,7 +16721,7 @@ struct GtkTreeSortable
      000384: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: set_default_sort_func
      000448: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: has_default_sort_func
 */
-struct GtkTreeSortableIface
+struct SGtkTreeSortableIface
   var g_iface: GTypeInterface = GTypeInterface
   var sort_column_changed: Pointer[None] = Pointer[None]
   var get_sort_column_id: Pointer[None] = Pointer[None]
@@ -16733,29 +16733,29 @@ struct GtkTreeSortableIface
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreeviewcolumn.h:38
-  Original Name: _GtkTreeViewColumn
+  Original Name: _SGtkTreeViewColumn
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkTreeViewColumn
+struct SGtkTreeViewColumn
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkeditable.h:43
-  Original Name: _GtkEditable
+  Original Name: _SGtkEditable
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkEditable
+struct SGtkEditable
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkeditable.h:46
-  Original Name: _GtkEditableInterface
+  Original Name: _SGtkEditableInterface
   Struct Size (bits):  704
   Struct Align (bits): 64
 
@@ -16771,7 +16771,7 @@ struct GtkEditable
      000576: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: set_selection_bounds
      000640: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: get_delegate
 */
-struct GtkEditableInterface
+struct SGtkEditableInterface
   var base_iface: GTypeInterface = GTypeInterface
   var insert_text: Pointer[None] = Pointer[None]
   var delete_text: Pointer[None] = Pointer[None]
@@ -16786,19 +16786,19 @@ struct GtkEditableInterface
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkimcontext.h:42
-  Original Name: _GtkIMContext
+  Original Name: _SGtkIMContext
   Struct Size (bits):  192
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-type GtkIMContext is GObject
+type SGtkIMContext is GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkimcontext.h:47
-  Original Name: _GtkIMContextClass
+  Original Name: _SGtkIMContextClass
   Struct Size (bits):  2560
   Struct Align (bits): 64
 
@@ -16828,7 +16828,7 @@ type GtkIMContext is GObject
      002432: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved4
      002496: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved5
 */
-struct GtkIMContextClass
+struct SGtkIMContextClass
   var parent_class: GObjectClass = GObjectClass
   var preedit_start: Pointer[None] = Pointer[None]
   var preedit_end: Pointer[None] = Pointer[None]
@@ -16857,19 +16857,19 @@ struct GtkIMContextClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkentrybuffer.h:43
-  Original Name: _GtkEntryBuffer
+  Original Name: _SGtkEntryBuffer
   Struct Size (bits):  192
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-type GtkEntryBuffer is GObject
+type SGtkEntryBuffer is GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkentrybuffer.h:48
-  Original Name: _GtkEntryBufferClass
+  Original Name: _SGtkEntryBufferClass
   Struct Size (bits):  1984
   Struct Align (bits): 64
 
@@ -16890,7 +16890,7 @@ type GtkEntryBuffer is GObject
      001856: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved7
      001920: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved8
 */
-struct GtkEntryBufferClass
+struct SGtkEntryBufferClass
   var parent_class: GObjectClass = GObjectClass
   var inserted_text: Pointer[None] = Pointer[None]
   var deleted_text: Pointer[None] = Pointer[None]
@@ -16910,7 +16910,7 @@ struct GtkEntryBufferClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkliststore.h:44
-  Original Name: _GtkListStore
+  Original Name: _SGtkListStore
   Struct Size (bits):  256
   Struct Align (bits): 64
 
@@ -16918,25 +16918,25 @@ struct GtkEntryBufferClass
      000000: [Struct size=192,fid: f141]: parent
      000192: [PointerType size=64]->[Struct size=,fid: f524]: priv
 */
-struct GtkListStore
+struct SGtkListStore
   var parent: GObject = GObject
-  var priv: NullablePointer[GtkListStorePrivate] = NullablePointer[GtkListStorePrivate].none()
+  var priv: NullablePointer[SGtkListStorePrivate] = NullablePointer[SGtkListStorePrivate].none()
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkliststore.h:41
-  Original Name: _GtkListStorePrivate
+  Original Name: _SGtkListStorePrivate
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkListStorePrivate
+struct SGtkListStorePrivate
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkliststore.h:52
-  Original Name: _GtkListStoreClass
+  Original Name: _SGtkListStoreClass
   Struct Size (bits):  1600
   Struct Align (bits): 64
 
@@ -16944,14 +16944,14 @@ struct GtkListStorePrivate
      000000: [Struct size=1088,fid: f141]: parent_class
      001088: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkListStoreClass
+struct SGtkListStoreClass
   var parent_class: GObjectClass = GObjectClass
   var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreemodelfilter.h:79
-  Original Name: _GtkTreeModelFilter
+  Original Name: _SGtkTreeModelFilter
   Struct Size (bits):  256
   Struct Align (bits): 64
 
@@ -16959,14 +16959,14 @@ struct GtkListStoreClass
      000000: [Struct size=192,fid: f141]: parent
      000192: [PointerType size=64]->[Struct size=,fid: f525]: priv
 */
-struct GtkTreeModelFilter
+struct SGtkTreeModelFilter
   var parent: GObject = GObject
-  var priv: NullablePointer[GtkTreeModelFilterPrivate] = NullablePointer[GtkTreeModelFilterPrivate].none()
+  var priv: NullablePointer[SGtkTreeModelFilterPrivate] = NullablePointer[SGtkTreeModelFilterPrivate].none()
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreemodelfilter.h:87
-  Original Name: _GtkTreeModelFilterClass
+  Original Name: _SGtkTreeModelFilterClass
   Struct Size (bits):  1728
   Struct Align (bits): 64
 
@@ -16976,7 +16976,7 @@ struct GtkTreeModelFilter
      001152: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: modify
      001216: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkTreeModelFilterClass
+struct SGtkTreeModelFilterClass
   var parent_class: GObjectClass = GObjectClass
   var visible: Pointer[None] = Pointer[None]
   var modify: Pointer[None] = Pointer[None]
@@ -16985,52 +16985,52 @@ struct GtkTreeModelFilterClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreemodelfilter.h:77
-  Original Name: _GtkTreeModelFilterPrivate
+  Original Name: _SGtkTreeModelFilterPrivate
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkTreeModelFilterPrivate
+struct SGtkTreeModelFilterPrivate
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkentrycompletion.h:38
-  Original Name: _GtkEntryCompletion
+  Original Name: _SGtkEntryCompletion
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkEntryCompletion
+struct SGtkEntryCompletion
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkimage.h:43
-  Original Name: _GtkImage
+  Original Name: _SGtkImage
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkImage
+struct SGtkImage
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkentry.h:69
-  Original Name: _GtkEntry
+  Original Name: _SGtkEntry
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-type GtkEntry is GtkWidget
+type SGtkEntry is SGtkWidget
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkentry.h:87
-  Original Name: _GtkEntryClass
+  Original Name: _SGtkEntryClass
   Struct Size (bits):  3840
   Struct Align (bits): 64
 
@@ -17039,27 +17039,27 @@ type GtkEntry is GtkWidget
      003264: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: activate
      003328: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkEntryClass
-  var parent_class: GtkWidgetClass = GtkWidgetClass
+struct SGtkEntryClass
+  var parent_class: SGtkWidgetClass = SGtkWidgetClass
   var activate: Pointer[None] = Pointer[None]
   var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreeview.h:140
-  Original Name: _GtkTreeView
+  Original Name: _SGtkTreeView
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-type GtkTreeView is GtkWidget
+type SGtkTreeView is SGtkWidget
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreeview.h:145
-  Original Name: _GtkTreeViewClass
+  Original Name: _SGtkTreeViewClass
   Struct Size (bits):  5248
   Struct Align (bits): 64
 
@@ -17082,8 +17082,8 @@ type GtkTreeView is GtkWidget
      004160: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: start_interactive_search
      004224: [ArrayType size=(0-15)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: _reserved
 */
-struct GtkTreeViewClass
-  var parent_class: GtkWidgetClass = GtkWidgetClass
+struct SGtkTreeViewClass
+  var parent_class: SGtkWidgetClass = SGtkWidgetClass
   var row_activated: Pointer[None] = Pointer[None]
   var test_expand_row: Pointer[None] = Pointer[None]
   var test_collapse_row: Pointer[None] = Pointer[None]
@@ -17104,30 +17104,30 @@ struct GtkTreeViewClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreeview.h:62
-  Original Name: _GtkTreeSelection
+  Original Name: _SGtkTreeSelection
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkTreeSelection
+struct SGtkTreeSelection
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcombobox.h:41
-  Original Name: _GtkComboBox
+  Original Name: _SGtkComboBox
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-type GtkComboBox is GtkWidget
+type SGtkComboBox is SGtkWidget
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcombobox.h:53
-  Original Name: _GtkComboBoxClass
+  Original Name: _SGtkComboBoxClass
   Struct Size (bits):  3904
   Struct Align (bits): 64
 
@@ -17137,8 +17137,8 @@ type GtkComboBox is GtkWidget
      003328: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: format_entry_text
      003392: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkComboBoxClass
-  var parent_class: GtkWidgetClass = GtkWidgetClass
+struct SGtkComboBoxClass
+  var parent_class: SGtkWidgetClass = SGtkWidgetClass
   var changed: Pointer[None] = Pointer[None]
   var format_entry_text: Pointer[None] = Pointer[None]
   var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]
@@ -17146,196 +17146,196 @@ struct GtkComboBoxClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcomboboxtext.h:34
-  Original Name: _GtkComboBoxText
+  Original Name: _SGtkComboBoxText
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkComboBoxText
+struct SGtkComboBoxText
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkconstraint.h:27
-  Original Name: _GtkConstraintTarget
+  Original Name: _SGtkConstraintTarget
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkConstraintTarget
+struct SGtkConstraintTarget
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkconstraint.h:41
-  Original Name: _GtkConstraintTargetInterface
+  Original Name: _SGtkConstraintTargetInterface
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkConstraintTargetInterface
+struct SGtkConstraintTargetInterface
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkconstraint.h:46
-  Original Name: _GtkConstraint
+  Original Name: _SGtkConstraint
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkConstraint
+struct SGtkConstraint
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkconstraintguide.h:31
-  Original Name: _GtkConstraintGuide
+  Original Name: _SGtkConstraintGuide
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkConstraintGuide
+struct SGtkConstraintGuide
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkconstraintlayout.h:32
-  Original Name: _GtkConstraintLayoutChild
+  Original Name: _SGtkConstraintLayoutChild
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkConstraintLayoutChild
+struct SGtkConstraintLayoutChild
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkconstraintlayout.h:35
-  Original Name: _GtkConstraintLayout
+  Original Name: _SGtkConstraintLayout
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkConstraintLayout
+struct SGtkConstraintLayout
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcssprovider.h:34
-  Original Name: _GtkCssProvider
+  Original Name: _SGtkCssProvider
   Struct Size (bits):  192
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-type GtkCssProvider is GObject
+type SGtkCssProvider is GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcssprovider.h:31
-  Original Name: _GtkCssProviderClass
+  Original Name: _SGtkCssProviderClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCssProviderClass
+struct SGtkCssProviderClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcssprovider.h:32
-  Original Name: _GtkCssProviderPrivate
+  Original Name: _SGtkCssProviderPrivate
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCssProviderPrivate
+struct SGtkCssProviderPrivate
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcustomlayout.h:70
-  Original Name: _GtkCustomLayout
+  Original Name: _SGtkCustomLayout
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCustomLayout
+struct SGtkCustomLayout
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcustomsorter.h:34
-  Original Name: _GtkCustomSorter
+  Original Name: _SGtkCustomSorter
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCustomSorter
+struct SGtkCustomSorter
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkdirectorylist.h:38
-  Original Name: _GtkDirectoryList
+  Original Name: _SGtkDirectoryList
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkDirectoryList
+struct SGtkDirectoryList
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkdragicon.h:37
-  Original Name: _GtkDragIcon
+  Original Name: _SGtkDragIcon
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkDragIcon
+struct SGtkDragIcon
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkdragsource.h:46
-  Original Name: _GtkDragSource
+  Original Name: _SGtkDragSource
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkDragSource
+struct SGtkDragSource
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkdragsource.h:47
-  Original Name: _GtkDragSourceClass
+  Original Name: _SGtkDragSourceClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkDragSourceClass
+struct SGtkDragSourceClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkdrawingarea.h:69
-  Original Name: _GtkDrawingArea
+  Original Name: _SGtkDrawingArea
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: widget
 */
-type GtkDrawingArea is GtkWidget
+type SGtkDrawingArea is SGtkWidget
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkdrawingarea.h:74
-  Original Name: _GtkDrawingAreaClass
+  Original Name: _SGtkDrawingAreaClass
   Struct Size (bits):  3840
   Struct Align (bits): 64
 
@@ -17344,269 +17344,269 @@ type GtkDrawingArea is GtkWidget
      003264: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: resize
      003328: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkDrawingAreaClass
-  var parent_class: GtkWidgetClass = GtkWidgetClass
+struct SGtkDrawingAreaClass
+  var parent_class: SGtkWidgetClass = SGtkWidgetClass
   var resize: Pointer[None] = Pointer[None]
   var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkeventcontroller.h:27
-  Original Name: _GtkEventControllerClass
+  Original Name: _SGtkEventControllerClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkEventControllerClass
+struct SGtkEventControllerClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkdropcontrollermotion.h:39
-  Original Name: _GtkDropControllerMotion
+  Original Name: _SGtkDropControllerMotion
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkDropControllerMotion
+struct SGtkDropControllerMotion
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkdropcontrollermotion.h:40
-  Original Name: _GtkDropControllerMotionClass
+  Original Name: _SGtkDropControllerMotionClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkDropControllerMotionClass
+struct SGtkDropControllerMotionClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkdroptarget.h:33
-  Original Name: _GtkDropTarget
+  Original Name: _SGtkDropTarget
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkDropTarget
+struct SGtkDropTarget
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkdroptarget.h:43
-  Original Name: _GtkDropTargetClass
+  Original Name: _SGtkDropTargetClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkDropTargetClass
+struct SGtkDropTargetClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkdroptargetasync.h:39
-  Original Name: _GtkDropTargetAsync
+  Original Name: _SGtkDropTargetAsync
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkDropTargetAsync
+struct SGtkDropTargetAsync
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkdroptargetasync.h:40
-  Original Name: _GtkDropTargetAsyncClass
+  Original Name: _SGtkDropTargetAsyncClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkDropTargetAsyncClass
+struct SGtkDropTargetAsyncClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkdropdown.h:31
-  Original Name: _GtkDropDown
+  Original Name: _SGtkDropDown
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkDropDown
+struct SGtkDropDown
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkeditablelabel.h:32
-  Original Name: _GtkEditableLabel
+  Original Name: _SGtkEditableLabel
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkEditableLabel
+struct SGtkEditableLabel
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkemojichooser.h:35
-  Original Name: _GtkEmojiChooser
+  Original Name: _SGtkEmojiChooser
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkEmojiChooser
+struct SGtkEmojiChooser
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkemojichooser.h:36
-  Original Name: _GtkEmojiChooserClass
+  Original Name: _SGtkEmojiChooserClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkEmojiChooserClass
+struct SGtkEmojiChooserClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkeventcontrollerfocus.h:40
-  Original Name: _GtkEventControllerFocus
+  Original Name: _SGtkEventControllerFocus
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkEventControllerFocus
+struct SGtkEventControllerFocus
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkeventcontrollerfocus.h:41
-  Original Name: _GtkEventControllerFocusClass
+  Original Name: _SGtkEventControllerFocusClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkEventControllerFocusClass
+struct SGtkEventControllerFocusClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkeventcontrollerkey.h:40
-  Original Name: _GtkEventControllerKey
+  Original Name: _SGtkEventControllerKey
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkEventControllerKey
+struct SGtkEventControllerKey
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkeventcontrollerkey.h:41
-  Original Name: _GtkEventControllerKeyClass
+  Original Name: _SGtkEventControllerKeyClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkEventControllerKeyClass
+struct SGtkEventControllerKeyClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkeventcontrollerlegacy.h:38
-  Original Name: _GtkEventControllerLegacy
+  Original Name: _SGtkEventControllerLegacy
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkEventControllerLegacy
+struct SGtkEventControllerLegacy
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkeventcontrollerlegacy.h:39
-  Original Name: _GtkEventControllerLegacyClass
+  Original Name: _SGtkEventControllerLegacyClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkEventControllerLegacyClass
+struct SGtkEventControllerLegacyClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkeventcontrollermotion.h:39
-  Original Name: _GtkEventControllerMotion
+  Original Name: _SGtkEventControllerMotion
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkEventControllerMotion
+struct SGtkEventControllerMotion
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkeventcontrollermotion.h:40
-  Original Name: _GtkEventControllerMotionClass
+  Original Name: _SGtkEventControllerMotionClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkEventControllerMotionClass
+struct SGtkEventControllerMotionClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkeventcontrollerscroll.h:39
-  Original Name: _GtkEventControllerScroll
+  Original Name: _SGtkEventControllerScroll
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkEventControllerScroll
+struct SGtkEventControllerScroll
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkeventcontrollerscroll.h:40
-  Original Name: _GtkEventControllerScrollClass
+  Original Name: _SGtkEventControllerScrollClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkEventControllerScrollClass
+struct SGtkEventControllerScrollClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkexpander.h:37
-  Original Name: _GtkExpander
+  Original Name: _SGtkExpander
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkExpander
+struct SGtkExpander
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkfixed.h:48
-  Original Name: _GtkFixed
+  Original Name: _SGtkFixed
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-type GtkFixed is GtkWidget
+type SGtkFixed is SGtkWidget
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkfixed.h:53
-  Original Name: _GtkFixedClass
+  Original Name: _SGtkFixedClass
   Struct Size (bits):  3776
   Struct Align (bits): 64
 
@@ -17614,79 +17614,79 @@ type GtkFixed is GtkWidget
      000000: [Struct size=3264,fid: f452]: parent_class
      003264: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-type GtkFixedClass is GtkWidgetClass
+type SGtkFixedClass is SGtkWidgetClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkfixedlayout.h:33
-  Original Name: _GtkFixedLayout
+  Original Name: _SGtkFixedLayout
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkFixedLayout
+struct SGtkFixedLayout
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkfixedlayout.h:41
-  Original Name: _GtkFixedLayoutChild
+  Original Name: _SGtkFixedLayoutChild
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkFixedLayoutChild
+struct SGtkFixedLayoutChild
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkfilefilter.h:35
-  Original Name: _GtkFileFilter
+  Original Name: _SGtkFileFilter
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkFileFilter
+struct SGtkFileFilter
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkfilechooser.h:35
-  Original Name: _GtkFileChooser
+  Original Name: _SGtkFileChooser
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkFileChooser
+struct SGtkFileChooser
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkfilechooserdialog.h:35
-  Original Name: _GtkFileChooserDialog
+  Original Name: _SGtkFileChooserDialog
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkFileChooserDialog
+struct SGtkFileChooserDialog
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtknativedialog.h:33
-  Original Name: _GtkNativeDialog
+  Original Name: _SGtkNativeDialog
   Struct Size (bits):  192
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-type GtkNativeDialog is GObject
+type SGtkNativeDialog is GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtknativedialog.h:41
-  Original Name: _GtkNativeDialogClass
+  Original Name: _SGtkNativeDialogClass
   Struct Size (bits):  1536
   Struct Align (bits): 64
 
@@ -17700,7 +17700,7 @@ type GtkNativeDialog is GObject
      001408: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved3
      001472: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved4
 */
-struct GtkNativeDialogClass
+struct SGtkNativeDialogClass
   var parent_class: GObjectClass = GObjectClass
   var response: Pointer[None] = Pointer[None]
   var show: Pointer[None] = Pointer[None]
@@ -17713,85 +17713,85 @@ struct GtkNativeDialogClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkfilechoosernative.h:34
-  Original Name: _GtkFileChooserNative
+  Original Name: _SGtkFileChooserNative
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkFileChooserNative
+struct SGtkFileChooserNative
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkfilechooserwidget.h:35
-  Original Name: _GtkFileChooserWidget
+  Original Name: _SGtkFileChooserWidget
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkFileChooserWidget
+struct SGtkFileChooserWidget
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkfilterlistmodel.h:37
-  Original Name: _GtkFilterListModel
+  Original Name: _SGtkFilterListModel
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkFilterListModel
+struct SGtkFilterListModel
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcustomfilter.h:47
-  Original Name: _GtkCustomFilter
+  Original Name: _SGtkCustomFilter
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkCustomFilter
+struct SGtkCustomFilter
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkflattenlistmodel.h:36
-  Original Name: _GtkFlattenListModel
+  Original Name: _SGtkFlattenListModel
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkFlattenListModel
+struct SGtkFlattenListModel
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkflowbox.h:41
-  Original Name: _GtkFlowBox
+  Original Name: _SGtkFlowBox
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkFlowBox
+struct SGtkFlowBox
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkflowbox.h:52
-  Original Name: _GtkFlowBoxChild
+  Original Name: _SGtkFlowBoxChild
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-type GtkFlowBoxChild is GtkWidget
+type SGtkFlowBoxChild is SGtkWidget
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkflowbox.h:58
-  Original Name: _GtkFlowBoxChildClass
+  Original Name: _SGtkFlowBoxChildClass
   Struct Size (bits):  3840
   Struct Align (bits): 64
 
@@ -17800,37 +17800,37 @@ type GtkFlowBoxChild is GtkWidget
      003264: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: activate
      003328: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkFlowBoxChildClass
-  var parent_class: GtkWidgetClass = GtkWidgetClass
+struct SGtkFlowBoxChildClass
+  var parent_class: SGtkWidgetClass = SGtkWidgetClass
   var activate: Pointer[None] = Pointer[None]
   var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkfontbutton.h:42
-  Original Name: _GtkFontButton
+  Original Name: _SGtkFontButton
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkFontButton
+struct SGtkFontButton
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkfontchooser.h:76
-  Original Name: _GtkFontChooser
+  Original Name: _SGtkFontChooser
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkFontChooser
+struct SGtkFontChooser
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkfontchooser.h:79
-  Original Name: _GtkFontChooserIface
+  Original Name: _SGtkFontChooserIface
   Struct Size (bits):  1216
   Struct Align (bits): 64
 
@@ -17845,7 +17845,7 @@ struct GtkFontChooser
      000512: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: get_font_map
      000576: [ArrayType size=(0-9)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkFontChooserIface
+struct SGtkFontChooserIface
   var base_iface: GTypeInterface = GTypeInterface
   var get_font_family: Pointer[None] = Pointer[None]
   var get_font_face: Pointer[None] = Pointer[None]
@@ -17859,41 +17859,41 @@ struct GtkFontChooserIface
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkfontchooserdialog.h:33
-  Original Name: _GtkFontChooserDialog
+  Original Name: _SGtkFontChooserDialog
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkFontChooserDialog
+struct SGtkFontChooserDialog
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkfontchooserwidget.h:33
-  Original Name: _GtkFontChooserWidget
+  Original Name: _SGtkFontChooserWidget
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkFontChooserWidget
+struct SGtkFontChooserWidget
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkframe.h:49
-  Original Name: _GtkFrame
+  Original Name: _SGtkFrame
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-type GtkFrame is GtkWidget
+type SGtkFrame is SGtkWidget
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkframe.h:59
-  Original Name: _GtkFrameClass
+  Original Name: _SGtkFrameClass
   Struct Size (bits):  3840
   Struct Align (bits): 64
 
@@ -17902,236 +17902,236 @@ type GtkFrame is GtkWidget
      003264: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: compute_child_allocation
      003328: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkFrameClass
-  var parent_class: GtkWidgetClass = GtkWidgetClass
+struct SGtkFrameClass
+  var parent_class: SGtkWidgetClass = SGtkWidgetClass
   var compute_child_allocation: Pointer[None] = Pointer[None]
   var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkgesture.h:39
-  Original Name: _GtkGestureClass
+  Original Name: _SGtkGestureClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkGestureClass
+struct SGtkGestureClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkgesturesingle.h:39
-  Original Name: _GtkGestureSingle
+  Original Name: _SGtkGestureSingle
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-type GtkGestureSingle is GtkGesture
+type SGtkGestureSingle is SGtkGesture
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkgesturesingle.h:40
-  Original Name: _GtkGestureSingleClass
+  Original Name: _SGtkGestureSingleClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkGestureSingleClass
+struct SGtkGestureSingleClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkgestureclick.h:38
-  Original Name: _GtkGestureClick
+  Original Name: _SGtkGestureClick
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkGestureClick
+struct SGtkGestureClick
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkgestureclick.h:39
-  Original Name: _GtkGestureClickClass
+  Original Name: _SGtkGestureClickClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkGestureClickClass
+struct SGtkGestureClickClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkgesturedrag.h:38
-  Original Name: _GtkGestureDrag
+  Original Name: _SGtkGestureDrag
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkGestureDrag
+struct SGtkGestureDrag
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkgesturedrag.h:39
-  Original Name: _GtkGestureDragClass
+  Original Name: _SGtkGestureDragClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkGestureDragClass
+struct SGtkGestureDragClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkgesturelongpress.h:38
-  Original Name: _GtkGestureLongPress
+  Original Name: _SGtkGestureLongPress
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkGestureLongPress
+struct SGtkGestureLongPress
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkgesturelongpress.h:39
-  Original Name: _GtkGestureLongPressClass
+  Original Name: _SGtkGestureLongPressClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkGestureLongPressClass
+struct SGtkGestureLongPressClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkgesturepan.h:38
-  Original Name: _GtkGesturePan
+  Original Name: _SGtkGesturePan
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkGesturePan
+struct SGtkGesturePan
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkgesturepan.h:39
-  Original Name: _GtkGesturePanClass
+  Original Name: _SGtkGesturePanClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkGesturePanClass
+struct SGtkGesturePanClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkgesturerotate.h:39
-  Original Name: _GtkGestureRotate
+  Original Name: _SGtkGestureRotate
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkGestureRotate
+struct SGtkGestureRotate
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkgesturerotate.h:40
-  Original Name: _GtkGestureRotateClass
+  Original Name: _SGtkGestureRotateClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkGestureRotateClass
+struct SGtkGestureRotateClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkgesturestylus.h:37
-  Original Name: _GtkGestureStylus
+  Original Name: _SGtkGestureStylus
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkGestureStylus
+struct SGtkGestureStylus
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkgesturestylus.h:38
-  Original Name: _GtkGestureStylusClass
+  Original Name: _SGtkGestureStylusClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkGestureStylusClass
+struct SGtkGestureStylusClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkgestureswipe.h:39
-  Original Name: _GtkGestureSwipe
+  Original Name: _SGtkGestureSwipe
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkGestureSwipe
+struct SGtkGestureSwipe
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkgestureswipe.h:40
-  Original Name: _GtkGestureSwipeClass
+  Original Name: _SGtkGestureSwipeClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkGestureSwipeClass
+struct SGtkGestureSwipeClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkgesturezoom.h:39
-  Original Name: _GtkGestureZoom
+  Original Name: _SGtkGestureZoom
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkGestureZoom
+struct SGtkGestureZoom
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkgesturezoom.h:40
-  Original Name: _GtkGestureZoomClass
+  Original Name: _SGtkGestureZoomClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkGestureZoomClass
+struct SGtkGestureZoomClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkglarea.h:42
-  Original Name: _GtkGLArea
+  Original Name: _SGtkGLArea
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-type GtkGLArea is GtkWidget
+type SGtkGLArea is SGtkWidget
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkglarea.h:56
-  Original Name: _GtkGLAreaClass
+  Original Name: _SGtkGLAreaClass
   Struct Size (bits):  3968
   Struct Align (bits): 64
 
@@ -18142,8 +18142,8 @@ type GtkGLArea is GtkWidget
      003392: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: create_context
      003456: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: _padding
 */
-struct GtkGLAreaClass
-  var parent_class: GtkWidgetClass = GtkWidgetClass
+struct SGtkGLAreaClass
+  var parent_class: SGtkWidgetClass = SGtkWidgetClass
   var render: Pointer[None] = Pointer[None]
   var resize: Pointer[None] = Pointer[None]
   var create_context: Pointer[None] = Pointer[None]
@@ -18152,19 +18152,19 @@ struct GtkGLAreaClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkgrid.h:43
-  Original Name: _GtkGrid
+  Original Name: _SGtkGrid
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-type GtkGrid is GtkWidget
+type SGtkGrid is SGtkWidget
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkgrid.h:53
-  Original Name: _GtkGridClass
+  Original Name: _SGtkGridClass
   Struct Size (bits):  3776
   Struct Align (bits): 64
 
@@ -18172,124 +18172,124 @@ type GtkGrid is GtkWidget
      000000: [Struct size=3264,fid: f452]: parent_class
      003264: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkGridClass
-  var parent_class: GtkWidgetClass = GtkWidgetClass
+struct SGtkGridClass
+  var parent_class: SGtkWidgetClass = SGtkWidgetClass
   var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkgridlayout.h:29
-  Original Name: _GtkGridLayout
+  Original Name: _SGtkGridLayout
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkGridLayout
+struct SGtkGridLayout
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkgridlayout.h:68
-  Original Name: _GtkGridLayoutChild
+  Original Name: _SGtkGridLayoutChild
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkGridLayoutChild
+struct SGtkGridLayoutChild
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtklistbase.h:44
-  Original Name: _GtkListBase
+  Original Name: _SGtkListBase
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkListBase
+struct SGtkListBase
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtklistbase.h:45
-  Original Name: _GtkListBaseClass
+  Original Name: _SGtkListBaseClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkListBaseClass
+struct SGtkListBaseClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkgridview.h:38
-  Original Name: _GtkGridView
+  Original Name: _SGtkGridView
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkGridView
+struct SGtkGridView
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkgridview.h:39
-  Original Name: _GtkGridViewClass
+  Original Name: _SGtkGridViewClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkGridViewClass
+struct SGtkGridViewClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkheaderbar.h:35
-  Original Name: _GtkHeaderBar
+  Original Name: _SGtkHeaderBar
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkHeaderBar
+struct SGtkHeaderBar
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkicontheme.h:38
-  Original Name: _GtkIconPaintable
+  Original Name: _SGtkIconPaintable
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkIconPaintable
+struct SGtkIconPaintable
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkicontheme.h:39
-  Original Name: _GtkIconTheme
+  Original Name: _SGtkIconTheme
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkIconTheme
+struct SGtkIconTheme
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkiconview.h:37
-  Original Name: _GtkIconView
+  Original Name: _SGtkIconView
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkIconView
+struct SGtkIconView
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkimcontextsimple.h:48
-  Original Name: _GtkIMContextSimple
+  Original Name: _SGtkIMContextSimple
   Struct Size (bits):  256
   Struct Align (bits): 64
 
@@ -18297,38 +18297,38 @@ struct GtkIconView
      000000: [Struct size=192,fid: f522]: object
      000192: [PointerType size=64]->[Struct size=,fid: f593]: priv
 */
-struct GtkIMContextSimple
-  var g_object: GtkIMContext = GtkIMContext
-  var priv: NullablePointer[GtkIMContextSimplePrivate] = NullablePointer[GtkIMContextSimplePrivate].none()
+struct SGtkIMContextSimple
+  var g_object: SGtkIMContext = SGtkIMContext
+  var priv: NullablePointer[SGtkIMContextSimplePrivate] = NullablePointer[SGtkIMContextSimplePrivate].none()
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkimcontextsimple.h:45
-  Original Name: _GtkIMContextSimplePrivate
+  Original Name: _SGtkIMContextSimplePrivate
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkIMContextSimplePrivate
+struct SGtkIMContextSimplePrivate
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkimcontextsimple.h:56
-  Original Name: _GtkIMContextSimpleClass
+  Original Name: _SGtkIMContextSimpleClass
   Struct Size (bits):  2560
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=2560,fid: f522]: parent_class
 */
-struct GtkIMContextSimpleClass
-  var parent_class: GtkIMContextClass = GtkIMContextClass
+struct SGtkIMContextSimpleClass
+  var parent_class: SGtkIMContextClass = SGtkIMContextClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkimmulticontext.h:41
-  Original Name: _GtkIMMulticontext
+  Original Name: _SGtkIMMulticontext
   Struct Size (bits):  256
   Struct Align (bits): 64
 
@@ -18336,14 +18336,14 @@ struct GtkIMContextSimpleClass
      000000: [Struct size=192,fid: f522]: object
      000192: [PointerType size=64]->[Struct size=,fid: f594]: priv
 */
-struct GtkIMMulticontext
-  var g_object: GtkIMContext = GtkIMContext
-  var priv: NullablePointer[GtkIMMulticontextPrivate] = NullablePointer[GtkIMMulticontextPrivate].none()
+struct SGtkIMMulticontext
+  var g_object: SGtkIMContext = SGtkIMContext
+  var priv: NullablePointer[SGtkIMMulticontextPrivate] = NullablePointer[SGtkIMMulticontextPrivate].none()
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkimmulticontext.h:49
-  Original Name: _GtkIMMulticontextClass
+  Original Name: _SGtkIMMulticontextClass
   Struct Size (bits):  2816
   Struct Align (bits): 64
 
@@ -18354,8 +18354,8 @@ struct GtkIMMulticontext
      002688: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved3
      002752: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved4
 */
-struct GtkIMMulticontextClass
-  var parent_class: GtkIMContextClass = GtkIMContextClass
+struct SGtkIMMulticontextClass
+  var parent_class: SGtkIMContextClass = SGtkIMContextClass
   var _gtk_reserved1: Pointer[None] = Pointer[None]
   var _gtk_reserved2: Pointer[None] = Pointer[None]
   var _gtk_reserved3: Pointer[None] = Pointer[None]
@@ -18364,85 +18364,85 @@ struct GtkIMMulticontextClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkimmulticontext.h:39
-  Original Name: _GtkIMMulticontextPrivate
+  Original Name: _SGtkIMMulticontextPrivate
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkIMMulticontextPrivate
+struct SGtkIMMulticontextPrivate
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkinfobar.h:45
-  Original Name: _GtkInfoBar
+  Original Name: _SGtkInfoBar
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkInfoBar
+struct SGtkInfoBar
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtklabel.h:40
-  Original Name: _GtkLabel
+  Original Name: _SGtkLabel
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkLabel
+struct SGtkLabel
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtklevelbar.h:57
-  Original Name: _GtkLevelBar
+  Original Name: _SGtkLevelBar
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkLevelBar
+struct SGtkLevelBar
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtklinkbutton.h:39
-  Original Name: _GtkLinkButton
+  Original Name: _SGtkLinkButton
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkLinkButton
+struct SGtkLinkButton
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtklistbox.h:38
-  Original Name: _GtkListBox
+  Original Name: _SGtkListBox
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkListBox
+struct SGtkListBox
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtklistbox.h:49
-  Original Name: _GtkListBoxRow
+  Original Name: _SGtkListBoxRow
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-type GtkListBoxRow is GtkWidget
+type SGtkListBoxRow is SGtkWidget
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtklistbox.h:59
-  Original Name: _GtkListBoxRowClass
+  Original Name: _SGtkListBoxRowClass
   Struct Size (bits):  3840
   Struct Align (bits): 64
 
@@ -18451,82 +18451,82 @@ type GtkListBoxRow is GtkWidget
      003264: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: activate
      003328: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkListBoxRowClass
-  var parent_class: GtkWidgetClass = GtkWidgetClass
+struct SGtkListBoxRowClass
+  var parent_class: SGtkWidgetClass = SGtkWidgetClass
   var activate: Pointer[None] = Pointer[None]
   var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtklistitem.h:39
-  Original Name: _GtkListItemClass
+  Original Name: _SGtkListItemClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkListItemClass
+struct SGtkListItemClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtklistview.h:38
-  Original Name: _GtkListView
+  Original Name: _SGtkListView
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkListView
+struct SGtkListView
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtklistview.h:39
-  Original Name: _GtkListViewClass
+  Original Name: _SGtkListViewClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkListViewClass
+struct SGtkListViewClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtklockbutton.h:31
-  Original Name: _GtkLockButton
+  Original Name: _SGtkLockButton
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkLockButton
+struct SGtkLockButton
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkmaplistmodel.h:37
-  Original Name: _GtkMapListModel
+  Original Name: _SGtkMapListModel
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkMapListModel
+struct SGtkMapListModel
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkmediastream.h:34
-  Original Name: _GtkMediaStream
+  Original Name: _SGtkMediaStream
   Struct Size (bits):  192
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-type GtkMediaStream is GObject
+type SGtkMediaStream is GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkmediastream.h:36
-  Original Name: _GtkMediaStreamClass
+  Original Name: _SGtkMediaStreamClass
   Struct Size (bits):  1984
   Struct Align (bits): 64
 
@@ -18547,7 +18547,7 @@ type GtkMediaStream is GObject
      001856: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved7
      001920: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved8
 */
-struct GtkMediaStreamClass
+struct SGtkMediaStreamClass
   var parent_class: GObjectClass = GObjectClass
   var play: Pointer[None] = Pointer[None]
   var pause: Pointer[None] = Pointer[None]
@@ -18567,30 +18567,30 @@ struct GtkMediaStreamClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkmediacontrols.h:35
-  Original Name: _GtkMediaControls
+  Original Name: _SGtkMediaControls
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkMediaControls
+struct SGtkMediaControls
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkmediafile.h:36
-  Original Name: _GtkMediaFile
+  Original Name: _SGtkMediaFile
   Struct Size (bits):  192
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f605]: parent_instance
 */
-type GtkMediaFile is GtkMediaStream
+type SGtkMediaFile is SGtkMediaStream
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkmediafile.h:38
-  Original Name: _GtkMediaFileClass
+  Original Name: _SGtkMediaFileClass
   Struct Size (bits):  2368
   Struct Align (bits): 64
 
@@ -18603,8 +18603,8 @@ type GtkMediaFile is GtkMediaStream
      002240: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved3
      002304: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved4
 */
-struct GtkMediaFileClass
-  var parent_class: GtkMediaStreamClass = GtkMediaStreamClass
+struct SGtkMediaFileClass
+  var parent_class: SGtkMediaStreamClass = SGtkMediaStreamClass
   var open: Pointer[None] = Pointer[None]
   var close: Pointer[None] = Pointer[None]
   var _gtk_reserved1: Pointer[None] = Pointer[None]
@@ -18615,20 +18615,20 @@ struct GtkMediaFileClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkpopover.h:42
-  Original Name: _GtkPopover
+  Original Name: _SGtkPopover
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent
 */
-struct GtkPopover
-  var parent: GtkWidget = GtkWidget
+struct SGtkPopover
+  var parent: SGtkWidget = SGtkWidget
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkpopover.h:47
-  Original Name: _GtkPopoverClass
+  Original Name: _SGtkPopoverClass
   Struct Size (bits):  3904
   Struct Align (bits): 64
 
@@ -18638,8 +18638,8 @@ struct GtkPopover
      003328: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: activate_default
      003392: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: reserved
 */
-struct GtkPopoverClass
-  var parent_class: GtkWidgetClass = GtkWidgetClass
+struct SGtkPopoverClass
+  var parent_class: SGtkWidgetClass = SGtkWidgetClass
   var closed: Pointer[None] = Pointer[None]
   var activate_default: Pointer[None] = Pointer[None]
   var reserved: Pointer[Pointer[None]] = Pointer[Pointer[None]]
@@ -18647,41 +18647,41 @@ struct GtkPopoverClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkmenubutton.h:37
-  Original Name: _GtkMenuButton
+  Original Name: _SGtkMenuButton
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkMenuButton
+struct SGtkMenuButton
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkmessagedialog.h:45
-  Original Name: _GtkMessageDialog
+  Original Name: _SGtkMessageDialog
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f464]: parent_instance
 */
-type GtkMessageDialog is GtkDialog
+type SGtkMessageDialog is SGtkDialog
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkmessagedialog.h:43
-  Original Name: _GtkMessageDialogClass
+  Original Name: _SGtkMessageDialogClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkMessageDialogClass
+struct SGtkMessageDialogClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkmountoperation.h:45
-  Original Name: _GtkMountOperation
+  Original Name: _SGtkMountOperation
   Struct Size (bits):  320
   Struct Align (bits): 64
 
@@ -18689,12 +18689,12 @@ struct GtkMessageDialogClass
      000000: [Struct size=256,fid: f185]: parent_instance
      000256: [PointerType size=64]->[Struct size=,fid: f611]: priv
 */
-type GtkMountOperation is GMountOperation
+type SGtkMountOperation is GMountOperation
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkmountoperation.h:56
-  Original Name: _GtkMountOperationClass
+  Original Name: _SGtkMountOperationClass
   Struct Size (bits):  2304
   Struct Align (bits): 64
 
@@ -18705,7 +18705,7 @@ type GtkMountOperation is GMountOperation
      002176: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved3
      002240: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved4
 */
-struct GtkMountOperationClass
+struct SGtkMountOperationClass
   var parent_class: GMountOperationClass = GMountOperationClass
   var _gtk_reserved1: Pointer[None] = Pointer[None]
   var _gtk_reserved2: Pointer[None] = Pointer[None]
@@ -18715,240 +18715,240 @@ struct GtkMountOperationClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkmountoperation.h:43
-  Original Name: _GtkMountOperationPrivate
+  Original Name: _SGtkMountOperationPrivate
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkMountOperationPrivate
+struct SGtkMountOperationPrivate
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkmultifilter.h:34
-  Original Name: _GtkMultiFilter
+  Original Name: _SGtkMultiFilter
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkMultiFilter
+struct SGtkMultiFilter
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkmultifilter.h:34
-  Original Name: _GtkMultiFilterClass
+  Original Name: _SGtkMultiFilterClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkMultiFilterClass
+struct SGtkMultiFilterClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkmultifilter.h:45
-  Original Name: _GtkAnyFilter
+  Original Name: _SGtkAnyFilter
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkAnyFilter
+struct SGtkAnyFilter
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkmultifilter.h:45
-  Original Name: _GtkAnyFilterClass
+  Original Name: _SGtkAnyFilterClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkAnyFilterClass
+struct SGtkAnyFilterClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkmultifilter.h:51
-  Original Name: _GtkEveryFilter
+  Original Name: _SGtkEveryFilter
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkEveryFilter
+struct SGtkEveryFilter
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkmultifilter.h:51
-  Original Name: _GtkEveryFilterClass
+  Original Name: _SGtkEveryFilterClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkEveryFilterClass
+struct SGtkEveryFilterClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkmultiselection.h:31
-  Original Name: _GtkMultiSelection
+  Original Name: _SGtkMultiSelection
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkMultiSelection
+struct SGtkMultiSelection
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkmultisorter.h:34
-  Original Name: _GtkMultiSorter
+  Original Name: _SGtkMultiSorter
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkMultiSorter
+struct SGtkMultiSorter
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtknative.h:35
-  Original Name: _GtkNativeInterface
+  Original Name: _SGtkNativeInterface
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkNativeInterface
+struct SGtkNativeInterface
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtknoselection.h:30
-  Original Name: _GtkNoSelection
+  Original Name: _SGtkNoSelection
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkNoSelection
+struct SGtkNoSelection
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtknotebook.h:47
-  Original Name: _GtkNotebookPage
+  Original Name: _SGtkNotebookPage
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkNotebookPage
+struct SGtkNotebookPage
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtknotebook.h:62
-  Original Name: _GtkNotebook
+  Original Name: _SGtkNotebook
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkNotebook
+struct SGtkNotebook
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtknumericsorter.h:34
-  Original Name: _GtkNumericSorter
+  Original Name: _SGtkNumericSorter
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkNumericSorter
+struct SGtkNumericSorter
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkorientable.h:38
-  Original Name: _GtkOrientable
+  Original Name: _SGtkOrientable
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkOrientable
+struct SGtkOrientable
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkorientable.h:41
-  Original Name: _GtkOrientableIface
+  Original Name: _SGtkOrientableIface
   Struct Size (bits):  128
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=128,fid: f133]: base_iface
 */
-struct GtkOrientableIface
+struct SGtkOrientableIface
   var base_iface: GTypeInterface = GTypeInterface
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkoverlay.h:36
-  Original Name: _GtkOverlay
+  Original Name: _SGtkOverlay
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkOverlay
+struct SGtkOverlay
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkoverlaylayout.h:33
-  Original Name: _GtkOverlayLayout
+  Original Name: _SGtkOverlayLayout
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkOverlayLayout
+struct SGtkOverlayLayout
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkoverlaylayout.h:41
-  Original Name: _GtkOverlayLayoutChild
+  Original Name: _SGtkOverlayLayoutChild
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkOverlayLayoutChild
+struct SGtkOverlayLayoutChild
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkpadcontroller.h:39
-  Original Name: _GtkPadController
+  Original Name: _SGtkPadController
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkPadController
+struct SGtkPadController
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkpadcontroller.h:40
-  Original Name: _GtkPadControllerClass
+  Original Name: _SGtkPadControllerClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkPadControllerClass
+struct SGtkPadControllerClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkpadcontroller.h:69
-  Original Name: _GtkPadActionEntry
+  Original Name: _SGtkPadActionEntry
   Struct Size (bits):  256
   Struct Align (bits): 64
 
@@ -18959,7 +18959,7 @@ struct GtkPadControllerClass
      000128: [PointerType size=64]->[FundamentalType(char) size=8]: label
      000192: [PointerType size=64]->[FundamentalType(char) size=8]: action_name
 */
-struct GtkPadActionEntry
+struct SGtkPadActionEntry
   var g_type: I32 = I32(0)
   var index: I32 = I32(0)
   var mode: I32 = I32(0)
@@ -18969,117 +18969,117 @@ struct GtkPadActionEntry
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkpapersize.h:33
-  Original Name: _GtkPaperSize
+  Original Name: _SGtkPaperSize
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkPaperSize
+struct SGtkPaperSize
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkpagesetup.h:32
-  Original Name: _GtkPageSetup
+  Original Name: _SGtkPageSetup
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkPageSetup
+struct SGtkPageSetup
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkpaned.h:40
-  Original Name: _GtkPaned
+  Original Name: _SGtkPaned
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkPaned
+struct SGtkPaned
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkpasswordentry.h:36
-  Original Name: _GtkPasswordEntry
+  Original Name: _SGtkPasswordEntry
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkPasswordEntry
+struct SGtkPasswordEntry
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkpasswordentry.h:37
-  Original Name: _GtkPasswordEntryClass
+  Original Name: _SGtkPasswordEntryClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkPasswordEntryClass
+struct SGtkPasswordEntryClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkpicture.h:37
-  Original Name: _GtkPicture
+  Original Name: _SGtkPicture
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkPicture
+struct SGtkPicture
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkpopovermenu.h:33
-  Original Name: _GtkPopoverMenu
+  Original Name: _SGtkPopoverMenu
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkPopoverMenu
+struct SGtkPopoverMenu
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkpopovermenubar.h:36
-  Original Name: _GtkPopoverMenuBar
+  Original Name: _SGtkPopoverMenuBar
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkPopoverMenuBar
+struct SGtkPopoverMenuBar
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkprintcontext.h:33
-  Original Name: _GtkPrintContext
+  Original Name: _SGtkPrintContext
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkPrintContext
+struct SGtkPrintContext
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkprintsettings.h:30
-  Original Name: _GtkPrintSettings
+  Original Name: _SGtkPrintSettings
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkPrintSettings
+struct SGtkPrintSettings
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkprintsettings.h:51
-  Original Name: _GtkPageRange
+  Original Name: _SGtkPageRange
   Struct Size (bits):  64
   Struct Align (bits): 32
 
@@ -19087,25 +19087,25 @@ struct GtkPrintSettings
      000000: [FundamentalType(int) size=32]: start
      000032: [FundamentalType(int) size=32]: end
 */
-struct GtkPageRange
+struct SGtkPageRange
   var start: I32 = I32(0)
   var g_end: I32 = I32(0)
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkprintoperationpreview.h:36
-  Original Name: _GtkPrintOperationPreview
+  Original Name: _SGtkPrintOperationPreview
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkPrintOperationPreview
+struct SGtkPrintOperationPreview
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkprintoperationpreview.h:40
-  Original Name: _GtkPrintOperationPreviewIface
+  Original Name: _SGtkPrintOperationPreviewIface
   Struct Size (bits):  960
   Struct Align (bits): 64
 
@@ -19125,7 +19125,7 @@ struct GtkPrintOperationPreview
      000832: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved7
      000896: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved8
 */
-struct GtkPrintOperationPreviewIface
+struct SGtkPrintOperationPreviewIface
   var g_iface: GTypeInterface = GTypeInterface
   var ready: Pointer[None] = Pointer[None]
   var got_page_size: Pointer[None] = Pointer[None]
@@ -19144,7 +19144,7 @@ struct GtkPrintOperationPreviewIface
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkprintoperation.h:153
-  Original Name: _GtkPrintOperationClass
+  Original Name: _SGtkPrintOperationClass
   Struct Size (bits):  2304
   Struct Align (bits): 64
 
@@ -19163,7 +19163,7 @@ struct GtkPrintOperationPreviewIface
      001728: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: update_custom_widget
      001792: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkPrintOperationClass
+struct SGtkPrintOperationClass
   var parent_class: GObjectClass = GObjectClass
   var done: Pointer[None] = Pointer[None]
   var begin_print: Pointer[None] = Pointer[None]
@@ -19181,18 +19181,18 @@ struct GtkPrintOperationClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkprintoperation.h:46
-  Original Name: _GtkPrintOperationPrivate
+  Original Name: _SGtkPrintOperationPrivate
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkPrintOperationPrivate
+struct SGtkPrintOperationPrivate
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkprintoperation.h:123
-  Original Name: _GtkPrintOperation
+  Original Name: _SGtkPrintOperation
   Struct Size (bits):  256
   Struct Align (bits): 64
 
@@ -19200,35 +19200,35 @@ struct GtkPrintOperationPrivate
      000000: [Struct size=192,fid: f141]: parent_instance
      000192: [PointerType size=64]->[Struct size=,fid: f633]: priv
 */
-type GtkPrintOperation is GObject
+type SGtkPrintOperation is GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkprogressbar.h:41
-  Original Name: _GtkProgressBar
+  Original Name: _SGtkProgressBar
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkProgressBar
+struct SGtkProgressBar
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkrange.h:49
-  Original Name: _GtkRange
+  Original Name: _SGtkRange
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-type GtkRange is GtkWidget
+type SGtkRange is SGtkWidget
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkrange.h:54
-  Original Name: _GtkRangeClass
+  Original Name: _SGtkRangeClass
   Struct Size (bits):  4096
   Struct Align (bits): 64
 
@@ -19241,8 +19241,8 @@ type GtkRange is GtkWidget
      003520: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: change_value
      003584: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkRangeClass
-  var parent_class: GtkWidgetClass = GtkWidgetClass
+struct SGtkRangeClass
+  var parent_class: SGtkWidgetClass = SGtkWidgetClass
   var value_changed: Pointer[None] = Pointer[None]
   var adjust_bounds: Pointer[None] = Pointer[None]
   var move_slider: Pointer[None] = Pointer[None]
@@ -19253,18 +19253,18 @@ struct GtkRangeClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkrecentmanager.h:42
-  Original Name: _GtkRecentInfo
+  Original Name: _SGtkRecentInfo
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkRecentInfo
+struct SGtkRecentInfo
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkrecentmanager.h:69
-  Original Name: _GtkRecentData
+  Original Name: _SGtkRecentData
   Struct Size (bits):  448
   Struct Align (bits): 64
 
@@ -19277,7 +19277,7 @@ struct GtkRecentInfo
      000320: [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]: groups
      000384: [FundamentalType(int) size=32]: is_private
 */
-struct GtkRecentData
+struct SGtkRecentData
   var display_name: Pointer[U8] = Pointer[U8]
   var description: Pointer[U8] = Pointer[U8]
   var mime_type: Pointer[U8] = Pointer[U8]
@@ -19289,7 +19289,7 @@ struct GtkRecentData
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkrecentmanager.h:84
-  Original Name: _GtkRecentManager
+  Original Name: _SGtkRecentManager
   Struct Size (bits):  256
   Struct Align (bits): 64
 
@@ -19297,12 +19297,12 @@ struct GtkRecentData
      000000: [Struct size=192,fid: f141]: parent_instance
      000192: [PointerType size=64]->[Struct size=,fid: f636]: priv
 */
-type GtkRecentManager is GObject
+type SGtkRecentManager is GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkrecentmanager.h:97
-  Original Name: _GtkRecentManagerClass
+  Original Name: _SGtkRecentManagerClass
   Struct Size (bits):  1408
   Struct Align (bits): 64
 
@@ -19314,7 +19314,7 @@ type GtkRecentManager is GObject
      001280: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_recent3
      001344: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_recent4
 */
-struct GtkRecentManagerClass
+struct SGtkRecentManagerClass
   var parent_class: GObjectClass = GObjectClass
   var changed: Pointer[None] = Pointer[None]
   var _gtk_recent1: Pointer[None] = Pointer[None]
@@ -19325,52 +19325,52 @@ struct GtkRecentManagerClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkrecentmanager.h:46
-  Original Name: _GtkRecentManagerPrivate
+  Original Name: _SGtkRecentManagerPrivate
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkRecentManagerPrivate
+struct SGtkRecentManagerPrivate
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkrevealer.h:34
-  Original Name: _GtkRevealer
+  Original Name: _SGtkRevealer
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkRevealer
+struct SGtkRevealer
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkroot.h:35
-  Original Name: _GtkRootInterface
+  Original Name: _SGtkRootInterface
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkRootInterface
+struct SGtkRootInterface
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkscale.h:49
-  Original Name: _GtkScale
+  Original Name: _SGtkScale
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f635]: parent_instance
 */
-type GtkScale is GtkRange
+type SGtkScale is SGtkRange
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkscale.h:54
-  Original Name: _GtkScaleClass
+  Original Name: _SGtkScaleClass
   Struct Size (bits):  4672
   Struct Align (bits): 64
 
@@ -19379,27 +19379,27 @@ type GtkScale is GtkRange
      004096: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: get_layout_offsets
      004160: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkScaleClass
-  var parent_class: GtkRangeClass = GtkRangeClass
+struct SGtkScaleClass
+  var parent_class: SGtkRangeClass = SGtkRangeClass
   var get_layout_offsets: Pointer[None] = Pointer[None]
   var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkscalebutton.h:55
-  Original Name: _GtkScaleButton
+  Original Name: _SGtkScaleButton
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-type GtkScaleButton is GtkWidget
+type SGtkScaleButton is SGtkWidget
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkscalebutton.h:60
-  Original Name: _GtkScaleButtonClass
+  Original Name: _SGtkScaleButtonClass
   Struct Size (bits):  3840
   Struct Align (bits): 64
 
@@ -19408,26 +19408,26 @@ type GtkScaleButton is GtkWidget
      003264: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: value_changed
      003328: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkScaleButtonClass
-  var parent_class: GtkWidgetClass = GtkWidgetClass
+struct SGtkScaleButtonClass
+  var parent_class: SGtkWidgetClass = SGtkWidgetClass
   var value_changed: Pointer[None] = Pointer[None]
   var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkscrollable.h:37
-  Original Name: _GtkScrollable
+  Original Name: _SGtkScrollable
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkScrollable
+struct SGtkScrollable
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkscrollable.h:40
-  Original Name: _GtkScrollableInterface
+  Original Name: _SGtkScrollableInterface
   Struct Size (bits):  192
   Struct Align (bits): 64
 
@@ -19435,135 +19435,135 @@ struct GtkScrollable
      000000: [Struct size=128,fid: f133]: base_iface
      000128: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: get_border
 */
-struct GtkScrollableInterface
+struct SGtkScrollableInterface
   var base_iface: GTypeInterface = GTypeInterface
   var get_border: Pointer[None] = Pointer[None]
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkscrollbar.h:43
-  Original Name: _GtkScrollbar
+  Original Name: _SGtkScrollbar
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkScrollbar
+struct SGtkScrollbar
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkscrolledwindow.h:42
-  Original Name: _GtkScrolledWindow
+  Original Name: _SGtkScrolledWindow
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkScrolledWindow
+struct SGtkScrolledWindow
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtksearchbar.h:44
-  Original Name: _GtkSearchBar
+  Original Name: _SGtkSearchBar
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkSearchBar
+struct SGtkSearchBar
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtksearchentry.h:43
-  Original Name: _GtkSearchEntry
+  Original Name: _SGtkSearchEntry
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkSearchEntry
+struct SGtkSearchEntry
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkselectionfiltermodel.h:36
-  Original Name: _GtkSelectionFilterModel
+  Original Name: _SGtkSelectionFilterModel
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkSelectionFilterModel
+struct SGtkSelectionFilterModel
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkseparator.h:42
-  Original Name: _GtkSeparator
+  Original Name: _SGtkSeparator
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkSeparator
+struct SGtkSeparator
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutcontroller.h:39
-  Original Name: _GtkShortcutController
+  Original Name: _SGtkShortcutController
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkShortcutController
+struct SGtkShortcutController
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutcontroller.h:40
-  Original Name: _GtkShortcutControllerClass
+  Original Name: _SGtkShortcutControllerClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkShortcutControllerClass
+struct SGtkShortcutControllerClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutlabel.h:31
-  Original Name: _GtkShortcutLabel
+  Original Name: _SGtkShortcutLabel
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkShortcutLabel
+struct SGtkShortcutLabel
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutlabel.h:32
-  Original Name: _GtkShortcutLabelClass
+  Original Name: _SGtkShortcutLabelClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkShortcutLabelClass
+struct SGtkShortcutLabelClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutmanager.h:35
-  Original Name: _GtkShortcutManager
+  Original Name: _SGtkShortcutManager
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkShortcutManager
+struct SGtkShortcutManager
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutmanager.h:48
-  Original Name: _GtkShortcutManagerInterface
+  Original Name: _SGtkShortcutManagerInterface
   Struct Size (bits):  256
   Struct Align (bits): 64
 
@@ -19572,7 +19572,7 @@ struct GtkShortcutManager
      000128: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: add_controller
      000192: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: remove_controller
 */
-struct GtkShortcutManagerInterface
+struct SGtkShortcutManagerInterface
   var g_iface: GTypeInterface = GTypeInterface
   var add_controller: Pointer[None] = Pointer[None]
   var remove_controller: Pointer[None] = Pointer[None]
@@ -19580,272 +19580,272 @@ struct GtkShortcutManagerInterface
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutsgroup.h:35
-  Original Name: _GtkShortcutsGroup
+  Original Name: _SGtkShortcutsGroup
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkShortcutsGroup
+struct SGtkShortcutsGroup
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutsgroup.h:36
-  Original Name: _GtkShortcutsGroupClass
+  Original Name: _SGtkShortcutsGroupClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkShortcutsGroupClass
+struct SGtkShortcutsGroupClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutssection.h:35
-  Original Name: _GtkShortcutsSection
+  Original Name: _SGtkShortcutsSection
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkShortcutsSection
+struct SGtkShortcutsSection
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutssection.h:36
-  Original Name: _GtkShortcutsSectionClass
+  Original Name: _SGtkShortcutsSectionClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkShortcutsSectionClass
+struct SGtkShortcutsSectionClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutsshortcut.h:35
-  Original Name: _GtkShortcutsShortcut
+  Original Name: _SGtkShortcutsShortcut
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkShortcutsShortcut
+struct SGtkShortcutsShortcut
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcutsshortcut.h:36
-  Original Name: _GtkShortcutsShortcutClass
+  Original Name: _SGtkShortcutsShortcutClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkShortcutsShortcutClass
+struct SGtkShortcutsShortcutClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcuttrigger.h:34
-  Original Name: _GtkShortcutTriggerClass
+  Original Name: _SGtkShortcutTriggerClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkShortcutTriggerClass
+struct SGtkShortcutTriggerClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcuttrigger.h:75
-  Original Name: _GtkNeverTrigger
+  Original Name: _SGtkNeverTrigger
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkNeverTrigger
+struct SGtkNeverTrigger
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcuttrigger.h:75
-  Original Name: _GtkNeverTriggerClass
+  Original Name: _SGtkNeverTriggerClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkNeverTriggerClass
+struct SGtkNeverTriggerClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcuttrigger.h:89
-  Original Name: _GtkKeyvalTrigger
+  Original Name: _SGtkKeyvalTrigger
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkKeyvalTrigger
+struct SGtkKeyvalTrigger
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcuttrigger.h:89
-  Original Name: _GtkKeyvalTriggerClass
+  Original Name: _SGtkKeyvalTriggerClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkKeyvalTriggerClass
+struct SGtkKeyvalTriggerClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcuttrigger.h:110
-  Original Name: _GtkMnemonicTrigger
+  Original Name: _SGtkMnemonicTrigger
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkMnemonicTrigger
+struct SGtkMnemonicTrigger
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcuttrigger.h:110
-  Original Name: _GtkMnemonicTriggerClass
+  Original Name: _SGtkMnemonicTriggerClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkMnemonicTriggerClass
+struct SGtkMnemonicTriggerClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcuttrigger.h:130
-  Original Name: _GtkAlternativeTrigger
+  Original Name: _SGtkAlternativeTrigger
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkAlternativeTrigger
+struct SGtkAlternativeTrigger
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkshortcuttrigger.h:130
-  Original Name: _GtkAlternativeTriggerClass
+  Original Name: _SGtkAlternativeTriggerClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkAlternativeTriggerClass
+struct SGtkAlternativeTriggerClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtksignallistitemfactory.h:38
-  Original Name: _GtkSignalListItemFactory
+  Original Name: _SGtkSignalListItemFactory
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkSignalListItemFactory
+struct SGtkSignalListItemFactory
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtksignallistitemfactory.h:39
-  Original Name: _GtkSignalListItemFactoryClass
+  Original Name: _SGtkSignalListItemFactoryClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkSignalListItemFactoryClass
+struct SGtkSignalListItemFactoryClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtksingleselection.h:30
-  Original Name: _GtkSingleSelection
+  Original Name: _SGtkSingleSelection
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkSingleSelection
+struct SGtkSingleSelection
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkslicelistmodel.h:37
-  Original Name: _GtkSliceListModel
+  Original Name: _SGtkSliceListModel
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkSliceListModel
+struct SGtkSliceListModel
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtksnapshot.h:39
-  Original Name: _GtkSnapshotClass
+  Original Name: _SGtkSnapshotClass
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkSnapshotClass
+struct SGtkSnapshotClass
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkstack.h:39
-  Original Name: _GtkStack
+  Original Name: _SGtkStack
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkStack
+struct SGtkStack
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkstack.h:45
-  Original Name: _GtkStackPage
+  Original Name: _SGtkStackPage
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkStackPage
+struct SGtkStackPage
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkstacksidebar.h:37
-  Original Name: _GtkStackSidebar
+  Original Name: _SGtkStackSidebar
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkStackSidebar
+struct SGtkStackSidebar
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtksizegroup.h:36
-  Original Name: _GtkSizeGroup
+  Original Name: _SGtkSizeGroup
   Struct Size (bits):  192
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=192,fid: f141]: parent_instance
 */
-type GtkSizeGroup is GObject
+type SGtkSizeGroup is GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtksizerequest.h:41
-  Original Name: _GtkRequestedSize
+  Original Name: _SGtkRequestedSize
   Struct Size (bits):  128
   Struct Align (bits): 64
 
@@ -19854,7 +19854,7 @@ type GtkSizeGroup is GObject
      000064: [FundamentalType(int) size=32]: minimum_size
      000096: [FundamentalType(int) size=32]: natural_size
 */
-struct GtkRequestedSize
+struct SGtkRequestedSize
   var data: Pointer[None] = Pointer[None]
   var minimum_size: I32 = I32(0)
   var natural_size: I32 = I32(0)
@@ -19862,106 +19862,106 @@ struct GtkRequestedSize
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkspinbutton.h:99
-  Original Name: _GtkSpinButton
+  Original Name: _SGtkSpinButton
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkSpinButton
+struct SGtkSpinButton
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkspinner.h:38
-  Original Name: _GtkSpinner
+  Original Name: _SGtkSpinner
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkSpinner
+struct SGtkSpinner
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkstackswitcher.h:35
-  Original Name: _GtkStackSwitcher
+  Original Name: _SGtkStackSwitcher
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkStackSwitcher
+struct SGtkStackSwitcher
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkstatusbar.h:41
-  Original Name: _GtkStatusbar
+  Original Name: _SGtkStatusbar
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkStatusbar
+struct SGtkStatusbar
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkstringfilter.h:51
-  Original Name: _GtkStringFilter
+  Original Name: _SGtkStringFilter
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkStringFilter
+struct SGtkStringFilter
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkstringlist.h:37
-  Original Name: _GtkStringObject
+  Original Name: _SGtkStringObject
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkStringObject
+struct SGtkStringObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkstringlist.h:47
-  Original Name: _GtkStringList
+  Original Name: _SGtkStringList
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkStringList
+struct SGtkStringList
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkstringsorter.h:34
-  Original Name: _GtkStringSorter
+  Original Name: _SGtkStringSorter
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkStringSorter
+struct SGtkStringSorter
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkstyleprovider.h:86
-  Original Name: _GtkStyleProvider
+  Original Name: _SGtkStyleProvider
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkStyleProvider
+struct SGtkStyleProvider
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkstylecontext.h:47
-  Original Name: _GtkStyleContextClass
+  Original Name: _SGtkStyleContextClass
   Struct Size (bits):  1408
   Struct Align (bits): 64
 
@@ -19973,7 +19973,7 @@ struct GtkStyleProvider
      001280: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved3
      001344: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved4
 */
-struct GtkStyleContextClass
+struct SGtkStyleContextClass
   var parent_class: GObjectClass = GObjectClass
   var changed: Pointer[None] = Pointer[None]
   var _gtk_reserved1: Pointer[None] = Pointer[None]
@@ -19984,30 +19984,30 @@ struct GtkStyleContextClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkswitch.h:41
-  Original Name: _GtkSwitch
+  Original Name: _SGtkSwitch
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkSwitch
+struct SGtkSwitch
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktext.h:49
-  Original Name: _GtkText
+  Original Name: _SGtkText
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f452]: parent_instance
 */
-type GtkText is GtkWidget
+type SGtkText is SGtkWidget
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktextiter.h:69
-  Original Name: _GtkTextIter
+  Original Name: _SGtkTextIter
   Struct Size (bits):  640
   Struct Align (bits): 64
 
@@ -20027,7 +20027,7 @@ type GtkText is GtkWidget
      000512: [FundamentalType(int) size=32]: dummy13
      000576: [PointerType size=64]->[FundamentalType(void) size=0]: dummy14
 */
-struct GtkTextIter
+struct SGtkTextIter
   var dummy1: Pointer[None] = Pointer[None]
   var dummy2: Pointer[None] = Pointer[None]
   var dummy3: I32 = I32(0)
@@ -20046,18 +20046,18 @@ struct GtkTextIter
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktexttag.h:65
-  Original Name: _GtkTextTagTable
+  Original Name: _SGtkTextTagTable
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkTextTagTable
+struct SGtkTextTagTable
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktexttag.h:78
-  Original Name: _GtkTextTag
+  Original Name: _SGtkTextTag
   Struct Size (bits):  256
   Struct Align (bits): 64
 
@@ -20065,23 +20065,23 @@ struct GtkTextTagTable
      000000: [Struct size=192,fid: f141]: parent_instance
      000192: [PointerType size=64]->[Struct size=,fid: f677]: priv
 */
-type GtkTextTag is GObject
+type SGtkTextTag is GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktexttag.h:75
-  Original Name: _GtkTextTagPrivate
+  Original Name: _SGtkTextTagPrivate
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkTextTagPrivate
+struct SGtkTextTagPrivate
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktexttag.h:85
-  Original Name: _GtkTextTagClass
+  Original Name: _SGtkTextTagClass
   Struct Size (bits):  1600
   Struct Align (bits): 64
 
@@ -20089,14 +20089,14 @@ struct GtkTextTagPrivate
      000000: [Struct size=1088,fid: f141]: parent_class
      001088: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkTextTagClass
+struct SGtkTextTagClass
   var parent_class: GObjectClass = GObjectClass
   var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktextchild.h:57
-  Original Name: _GtkTextChildAnchor
+  Original Name: _SGtkTextChildAnchor
   Struct Size (bits):  256
   Struct Align (bits): 64
 
@@ -20104,12 +20104,12 @@ struct GtkTextTagClass
      000000: [Struct size=192,fid: f141]: parent_instance
      000192: [PointerType size=64]->[FundamentalType(void) size=0]: segment
 */
-type GtkTextChildAnchor is GObject
+type SGtkTextChildAnchor is GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktextchild.h:65
-  Original Name: _GtkTextChildAnchorClass
+  Original Name: _SGtkTextChildAnchorClass
   Struct Size (bits):  1344
   Struct Align (bits): 64
 
@@ -20120,7 +20120,7 @@ type GtkTextChildAnchor is GObject
      001216: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved3
      001280: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved4
 */
-struct GtkTextChildAnchorClass
+struct SGtkTextChildAnchorClass
   var parent_class: GObjectClass = GObjectClass
   var _gtk_reserved1: Pointer[None] = Pointer[None]
   var _gtk_reserved2: Pointer[None] = Pointer[None]
@@ -20130,7 +20130,7 @@ struct GtkTextChildAnchorClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktextbuffer.h:50
-  Original Name: _GtkTextBuffer
+  Original Name: _SGtkTextBuffer
   Struct Size (bits):  256
   Struct Align (bits): 64
 
@@ -20138,12 +20138,12 @@ struct GtkTextChildAnchorClass
      000000: [Struct size=192,fid: f141]: parent_instance
      000192: [PointerType size=64]->[Struct size=,fid: f680]: priv
 */
-type GtkTextBuffer is GObject
+type SGtkTextBuffer is GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktextmark.h:69
-  Original Name: _GtkTextMark
+  Original Name: _SGtkTextMark
   Struct Size (bits):  256
   Struct Align (bits): 64
 
@@ -20151,12 +20151,12 @@ type GtkTextBuffer is GObject
      000000: [Struct size=192,fid: f141]: parent_instance
      000192: [PointerType size=64]->[FundamentalType(void) size=0]: segment
 */
-type GtkTextMark is GObject
+type SGtkTextMark is GObject
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktextmark.h:77
-  Original Name: _GtkTextMarkClass
+  Original Name: _SGtkTextMarkClass
   Struct Size (bits):  1600
   Struct Align (bits): 64
 
@@ -20164,25 +20164,25 @@ type GtkTextMark is GObject
      000000: [Struct size=1088,fid: f141]: parent_class
      001088: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkTextMarkClass
+struct SGtkTextMarkClass
   var parent_class: GObjectClass = GObjectClass
   var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktextbuffer.h:47
-  Original Name: _GtkTextBufferPrivate
+  Original Name: _SGtkTextBufferPrivate
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkTextBufferPrivate
+struct SGtkTextBufferPrivate
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktextbuffer.h:78
-  Original Name: _GtkTextBufferClass
+  Original Name: _SGtkTextBufferClass
   Struct Size (bits):  2304
   Struct Align (bits): 64
 
@@ -20208,7 +20208,7 @@ struct GtkTextBufferPrivate
      002176: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved3
      002240: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved4
 */
-struct GtkTextBufferClass
+struct SGtkTextBufferClass
   var parent_class: GObjectClass = GObjectClass
   var insert_text: Pointer[None] = Pointer[None]
   var insert_paintable: Pointer[None] = Pointer[None]
@@ -20233,7 +20233,7 @@ struct GtkTextBufferClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktextview.h:108
-  Original Name: _GtkTextView
+  Original Name: _SGtkTextView
   Struct Size (bits):  320
   Struct Align (bits): 64
 
@@ -20241,23 +20241,23 @@ struct GtkTextBufferClass
      000000: [Struct size=256,fid: f452]: parent_instance
      000256: [PointerType size=64]->[Struct size=,fid: f682]: priv
 */
-type GtkTextView is GtkWidget
+type SGtkTextView is SGtkWidget
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktextview.h:105
-  Original Name: _GtkTextViewPrivate
+  Original Name: _SGtkTextViewPrivate
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkTextViewPrivate
+struct SGtkTextViewPrivate
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktextview.h:149
-  Original Name: _GtkTextViewClass
+  Original Name: _SGtkTextViewClass
   Struct Size (bits):  4608
   Struct Align (bits): 64
 
@@ -20278,8 +20278,8 @@ struct GtkTextViewPrivate
      004032: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: insert_emoji
      004096: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkTextViewClass
-  var parent_class: GtkWidgetClass = GtkWidgetClass
+struct SGtkTextViewClass
+  var parent_class: SGtkWidgetClass = SGtkWidgetClass
   var move_cursor: Pointer[None] = Pointer[None]
   var set_anchor: Pointer[None] = Pointer[None]
   var insert_at_cursor: Pointer[None] = Pointer[None]
@@ -20298,18 +20298,18 @@ struct GtkTextViewClass
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreednd.h:46
-  Original Name: _GtkTreeDragSource
+  Original Name: _SGtkTreeDragSource
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkTreeDragSource
+struct SGtkTreeDragSource
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreednd.h:58
-  Original Name: _GtkTreeDragSourceIface
+  Original Name: _SGtkTreeDragSourceIface
   Struct Size (bits):  320
   Struct Align (bits): 64
 
@@ -20319,7 +20319,7 @@ struct GtkTreeDragSource
      000192: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: drag_data_get
      000256: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: drag_data_delete
 */
-struct GtkTreeDragSourceIface
+struct SGtkTreeDragSourceIface
   var g_iface: GTypeInterface = GTypeInterface
   var row_draggable: Pointer[None] = Pointer[None]
   var drag_data_get: Pointer[None] = Pointer[None]
@@ -20328,18 +20328,18 @@ struct GtkTreeDragSourceIface
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreednd.h:103
-  Original Name: _GtkTreeDragDest
+  Original Name: _SGtkTreeDragDest
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkTreeDragDest
+struct SGtkTreeDragDest
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreednd.h:114
-  Original Name: _GtkTreeDragDestIface
+  Original Name: _SGtkTreeDragDestIface
   Struct Size (bits):  256
   Struct Align (bits): 64
 
@@ -20348,7 +20348,7 @@ struct GtkTreeDragDest
      000128: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: drag_data_received
      000192: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: row_drop_possible
 */
-struct GtkTreeDragDestIface
+struct SGtkTreeDragDestIface
   var g_iface: GTypeInterface = GTypeInterface
   var drag_data_received: Pointer[None] = Pointer[None]
   var row_drop_possible: Pointer[None] = Pointer[None]
@@ -20356,51 +20356,51 @@ struct GtkTreeDragDestIface
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreelistmodel.h:38
-  Original Name: _GtkTreeListModel
+  Original Name: _SGtkTreeListModel
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkTreeListModel
+struct SGtkTreeListModel
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreelistmodel.h:40
-  Original Name: _GtkTreeListRow
+  Original Name: _SGtkTreeListRow
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkTreeListRow
+struct SGtkTreeListRow
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreeexpander.h:35
-  Original Name: _GtkTreeExpander
+  Original Name: _SGtkTreeExpander
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkTreeExpander
+struct SGtkTreeExpander
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreelistrowsorter.h:34
-  Original Name: _GtkTreeListRowSorter
+  Original Name: _SGtkTreeListRowSorter
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkTreeListRowSorter
+struct SGtkTreeListRowSorter
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreemodelsort.h:42
-  Original Name: _GtkTreeModelSort
+  Original Name: _SGtkTreeModelSort
   Struct Size (bits):  256
   Struct Align (bits): 64
 
@@ -20408,14 +20408,14 @@ struct GtkTreeListRowSorter
      000000: [Struct size=192,fid: f141]: parent
      000192: [PointerType size=64]->[Struct size=,fid: f689]: priv
 */
-struct GtkTreeModelSort
+struct SGtkTreeModelSort
   var parent: GObject = GObject
-  var priv: NullablePointer[GtkTreeModelSortPrivate] = NullablePointer[GtkTreeModelSortPrivate].none()
+  var priv: NullablePointer[SGtkTreeModelSortPrivate] = NullablePointer[SGtkTreeModelSortPrivate].none()
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreemodelsort.h:50
-  Original Name: _GtkTreeModelSortClass
+  Original Name: _SGtkTreeModelSortClass
   Struct Size (bits):  1600
   Struct Align (bits): 64
 
@@ -20423,25 +20423,25 @@ struct GtkTreeModelSort
      000000: [Struct size=1088,fid: f141]: parent_class
      001088: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkTreeModelSortClass
+struct SGtkTreeModelSortClass
   var parent_class: GObjectClass = GObjectClass
   var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreemodelsort.h:40
-  Original Name: _GtkTreeModelSortPrivate
+  Original Name: _SGtkTreeModelSortPrivate
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkTreeModelSortPrivate
+struct SGtkTreeModelSortPrivate
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreestore.h:45
-  Original Name: _GtkTreeStore
+  Original Name: _SGtkTreeStore
   Struct Size (bits):  256
   Struct Align (bits): 64
 
@@ -20449,14 +20449,14 @@ struct GtkTreeModelSortPrivate
      000000: [Struct size=192,fid: f141]: parent
      000192: [PointerType size=64]->[Struct size=,fid: f691]: priv
 */
-struct GtkTreeStore
+struct SGtkTreeStore
   var parent: GObject = GObject
-  var priv: NullablePointer[GtkTreeStorePrivate] = NullablePointer[GtkTreeStorePrivate].none()
+  var priv: NullablePointer[SGtkTreeStorePrivate] = NullablePointer[SGtkTreeStorePrivate].none()
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreestore.h:52
-  Original Name: _GtkTreeStoreClass
+  Original Name: _SGtkTreeStoreClass
   Struct Size (bits):  1600
   Struct Align (bits): 64
 
@@ -20464,85 +20464,85 @@ struct GtkTreeStore
      000000: [Struct size=1088,fid: f141]: parent_class
      001088: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding
 */
-struct GtkTreeStoreClass
+struct SGtkTreeStoreClass
   var parent_class: GObjectClass = GObjectClass
   var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreestore.h:43
-  Original Name: _GtkTreeStorePrivate
+  Original Name: _SGtkTreeStorePrivate
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkTreeStorePrivate
+struct SGtkTreeStorePrivate
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkvideo.h:35
-  Original Name: _GtkVideo
+  Original Name: _SGtkVideo
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkVideo
+struct SGtkVideo
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkviewport.h:44
-  Original Name: _GtkViewport
+  Original Name: _SGtkViewport
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkViewport
+struct SGtkViewport
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkvolumebutton.h:45
-  Original Name: _GtkVolumeButton
+  Original Name: _SGtkVolumeButton
   Struct Size (bits):  256
   Struct Align (bits): 64
 
   Fields (Offset in bits):
      000000: [Struct size=256,fid: f641]: parent
 */
-struct GtkVolumeButton
-  var parent: GtkScaleButton = GtkScaleButton
+struct SGtkVolumeButton
+  var parent: SGtkScaleButton = SGtkScaleButton
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwidgetpaintable.h:30
-  Original Name: _GtkWidgetPaintable
+  Original Name: _SGtkWidgetPaintable
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkWidgetPaintable
+struct SGtkWidgetPaintable
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindowcontrols.h:32
-  Original Name: _GtkWindowControls
+  Original Name: _SGtkWindowControls
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkWindowControls
+struct SGtkWindowControls
 
 
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindowhandle.h:32
-  Original Name: _GtkWindowHandle
+  Original Name: _SGtkWindowHandle
   Struct Size (bits):
   Struct Align (bits):
 
   Fields (Offset in bits):
 */
-struct GtkWindowHandle
+struct SGtkWindowHandle

@@ -19,7 +19,7 @@ use "lib:glib-2.0"
 
 primitive Gtk4Sys
 
-  fun gtk_drawing_area_set_draw_func[A: Any](self: NullablePointer[GtkDrawingArea] tag, drawfunc: Pointer[None] tag, userdata: A, destroy: Pointer[None] tag): None =>
+  fun gtk_drawing_area_set_draw_func[A: Any](self: NullablePointer[SGtkDrawingArea] tag, drawfunc: Pointer[None] tag, userdata: A, destroy: Pointer[None] tag): None =>
     @gtk_drawing_area_set_draw_func(self, drawfunc, userdata, destroy)
 
 
@@ -50,7 +50,7 @@ primitive Gtk4Sys
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f452]
 */
-  fun gtk_widget_show(widget: NullablePointer[GtkWidget] tag): None =>
+  fun gtk_widget_show(widget: NullablePointer[SGtkWidget] tag): None =>
     @gtk_widget_show(widget)
 
 
@@ -63,7 +63,7 @@ primitive Gtk4Sys
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f452]
 */
-  fun gtk_widget_queue_draw(widget: NullablePointer[GtkWidget] tag): None =>
+  fun gtk_widget_queue_draw(widget: NullablePointer[SGtkWidget] tag): None =>
     @gtk_widget_queue_draw(widget)
 
 
@@ -76,7 +76,7 @@ primitive Gtk4Sys
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f452]
 */
-  fun gtk_widget_get_native(widget: NullablePointer[GtkWidget] tag): NullablePointer[GtkNative] =>
+  fun gtk_widget_get_native(widget: NullablePointer[SGtkWidget] tag): NullablePointer[SGtkNative] =>
     @gtk_widget_get_native(widget)
 
 
@@ -89,7 +89,7 @@ primitive Gtk4Sys
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f452]
 */
-  fun gtk_widget_get_width(widget: NullablePointer[GtkWidget] tag): I32 =>
+  fun gtk_widget_get_width(widget: NullablePointer[SGtkWidget] tag): I32 =>
     @gtk_widget_get_width(widget)
 
 
@@ -102,7 +102,7 @@ primitive Gtk4Sys
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f452]
 */
-  fun gtk_widget_get_height(widget: NullablePointer[GtkWidget] tag): I32 =>
+  fun gtk_widget_get_height(widget: NullablePointer[SGtkWidget] tag): I32 =>
     @gtk_widget_get_height(widget)
 
 
@@ -117,7 +117,7 @@ primitive Gtk4Sys
     [FundamentalType(int) size=32]
     [FundamentalType(int) size=32]
 */
-  fun gtk_widget_set_size_request(widget: NullablePointer[GtkWidget] tag, width: I32, height: I32): None =>
+  fun gtk_widget_set_size_request(widget: NullablePointer[SGtkWidget] tag, width: I32, height: I32): None =>
     @gtk_widget_set_size_request(widget, width, height)
 
 
@@ -131,7 +131,7 @@ primitive Gtk4Sys
     [PointerType size=64]->[Struct size=256,fid: f452]
     [PointerType size=64]->[Struct size=,fid: f450]
 */
-  fun gtk_widget_add_controller(widget: NullablePointer[GtkWidget] tag, controller: NullablePointer[GtkEventController] tag): None =>
+  fun gtk_widget_add_controller(widget: NullablePointer[SGtkWidget] tag, controller: NullablePointer[SGtkEventController] tag): None =>
     @gtk_widget_add_controller(widget, controller)
 
 
@@ -145,7 +145,7 @@ primitive Gtk4Sys
     [PointerType size=64]->[Struct size=256,fid: f454]
     [PointerType size=64]->[FundamentalType(char) size=8]
 */
-  fun gtk_window_set_title(window: NullablePointer[GtkWindow] tag, title: Pointer[U8] tag): None =>
+  fun gtk_window_set_title(window: NullablePointer[SGtkWindow] tag, title: Pointer[U8] tag): None =>
     @gtk_window_set_title(window, title)
 
 
@@ -158,7 +158,7 @@ primitive Gtk4Sys
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f454]
 */
-  fun gtk_window_get_title(window: NullablePointer[GtkWindow] tag): Pointer[U8] =>
+  fun gtk_window_get_title(window: NullablePointer[SGtkWindow] tag): Pointer[U8] =>
     @gtk_window_get_title(window)
 
 
@@ -171,7 +171,7 @@ primitive Gtk4Sys
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f454]
 */
-  fun gtk_window_close(window: NullablePointer[GtkWindow] tag): None =>
+  fun gtk_window_close(window: NullablePointer[SGtkWindow] tag): None =>
     @gtk_window_close(window)
 
 
@@ -185,7 +185,7 @@ primitive Gtk4Sys
     [PointerType size=64]->[Struct size=256,fid: f454]
     [PointerType size=64]->[Struct size=256,fid: f457]
 */
-  fun gtk_window_set_application(window: NullablePointer[GtkWindow] tag, application: NullablePointer[GtkApplication] tag): None =>
+  fun gtk_window_set_application(window: NullablePointer[SGtkWindow] tag, application: NullablePointer[SGtkApplication] tag): None =>
     @gtk_window_set_application(window, application)
 
 
@@ -199,7 +199,7 @@ primitive Gtk4Sys
     [PointerType size=64]->[Struct size=256,fid: f454]
     [PointerType size=64]->[Struct size=256,fid: f452]
 */
-  fun gtk_window_set_child(window: NullablePointer[GtkWindow] tag, child: NullablePointer[GtkWidget] tag): None =>
+  fun gtk_window_set_child(window: NullablePointer[SGtkWindow] tag, child: NullablePointer[SGtkWidget] tag): None =>
     @gtk_window_set_child(window, child)
 
 
@@ -213,7 +213,7 @@ primitive Gtk4Sys
     [PointerType size=64]->[FundamentalType(char) size=8]
     [Enumeration size=32,fid: f155]
 */
-  fun gtk_application_new(applicationid: Pointer[U8] tag, flags: I32): NullablePointer[GtkApplication] =>
+  fun gtk_application_new(applicationid: Pointer[U8] tag, flags: I32): NullablePointer[SGtkApplication] =>
     @gtk_application_new(applicationid, flags)
 
 
@@ -226,7 +226,7 @@ primitive Gtk4Sys
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f457]
 */
-  fun gtk_application_window_new(application: NullablePointer[GtkApplication] tag): NullablePointer[GtkWidget] =>
+  fun gtk_application_window_new(application: NullablePointer[SGtkApplication] tag): NullablePointer[SGtkWidget] =>
     @gtk_application_window_new(application)
 
 
@@ -240,7 +240,7 @@ primitive Gtk4Sys
     [PointerType size=64]->[Struct size=,fid: f470]
     [PointerType size=64]->[Struct size=256,fid: f452]
 */
-  fun gtk_aspect_frame_set_child(self: NullablePointer[GtkAspectFrame] tag, child: NullablePointer[GtkWidget] tag): None =>
+  fun gtk_aspect_frame_set_child(self: NullablePointer[SGtkAspectFrame] tag, child: NullablePointer[SGtkWidget] tag): None =>
     @gtk_aspect_frame_set_child(self, child)
 
 
@@ -252,7 +252,7 @@ primitive Gtk4Sys
 
   Arguments:
 */
-  fun gtk_builder_new(): NullablePointer[GtkBuilder] =>
+  fun gtk_builder_new(): NullablePointer[SGtkBuilder] =>
     @gtk_builder_new()
 
 
@@ -267,7 +267,7 @@ primitive Gtk4Sys
     [PointerType size=64]->[FundamentalType(char) size=8]
     [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f21]
 */
-  fun gtk_builder_add_from_file(builder: NullablePointer[GtkBuilder] tag, filename: Pointer[U8] tag, g_error: Pointer[NullablePointer[GError]] tag): I32 =>
+  fun gtk_builder_add_from_file(builder: NullablePointer[SGtkBuilder] tag, filename: Pointer[U8] tag, g_error: Pointer[NullablePointer[GError]] tag): I32 =>
     @gtk_builder_add_from_file(builder, filename, g_error)
 
 
@@ -281,7 +281,7 @@ primitive Gtk4Sys
     [PointerType size=64]->[Struct size=,fid: f450]
     [PointerType size=64]->[FundamentalType(char) size=8]
 */
-  fun gtk_builder_get_object(builder: NullablePointer[GtkBuilder] tag, name: Pointer[U8] tag): NullablePointer[GObject] =>
+  fun gtk_builder_get_object(builder: NullablePointer[SGtkBuilder] tag, name: Pointer[U8] tag): NullablePointer[GObject] =>
     @gtk_builder_get_object(builder, name)
 
 
@@ -294,7 +294,7 @@ primitive Gtk4Sys
   Arguments:
     [PointerType size=64]->[Struct size=,fid: f450]
 */
-  fun gtk_builder_get_objects(builder: NullablePointer[GtkBuilder] tag): NullablePointer[GSList] =>
+  fun gtk_builder_get_objects(builder: NullablePointer[SGtkBuilder] tag): NullablePointer[GSList] =>
     @gtk_builder_get_objects(builder)
 
 
@@ -306,7 +306,7 @@ primitive Gtk4Sys
 
   Arguments:
 */
-  fun gtk_drawing_area_new(): NullablePointer[GtkWidget] =>
+  fun gtk_drawing_area_new(): NullablePointer[SGtkWidget] =>
     @gtk_drawing_area_new()
 
 
@@ -320,7 +320,7 @@ primitive Gtk4Sys
     [PointerType size=64]->[Struct size=256,fid: f543]
     [FundamentalType(int) size=32]
 */
-  fun gtk_drawing_area_set_content_width(self: NullablePointer[GtkDrawingArea] tag, width: I32): None =>
+  fun gtk_drawing_area_set_content_width(self: NullablePointer[SGtkDrawingArea] tag, width: I32): None =>
     @gtk_drawing_area_set_content_width(self, width)
 
 
@@ -333,7 +333,7 @@ primitive Gtk4Sys
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f543]
 */
-  fun gtk_drawing_area_get_content_width(self: NullablePointer[GtkDrawingArea] tag): I32 =>
+  fun gtk_drawing_area_get_content_width(self: NullablePointer[SGtkDrawingArea] tag): I32 =>
     @gtk_drawing_area_get_content_width(self)
 
 
@@ -347,7 +347,7 @@ primitive Gtk4Sys
     [PointerType size=64]->[Struct size=256,fid: f543]
     [FundamentalType(int) size=32]
 */
-  fun gtk_drawing_area_set_content_height(self: NullablePointer[GtkDrawingArea] tag, height: I32): None =>
+  fun gtk_drawing_area_set_content_height(self: NullablePointer[SGtkDrawingArea] tag, height: I32): None =>
     @gtk_drawing_area_set_content_height(self, height)
 
 
@@ -360,7 +360,7 @@ primitive Gtk4Sys
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f543]
 */
-  fun gtk_drawing_area_get_content_height(self: NullablePointer[GtkDrawingArea] tag): I32 =>
+  fun gtk_drawing_area_get_content_height(self: NullablePointer[SGtkDrawingArea] tag): I32 =>
     @gtk_drawing_area_get_content_height(self)
 
 
@@ -373,7 +373,7 @@ primitive Gtk4Sys
   Arguments:
     [PointerType size=64]->[FundamentalType(char) size=8]
 */
-  fun gtk_frame_new(label: Pointer[U8] tag): NullablePointer[GtkWidget] =>
+  fun gtk_frame_new(label: Pointer[U8] tag): NullablePointer[SGtkWidget] =>
     @gtk_frame_new(label)
 
 
@@ -387,7 +387,7 @@ primitive Gtk4Sys
     [PointerType size=64]->[Struct size=256,fid: f573]
     [PointerType size=64]->[Struct size=256,fid: f452]
 */
-  fun gtk_frame_set_child(frame: NullablePointer[GtkFrame] tag, child: NullablePointer[GtkWidget] tag): None =>
+  fun gtk_frame_set_child(frame: NullablePointer[SGtkFrame] tag, child: NullablePointer[SGtkWidget] tag): None =>
     @gtk_frame_set_child(frame, child)
 
 
@@ -400,7 +400,7 @@ primitive Gtk4Sys
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f573]
 */
-  fun gtk_frame_get_child(frame: NullablePointer[GtkFrame] tag): NullablePointer[GtkWidget] =>
+  fun gtk_frame_get_child(frame: NullablePointer[SGtkFrame] tag): NullablePointer[SGtkWidget] =>
     @gtk_frame_get_child(frame)
 
 
@@ -414,7 +414,7 @@ primitive Gtk4Sys
     [PointerType size=64]->[Struct size=,fid: f575]
     [FundamentalType(unsigned int) size=32]
 */
-  fun gtk_gesture_single_set_button(gesture: NullablePointer[GtkGestureSingle] tag, button: U32): None =>
+  fun gtk_gesture_single_set_button(gesture: NullablePointer[SGtkGestureSingle] tag, button: U32): None =>
     @gtk_gesture_single_set_button(gesture, button)
 
 
@@ -426,7 +426,7 @@ primitive Gtk4Sys
 
   Arguments:
 */
-  fun gtk_gesture_click_new(): NullablePointer[GtkGesture] =>
+  fun gtk_gesture_click_new(): NullablePointer[SGtkGesture] =>
     @gtk_gesture_click_new()
 
 
@@ -438,7 +438,7 @@ primitive Gtk4Sys
 
   Arguments:
 */
-  fun gtk_gesture_drag_new(): NullablePointer[GtkGesture] =>
+  fun gtk_gesture_drag_new(): NullablePointer[SGtkGesture] =>
     @gtk_gesture_drag_new()
 
 
@@ -463,5 +463,5 @@ primitive Gtk4Sys
   Arguments:
     [PointerType size=64]->[Struct size=,fid: f450]
 */
-  fun gtk_native_get_surface(self: NullablePointer[GtkNative] tag): NullablePointer[GdkSurface] =>
+  fun gtk_native_get_surface(self: NullablePointer[SGtkNative] tag): NullablePointer[GdkSurface] =>
     @gtk_native_get_surface(self)

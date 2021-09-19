@@ -3,7 +3,7 @@ use "CairoSys"
 use "PangoSys"
 use "GrapheneSys"
 
-use @gtk_drawing_area_set_draw_func[None](self: NullablePointer[GtkDrawingArea] tag, drawfunc: Pointer[None] tag, userdata: Any tag, destroy: Pointer[None] tag)
+use @gtk_drawing_area_set_draw_func[None](self: NullablePointer[SGtkDrawingArea] tag, drawfunc: Pointer[None] tag, userdata: Any tag, destroy: Pointer[None] tag)
 
 
 /*
@@ -31,7 +31,7 @@ use @gdk_surface_create_similar_surface[NullablePointer[Cairosurface]](surface: 
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f452]
 */
-use @gtk_widget_show[None](widget: NullablePointer[GtkWidget] tag)
+use @gtk_widget_show[None](widget: NullablePointer[SGtkWidget] tag)
 
 
 
@@ -44,7 +44,7 @@ use @gtk_widget_show[None](widget: NullablePointer[GtkWidget] tag)
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f452]
 */
-use @gtk_widget_queue_draw[None](widget: NullablePointer[GtkWidget] tag)
+use @gtk_widget_queue_draw[None](widget: NullablePointer[SGtkWidget] tag)
 
 
 
@@ -57,7 +57,7 @@ use @gtk_widget_queue_draw[None](widget: NullablePointer[GtkWidget] tag)
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f452]
 */
-use @gtk_widget_get_native[NullablePointer[GtkNative]](widget: NullablePointer[GtkWidget] tag)
+use @gtk_widget_get_native[NullablePointer[SGtkNative]](widget: NullablePointer[SGtkWidget] tag)
 
 
 
@@ -70,7 +70,7 @@ use @gtk_widget_get_native[NullablePointer[GtkNative]](widget: NullablePointer[G
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f452]
 */
-use @gtk_widget_get_width[I32](widget: NullablePointer[GtkWidget] tag)
+use @gtk_widget_get_width[I32](widget: NullablePointer[SGtkWidget] tag)
 
 
 
@@ -83,7 +83,7 @@ use @gtk_widget_get_width[I32](widget: NullablePointer[GtkWidget] tag)
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f452]
 */
-use @gtk_widget_get_height[I32](widget: NullablePointer[GtkWidget] tag)
+use @gtk_widget_get_height[I32](widget: NullablePointer[SGtkWidget] tag)
 
 
 
@@ -98,7 +98,7 @@ use @gtk_widget_get_height[I32](widget: NullablePointer[GtkWidget] tag)
     [FundamentalType(int) size=32]
     [FundamentalType(int) size=32]
 */
-use @gtk_widget_set_size_request[None](widget: NullablePointer[GtkWidget] tag, width: I32, height: I32)
+use @gtk_widget_set_size_request[None](widget: NullablePointer[SGtkWidget] tag, width: I32, height: I32)
 
 
 
@@ -112,7 +112,7 @@ use @gtk_widget_set_size_request[None](widget: NullablePointer[GtkWidget] tag, w
     [PointerType size=64]->[Struct size=256,fid: f452]
     [PointerType size=64]->[Struct size=,fid: f450]
 */
-use @gtk_widget_add_controller[None](widget: NullablePointer[GtkWidget] tag, controller: NullablePointer[GtkEventController] tag)
+use @gtk_widget_add_controller[None](widget: NullablePointer[SGtkWidget] tag, controller: NullablePointer[SGtkEventController] tag)
 
 
 
@@ -126,7 +126,7 @@ use @gtk_widget_add_controller[None](widget: NullablePointer[GtkWidget] tag, con
     [PointerType size=64]->[Struct size=256,fid: f454]
     [PointerType size=64]->[FundamentalType(char) size=8]
 */
-use @gtk_window_set_title[None](window: NullablePointer[GtkWindow] tag, title: Pointer[U8] tag)
+use @gtk_window_set_title[None](window: NullablePointer[SGtkWindow] tag, title: Pointer[U8] tag)
 
 
 
@@ -139,7 +139,7 @@ use @gtk_window_set_title[None](window: NullablePointer[GtkWindow] tag, title: P
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f454]
 */
-use @gtk_window_get_title[Pointer[U8]](window: NullablePointer[GtkWindow] tag)
+use @gtk_window_get_title[Pointer[U8]](window: NullablePointer[SGtkWindow] tag)
 
 
 
@@ -152,7 +152,7 @@ use @gtk_window_get_title[Pointer[U8]](window: NullablePointer[GtkWindow] tag)
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f454]
 */
-use @gtk_window_close[None](window: NullablePointer[GtkWindow] tag)
+use @gtk_window_close[None](window: NullablePointer[SGtkWindow] tag)
 
 
 
@@ -166,7 +166,7 @@ use @gtk_window_close[None](window: NullablePointer[GtkWindow] tag)
     [PointerType size=64]->[Struct size=256,fid: f454]
     [PointerType size=64]->[Struct size=256,fid: f457]
 */
-use @gtk_window_set_application[None](window: NullablePointer[GtkWindow] tag, application: NullablePointer[GtkApplication] tag)
+use @gtk_window_set_application[None](window: NullablePointer[SGtkWindow] tag, application: NullablePointer[SGtkApplication] tag)
 
 
 
@@ -180,7 +180,7 @@ use @gtk_window_set_application[None](window: NullablePointer[GtkWindow] tag, ap
     [PointerType size=64]->[Struct size=256,fid: f454]
     [PointerType size=64]->[Struct size=256,fid: f452]
 */
-use @gtk_window_set_child[None](window: NullablePointer[GtkWindow] tag, child: NullablePointer[GtkWidget] tag)
+use @gtk_window_set_child[None](window: NullablePointer[SGtkWindow] tag, child: NullablePointer[SGtkWidget] tag)
 
 
 
@@ -194,7 +194,7 @@ use @gtk_window_set_child[None](window: NullablePointer[GtkWindow] tag, child: N
     [PointerType size=64]->[FundamentalType(char) size=8]
     [Enumeration size=32,fid: f155]
 */
-use @gtk_application_new[NullablePointer[GtkApplication]](applicationid: Pointer[U8] tag, flags: I32)
+use @gtk_application_new[NullablePointer[SGtkApplication]](applicationid: Pointer[U8] tag, flags: I32)
 
 
 
@@ -207,7 +207,7 @@ use @gtk_application_new[NullablePointer[GtkApplication]](applicationid: Pointer
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f457]
 */
-use @gtk_application_window_new[NullablePointer[GtkWidget]](application: NullablePointer[GtkApplication] tag)
+use @gtk_application_window_new[NullablePointer[SGtkWidget]](application: NullablePointer[SGtkApplication] tag)
 
 
 
@@ -221,7 +221,7 @@ use @gtk_application_window_new[NullablePointer[GtkWidget]](application: Nullabl
     [PointerType size=64]->[Struct size=,fid: f470]
     [PointerType size=64]->[Struct size=256,fid: f452]
 */
-use @gtk_aspect_frame_set_child[None](self: NullablePointer[GtkAspectFrame] tag, child: NullablePointer[GtkWidget] tag)
+use @gtk_aspect_frame_set_child[None](self: NullablePointer[SGtkAspectFrame] tag, child: NullablePointer[SGtkWidget] tag)
 
 
 
@@ -233,7 +233,7 @@ use @gtk_aspect_frame_set_child[None](self: NullablePointer[GtkAspectFrame] tag,
 
   Arguments:
 */
-use @gtk_builder_new[NullablePointer[GtkBuilder]]()
+use @gtk_builder_new[NullablePointer[SGtkBuilder]]()
 
 
 
@@ -248,7 +248,7 @@ use @gtk_builder_new[NullablePointer[GtkBuilder]]()
     [PointerType size=64]->[FundamentalType(char) size=8]
     [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f21]
 */
-use @gtk_builder_add_from_file[I32](builder: NullablePointer[GtkBuilder] tag, filename: Pointer[U8] tag, g_error: Pointer[NullablePointer[GError]] tag)
+use @gtk_builder_add_from_file[I32](builder: NullablePointer[SGtkBuilder] tag, filename: Pointer[U8] tag, g_error: Pointer[NullablePointer[GError]] tag)
 
 
 
@@ -262,7 +262,7 @@ use @gtk_builder_add_from_file[I32](builder: NullablePointer[GtkBuilder] tag, fi
     [PointerType size=64]->[Struct size=,fid: f450]
     [PointerType size=64]->[FundamentalType(char) size=8]
 */
-use @gtk_builder_get_object[NullablePointer[GObject]](builder: NullablePointer[GtkBuilder] tag, name: Pointer[U8] tag)
+use @gtk_builder_get_object[NullablePointer[GObject]](builder: NullablePointer[SGtkBuilder] tag, name: Pointer[U8] tag)
 
 
 
@@ -275,7 +275,7 @@ use @gtk_builder_get_object[NullablePointer[GObject]](builder: NullablePointer[G
   Arguments:
     [PointerType size=64]->[Struct size=,fid: f450]
 */
-use @gtk_builder_get_objects[NullablePointer[GSList]](builder: NullablePointer[GtkBuilder] tag)
+use @gtk_builder_get_objects[NullablePointer[GSList]](builder: NullablePointer[SGtkBuilder] tag)
 
 
 
@@ -287,7 +287,7 @@ use @gtk_builder_get_objects[NullablePointer[GSList]](builder: NullablePointer[G
 
   Arguments:
 */
-use @gtk_drawing_area_new[NullablePointer[GtkWidget]]()
+use @gtk_drawing_area_new[NullablePointer[SGtkWidget]]()
 
 
 
@@ -301,7 +301,7 @@ use @gtk_drawing_area_new[NullablePointer[GtkWidget]]()
     [PointerType size=64]->[Struct size=256,fid: f543]
     [FundamentalType(int) size=32]
 */
-use @gtk_drawing_area_set_content_width[None](self: NullablePointer[GtkDrawingArea] tag, width: I32)
+use @gtk_drawing_area_set_content_width[None](self: NullablePointer[SGtkDrawingArea] tag, width: I32)
 
 
 
@@ -314,7 +314,7 @@ use @gtk_drawing_area_set_content_width[None](self: NullablePointer[GtkDrawingAr
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f543]
 */
-use @gtk_drawing_area_get_content_width[I32](self: NullablePointer[GtkDrawingArea] tag)
+use @gtk_drawing_area_get_content_width[I32](self: NullablePointer[SGtkDrawingArea] tag)
 
 
 
@@ -328,7 +328,7 @@ use @gtk_drawing_area_get_content_width[I32](self: NullablePointer[GtkDrawingAre
     [PointerType size=64]->[Struct size=256,fid: f543]
     [FundamentalType(int) size=32]
 */
-use @gtk_drawing_area_set_content_height[None](self: NullablePointer[GtkDrawingArea] tag, height: I32)
+use @gtk_drawing_area_set_content_height[None](self: NullablePointer[SGtkDrawingArea] tag, height: I32)
 
 
 
@@ -341,7 +341,7 @@ use @gtk_drawing_area_set_content_height[None](self: NullablePointer[GtkDrawingA
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f543]
 */
-use @gtk_drawing_area_get_content_height[I32](self: NullablePointer[GtkDrawingArea] tag)
+use @gtk_drawing_area_get_content_height[I32](self: NullablePointer[SGtkDrawingArea] tag)
 
 
 
@@ -354,7 +354,7 @@ use @gtk_drawing_area_get_content_height[I32](self: NullablePointer[GtkDrawingAr
   Arguments:
     [PointerType size=64]->[FundamentalType(char) size=8]
 */
-use @gtk_frame_new[NullablePointer[GtkWidget]](label: Pointer[U8] tag)
+use @gtk_frame_new[NullablePointer[SGtkWidget]](label: Pointer[U8] tag)
 
 
 
@@ -368,7 +368,7 @@ use @gtk_frame_new[NullablePointer[GtkWidget]](label: Pointer[U8] tag)
     [PointerType size=64]->[Struct size=256,fid: f573]
     [PointerType size=64]->[Struct size=256,fid: f452]
 */
-use @gtk_frame_set_child[None](frame: NullablePointer[GtkFrame] tag, child: NullablePointer[GtkWidget] tag)
+use @gtk_frame_set_child[None](frame: NullablePointer[SGtkFrame] tag, child: NullablePointer[SGtkWidget] tag)
 
 
 
@@ -381,7 +381,7 @@ use @gtk_frame_set_child[None](frame: NullablePointer[GtkFrame] tag, child: Null
   Arguments:
     [PointerType size=64]->[Struct size=256,fid: f573]
 */
-use @gtk_frame_get_child[NullablePointer[GtkWidget]](frame: NullablePointer[GtkFrame] tag)
+use @gtk_frame_get_child[NullablePointer[SGtkWidget]](frame: NullablePointer[SGtkFrame] tag)
 
 
 
@@ -395,7 +395,7 @@ use @gtk_frame_get_child[NullablePointer[GtkWidget]](frame: NullablePointer[GtkF
     [PointerType size=64]->[Struct size=,fid: f575]
     [FundamentalType(unsigned int) size=32]
 */
-use @gtk_gesture_single_set_button[None](gesture: NullablePointer[GtkGestureSingle] tag, button: U32)
+use @gtk_gesture_single_set_button[None](gesture: NullablePointer[SGtkGestureSingle] tag, button: U32)
 
 
 
@@ -407,7 +407,7 @@ use @gtk_gesture_single_set_button[None](gesture: NullablePointer[GtkGestureSing
 
   Arguments:
 */
-use @gtk_gesture_click_new[NullablePointer[GtkGesture]]()
+use @gtk_gesture_click_new[NullablePointer[SGtkGesture]]()
 
 
 
@@ -419,7 +419,7 @@ use @gtk_gesture_click_new[NullablePointer[GtkGesture]]()
 
   Arguments:
 */
-use @gtk_gesture_drag_new[NullablePointer[GtkGesture]]()
+use @gtk_gesture_drag_new[NullablePointer[SGtkGesture]]()
 
 
 
@@ -444,5 +444,5 @@ use @gtk_init[None]()
   Arguments:
     [PointerType size=64]->[Struct size=,fid: f450]
 */
-use @gtk_native_get_surface[NullablePointer[GdkSurface]](self: NullablePointer[GtkNative] tag)
+use @gtk_native_get_surface[NullablePointer[GdkSurface]](self: NullablePointer[SGtkNative] tag)
 
