@@ -47,7 +47,7 @@
      <useargs>
        <usearg name="file" type="NullablePointer[GFile]"/>
        <usearg name="start" type="NullablePointer[GtkCssLocation]"/>
-       <usearg name="end" type="NullablePointer[GtkCssLocation]"/>
+       <usearg name="g_end" type="NullablePointer[GtkCssLocation]"/>
      </useargs>
   </use>
   <use id="_8044" name="gtk_css_section_ref"
@@ -261,7 +261,7 @@
      <useargs>
        <usearg name="provider" type="NullablePointer[GdkContentProvider]"/>
        <usearg name="result" type="NullablePointer[GAsyncResult]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_10012" name="gdk_content_provider_get_value"
@@ -272,7 +272,7 @@
      <useargs>
        <usearg name="provider" type="NullablePointer[GdkContentProvider]"/>
        <usearg name="value" type="NullablePointer[GValue]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_10322" name="gdk_seat_get_type"
@@ -589,7 +589,7 @@
      rv="NullablePointer[GdkPixbuf]">
      <useargs>
        <usearg name="filename" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9708" name="gdk_pixbuf_new_from_file_at_size"
@@ -601,7 +601,7 @@
        <usearg name="filename" type="Pointer[U8]"/>
        <usearg name="width" type="I32"/>
        <usearg name="height" type="I32"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9709" name="gdk_pixbuf_new_from_file_at_scale"
@@ -614,7 +614,7 @@
        <usearg name="width" type="I32"/>
        <usearg name="height" type="I32"/>
        <usearg name="preserveaspectratio" type="I32"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9710" name="gdk_pixbuf_new_from_resource"
@@ -624,7 +624,7 @@
      rv="NullablePointer[GdkPixbuf]">
      <useargs>
        <usearg name="resourcepath" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9711" name="gdk_pixbuf_new_from_resource_at_scale"
@@ -637,7 +637,7 @@
        <usearg name="width" type="I32"/>
        <usearg name="height" type="I32"/>
        <usearg name="preserveaspectratio" type="I32"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9712" name="gdk_pixbuf_new_from_data"
@@ -690,7 +690,7 @@
        <usearg name="datalength" type="I32"/>
        <usearg name="data" type="Pointer[U8]"/>
        <usearg name="copypixels" type="I32"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9716" name="gdk_pixbuf_fill"
@@ -711,8 +711,8 @@
      <useargs>
        <usearg name="pixbuf" type="NullablePointer[GdkPixbuf]"/>
        <usearg name="filename" type="Pointer[U8]"/>
-       <usearg name="type" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_type" type="Pointer[U8]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
        <usearg name="parg4" type="..."/>
      </useargs>
   </use>
@@ -724,10 +724,10 @@
      <useargs>
        <usearg name="pixbuf" type="NullablePointer[GdkPixbuf]"/>
        <usearg name="filename" type="Pointer[U8]"/>
-       <usearg name="type" type="Pointer[U8]"/>
+       <usearg name="g_type" type="Pointer[U8]"/>
        <usearg name="optionkeys" type="NullablePointer[Pointer[U8]]"/>
        <usearg name="optionvalues" type="NullablePointer[Pointer[U8]]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9720" name="gdk_pixbuf_save_to_callback"
@@ -739,8 +739,8 @@
        <usearg name="pixbuf" type="NullablePointer[GdkPixbuf]"/>
        <usearg name="savefunc" type="Pointer[None]"/>
        <usearg name="userdata" type="Pointer[None]"/>
-       <usearg name="type" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_type" type="Pointer[U8]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
        <usearg name="parg5" type="..."/>
      </useargs>
   </use>
@@ -753,10 +753,10 @@
        <usearg name="pixbuf" type="NullablePointer[GdkPixbuf]"/>
        <usearg name="savefunc" type="Pointer[None]"/>
        <usearg name="userdata" type="Pointer[None]"/>
-       <usearg name="type" type="Pointer[U8]"/>
+       <usearg name="g_type" type="Pointer[U8]"/>
        <usearg name="optionkeys" type="NullablePointer[Pointer[U8]]"/>
        <usearg name="optionvalues" type="NullablePointer[Pointer[U8]]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9722" name="gdk_pixbuf_save_to_buffer"
@@ -768,8 +768,8 @@
        <usearg name="pixbuf" type="NullablePointer[GdkPixbuf]"/>
        <usearg name="buffer" type="NullablePointer[Pointer[U8]]"/>
        <usearg name="buffersize" type="Pointer[U64]"/>
-       <usearg name="type" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_type" type="Pointer[U8]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
        <usearg name="parg5" type="..."/>
      </useargs>
   </use>
@@ -782,10 +782,10 @@
        <usearg name="pixbuf" type="NullablePointer[GdkPixbuf]"/>
        <usearg name="buffer" type="NullablePointer[Pointer[U8]]"/>
        <usearg name="buffersize" type="Pointer[U64]"/>
-       <usearg name="type" type="Pointer[U8]"/>
+       <usearg name="g_type" type="Pointer[U8]"/>
        <usearg name="optionkeys" type="NullablePointer[Pointer[U8]]"/>
        <usearg name="optionvalues" type="NullablePointer[Pointer[U8]]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9724" name="gdk_pixbuf_new_from_stream"
@@ -796,7 +796,7 @@
      <useargs>
        <usearg name="stream" type="NullablePointer[GInputStream]"/>
        <usearg name="cancellable" type="NullablePointer[GCancellable]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9725" name="gdk_pixbuf_new_from_stream_async"
@@ -818,7 +818,7 @@
      rv="NullablePointer[GdkPixbuf]">
      <useargs>
        <usearg name="asyncresult" type="NullablePointer[GAsyncResult]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9727" name="gdk_pixbuf_new_from_stream_at_scale"
@@ -832,7 +832,7 @@
        <usearg name="height" type="I32"/>
        <usearg name="preserveaspectratio" type="I32"/>
        <usearg name="cancellable" type="NullablePointer[GCancellable]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9728" name="gdk_pixbuf_new_from_stream_at_scale_async"
@@ -858,9 +858,9 @@
      <useargs>
        <usearg name="pixbuf" type="NullablePointer[GdkPixbuf]"/>
        <usearg name="stream" type="NullablePointer[GOutputStream]"/>
-       <usearg name="type" type="Pointer[U8]"/>
+       <usearg name="g_type" type="Pointer[U8]"/>
        <usearg name="cancellable" type="NullablePointer[GCancellable]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
        <usearg name="parg5" type="..."/>
      </useargs>
   </use>
@@ -872,7 +872,7 @@
      <useargs>
        <usearg name="pixbuf" type="NullablePointer[GdkPixbuf]"/>
        <usearg name="stream" type="NullablePointer[GOutputStream]"/>
-       <usearg name="type" type="Pointer[U8]"/>
+       <usearg name="g_type" type="Pointer[U8]"/>
        <usearg name="cancellable" type="NullablePointer[GCancellable]"/>
        <usearg name="callback" type="Pointer[None]"/>
        <usearg name="userdata" type="Pointer[None]"/>
@@ -886,7 +886,7 @@
      rv="I32">
      <useargs>
        <usearg name="asyncresult" type="NullablePointer[GAsyncResult]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9732" name="gdk_pixbuf_save_to_streamv_async"
@@ -897,7 +897,7 @@
      <useargs>
        <usearg name="pixbuf" type="NullablePointer[GdkPixbuf]"/>
        <usearg name="stream" type="NullablePointer[GOutputStream]"/>
-       <usearg name="type" type="Pointer[U8]"/>
+       <usearg name="g_type" type="Pointer[U8]"/>
        <usearg name="optionkeys" type="NullablePointer[Pointer[U8]]"/>
        <usearg name="optionvalues" type="NullablePointer[Pointer[U8]]"/>
        <usearg name="cancellable" type="NullablePointer[GCancellable]"/>
@@ -913,11 +913,11 @@
      <useargs>
        <usearg name="pixbuf" type="NullablePointer[GdkPixbuf]"/>
        <usearg name="stream" type="NullablePointer[GOutputStream]"/>
-       <usearg name="type" type="Pointer[U8]"/>
+       <usearg name="g_type" type="Pointer[U8]"/>
        <usearg name="optionkeys" type="NullablePointer[Pointer[U8]]"/>
        <usearg name="optionvalues" type="NullablePointer[Pointer[U8]]"/>
        <usearg name="cancellable" type="NullablePointer[GCancellable]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9734" name="gdk_pixbuf_add_alpha"
@@ -1146,7 +1146,7 @@
      rv="NullablePointer[GdkPixbufAnimation]">
      <useargs>
        <usearg name="filename" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9760" name="gdk_pixbuf_animation_new_from_stream"
@@ -1157,7 +1157,7 @@
      <useargs>
        <usearg name="stream" type="NullablePointer[GInputStream]"/>
        <usearg name="cancellable" type="NullablePointer[GCancellable]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9761" name="gdk_pixbuf_animation_new_from_stream_async"
@@ -1179,7 +1179,7 @@
      rv="NullablePointer[GdkPixbufAnimation]">
      <useargs>
        <usearg name="asyncresult" type="NullablePointer[GAsyncResult]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9763" name="gdk_pixbuf_animation_new_from_resource"
@@ -1189,7 +1189,7 @@
      rv="NullablePointer[GdkPixbufAnimation]">
      <useargs>
        <usearg name="resourcepath" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9764" name="gdk_pixbuf_animation_ref"
@@ -1361,7 +1361,7 @@
      rv="I32">
      <useargs>
        <usearg name="path" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9789" name="gdk_pixbuf_format_get_type"
@@ -1502,7 +1502,7 @@
        <usearg name="asyncresult" type="NullablePointer[GAsyncResult]"/>
        <usearg name="width" type="Pointer[I32]"/>
        <usearg name="height" type="Pointer[I32]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9804" name="gdk_pixbuf_format_copy"
@@ -1544,7 +1544,7 @@
      rv="NullablePointer[GdkPixbufLoader]">
      <useargs>
        <usearg name="imagetype" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9813" name="gdk_pixbuf_loader_new_with_mime_type"
@@ -1554,7 +1554,7 @@
      rv="NullablePointer[GdkPixbufLoader]">
      <useargs>
        <usearg name="mimetype" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9814" name="gdk_pixbuf_loader_set_size"
@@ -1577,7 +1577,7 @@
        <usearg name="loader" type="NullablePointer[GdkPixbufLoader]"/>
        <usearg name="buf" type="Pointer[U8]"/>
        <usearg name="count" type="U64"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9816" name="gdk_pixbuf_loader_write_bytes"
@@ -1588,7 +1588,7 @@
      <useargs>
        <usearg name="loader" type="NullablePointer[GdkPixbufLoader]"/>
        <usearg name="buffer" type="NullablePointer[GBytes]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9817" name="gdk_pixbuf_loader_get_pixbuf"
@@ -1616,7 +1616,7 @@
      rv="I32">
      <useargs>
        <usearg name="loader" type="NullablePointer[GdkPixbufLoader]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9820" name="gdk_pixbuf_loader_get_format"
@@ -1965,7 +1965,7 @@
      rv="NullablePointer[GdkTexture]">
      <useargs>
        <usearg name="file" type="NullablePointer[GFile]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9886" name="gdk_texture_get_width"
@@ -2177,7 +2177,7 @@
      <useargs>
        <usearg name="clipboard" type="NullablePointer[GdkClipboard]"/>
        <usearg name="result" type="NullablePointer[GAsyncResult]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9942" name="gdk_clipboard_read_async"
@@ -2203,7 +2203,7 @@
        <usearg name="clipboard" type="NullablePointer[GdkClipboard]"/>
        <usearg name="result" type="NullablePointer[GAsyncResult]"/>
        <usearg name="outmimetype" type="NullablePointer[Pointer[U8]]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9944" name="gdk_clipboard_read_value_async"
@@ -2213,7 +2213,7 @@
      rv="None">
      <useargs>
        <usearg name="clipboard" type="NullablePointer[GdkClipboard]"/>
-       <usearg name="type" type="U64"/>
+       <usearg name="g_type" type="U64"/>
        <usearg name="iopriority" type="I32"/>
        <usearg name="cancellable" type="NullablePointer[GCancellable]"/>
        <usearg name="callback" type="Pointer[None]"/>
@@ -2228,7 +2228,7 @@
      <useargs>
        <usearg name="clipboard" type="NullablePointer[GdkClipboard]"/>
        <usearg name="result" type="NullablePointer[GAsyncResult]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9946" name="gdk_clipboard_read_texture_async"
@@ -2251,7 +2251,7 @@
      <useargs>
        <usearg name="clipboard" type="NullablePointer[GdkClipboard]"/>
        <usearg name="result" type="NullablePointer[GAsyncResult]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9948" name="gdk_clipboard_read_text_async"
@@ -2274,7 +2274,7 @@
      <useargs>
        <usearg name="clipboard" type="NullablePointer[GdkClipboard]"/>
        <usearg name="result" type="NullablePointer[GAsyncResult]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9950" name="gdk_clipboard_set_content"
@@ -2294,7 +2294,7 @@
      rv="None">
      <useargs>
        <usearg name="clipboard" type="NullablePointer[GdkClipboard]"/>
-       <usearg name="type" type="U64"/>
+       <usearg name="g_type" type="U64"/>
        <usearg name="parg2" type="..."/>
      </useargs>
   </use>
@@ -2305,7 +2305,7 @@
      rv="None">
      <useargs>
        <usearg name="clipboard" type="NullablePointer[GdkClipboard]"/>
-       <usearg name="type" type="U64"/>
+       <usearg name="g_type" type="U64"/>
        <usearg name="args" type="NullablePointer[Valisttag]"/>
      </useargs>
   </use>
@@ -2445,7 +2445,7 @@
      rv="None">
      <useargs>
        <usearg name="deserializer" type="NullablePointer[GdkContentDeserializer]"/>
-       <usearg name="error" type="NullablePointer[GError]"/>
+       <usearg name="g_error" type="NullablePointer[GError]"/>
      </useargs>
   </use>
   <use id="_9971" name="gdk_content_formats_union_deserialize_gtypes"
@@ -2473,7 +2473,7 @@
      rv="None">
      <useargs>
        <usearg name="mimetype" type="Pointer[U8]"/>
-       <usearg name="type" type="U64"/>
+       <usearg name="g_type" type="U64"/>
        <usearg name="deserialize" type="Pointer[None]"/>
        <usearg name="data" type="Pointer[None]"/>
        <usearg name="notify" type="Pointer[None]"/>
@@ -2487,7 +2487,7 @@
      <useargs>
        <usearg name="stream" type="NullablePointer[GInputStream]"/>
        <usearg name="mimetype" type="Pointer[U8]"/>
-       <usearg name="type" type="U64"/>
+       <usearg name="g_type" type="U64"/>
        <usearg name="iopriority" type="I32"/>
        <usearg name="cancellable" type="NullablePointer[GCancellable]"/>
        <usearg name="callback" type="Pointer[None]"/>
@@ -2502,7 +2502,7 @@
      <useargs>
        <usearg name="result" type="NullablePointer[GAsyncResult]"/>
        <usearg name="value" type="NullablePointer[GValue]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_9976" name="gdk_intern_mime_type"
@@ -2537,7 +2537,7 @@
      lineno="42"
      rv="NullablePointer[GdkContentFormats]">
      <useargs>
-       <usearg name="type" type="U64"/>
+       <usearg name="g_type" type="U64"/>
      </useargs>
   </use>
   <use id="_9980" name="gdk_content_formats_ref"
@@ -2644,7 +2644,7 @@
      rv="I32">
      <useargs>
        <usearg name="formats" type="NullablePointer[GdkContentFormats]"/>
-       <usearg name="type" type="U64"/>
+       <usearg name="g_type" type="U64"/>
      </useargs>
   </use>
   <use id="_9991" name="gdk_content_formats_contain_mime_type"
@@ -2734,7 +2734,7 @@
      rv="None">
      <useargs>
        <usearg name="builder" type="NullablePointer[GdkContentFormatsBuilder]"/>
-       <usearg name="type" type="U64"/>
+       <usearg name="g_type" type="U64"/>
      </useargs>
   </use>
   <use id="_10003" name="gdk_file_list_get_type"
@@ -2759,7 +2759,7 @@
      lineno="35"
      rv="NullablePointer[GdkContentProvider]">
      <useargs>
-       <usearg name="type" type="U64"/>
+       <usearg name="g_type" type="U64"/>
        <usearg name="parg1" type="..."/>
      </useargs>
   </use>
@@ -2889,7 +2889,7 @@
      rv="None">
      <useargs>
        <usearg name="serializer" type="NullablePointer[GdkContentSerializer]"/>
-       <usearg name="error" type="NullablePointer[GError]"/>
+       <usearg name="g_error" type="NullablePointer[GError]"/>
      </useargs>
   </use>
   <use id="_10032" name="gdk_content_formats_union_serialize_gtypes"
@@ -2916,7 +2916,7 @@
      lineno="85"
      rv="None">
      <useargs>
-       <usearg name="type" type="U64"/>
+       <usearg name="g_type" type="U64"/>
        <usearg name="mimetype" type="Pointer[U8]"/>
        <usearg name="serialize" type="Pointer[None]"/>
        <usearg name="data" type="Pointer[None]"/>
@@ -2945,7 +2945,7 @@
      rv="I32">
      <useargs>
        <usearg name="result" type="NullablePointer[GAsyncResult]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_10037" name="gdk_cursor_get_type"
@@ -4724,7 +4724,7 @@
      rv="NullablePointer[GdkGLContext]">
      <useargs>
        <usearg name="surface" type="NullablePointer[GdkSurface]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_10310" name="gdk_surface_create_vulkan_context"
@@ -4734,7 +4734,7 @@
      rv="NullablePointer[GdkVulkanContext]">
      <useargs>
        <usearg name="surface" type="NullablePointer[GdkSurface]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_10315" name="glib_autoptr_clear_GdkSurface"
@@ -5404,7 +5404,7 @@
        <usearg name="self" type="NullablePointer[GdkDrop]"/>
        <usearg name="result" type="NullablePointer[GAsyncResult]"/>
        <usearg name="outmimetype" type="NullablePointer[Pointer[U8]]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_10408" name="gdk_drop_read_value_async"
@@ -5414,7 +5414,7 @@
      rv="None">
      <useargs>
        <usearg name="self" type="NullablePointer[GdkDrop]"/>
-       <usearg name="type" type="U64"/>
+       <usearg name="g_type" type="U64"/>
        <usearg name="iopriority" type="I32"/>
        <usearg name="cancellable" type="NullablePointer[GCancellable]"/>
        <usearg name="callback" type="Pointer[None]"/>
@@ -5429,7 +5429,7 @@
      <useargs>
        <usearg name="self" type="NullablePointer[GdkDrop]"/>
        <usearg name="result" type="NullablePointer[GAsyncResult]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_10410" name="gdk_input_source_get_type"
@@ -5761,7 +5761,7 @@
      rv="I32">
      <useargs>
        <usearg name="context" type="NullablePointer[GdkGLContext]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_10452" name="gdk_gl_context_make_current"
@@ -8065,7 +8065,7 @@
      <useargs>
        <usearg name="shader" type="NullablePointer[GskGLShader]"/>
        <usearg name="renderer" type="NullablePointer[GskRenderer]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_15365" name="gsk_gl_shader_get_source"
@@ -8461,7 +8461,7 @@
      <useargs>
        <usearg name="node" type="NullablePointer[GskRenderNode]"/>
        <usearg name="filename" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_15414" name="gsk_render_node_deserialize"
@@ -8577,7 +8577,7 @@
      <useargs>
        <usearg name="bounds" type="NullablePointer[Graphenerectt]"/>
        <usearg name="start" type="NullablePointer[Graphenepointt]"/>
-       <usearg name="end" type="NullablePointer[Graphenepointt]"/>
+       <usearg name="g_end" type="NullablePointer[Graphenepointt]"/>
        <usearg name="colorstops" type="NullablePointer[GskColorStop]"/>
        <usearg name="ncolorstops" type="U64"/>
      </useargs>
@@ -8634,7 +8634,7 @@
      <useargs>
        <usearg name="bounds" type="NullablePointer[Graphenerectt]"/>
        <usearg name="start" type="NullablePointer[Graphenepointt]"/>
-       <usearg name="end" type="NullablePointer[Graphenepointt]"/>
+       <usearg name="g_end" type="NullablePointer[Graphenepointt]"/>
        <usearg name="colorstops" type="NullablePointer[GskColorStop]"/>
        <usearg name="ncolorstops" type="U64"/>
      </useargs>
@@ -8723,7 +8723,7 @@
        <usearg name="hradius" type="F32"/>
        <usearg name="vradius" type="F32"/>
        <usearg name="start" type="F32"/>
-       <usearg name="end" type="F32"/>
+       <usearg name="g_end" type="F32"/>
        <usearg name="colorstops" type="NullablePointer[GskColorStop]"/>
        <usearg name="ncolorstops" type="U64"/>
      </useargs>
@@ -8810,7 +8810,7 @@
        <usearg name="hradius" type="F32"/>
        <usearg name="vradius" type="F32"/>
        <usearg name="start" type="F32"/>
-       <usearg name="end" type="F32"/>
+       <usearg name="g_end" type="F32"/>
        <usearg name="colorstops" type="NullablePointer[GskColorStop]"/>
        <usearg name="ncolorstops" type="U64"/>
      </useargs>
@@ -9406,7 +9406,7 @@
      rv="NullablePointer[GskRenderNode]">
      <useargs>
        <usearg name="start" type="NullablePointer[GskRenderNode]"/>
-       <usearg name="end" type="NullablePointer[GskRenderNode]"/>
+       <usearg name="g_end" type="NullablePointer[GskRenderNode]"/>
        <usearg name="progress" type="F32"/>
      </useargs>
   </use>
@@ -9636,7 +9636,7 @@
      <useargs>
        <usearg name="renderer" type="NullablePointer[GskRenderer]"/>
        <usearg name="surface" type="NullablePointer[GdkSurface]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_15594" name="gsk_renderer_unrealize"
@@ -10871,7 +10871,7 @@
      rv="None">
      <useargs>
        <usearg name="widgetclass" type="NullablePointer[GtkWidgetClass]"/>
-       <usearg name="type" type="U64"/>
+       <usearg name="g_type" type="U64"/>
      </useargs>
   </use>
   <use id="_16110" name="gtk_widget_class_get_layout_manager_type"
@@ -16636,7 +16636,7 @@
      <useargs>
        <usearg name="assistant" type="NullablePointer[GtkAssistant]"/>
        <usearg name="page" type="NullablePointer[GtkWidget]"/>
-       <usearg name="type" type="I32"/>
+       <usearg name="g_type" type="I32"/>
      </useargs>
   </use>
   <use id="_16668" name="gtk_assistant_get_page_type"
@@ -17812,7 +17812,7 @@
      rv="I32">
      <useargs>
        <usearg name="self" type="NullablePointer[GtkExpression]"/>
-       <usearg name="this" type="Pointer[None]"/>
+       <usearg name="g_this" type="Pointer[None]"/>
        <usearg name="value" type="NullablePointer[GValue]"/>
      </useargs>
   </use>
@@ -17823,7 +17823,7 @@
      rv="NullablePointer[GtkExpressionWatch]">
      <useargs>
        <usearg name="self" type="NullablePointer[GtkExpression]"/>
-       <usearg name="this" type="Pointer[None]"/>
+       <usearg name="g_this" type="Pointer[None]"/>
        <usearg name="notify" type="Pointer[None]"/>
        <usearg name="userdata" type="Pointer[None]"/>
        <usearg name="userdestroy" type="Pointer[None]"/>
@@ -17838,7 +17838,7 @@
        <usearg name="self" type="NullablePointer[GtkExpression]"/>
        <usearg name="target" type="Pointer[None]"/>
        <usearg name="property" type="Pointer[U8]"/>
-       <usearg name="this" type="Pointer[None]"/>
+       <usearg name="g_this" type="Pointer[None]"/>
      </useargs>
   </use>
   <use id="_16883" name="gtk_expression_watch_get_type"
@@ -17979,7 +17979,7 @@
      lineno="127"
      rv="NullablePointer[GtkExpression]">
      <useargs>
-       <usearg name="object" type="NullablePointer[GObject]"/>
+       <usearg name="g_object" type="NullablePointer[GObject]"/>
      </useargs>
   </use>
   <use id="_16905" name="gtk_object_expression_get_object"
@@ -18626,7 +18626,7 @@
      lineno="75"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkBox]"/>
        <usearg name="homogeneous" type="I32"/>
      </useargs>
   </use>
@@ -18636,7 +18636,7 @@
      lineno="78"
      rv="I32">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkBox]"/>
      </useargs>
   </use>
   <use id="_17027" name="gtk_box_set_spacing"
@@ -18645,7 +18645,7 @@
      lineno="80"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkBox]"/>
        <usearg name="spacing" type="I32"/>
      </useargs>
   </use>
@@ -18655,7 +18655,7 @@
      lineno="83"
      rv="I32">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkBox]"/>
      </useargs>
   </use>
   <use id="_17029" name="gtk_box_set_baseline_position"
@@ -18664,7 +18664,7 @@
      lineno="85"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkBox]"/>
        <usearg name="position" type="I32"/>
      </useargs>
   </use>
@@ -18674,7 +18674,7 @@
      lineno="88"
      rv="I32">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkBox]"/>
      </useargs>
   </use>
   <use id="_17031" name="gtk_box_append"
@@ -18683,7 +18683,7 @@
      lineno="91"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkBox]"/>
        <usearg name="child" type="NullablePointer[GtkWidget]"/>
      </useargs>
   </use>
@@ -18693,7 +18693,7 @@
      lineno="94"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkBox]"/>
        <usearg name="child" type="NullablePointer[GtkWidget]"/>
      </useargs>
   </use>
@@ -18703,7 +18703,7 @@
      lineno="97"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkBox]"/>
        <usearg name="child" type="NullablePointer[GtkWidget]"/>
      </useargs>
   </use>
@@ -18713,7 +18713,7 @@
      lineno="101"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkBox]"/>
        <usearg name="child" type="NullablePointer[GtkWidget]"/>
        <usearg name="sibling" type="NullablePointer[GtkWidget]"/>
      </useargs>
@@ -18724,7 +18724,7 @@
      lineno="106"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkBox]"/>
        <usearg name="child" type="NullablePointer[GtkWidget]"/>
        <usearg name="sibling" type="NullablePointer[GtkWidget]"/>
      </useargs>
@@ -19019,7 +19019,7 @@
      <useargs>
        <usearg name="builder" type="NullablePointer[GtkBuilder]"/>
        <usearg name="filename" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_17093" name="gtk_builder_add_from_resource"
@@ -19030,7 +19030,7 @@
      <useargs>
        <usearg name="builder" type="NullablePointer[GtkBuilder]"/>
        <usearg name="resourcepath" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_17094" name="gtk_builder_add_from_string"
@@ -19042,7 +19042,7 @@
        <usearg name="builder" type="NullablePointer[GtkBuilder]"/>
        <usearg name="buffer" type="Pointer[U8]"/>
        <usearg name="length" type="I64"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_17095" name="gtk_builder_add_objects_from_file"
@@ -19054,7 +19054,7 @@
        <usearg name="builder" type="NullablePointer[GtkBuilder]"/>
        <usearg name="filename" type="Pointer[U8]"/>
        <usearg name="objectids" type="NullablePointer[Pointer[U8]]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_17096" name="gtk_builder_add_objects_from_resource"
@@ -19066,7 +19066,7 @@
        <usearg name="builder" type="NullablePointer[GtkBuilder]"/>
        <usearg name="resourcepath" type="Pointer[U8]"/>
        <usearg name="objectids" type="NullablePointer[Pointer[U8]]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_17097" name="gtk_builder_add_objects_from_string"
@@ -19079,7 +19079,7 @@
        <usearg name="buffer" type="Pointer[U8]"/>
        <usearg name="length" type="I64"/>
        <usearg name="objectids" type="NullablePointer[Pointer[U8]]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_17098" name="gtk_builder_get_object"
@@ -19109,7 +19109,7 @@
      <useargs>
        <usearg name="builder" type="NullablePointer[GtkBuilder]"/>
        <usearg name="name" type="Pointer[U8]"/>
-       <usearg name="object" type="NullablePointer[GObject]"/>
+       <usearg name="g_object" type="NullablePointer[GObject]"/>
      </useargs>
   </use>
   <use id="_17101" name="gtk_builder_get_current_object"
@@ -19189,7 +19189,7 @@
        <usearg name="pspec" type="NullablePointer[GParamSpec]"/>
        <usearg name="string" type="Pointer[U8]"/>
        <usearg name="value" type="NullablePointer[GValue]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_17109" name="gtk_builder_value_from_string_type"
@@ -19199,10 +19199,10 @@
      rv="I32">
      <useargs>
        <usearg name="builder" type="NullablePointer[GtkBuilder]"/>
-       <usearg name="type" type="U64"/>
+       <usearg name="g_type" type="U64"/>
        <usearg name="string" type="Pointer[U8]"/>
        <usearg name="value" type="NullablePointer[GValue]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_17110" name="gtk_builder_new_from_file"
@@ -19242,8 +19242,8 @@
        <usearg name="builder" type="NullablePointer[GtkBuilder]"/>
        <usearg name="functionname" type="Pointer[U8]"/>
        <usearg name="flags" type="I32"/>
-       <usearg name="object" type="NullablePointer[GObject]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_object" type="NullablePointer[GObject]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_17114" name="gtk_builder_extend_with_template"
@@ -19253,11 +19253,11 @@
      rv="I32">
      <useargs>
        <usearg name="builder" type="NullablePointer[GtkBuilder]"/>
-       <usearg name="object" type="NullablePointer[GObject]"/>
+       <usearg name="g_object" type="NullablePointer[GObject]"/>
        <usearg name="templatetype" type="U64"/>
        <usearg name="buffer" type="Pointer[U8]"/>
        <usearg name="length" type="I64"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_17123" name="gtk_buildable_get_type"
@@ -21321,7 +21321,7 @@
      lineno="45"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkCellAreaBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkCellAreaBox]"/>
        <usearg name="renderer" type="NullablePointer[GtkCellRenderer]"/>
        <usearg name="expand" type="I32"/>
        <usearg name="align" type="I32"/>
@@ -21334,7 +21334,7 @@
      lineno="51"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkCellAreaBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkCellAreaBox]"/>
        <usearg name="renderer" type="NullablePointer[GtkCellRenderer]"/>
        <usearg name="expand" type="I32"/>
        <usearg name="align" type="I32"/>
@@ -21347,7 +21347,7 @@
      lineno="57"
      rv="I32">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkCellAreaBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkCellAreaBox]"/>
      </useargs>
   </use>
   <use id="_17369" name="gtk_cell_area_box_set_spacing"
@@ -21356,7 +21356,7 @@
      lineno="59"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkCellAreaBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkCellAreaBox]"/>
        <usearg name="spacing" type="I32"/>
      </useargs>
   </use>
@@ -21366,7 +21366,7 @@
      lineno="63"
      rv="I32">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkCellAreaBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkCellAreaBox]"/>
        <usearg name="groupidx" type="I32"/>
      </useargs>
   </use>
@@ -21519,7 +21519,7 @@
        <usearg name="buildable" type="NullablePointer[GtkBuildable]"/>
        <usearg name="builder" type="NullablePointer[GtkBuilder]"/>
        <usearg name="child" type="NullablePointer[GObject]"/>
-       <usearg name="type" type="Pointer[U8]"/>
+       <usearg name="g_type" type="Pointer[U8]"/>
      </useargs>
   </use>
   <use id="_17409" name="gtk_cell_renderer_text_get_type"
@@ -23673,7 +23673,7 @@
      rv="None">
      <useargs>
        <usearg name="treecolumn" type="NullablePointer[GtkTreeViewColumn]"/>
-       <usearg name="type" type="I32"/>
+       <usearg name="g_type" type="I32"/>
      </useargs>
   </use>
   <use id="_17750" name="gtk_tree_view_column_get_sizing"
@@ -24272,7 +24272,7 @@
      lineno="171"
      rv="I32">
      <useargs>
-       <usearg name="object" type="NullablePointer[GObject]"/>
+       <usearg name="g_object" type="NullablePointer[GObject]"/>
        <usearg name="propid" type="U32"/>
        <usearg name="value" type="NullablePointer[GValue]"/>
        <usearg name="pspec" type="NullablePointer[GParamSpec]"/>
@@ -24284,7 +24284,7 @@
      lineno="176"
      rv="I32">
      <useargs>
-       <usearg name="object" type="NullablePointer[GObject]"/>
+       <usearg name="g_object" type="NullablePointer[GObject]"/>
        <usearg name="propid" type="U32"/>
        <usearg name="value" type="NullablePointer[GValue]"/>
        <usearg name="pspec" type="NullablePointer[GParamSpec]"/>
@@ -28957,7 +28957,7 @@
        <usearg name="nlines" type="U64"/>
        <usearg name="hspacing" type="I32"/>
        <usearg name="vspacing" type="I32"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
        <usearg name="firstview" type="Pointer[U8]"/>
        <usearg name="parg7" type="..."/>
      </useargs>
@@ -28974,7 +28974,7 @@
        <usearg name="hspacing" type="I32"/>
        <usearg name="vspacing" type="I32"/>
        <usearg name="views" type="NullablePointer[GHashTable]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_18441" name="gtk_constraint_layout_observe_constraints"
@@ -30064,7 +30064,7 @@
      lineno="49"
      rv="NullablePointer[GtkDropTarget]">
      <useargs>
-       <usearg name="type" type="U64"/>
+       <usearg name="g_type" type="U64"/>
        <usearg name="actions" type="I32"/>
      </useargs>
   </use>
@@ -31507,7 +31507,7 @@
      <useargs>
        <usearg name="chooser" type="NullablePointer[GtkFileChooser]"/>
        <usearg name="file" type="NullablePointer[GFile]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_18891" name="gtk_file_chooser_get_files"
@@ -31527,7 +31527,7 @@
      <useargs>
        <usearg name="chooser" type="NullablePointer[GtkFileChooser]"/>
        <usearg name="file" type="NullablePointer[GFile]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_18893" name="gtk_file_chooser_get_current_folder"
@@ -31595,7 +31595,7 @@
      <useargs>
        <usearg name="chooser" type="NullablePointer[GtkFileChooser]"/>
        <usearg name="folder" type="NullablePointer[GFile]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_18900" name="gtk_file_chooser_remove_shortcut_folder"
@@ -31606,7 +31606,7 @@
      <useargs>
        <usearg name="chooser" type="NullablePointer[GtkFileChooser]"/>
        <usearg name="folder" type="NullablePointer[GFile]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_18901" name="gtk_file_chooser_get_shortcut_folders"
@@ -32661,7 +32661,7 @@
      lineno="110"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
        <usearg name="model" type="NullablePointer[GListModel]"/>
        <usearg name="createwidgetfunc" type="Pointer[None]"/>
        <usearg name="userdata" type="Pointer[None]"/>
@@ -32674,7 +32674,7 @@
      lineno="117"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
        <usearg name="homogeneous" type="I32"/>
      </useargs>
   </use>
@@ -32684,7 +32684,7 @@
      lineno="120"
      rv="I32">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
      </useargs>
   </use>
   <use id="_19091" name="gtk_flow_box_set_row_spacing"
@@ -32693,7 +32693,7 @@
      lineno="122"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
        <usearg name="spacing" type="U32"/>
      </useargs>
   </use>
@@ -32703,7 +32703,7 @@
      lineno="125"
      rv="U32">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
      </useargs>
   </use>
   <use id="_19093" name="gtk_flow_box_set_column_spacing"
@@ -32712,7 +32712,7 @@
      lineno="128"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
        <usearg name="spacing" type="U32"/>
      </useargs>
   </use>
@@ -32722,7 +32722,7 @@
      lineno="131"
      rv="U32">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
      </useargs>
   </use>
   <use id="_19095" name="gtk_flow_box_set_min_children_per_line"
@@ -32731,7 +32731,7 @@
      lineno="134"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
        <usearg name="nchildren" type="U32"/>
      </useargs>
   </use>
@@ -32741,7 +32741,7 @@
      lineno="137"
      rv="U32">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
      </useargs>
   </use>
   <use id="_19097" name="gtk_flow_box_set_max_children_per_line"
@@ -32750,7 +32750,7 @@
      lineno="140"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
        <usearg name="nchildren" type="U32"/>
      </useargs>
   </use>
@@ -32760,7 +32760,7 @@
      lineno="143"
      rv="U32">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
      </useargs>
   </use>
   <use id="_19099" name="gtk_flow_box_set_activate_on_single_click"
@@ -32769,7 +32769,7 @@
      lineno="145"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
        <usearg name="single" type="I32"/>
      </useargs>
   </use>
@@ -32779,7 +32779,7 @@
      lineno="148"
      rv="I32">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
      </useargs>
   </use>
   <use id="_19101" name="gtk_flow_box_insert"
@@ -32788,7 +32788,7 @@
      lineno="151"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
        <usearg name="widget" type="NullablePointer[GtkWidget]"/>
        <usearg name="position" type="I32"/>
      </useargs>
@@ -32799,7 +32799,7 @@
      lineno="155"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
        <usearg name="widget" type="NullablePointer[GtkWidget]"/>
      </useargs>
   </use>
@@ -32809,7 +32809,7 @@
      lineno="158"
      rv="NullablePointer[GtkFlowBoxChild]">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
        <usearg name="idx" type="I32"/>
      </useargs>
   </use>
@@ -32819,7 +32819,7 @@
      lineno="162"
      rv="NullablePointer[GtkFlowBoxChild]">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
        <usearg name="x" type="I32"/>
        <usearg name="y" type="I32"/>
      </useargs>
@@ -32830,7 +32830,7 @@
      lineno="171"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
        <usearg name="func" type="Pointer[None]"/>
        <usearg name="data" type="Pointer[None]"/>
      </useargs>
@@ -32841,7 +32841,7 @@
      lineno="175"
      rv="NullablePointer[GList]">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
      </useargs>
   </use>
   <use id="_19108" name="gtk_flow_box_select_child"
@@ -32850,7 +32850,7 @@
      lineno="177"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
        <usearg name="child" type="NullablePointer[GtkFlowBoxChild]"/>
      </useargs>
   </use>
@@ -32860,7 +32860,7 @@
      lineno="180"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
        <usearg name="child" type="NullablePointer[GtkFlowBoxChild]"/>
      </useargs>
   </use>
@@ -32870,7 +32870,7 @@
      lineno="183"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
      </useargs>
   </use>
   <use id="_19111" name="gtk_flow_box_unselect_all"
@@ -32879,7 +32879,7 @@
      lineno="185"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
      </useargs>
   </use>
   <use id="_19112" name="gtk_flow_box_set_selection_mode"
@@ -32888,7 +32888,7 @@
      lineno="187"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
        <usearg name="mode" type="I32"/>
      </useargs>
   </use>
@@ -32898,7 +32898,7 @@
      lineno="190"
      rv="I32">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
      </useargs>
   </use>
   <use id="_19114" name="gtk_flow_box_set_hadjustment"
@@ -32907,7 +32907,7 @@
      lineno="192"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
        <usearg name="adjustment" type="NullablePointer[GtkAdjustment]"/>
      </useargs>
   </use>
@@ -32917,7 +32917,7 @@
      lineno="195"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
        <usearg name="adjustment" type="NullablePointer[GtkAdjustment]"/>
      </useargs>
   </use>
@@ -32927,7 +32927,7 @@
      lineno="202"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
        <usearg name="filterfunc" type="Pointer[None]"/>
        <usearg name="userdata" type="Pointer[None]"/>
        <usearg name="destroy" type="Pointer[None]"/>
@@ -32939,7 +32939,7 @@
      lineno="207"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
      </useargs>
   </use>
   <use id="_19120" name="gtk_flow_box_set_sort_func"
@@ -32948,7 +32948,7 @@
      lineno="214"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
        <usearg name="sortfunc" type="Pointer[None]"/>
        <usearg name="userdata" type="Pointer[None]"/>
        <usearg name="destroy" type="Pointer[None]"/>
@@ -32960,7 +32960,7 @@
      lineno="219"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkFlowBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkFlowBox]"/>
      </useargs>
   </use>
   <use id="_19124" name="gtk_font_button_get_type"
@@ -34029,7 +34029,7 @@
      rv="None">
      <useargs>
        <usearg name="area" type="NullablePointer[GtkGLArea]"/>
-       <usearg name="error" type="NullablePointer[GError]"/>
+       <usearg name="g_error" type="NullablePointer[GError]"/>
      </useargs>
   </use>
   <use id="_19299" name="gtk_gl_area_get_error"
@@ -36493,7 +36493,7 @@
      <useargs>
        <usearg name="self" type="NullablePointer[GtkLabel]"/>
        <usearg name="start" type="Pointer[I32]"/>
-       <usearg name="end" type="Pointer[I32]"/>
+       <usearg name="g_end" type="Pointer[I32]"/>
      </useargs>
   </use>
   <use id="_19623" name="gtk_label_get_layout"
@@ -36991,7 +36991,7 @@
      lineno="169"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
        <usearg name="child" type="NullablePointer[GtkWidget]"/>
      </useargs>
   </use>
@@ -37001,7 +37001,7 @@
      lineno="172"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
        <usearg name="child" type="NullablePointer[GtkWidget]"/>
      </useargs>
   </use>
@@ -37011,7 +37011,7 @@
      lineno="175"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
        <usearg name="child" type="NullablePointer[GtkWidget]"/>
        <usearg name="position" type="I32"/>
      </useargs>
@@ -37022,7 +37022,7 @@
      lineno="179"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
        <usearg name="child" type="NullablePointer[GtkWidget]"/>
      </useargs>
   </use>
@@ -37032,7 +37032,7 @@
      lineno="182"
      rv="NullablePointer[GtkListBoxRow]">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
      </useargs>
   </use>
   <use id="_19699" name="gtk_list_box_get_row_at_index"
@@ -37041,7 +37041,7 @@
      lineno="184"
      rv="NullablePointer[GtkListBoxRow]">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
        <usearg name="index" type="I32"/>
      </useargs>
   </use>
@@ -37051,7 +37051,7 @@
      lineno="187"
      rv="NullablePointer[GtkListBoxRow]">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
        <usearg name="y" type="I32"/>
      </useargs>
   </use>
@@ -37061,7 +37061,7 @@
      lineno="190"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
        <usearg name="row" type="NullablePointer[GtkListBoxRow]"/>
      </useargs>
   </use>
@@ -37071,7 +37071,7 @@
      lineno="193"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
        <usearg name="placeholder" type="NullablePointer[GtkWidget]"/>
      </useargs>
   </use>
@@ -37081,7 +37081,7 @@
      lineno="196"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
        <usearg name="adjustment" type="NullablePointer[GtkAdjustment]"/>
      </useargs>
   </use>
@@ -37091,7 +37091,7 @@
      lineno="199"
      rv="NullablePointer[GtkAdjustment]">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
      </useargs>
   </use>
   <use id="_19706" name="gtk_list_box_selected_foreach"
@@ -37100,7 +37100,7 @@
      lineno="206"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
        <usearg name="func" type="Pointer[None]"/>
        <usearg name="data" type="Pointer[None]"/>
      </useargs>
@@ -37111,7 +37111,7 @@
      lineno="210"
      rv="NullablePointer[GList]">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
      </useargs>
   </use>
   <use id="_19708" name="gtk_list_box_unselect_row"
@@ -37120,7 +37120,7 @@
      lineno="212"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
        <usearg name="row" type="NullablePointer[GtkListBoxRow]"/>
      </useargs>
   </use>
@@ -37130,7 +37130,7 @@
      lineno="215"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
      </useargs>
   </use>
   <use id="_19710" name="gtk_list_box_unselect_all"
@@ -37139,7 +37139,7 @@
      lineno="217"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
      </useargs>
   </use>
   <use id="_19711" name="gtk_list_box_set_selection_mode"
@@ -37148,7 +37148,7 @@
      lineno="220"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
        <usearg name="mode" type="I32"/>
      </useargs>
   </use>
@@ -37158,7 +37158,7 @@
      lineno="223"
      rv="I32">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
      </useargs>
   </use>
   <use id="_19713" name="gtk_list_box_set_filter_func"
@@ -37167,7 +37167,7 @@
      lineno="225"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
        <usearg name="filterfunc" type="Pointer[None]"/>
        <usearg name="userdata" type="Pointer[None]"/>
        <usearg name="destroy" type="Pointer[None]"/>
@@ -37179,7 +37179,7 @@
      lineno="230"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
        <usearg name="updateheader" type="Pointer[None]"/>
        <usearg name="userdata" type="Pointer[None]"/>
        <usearg name="destroy" type="Pointer[None]"/>
@@ -37191,7 +37191,7 @@
      lineno="235"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
      </useargs>
   </use>
   <use id="_19716" name="gtk_list_box_invalidate_sort"
@@ -37200,7 +37200,7 @@
      lineno="237"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
      </useargs>
   </use>
   <use id="_19717" name="gtk_list_box_invalidate_headers"
@@ -37209,7 +37209,7 @@
      lineno="239"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
      </useargs>
   </use>
   <use id="_19718" name="gtk_list_box_set_sort_func"
@@ -37218,7 +37218,7 @@
      lineno="241"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
        <usearg name="sortfunc" type="Pointer[None]"/>
        <usearg name="userdata" type="Pointer[None]"/>
        <usearg name="destroy" type="Pointer[None]"/>
@@ -37230,7 +37230,7 @@
      lineno="246"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
        <usearg name="single" type="I32"/>
      </useargs>
   </use>
@@ -37240,7 +37240,7 @@
      lineno="249"
      rv="I32">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
      </useargs>
   </use>
   <use id="_19721" name="gtk_list_box_drag_unhighlight_row"
@@ -37249,7 +37249,7 @@
      lineno="251"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
      </useargs>
   </use>
   <use id="_19722" name="gtk_list_box_drag_highlight_row"
@@ -37258,7 +37258,7 @@
      lineno="253"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
        <usearg name="row" type="NullablePointer[GtkListBoxRow]"/>
      </useargs>
   </use>
@@ -37275,7 +37275,7 @@
      lineno="260"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
        <usearg name="model" type="NullablePointer[GListModel]"/>
        <usearg name="createwidgetfunc" type="Pointer[None]"/>
        <usearg name="userdata" type="Pointer[None]"/>
@@ -37288,7 +37288,7 @@
      lineno="267"
      rv="None">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
        <usearg name="showseparators" type="I32"/>
      </useargs>
   </use>
@@ -37298,7 +37298,7 @@
      lineno="270"
      rv="I32">
      <useargs>
-       <usearg name="box" type="NullablePointer[GtkListBox]"/>
+       <usearg name="g_box" type="NullablePointer[GtkListBox]"/>
      </useargs>
   </use>
   <use id="_19731" name="glib_autoptr_clear_GtkListBox"
@@ -38296,7 +38296,7 @@
      rv="None">
      <useargs>
        <usearg name="self" type="NullablePointer[GtkMediaStream]"/>
-       <usearg name="error" type="NullablePointer[GError]"/>
+       <usearg name="g_error" type="NullablePointer[GError]"/>
      </useargs>
   </use>
   <use id="_19882" name="gtk_media_stream_error"
@@ -39119,7 +39119,7 @@
      <useargs>
        <usearg name="parent" type="NullablePointer[GtkWindow]"/>
        <usearg name="flags" type="I32"/>
-       <usearg name="type" type="I32"/>
+       <usearg name="g_type" type="I32"/>
        <usearg name="buttons" type="I32"/>
        <usearg name="messageformat" type="Pointer[U8]"/>
        <usearg name="parg5" type="..."/>
@@ -39133,7 +39133,7 @@
      <useargs>
        <usearg name="parent" type="NullablePointer[GtkWindow]"/>
        <usearg name="flags" type="I32"/>
-       <usearg name="type" type="I32"/>
+       <usearg name="g_type" type="I32"/>
        <usearg name="buttons" type="I32"/>
        <usearg name="messageformat" type="Pointer[U8]"/>
        <usearg name="parg5" type="..."/>
@@ -41336,7 +41336,7 @@
      rv="None">
      <useargs>
        <usearg name="controller" type="NullablePointer[GtkPadController]"/>
-       <usearg name="type" type="I32"/>
+       <usearg name="g_type" type="I32"/>
        <usearg name="index" type="I32"/>
        <usearg name="mode" type="I32"/>
        <usearg name="label" type="Pointer[U8]"/>
@@ -41564,7 +41564,7 @@
      <useargs>
        <usearg name="keyfile" type="NullablePointer[GKeyFile]"/>
        <usearg name="groupname" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_20414" name="gtk_paper_size_to_key_file"
@@ -41798,7 +41798,7 @@
      rv="NullablePointer[GtkPageSetup]">
      <useargs>
        <usearg name="filename" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_20440" name="gtk_page_setup_load_file"
@@ -41809,7 +41809,7 @@
      <useargs>
        <usearg name="setup" type="NullablePointer[GtkPageSetup]"/>
        <usearg name="filename" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_20441" name="gtk_page_setup_to_file"
@@ -41820,7 +41820,7 @@
      <useargs>
        <usearg name="setup" type="NullablePointer[GtkPageSetup]"/>
        <usearg name="filename" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_20442" name="gtk_page_setup_new_from_key_file"
@@ -41831,7 +41831,7 @@
      <useargs>
        <usearg name="keyfile" type="NullablePointer[GKeyFile]"/>
        <usearg name="groupname" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_20443" name="gtk_page_setup_load_key_file"
@@ -41843,7 +41843,7 @@
        <usearg name="setup" type="NullablePointer[GtkPageSetup]"/>
        <usearg name="keyfile" type="NullablePointer[GKeyFile]"/>
        <usearg name="groupname" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_20444" name="gtk_page_setup_to_key_file"
@@ -42652,7 +42652,7 @@
      rv="NullablePointer[GtkPrintSettings]">
      <useargs>
        <usearg name="filename" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_20563" name="gtk_print_settings_load_file"
@@ -42663,7 +42663,7 @@
      <useargs>
        <usearg name="settings" type="NullablePointer[GtkPrintSettings]"/>
        <usearg name="filename" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_20564" name="gtk_print_settings_to_file"
@@ -42674,7 +42674,7 @@
      <useargs>
        <usearg name="settings" type="NullablePointer[GtkPrintSettings]"/>
        <usearg name="filename" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_20565" name="gtk_print_settings_new_from_key_file"
@@ -42685,7 +42685,7 @@
      <useargs>
        <usearg name="keyfile" type="NullablePointer[GKeyFile]"/>
        <usearg name="groupname" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_20566" name="gtk_print_settings_load_key_file"
@@ -42697,7 +42697,7 @@
        <usearg name="settings" type="NullablePointer[GtkPrintSettings]"/>
        <usearg name="keyfile" type="NullablePointer[GKeyFile]"/>
        <usearg name="groupname" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_20567" name="gtk_print_settings_to_key_file"
@@ -43584,7 +43584,7 @@
        <usearg name="op" type="NullablePointer[GtkPrintOperation]"/>
        <usearg name="action" type="I32"/>
        <usearg name="parent" type="NullablePointer[GtkWindow]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_20676" name="gtk_print_operation_get_error"
@@ -43594,7 +43594,7 @@
      rv="None">
      <useargs>
        <usearg name="op" type="NullablePointer[GtkPrintOperation]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_20677" name="gtk_print_operation_get_status"
@@ -43696,7 +43696,7 @@
      rv="None">
      <useargs>
        <usearg name="op" type="NullablePointer[GtkPrintOperation]"/>
-       <usearg name="embed" type="I32"/>
+       <usearg name="g_embed" type="I32"/>
      </useargs>
   </use>
   <use id="_20688" name="gtk_print_operation_get_embed_page_setup"
@@ -44156,7 +44156,7 @@
      <useargs>
        <usearg name="manager" type="NullablePointer[GtkRecentManager]"/>
        <usearg name="uri" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_20756" name="gtk_recent_manager_lookup_item"
@@ -44167,7 +44167,7 @@
      <useargs>
        <usearg name="manager" type="NullablePointer[GtkRecentManager]"/>
        <usearg name="uri" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_20757" name="gtk_recent_manager_has_item"
@@ -44189,7 +44189,7 @@
        <usearg name="manager" type="NullablePointer[GtkRecentManager]"/>
        <usearg name="uri" type="Pointer[U8]"/>
        <usearg name="newuri" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_20759" name="gtk_recent_manager_get_items"
@@ -44208,7 +44208,7 @@
      rv="I32">
      <useargs>
        <usearg name="manager" type="NullablePointer[GtkRecentManager]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_20761" name="gtk_recent_info_get_type"
@@ -44329,7 +44329,7 @@
      <useargs>
        <usearg name="info" type="NullablePointer[GtkRecentInfo]"/>
        <usearg name="appname" type="Pointer[U8]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_20774" name="gtk_recent_info_get_applications"
@@ -46977,7 +46977,7 @@
      <useargs>
        <usearg name="parent" type="NullablePointer[GtkWindow]"/>
        <usearg name="result" type="NullablePointer[GAsyncResult]"/>
-       <usearg name="error" type="Pointer[NullablePointer[GError]]"/>
+       <usearg name="g_error" type="Pointer[NullablePointer[GError]]"/>
      </useargs>
   </use>
   <use id="_21196" name="gtk_show_uri"
@@ -47822,7 +47822,7 @@
        <usearg name="hradius" type="F32"/>
        <usearg name="vradius" type="F32"/>
        <usearg name="start" type="F32"/>
-       <usearg name="end" type="F32"/>
+       <usearg name="g_end" type="F32"/>
        <usearg name="stops" type="NullablePointer[GskColorStop]"/>
        <usearg name="nstops" type="U64"/>
      </useargs>
@@ -47839,7 +47839,7 @@
        <usearg name="hradius" type="F32"/>
        <usearg name="vradius" type="F32"/>
        <usearg name="start" type="F32"/>
-       <usearg name="end" type="F32"/>
+       <usearg name="g_end" type="F32"/>
        <usearg name="stops" type="NullablePointer[GskColorStop]"/>
        <usearg name="nstops" type="U64"/>
      </useargs>
@@ -50053,7 +50053,7 @@
      rv="Pointer[U8]">
      <useargs>
        <usearg name="start" type="NullablePointer[GtkTextIter]"/>
-       <usearg name="end" type="NullablePointer[GtkTextIter]"/>
+       <usearg name="g_end" type="NullablePointer[GtkTextIter]"/>
      </useargs>
   </use>
   <use id="_21695" name="gtk_text_iter_get_text"
@@ -50063,7 +50063,7 @@
      rv="Pointer[U8]">
      <useargs>
        <usearg name="start" type="NullablePointer[GtkTextIter]"/>
-       <usearg name="end" type="NullablePointer[GtkTextIter]"/>
+       <usearg name="g_end" type="NullablePointer[GtkTextIter]"/>
      </useargs>
   </use>
   <use id="_21696" name="gtk_text_iter_get_visible_slice"
@@ -50073,7 +50073,7 @@
      rv="Pointer[U8]">
      <useargs>
        <usearg name="start" type="NullablePointer[GtkTextIter]"/>
-       <usearg name="end" type="NullablePointer[GtkTextIter]"/>
+       <usearg name="g_end" type="NullablePointer[GtkTextIter]"/>
      </useargs>
   </use>
   <use id="_21697" name="gtk_text_iter_get_visible_text"
@@ -50083,7 +50083,7 @@
      rv="Pointer[U8]">
      <useargs>
        <usearg name="start" type="NullablePointer[GtkTextIter]"/>
-       <usearg name="end" type="NullablePointer[GtkTextIter]"/>
+       <usearg name="g_end" type="NullablePointer[GtkTextIter]"/>
      </useargs>
   </use>
   <use id="_21698" name="gtk_text_iter_get_paintable"
@@ -50130,7 +50130,7 @@
      rv="I32">
      <useargs>
        <usearg name="iter" type="NullablePointer[GtkTextIter]"/>
-       <usearg name="tag" type="NullablePointer[GtkTextTag]"/>
+       <usearg name="g_tag" type="NullablePointer[GtkTextTag]"/>
      </useargs>
   </use>
   <use id="_21703" name="gtk_text_iter_ends_tag"
@@ -50140,7 +50140,7 @@
      rv="I32">
      <useargs>
        <usearg name="iter" type="NullablePointer[GtkTextIter]"/>
-       <usearg name="tag" type="NullablePointer[GtkTextTag]"/>
+       <usearg name="g_tag" type="NullablePointer[GtkTextTag]"/>
      </useargs>
   </use>
   <use id="_21704" name="gtk_text_iter_toggles_tag"
@@ -50150,7 +50150,7 @@
      rv="I32">
      <useargs>
        <usearg name="iter" type="NullablePointer[GtkTextIter]"/>
-       <usearg name="tag" type="NullablePointer[GtkTextTag]"/>
+       <usearg name="g_tag" type="NullablePointer[GtkTextTag]"/>
      </useargs>
   </use>
   <use id="_21705" name="gtk_text_iter_has_tag"
@@ -50160,7 +50160,7 @@
      rv="I32">
      <useargs>
        <usearg name="iter" type="NullablePointer[GtkTextIter]"/>
-       <usearg name="tag" type="NullablePointer[GtkTextTag]"/>
+       <usearg name="g_tag" type="NullablePointer[GtkTextTag]"/>
      </useargs>
   </use>
   <use id="_21706" name="gtk_text_iter_get_tags"
@@ -50707,7 +50707,7 @@
      rv="I32">
      <useargs>
        <usearg name="iter" type="NullablePointer[GtkTextIter]"/>
-       <usearg name="tag" type="NullablePointer[GtkTextTag]"/>
+       <usearg name="g_tag" type="NullablePointer[GtkTextTag]"/>
      </useargs>
   </use>
   <use id="_21764" name="gtk_text_iter_backward_to_tag_toggle"
@@ -50717,7 +50717,7 @@
      rv="I32">
      <useargs>
        <usearg name="iter" type="NullablePointer[GtkTextIter]"/>
-       <usearg name="tag" type="NullablePointer[GtkTextTag]"/>
+       <usearg name="g_tag" type="NullablePointer[GtkTextTag]"/>
      </useargs>
   </use>
   <use id="_21766" name="gtk_text_iter_forward_find_char"
@@ -50800,7 +50800,7 @@
      <useargs>
        <usearg name="iter" type="NullablePointer[GtkTextIter]"/>
        <usearg name="start" type="NullablePointer[GtkTextIter]"/>
-       <usearg name="end" type="NullablePointer[GtkTextIter]"/>
+       <usearg name="g_end" type="NullablePointer[GtkTextIter]"/>
      </useargs>
   </use>
   <use id="_21773" name="gtk_text_iter_order"
@@ -50835,7 +50835,7 @@
      lineno="99"
      rv="I32">
      <useargs>
-       <usearg name="tag" type="NullablePointer[GtkTextTag]"/>
+       <usearg name="g_tag" type="NullablePointer[GtkTextTag]"/>
      </useargs>
   </use>
   <use id="_21660" name="gtk_text_tag_set_priority"
@@ -50844,7 +50844,7 @@
      lineno="101"
      rv="None">
      <useargs>
-       <usearg name="tag" type="NullablePointer[GtkTextTag]"/>
+       <usearg name="g_tag" type="NullablePointer[GtkTextTag]"/>
        <usearg name="priority" type="I32"/>
      </useargs>
   </use>
@@ -50854,7 +50854,7 @@
      lineno="104"
      rv="None">
      <useargs>
-       <usearg name="tag" type="NullablePointer[GtkTextTag]"/>
+       <usearg name="g_tag" type="NullablePointer[GtkTextTag]"/>
        <usearg name="sizechanged" type="I32"/>
      </useargs>
   </use>
@@ -50879,7 +50879,7 @@
      rv="I32">
      <useargs>
        <usearg name="table" type="NullablePointer[GtkTextTagTable]"/>
-       <usearg name="tag" type="NullablePointer[GtkTextTag]"/>
+       <usearg name="g_tag" type="NullablePointer[GtkTextTag]"/>
      </useargs>
   </use>
   <use id="_21666" name="gtk_text_tag_table_remove"
@@ -50889,7 +50889,7 @@
      rv="None">
      <useargs>
        <usearg name="table" type="NullablePointer[GtkTextTagTable]"/>
-       <usearg name="tag" type="NullablePointer[GtkTextTag]"/>
+       <usearg name="g_tag" type="NullablePointer[GtkTextTag]"/>
      </useargs>
   </use>
   <use id="_21667" name="gtk_text_tag_table_lookup"
@@ -51066,7 +51066,7 @@
        <usearg name="buffer" type="NullablePointer[GtkTextBuffer]"/>
        <usearg name="iter" type="NullablePointer[GtkTextIter]"/>
        <usearg name="start" type="NullablePointer[GtkTextIter]"/>
-       <usearg name="end" type="NullablePointer[GtkTextIter]"/>
+       <usearg name="g_end" type="NullablePointer[GtkTextIter]"/>
      </useargs>
   </use>
   <use id="_21801" name="gtk_text_buffer_insert_range_interactive"
@@ -51078,7 +51078,7 @@
        <usearg name="buffer" type="NullablePointer[GtkTextBuffer]"/>
        <usearg name="iter" type="NullablePointer[GtkTextIter]"/>
        <usearg name="start" type="NullablePointer[GtkTextIter]"/>
-       <usearg name="end" type="NullablePointer[GtkTextIter]"/>
+       <usearg name="g_end" type="NullablePointer[GtkTextIter]"/>
        <usearg name="defaulteditable" type="I32"/>
      </useargs>
   </use>
@@ -51130,7 +51130,7 @@
      <useargs>
        <usearg name="buffer" type="NullablePointer[GtkTextBuffer]"/>
        <usearg name="start" type="NullablePointer[GtkTextIter]"/>
-       <usearg name="end" type="NullablePointer[GtkTextIter]"/>
+       <usearg name="g_end" type="NullablePointer[GtkTextIter]"/>
      </useargs>
   </use>
   <use id="_21806" name="gtk_text_buffer_delete_interactive"
@@ -51165,7 +51165,7 @@
      <useargs>
        <usearg name="buffer" type="NullablePointer[GtkTextBuffer]"/>
        <usearg name="start" type="NullablePointer[GtkTextIter]"/>
-       <usearg name="end" type="NullablePointer[GtkTextIter]"/>
+       <usearg name="g_end" type="NullablePointer[GtkTextIter]"/>
        <usearg name="includehiddenchars" type="I32"/>
      </useargs>
   </use>
@@ -51177,7 +51177,7 @@
      <useargs>
        <usearg name="buffer" type="NullablePointer[GtkTextBuffer]"/>
        <usearg name="start" type="NullablePointer[GtkTextIter]"/>
-       <usearg name="end" type="NullablePointer[GtkTextIter]"/>
+       <usearg name="g_end" type="NullablePointer[GtkTextIter]"/>
        <usearg name="includehiddenchars" type="I32"/>
      </useargs>
   </use>
@@ -51221,7 +51221,7 @@
      <useargs>
        <usearg name="buffer" type="NullablePointer[GtkTextBuffer]"/>
        <usearg name="mark" type="NullablePointer[GtkTextMark]"/>
-       <usearg name="where" type="NullablePointer[GtkTextIter]"/>
+       <usearg name="g_where" type="NullablePointer[GtkTextIter]"/>
      </useargs>
   </use>
   <use id="_21814" name="gtk_text_buffer_create_mark"
@@ -51232,7 +51232,7 @@
      <useargs>
        <usearg name="buffer" type="NullablePointer[GtkTextBuffer]"/>
        <usearg name="markname" type="Pointer[U8]"/>
-       <usearg name="where" type="NullablePointer[GtkTextIter]"/>
+       <usearg name="g_where" type="NullablePointer[GtkTextIter]"/>
        <usearg name="leftgravity" type="I32"/>
      </useargs>
   </use>
@@ -51244,7 +51244,7 @@
      <useargs>
        <usearg name="buffer" type="NullablePointer[GtkTextBuffer]"/>
        <usearg name="mark" type="NullablePointer[GtkTextMark]"/>
-       <usearg name="where" type="NullablePointer[GtkTextIter]"/>
+       <usearg name="g_where" type="NullablePointer[GtkTextIter]"/>
      </useargs>
   </use>
   <use id="_21816" name="gtk_text_buffer_delete_mark"
@@ -51275,7 +51275,7 @@
      <useargs>
        <usearg name="buffer" type="NullablePointer[GtkTextBuffer]"/>
        <usearg name="name" type="Pointer[U8]"/>
-       <usearg name="where" type="NullablePointer[GtkTextIter]"/>
+       <usearg name="g_where" type="NullablePointer[GtkTextIter]"/>
      </useargs>
   </use>
   <use id="_21819" name="gtk_text_buffer_delete_mark_by_name"
@@ -51313,7 +51313,7 @@
      rv="None">
      <useargs>
        <usearg name="buffer" type="NullablePointer[GtkTextBuffer]"/>
-       <usearg name="where" type="NullablePointer[GtkTextIter]"/>
+       <usearg name="g_where" type="NullablePointer[GtkTextIter]"/>
      </useargs>
   </use>
   <use id="_21823" name="gtk_text_buffer_select_range"
@@ -51334,9 +51334,9 @@
      rv="None">
      <useargs>
        <usearg name="buffer" type="NullablePointer[GtkTextBuffer]"/>
-       <usearg name="tag" type="NullablePointer[GtkTextTag]"/>
+       <usearg name="g_tag" type="NullablePointer[GtkTextTag]"/>
        <usearg name="start" type="NullablePointer[GtkTextIter]"/>
-       <usearg name="end" type="NullablePointer[GtkTextIter]"/>
+       <usearg name="g_end" type="NullablePointer[GtkTextIter]"/>
      </useargs>
   </use>
   <use id="_21825" name="gtk_text_buffer_remove_tag"
@@ -51346,9 +51346,9 @@
      rv="None">
      <useargs>
        <usearg name="buffer" type="NullablePointer[GtkTextBuffer]"/>
-       <usearg name="tag" type="NullablePointer[GtkTextTag]"/>
+       <usearg name="g_tag" type="NullablePointer[GtkTextTag]"/>
        <usearg name="start" type="NullablePointer[GtkTextIter]"/>
-       <usearg name="end" type="NullablePointer[GtkTextIter]"/>
+       <usearg name="g_end" type="NullablePointer[GtkTextIter]"/>
      </useargs>
   </use>
   <use id="_21826" name="gtk_text_buffer_apply_tag_by_name"
@@ -51360,7 +51360,7 @@
        <usearg name="buffer" type="NullablePointer[GtkTextBuffer]"/>
        <usearg name="name" type="Pointer[U8]"/>
        <usearg name="start" type="NullablePointer[GtkTextIter]"/>
-       <usearg name="end" type="NullablePointer[GtkTextIter]"/>
+       <usearg name="g_end" type="NullablePointer[GtkTextIter]"/>
      </useargs>
   </use>
   <use id="_21827" name="gtk_text_buffer_remove_tag_by_name"
@@ -51372,7 +51372,7 @@
        <usearg name="buffer" type="NullablePointer[GtkTextBuffer]"/>
        <usearg name="name" type="Pointer[U8]"/>
        <usearg name="start" type="NullablePointer[GtkTextIter]"/>
-       <usearg name="end" type="NullablePointer[GtkTextIter]"/>
+       <usearg name="g_end" type="NullablePointer[GtkTextIter]"/>
      </useargs>
   </use>
   <use id="_21828" name="gtk_text_buffer_remove_all_tags"
@@ -51383,7 +51383,7 @@
      <useargs>
        <usearg name="buffer" type="NullablePointer[GtkTextBuffer]"/>
        <usearg name="start" type="NullablePointer[GtkTextIter]"/>
-       <usearg name="end" type="NullablePointer[GtkTextIter]"/>
+       <usearg name="g_end" type="NullablePointer[GtkTextIter]"/>
      </useargs>
   </use>
   <use id="_21829" name="gtk_text_buffer_create_tag"
@@ -51472,7 +51472,7 @@
      <useargs>
        <usearg name="buffer" type="NullablePointer[GtkTextBuffer]"/>
        <usearg name="start" type="NullablePointer[GtkTextIter]"/>
-       <usearg name="end" type="NullablePointer[GtkTextIter]"/>
+       <usearg name="g_end" type="NullablePointer[GtkTextIter]"/>
      </useargs>
   </use>
   <use id="_21837" name="gtk_text_buffer_get_iter_at_mark"
@@ -51586,7 +51586,7 @@
      <useargs>
        <usearg name="buffer" type="NullablePointer[GtkTextBuffer]"/>
        <usearg name="start" type="NullablePointer[GtkTextIter]"/>
-       <usearg name="end" type="NullablePointer[GtkTextIter]"/>
+       <usearg name="g_end" type="NullablePointer[GtkTextIter]"/>
      </useargs>
   </use>
   <use id="_21848" name="gtk_text_buffer_delete_selection"
@@ -53540,7 +53540,7 @@
      rv="None">
      <useargs>
        <usearg name="selection" type="NullablePointer[GtkTreeSelection]"/>
-       <usearg name="type" type="I32"/>
+       <usearg name="g_type" type="I32"/>
      </useargs>
   </use>
   <use id="_22122" name="gtk_tree_selection_get_mode"

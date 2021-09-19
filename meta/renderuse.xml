@@ -480,7 +480,7 @@
   <renderuse id="_10299" render="0"/><!-- gdk_surface_translate_coordinates -->
   <renderuse id="_10300" render="0"/><!-- gdk_surface_get_scale_factor -->
   <renderuse id="_10301" render="0"/><!-- gdk_surface_get_device_position -->
-  <renderuse id="_10302" render="0"/><!-- gdk_surface_create_similar_surface -->
+  <renderuse id="_10302" render="1"/><!-- gdk_surface_create_similar_surface -->
   <renderuse id="_10303" render="0"/><!-- gdk_surface_beep -->
   <renderuse id="_10304" render="0"/><!-- gdk_surface_queue_render -->
   <renderuse id="_10305" render="0"/><!-- gdk_surface_request_layout -->
@@ -1140,7 +1140,7 @@
   <renderuse id="_16095" render="0"/><!-- gtk_widget_unmap -->
   <renderuse id="_16096" render="0"/><!-- gtk_widget_realize -->
   <renderuse id="_16097" render="0"/><!-- gtk_widget_unrealize -->
-  <renderuse id="_16098" render="0"/><!-- gtk_widget_queue_draw -->
+  <renderuse id="_16098" render="1"/><!-- gtk_widget_queue_draw -->
   <renderuse id="_16099" render="0"/><!-- gtk_widget_queue_resize -->
   <renderuse id="_16100" render="0"/><!-- gtk_widget_queue_allocate -->
   <renderuse id="_16101" render="0"/><!-- gtk_widget_get_frame_clock -->
@@ -1194,7 +1194,7 @@
   <renderuse id="_16149" render="0"/><!-- gtk_widget_set_parent -->
   <renderuse id="_16150" render="0"/><!-- gtk_widget_get_parent -->
   <renderuse id="_16151" render="0"/><!-- gtk_widget_get_root -->
-  <renderuse id="_16152" render="0"/><!-- gtk_widget_get_native -->
+  <renderuse id="_16152" render="1"/><!-- gtk_widget_get_native -->
   <renderuse id="_16153" render="0"/><!-- gtk_widget_set_child_visible -->
   <renderuse id="_16154" render="0"/><!-- gtk_widget_get_child_visible -->
   <renderuse id="_16155" render="0"/><!-- gtk_widget_get_allocated_width -->
@@ -1204,8 +1204,8 @@
   <renderuse id="_16159" render="0"/><!-- gtk_widget_compute_transform -->
   <renderuse id="_16160" render="0"/><!-- gtk_widget_compute_bounds -->
   <renderuse id="_16161" render="0"/><!-- gtk_widget_compute_point -->
-  <renderuse id="_16162" render="0"/><!-- gtk_widget_get_width -->
-  <renderuse id="_16163" render="0"/><!-- gtk_widget_get_height -->
+  <renderuse id="_16162" render="1"/><!-- gtk_widget_get_width -->
+  <renderuse id="_16163" render="1"/><!-- gtk_widget_get_height -->
   <renderuse id="_16164" render="0"/><!-- gtk_widget_get_size -->
   <renderuse id="_16165" render="0"/><!-- gtk_widget_child_focus -->
   <renderuse id="_16166" render="0"/><!-- gtk_widget_keynav_failed -->
@@ -1395,13 +1395,13 @@
   <renderuse id="_16376" render="0"/><!-- gtk_window_fullscreen -->
   <renderuse id="_16377" render="0"/><!-- gtk_window_unfullscreen -->
   <renderuse id="_16378" render="0"/><!-- gtk_window_fullscreen_on_monitor -->
-  <renderuse id="_16379" render="0"/><!-- gtk_window_close -->
+  <renderuse id="_16379" render="1"/><!-- gtk_window_close -->
   <renderuse id="_16380" render="0"/><!-- gtk_window_set_default_size -->
   <renderuse id="_16381" render="0"/><!-- gtk_window_get_default_size -->
   <renderuse id="_16382" render="0"/><!-- gtk_window_get_group -->
   <renderuse id="_16383" render="0"/><!-- gtk_window_has_group -->
   <renderuse id="_16384" render="0"/><!-- gtk_window_get_application -->
-  <renderuse id="_16385" render="0"/><!-- gtk_window_set_application -->
+  <renderuse id="_16385" render="1"/><!-- gtk_window_set_application -->
   <renderuse id="_16386" render="1"/><!-- gtk_window_set_child -->
   <renderuse id="_16387" render="0"/><!-- gtk_window_get_child -->
   <renderuse id="_16388" render="0"/><!-- gtk_window_set_titlebar -->
@@ -2023,15 +2023,15 @@
   <renderuse id="_17084" render="0"/><!-- gtk_builder_cscope_lookup_callback_symbol -->
   <renderuse id="_17089" render="0"/><!-- gtk_builder_error_quark -->
   <renderuse id="_17090" render="0"/><!-- gtk_builder_get_type -->
-  <renderuse id="_17091" render="0"/><!-- gtk_builder_new -->
-  <renderuse id="_17092" render="0"/><!-- gtk_builder_add_from_file -->
+  <renderuse id="_17091" render="1"/><!-- gtk_builder_new -->
+  <renderuse id="_17092" render="1"/><!-- gtk_builder_add_from_file -->
   <renderuse id="_17093" render="0"/><!-- gtk_builder_add_from_resource -->
   <renderuse id="_17094" render="0"/><!-- gtk_builder_add_from_string -->
   <renderuse id="_17095" render="0"/><!-- gtk_builder_add_objects_from_file -->
   <renderuse id="_17096" render="0"/><!-- gtk_builder_add_objects_from_resource -->
   <renderuse id="_17097" render="0"/><!-- gtk_builder_add_objects_from_string -->
-  <renderuse id="_17098" render="0"/><!-- gtk_builder_get_object -->
-  <renderuse id="_17099" render="0"/><!-- gtk_builder_get_objects -->
+  <renderuse id="_17098" render="1"/><!-- gtk_builder_get_object -->
+  <renderuse id="_17099" render="1"/><!-- gtk_builder_get_objects -->
   <renderuse id="_17100" render="0"/><!-- gtk_builder_expose_object -->
   <renderuse id="_17101" render="0"/><!-- gtk_builder_get_current_object -->
   <renderuse id="_17102" render="0"/><!-- gtk_builder_set_current_object -->
@@ -3173,7 +3173,7 @@
   <renderuse id="_18605" render="1"/><!-- gtk_drawing_area_get_content_width -->
   <renderuse id="_18606" render="1"/><!-- gtk_drawing_area_set_content_height -->
   <renderuse id="_18607" render="1"/><!-- gtk_drawing_area_get_content_height -->
-  <renderuse id="_18608" render="1"/><!-- gtk_drawing_area_set_draw_func -->
+  <renderuse id="_18608" render="X"/><!-- gtk_drawing_area_set_draw_func - OVERRIDDEN -->
   <renderuse id="_18611" render="0"/><!-- gtk_event_controller_get_type -->
   <renderuse id="_18612" render="0"/><!-- gtk_event_controller_get_widget -->
   <renderuse id="_18613" render="0"/><!-- gtk_event_controller_reset -->
@@ -4277,7 +4277,7 @@
   <renderuse id="_20185" render="0"/><!-- gtk_native_realize -->
   <renderuse id="_20186" render="0"/><!-- gtk_native_unrealize -->
   <renderuse id="_20187" render="0"/><!-- gtk_native_get_for_surface -->
-  <renderuse id="_20188" render="0"/><!-- gtk_native_get_surface -->
+  <renderuse id="_20188" render="1"/><!-- gtk_native_get_surface -->
   <renderuse id="_20189" render="0"/><!-- gtk_native_get_renderer -->
   <renderuse id="_20190" render="0"/><!-- gtk_native_get_surface_transform -->
   <renderuse id="_20191" render="0"/><!-- gtk_no_selection_get_type -->

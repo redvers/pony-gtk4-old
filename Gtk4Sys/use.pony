@@ -1,3 +1,25 @@
+use "GLibSys"
+use "CairoSys"
+use "PangoSys"
+use "GrapheneSys"
+
+use @gtk_drawing_area_set_draw_func[None](self: NullablePointer[GtkDrawingArea] tag, drawfunc: Pointer[None] tag, userdata: Any tag, destroy: Pointer[None] tag)
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gdk/gdksurface.h:110
+  Original Name: gdk_surface_create_similar_surface/nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gdk/gdksurface.h:110
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f307]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f352]
+    [Enumeration size=32,fid: f307]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @gdk_surface_create_similar_surface[NullablePointer[Cairosurface]](surface: NullablePointer[GdkSurface] tag, content: I32, width: I32, height: I32)
+
 
 
 /*
@@ -10,6 +32,58 @@
     [PointerType size=64]->[Struct size=256,fid: f452]
 */
 use @gtk_widget_show[None](widget: NullablePointer[GtkWidget] tag)
+
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwidget.h:285
+  Original Name: gtk_widget_queue_draw/nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwidget.h:285
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f452]
+*/
+use @gtk_widget_queue_draw[None](widget: NullablePointer[GtkWidget] tag)
+
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwidget.h:463
+  Original Name: gtk_widget_get_native/nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwidget.h:463
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f450]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f452]
+*/
+use @gtk_widget_get_native[NullablePointer[GtkNative]](widget: NullablePointer[GtkWidget] tag)
+
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwidget.h:496
+  Original Name: gtk_widget_get_width/nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwidget.h:496
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f452]
+*/
+use @gtk_widget_get_width[I32](widget: NullablePointer[GtkWidget] tag)
+
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwidget.h:498
+  Original Name: gtk_widget_get_height/nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwidget.h:498
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f452]
+*/
+use @gtk_widget_get_height[I32](widget: NullablePointer[GtkWidget] tag)
 
 
 
@@ -70,6 +144,33 @@ use @gtk_window_get_title[Pointer[U8]](window: NullablePointer[GtkWindow] tag)
 
 
 /*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindow.h:204
+  Original Name: gtk_window_close/nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindow.h:204
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f454]
+*/
+use @gtk_window_close[None](window: NullablePointer[GtkWindow] tag)
+
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindow.h:227
+  Original Name: gtk_window_set_application/nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindow.h:227
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f454]
+    [PointerType size=64]->[Struct size=256,fid: f457]
+*/
+use @gtk_window_set_application[None](window: NullablePointer[GtkWindow] tag, application: NullablePointer[GtkApplication] tag)
+
+
+
+/*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindow.h:231
   Original Name: gtk_window_set_child/nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindow.h:231
 
@@ -121,6 +222,60 @@ use @gtk_application_window_new[NullablePointer[GtkWidget]](application: Nullabl
     [PointerType size=64]->[Struct size=256,fid: f452]
 */
 use @gtk_aspect_frame_set_child[None](self: NullablePointer[GtkAspectFrame] tag, child: NullablePointer[GtkWidget] tag)
+
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbuilder.h:99
+  Original Name: gtk_builder_new/nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbuilder.h:99
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f450]
+
+  Arguments:
+*/
+use @gtk_builder_new[NullablePointer[GtkBuilder]]()
+
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbuilder.h:102
+  Original Name: gtk_builder_add_from_file/nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbuilder.h:102
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f450]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=128,fid: f21]
+*/
+use @gtk_builder_add_from_file[I32](builder: NullablePointer[GtkBuilder] tag, filename: Pointer[U8] tag, g_error: Pointer[NullablePointer[GError]] tag)
+
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbuilder.h:131
+  Original Name: gtk_builder_get_object/nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbuilder.h:131
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f141]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f450]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @gtk_builder_get_object[NullablePointer[GObject]](builder: NullablePointer[GtkBuilder] tag, name: Pointer[U8] tag)
+
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbuilder.h:134
+  Original Name: gtk_builder_get_objects/nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkbuilder.h:134
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f81]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f450]
+*/
+use @gtk_builder_get_objects[NullablePointer[GSList]](builder: NullablePointer[GtkBuilder] tag)
 
 
 
@@ -187,22 +342,6 @@ use @gtk_drawing_area_set_content_height[None](self: NullablePointer[GtkDrawingA
     [PointerType size=64]->[Struct size=256,fid: f543]
 */
 use @gtk_drawing_area_get_content_height[I32](self: NullablePointer[GtkDrawingArea] tag)
-
-
-
-/*
-  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkdrawingarea.h:104
-  Original Name: gtk_drawing_area_set_draw_func/nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkdrawingarea.h:104
-
-  Return Value: [FundamentalType(void) size=0]
-
-  Arguments:
-    [PointerType size=64]->[Struct size=256,fid: f543]
-    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
-    [PointerType size=64]->[FundamentalType(void) size=0]
-    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
-*/
-use @gtk_drawing_area_set_draw_func[None](self: NullablePointer[GtkDrawingArea] tag, drawfunc: Pointer[None] tag, userdata: Pointer[None] tag, destroy: Pointer[None] tag)
 
 
 
@@ -293,4 +432,17 @@ use @gtk_gesture_drag_new[NullablePointer[GtkGesture]]()
   Arguments:
 */
 use @gtk_init[None]()
+
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtknative.h:47
+  Original Name: gtk_native_get_surface/nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtknative.h:47
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f352]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f450]
+*/
+use @gtk_native_get_surface[NullablePointer[GdkSurface]](self: NullablePointer[GtkNative] tag)
 

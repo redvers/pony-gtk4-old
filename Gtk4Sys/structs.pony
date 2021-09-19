@@ -14609,7 +14609,7 @@ struct GtkBitset
 
   Fields (Offset in bits):
 */
-struct GtkBuilder
+type GtkBuilder is GObject
 
 
 /*
@@ -14698,7 +14698,7 @@ struct GtkListItemFactory
 
   Fields (Offset in bits):
 */
-struct GtkNative
+type GtkNative is GObject
 
 
 /*
