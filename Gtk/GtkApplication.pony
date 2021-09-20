@@ -10,7 +10,15 @@ class GtkApplication is GtkApplicationInterface
   new create(applicationid: String, flags: I32, appstate': PonyGtkApplication) =>
     appstate = appstate'
     obj = Gtk4Sys.gtk_application_new(applicationid.cstring(), flags)
-    GLibSys.g_signal_connect_data[PonyGtkApplication tag](obj, "activate".cstring(), @{(appref: NullablePointer[GObject], appstate: PonyGtkApplication): None => appstate.activate(GtkApplication.create_from_ref(appref, appstate))}, appstate, Pointer[None], I32(0))
+    GLibSys.set_data[GtkApplication](obj, "PonyGtkApplication".cstring(), this)
+
+    try
+      let ss: GtkApplication = (GLibSys.get_data[GtkApplication ref](obj, "PonyGtkApplication".cstring()) as GtkApplication)
+      GLibSys.g_signal_connect_data[PonyGtkApplication tag](obj, "activate".cstring(), @{(appref: NullablePointer[GObject], appstate: PonyGtkApplication): None => try appstate.activate(GLibSys.get_data[GtkApplication ref](appref, "PonyGtkApplication".cstring()) as GtkApplication) end}, appstate, Pointer[None], I32(0))
+    else
+      None
+    end
+
 
   new create_from_ref(appref: NullablePointer[SGtkApplication], appstate': PonyGtkApplication) =>
     obj = appref
