@@ -1,5 +1,5 @@
 {
-  "packages": ["Gtk4Sys"],
+  "packages": ["Gtk4Sys", "Gtk"],
   "deps": [
     {
       "locator": "../pony-glib",

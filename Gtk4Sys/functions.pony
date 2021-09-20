@@ -136,6 +136,18 @@ primitive Gtk4Sys
 
 
 /*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindow.h:89
+  Original Name: gtk_window_new/nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindow.h:89
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f452]
+
+  Arguments:
+*/
+  fun gtk_window_new(): NullablePointer[SGtkWidget] =>
+    @gtk_window_new()
+
+
+/*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindow.h:91
   Original Name: gtk_window_set_title/nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindow.h:91
 

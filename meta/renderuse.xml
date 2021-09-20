@@ -1351,7 +1351,7 @@
   <renderuse id="_21597" render="0"/><!-- gtk_style_context_get_margin -->
   <renderuse id="_21600" render="0"/><!-- gtk_style_context_to_string -->
   <renderuse id="_16334" render="0"/><!-- gtk_window_get_type -->
-  <renderuse id="_16335" render="0"/><!-- gtk_window_new -->
+  <renderuse id="_16335" render="1"/><!-- gtk_window_new -->
   <renderuse id="_16336" render="1"/><!-- gtk_window_set_title -->
   <renderuse id="_16337" render="1"/><!-- gtk_window_get_title -->
   <renderuse id="_16338" render="0"/><!-- gtk_window_set_startup_id -->
