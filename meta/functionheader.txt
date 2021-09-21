@@ -19,7 +19,7 @@ use "lib:glib-2.0"
 
 primitive Gtk4Sys
 
-  fun gtk_drawing_area_set_draw_func[A: Any](self: NullablePointer[SGtkDrawingArea] tag, drawfunc: Pointer[None] tag, userdata: A, destroy: Pointer[None] tag): None =>
+  fun gtk_drawing_area_set_draw_func[A: Any ref](self: NullablePointer[SGtkDrawingArea] tag, drawfunc: Pointer[None] tag, userdata: A, destroy: Pointer[None] tag): None =>
     @gtk_drawing_area_set_draw_func(self, drawfunc, userdata, destroy)
 
 

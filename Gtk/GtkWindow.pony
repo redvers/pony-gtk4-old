@@ -7,8 +7,8 @@ class GtkWindow is GtkWindowInterface
   var ponyclass: String = "GtkWindow"
   var obj: NullablePointer[SGtkWindow]
 
-//  new create() =>
-//    obj = Gtk4Sys.gtk_window_new()
+  new create() =>
+    obj = Gtk4Sys.gtk_window_new()
 
   new create_from_ref(window: NullablePointer[SGtkWindow]) =>
     obj = window
@@ -24,4 +24,10 @@ interface GtkWindowInterface is GtkWidgetInterface
 
   fun ref close(): None =>
     Gtk4Sys.gtk_window_close(getobj())
+
+  fun ref set_title(title: String): None =>
+    Gtk4Sys.gtk_window_set_title(getobj(), title.cstring())
+
+  fun ref set_child(widget: GtkWidgetInterface): None =>
+    Gtk4Sys.gtk_window_set_child(getobj(), widget.getobj())
 
