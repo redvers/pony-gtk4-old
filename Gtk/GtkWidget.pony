@@ -14,3 +14,6 @@ interface GtkWidgetInterface is GObjectInterface
 
   fun ref set_size_request(w: I32, h: I32): None =>
     Gtk4Sys.gtk_widget_set_size_request(getobj(), w, h)
+
+  fun ref add_controller(drag: GtkEventControllerInterface): None =>
+    Gtk4Sys.gtk_widget_add_controller(getobj(), drag.getobj())
