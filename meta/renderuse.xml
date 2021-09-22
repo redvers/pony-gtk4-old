@@ -1355,8 +1355,8 @@
   <renderuse id="_16336" render="1"/><!-- gtk_window_set_title -->
   <renderuse id="_16337" render="1"/><!-- gtk_window_get_title -->
   <renderuse id="_16338" render="0"/><!-- gtk_window_set_startup_id -->
-  <renderuse id="_16339" render="0"/><!-- gtk_window_set_focus -->
-  <renderuse id="_16340" render="0"/><!-- gtk_window_get_focus -->
+  <renderuse id="_16339" render="1"/><!-- gtk_window_set_focus -->
+  <renderuse id="_16340" render="1"/><!-- gtk_window_get_focus -->
   <renderuse id="_16341" render="0"/><!-- gtk_window_set_default_widget -->
   <renderuse id="_16342" render="0"/><!-- gtk_window_get_default_widget -->
   <renderuse id="_16343" render="0"/><!-- gtk_window_set_transient_for -->
@@ -1403,13 +1403,13 @@
   <renderuse id="_16384" render="0"/><!-- gtk_window_get_application -->
   <renderuse id="_16385" render="1"/><!-- gtk_window_set_application -->
   <renderuse id="_16386" render="1"/><!-- gtk_window_set_child -->
-  <renderuse id="_16387" render="0"/><!-- gtk_window_get_child -->
+  <renderuse id="_16387" render="1"/><!-- gtk_window_get_child -->
   <renderuse id="_16388" render="0"/><!-- gtk_window_set_titlebar -->
   <renderuse id="_16389" render="0"/><!-- gtk_window_get_titlebar -->
   <renderuse id="_16390" render="0"/><!-- gtk_window_is_maximized -->
   <renderuse id="_16391" render="0"/><!-- gtk_window_is_fullscreen -->
-  <renderuse id="_16392" render="0"/><!-- gtk_window_destroy -->
-  <renderuse id="_16393" render="0"/><!-- gtk_window_set_interactive_debugging -->
+  <renderuse id="_16392" render="1"/><!-- gtk_window_destroy -->
+  <renderuse id="_16393" render="1"/><!-- gtk_window_set_interactive_debugging -->
   <renderuse id="_16394" render="0"/><!-- gtk_window_set_handle_menubar_accel -->
   <renderuse id="_16395" render="0"/><!-- gtk_window_get_handle_menubar_accel -->
   <renderuse id="_16400" render="0"/><!-- glib_autoptr_clear_GtkWindow -->

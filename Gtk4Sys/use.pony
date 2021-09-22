@@ -156,6 +156,33 @@ use @gtk_window_get_title[Pointer[U8]](window: NullablePointer[SGtkWindow] tag)
 
 
 /*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindow.h:99
+  Original Name: gtk_window_set_focus/nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindow.h:99
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f454]
+    [PointerType size=64]->[Struct size=256,fid: f452]
+*/
+use @gtk_window_set_focus[None](window: NullablePointer[SGtkWindow] tag, focus: NullablePointer[SGtkWidget] tag)
+
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindow.h:102
+  Original Name: gtk_window_get_focus/nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindow.h:102
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f452]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f454]
+*/
+use @gtk_window_get_focus[NullablePointer[SGtkWidget]](window: NullablePointer[SGtkWindow] tag)
+
+
+
+/*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindow.h:204
   Original Name: gtk_window_close/nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindow.h:204
 
@@ -193,6 +220,45 @@ use @gtk_window_set_application[None](window: NullablePointer[SGtkWindow] tag, a
     [PointerType size=64]->[Struct size=256,fid: f452]
 */
 use @gtk_window_set_child[None](window: NullablePointer[SGtkWindow] tag, child: NullablePointer[SGtkWidget] tag)
+
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindow.h:234
+  Original Name: gtk_window_get_child/nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindow.h:234
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f452]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f454]
+*/
+use @gtk_window_get_child[NullablePointer[SGtkWidget]](window: NullablePointer[SGtkWindow] tag)
+
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindow.h:249
+  Original Name: gtk_window_destroy/nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindow.h:249
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f454]
+*/
+use @gtk_window_destroy[None](window: NullablePointer[SGtkWindow] tag)
+
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindow.h:252
+  Original Name: gtk_window_set_interactive_debugging/nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwindow.h:252
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @gtk_window_set_interactive_debugging[None](enable: I32)
 
 
 
