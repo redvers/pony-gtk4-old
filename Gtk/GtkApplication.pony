@@ -30,6 +30,9 @@ class GtkApplication is GtkApplicationInterface
 interface GtkApplicationInterface is GioApplicationInterface
   fun ref getobj(): NullablePointer[GObject]
 
+  fun ref add_window(window: GtkWindow) =>
+    Gtk4Application.add_window(getobj(), window.getobj())
+
 
 
 interface PonyGtkApplication

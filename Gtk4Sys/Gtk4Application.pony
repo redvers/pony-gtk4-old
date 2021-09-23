@@ -3,6 +3,7 @@ use "GLibSys"
 use "debug"
 
 use @gtk_application_new[NullablePointer[SGtkApplication]](applicationid: Pointer[U8] tag, flags: I32)
+use @gtk_application_add_window[None](application: NullablePointer[SGtkApplication] tag, window: NullablePointer[SGtkWindow] tag)
 
 
 
@@ -253,3 +254,22 @@ If no application ID is given then some features (most notably application
 uniqueness) will be disabled.a new `GtkApplication` instanceThe application IDthe application flags
 """
     @gtk_application_new(applicationid, flags)
+  fun add_window(application: NullablePointer[SGtkApplication] tag, window: NullablePointer[SGtkWindow] tag): None =>
+"""
+Adds a window to `application`.
+
+This call can only happen after the `application` has started;
+typically, you should add new application windows in response
+to the emission of the `GApplication::activate` signal.
+
+This call is equivalent to setting the [property@Gtk.Window:application]
+property of `window` to `application`.
+
+Normally, the connection between the application and the window
+will remain until the window is destroyed, but you can explicitly
+remove it with [method@Gtk.Application.remove_window].
+
+GTK will keep the `application` running as long as it has
+any windows.a `GtkApplication`a `GtkWindow`
+"""
+    @gtk_application_add_window(application, window)

@@ -15,8 +15,8 @@
   <renderuse id="_17090" render="0"/><!-- gtk_builder_get_type -->
   <renderuse id="_17091" render="1"/><!-- gtk_builder_new -->
   <renderuse id="_17092" render="1"/><!-- gtk_builder_add_from_file -->
-  <renderuse id="_17093" render="0"/><!-- gtk_builder_add_from_resource -->
-  <renderuse id="_17094" render="0"/><!-- gtk_builder_add_from_string -->
+  <renderuse id="_17093" render="1"/><!-- gtk_builder_add_from_resource -->
+  <renderuse id="_17094" render="1"/><!-- gtk_builder_add_from_string -->
   <renderuse id="_17095" render="0"/><!-- gtk_builder_add_objects_from_file -->
   <renderuse id="_17096" render="0"/><!-- gtk_builder_add_objects_from_resource -->
   <renderuse id="_17097" render="0"/><!-- gtk_builder_add_objects_from_string -->
@@ -32,9 +32,9 @@
   <renderuse id="_17107" render="0"/><!-- gtk_builder_get_type_from_name -->
   <renderuse id="_17108" render="0"/><!-- gtk_builder_value_from_string -->
   <renderuse id="_17109" render="0"/><!-- gtk_builder_value_from_string_type -->
-  <renderuse id="_17110" render="0"/><!-- gtk_builder_new_from_file -->
-  <renderuse id="_17111" render="0"/><!-- gtk_builder_new_from_resource -->
-  <renderuse id="_17112" render="0"/><!-- gtk_builder_new_from_string -->
+  <renderuse id="_17110" render="1"/><!-- gtk_builder_new_from_file -->
+  <renderuse id="_17111" render="1"/><!-- gtk_builder_new_from_resource -->
+  <renderuse id="_17112" render="1"/><!-- gtk_builder_new_from_string -->
   <renderuse id="_17113" render="0"/><!-- gtk_builder_create_closure -->
   <renderuse id="_17114" render="0"/><!-- gtk_builder_extend_with_template -->
   <renderuse id="_17137" render="0"/><!-- gtk_builder_list_item_factory_get_type -->
