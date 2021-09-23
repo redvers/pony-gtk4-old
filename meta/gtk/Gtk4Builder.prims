@@ -335,7 +335,7 @@ have been marked as translatable.
 If the translation domain is %NULL, `GtkBuilder` uses gettext(),
 otherwise g_dgettext().
 """
-  fun gtk_builder_new(): NullablePointer[SGtkBuilder] =>
+  fun gnew(): NullablePointer[SGtkBuilder] =>
 """
 Creates a new empty builder object.
 
@@ -345,7 +345,7 @@ or [method@Gtk.Builder.add_from_string] in order to merge multiple UI
 descriptions into a single builder.a new (empty) `GtkBuilder` object
 """
     @gtk_builder_new()
-  fun gtk_builder_add_from_file(builder: NullablePointer[SGtkBuilder] tag, filename: Pointer[U8] tag, g_error: Pointer[NullablePointer[GError]] tag): I32 =>
+  fun add_from_file(builder: NullablePointer[SGtkBuilder] tag, filename: Pointer[U8] tag, g_error: Pointer[NullablePointer[GError]] tag): I32 =>
 """
 Parses a file containing a UI definition and merges it with
 the current contents of @builder.
@@ -367,7 +367,7 @@ was leaked leading up to the reported failure. The only reasonable
 thing to do when an error is detected is to call `g_error()`.%TRUE on success, %FALSE if an error occurreda `GtkBuilder`the name of the file to parse
 """
     @gtk_builder_add_from_file(builder, filename, g_error)
-  fun gtk_builder_get_object(builder: NullablePointer[SGtkBuilder] tag, name: Pointer[U8] tag): NullablePointer[GObject] =>
+  fun get_object(builder: NullablePointer[SGtkBuilder] tag, name: Pointer[U8] tag): NullablePointer[GObject] =>
 """
 Gets the object named @name.
 
@@ -375,7 +375,7 @@ Note that this function does not increment the reference count
 of the returned object.the object named @namea `GtkBuilder`name of object to get
 """
     @gtk_builder_get_object(builder, name)
-  fun gtk_builder_get_objects(builder: NullablePointer[SGtkBuilder] tag): NullablePointer[GSList] =>
+  fun get_objects(builder: NullablePointer[SGtkBuilder] tag): NullablePointer[GSList] =>
 """
 Gets all objects that have been constructed by @builder.
 

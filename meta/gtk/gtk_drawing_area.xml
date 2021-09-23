@@ -17,7 +17,7 @@
   use @gtk_drawing_area_set_draw_func[None](self: NullablePointer[SGtkDrawingArea] tag, drawfunc: Pointer[None] tag, userdata: Any tag, destroy: Pointer[None] tag)
 </useoverride>
 <functionoverride>
-    fun gtk_drawing_area_set_draw_func[A: Any ref](self: NullablePointer[SGtkDrawingArea] tag, drawfunc: Pointer[None] tag, userdata: A, destroy: Pointer[None] tag): None =>
+    fun set_draw_func[A: Any ref](self: NullablePointer[SGtkDrawingArea] tag, drawfunc: Pointer[None] tag, userdata: A, destroy: Pointer[None] tag): None =>
       @gtk_drawing_area_set_draw_func(self, drawfunc, userdata, destroy)
 </functionoverride>
 </castxml2pony>

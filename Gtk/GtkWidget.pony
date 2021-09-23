@@ -10,10 +10,10 @@ interface GtkWidgetInterface is GObjectInterface
 //    String.from_cstring(GLibSys.g_type_name_from_instance(getobj()))
 
   fun ref show(): None =>
-    Gtk4Sys.gtk_widget_show(getobj())
+    Gtk4Widget.show(getobj())
 
   fun ref set_size_request(w: I32, h: I32): None =>
-    Gtk4Sys.gtk_widget_set_size_request(getobj(), w, h)
+    Gtk4Widget.set_size_request(getobj(), w, h)
 
   fun ref add_controller(drag: GtkEventControllerInterface): None =>
-    Gtk4Sys.gtk_widget_add_controller(getobj(), drag.getobj())
+    Gtk4Widget.add_controller(getobj(), drag.getobj())

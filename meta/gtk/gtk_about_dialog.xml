@@ -5,7 +5,7 @@
 <xi:include href="./use.xml"/>
 <xi:include href="./Gtk-4.0.gir"/>
 <renderuses>
-  <renderuse id="_16418" render="1"/><!-- gtk_about_dialog_get_type -->
+  <renderuse id="_16418" render="0"/><!-- gtk_about_dialog_get_type -->
   <renderuse id="_16419" render="1"/><!-- gtk_about_dialog_new -->
   <renderuse id="_16421" render="1"/><!-- gtk_about_dialog_get_program_name -->
   <renderuse id="_16422" render="1"/><!-- gtk_about_dialog_set_program_name -->

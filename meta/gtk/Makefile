@@ -733,7 +733,7 @@ gtk_volume_button:
 #	saxon-he -xi gtk_volume_button.xml makeprimitives.xsl primitive=
 
 gtk_widget:
-#	saxon-he -xi gtk_widget.xml makeprimitives.xsl primitive=
+	bash -x genpony.sh gtk_widget Widget
 
 gtk_widget_paintable:
 #	saxon-he -xi gtk_widget_paintable.xml makeprimitives.xsl primitive=

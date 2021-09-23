@@ -421,7 +421,7 @@ The default bindings for this signal are Ctrl-Shift-I
 and Ctrl-Shift-D.%TRUE if the key binding was handledtoggle the debuggeremitted when the set of accelerators or mnemonics that
 are associated with @window changes.
 """
-  fun gtk_window_new(): NullablePointer[SGtkWidget] =>
+  fun gnew(): NullablePointer[SGtkWidget] =>
 """
 Creates a new `GtkWindow`.
 
@@ -437,7 +437,7 @@ return a reference to the caller.
 To delete a `GtkWindow`, call [method@Gtk.Window.destroy].a new `GtkWindow`.
 """
     @gtk_window_new()
-  fun gtk_window_set_title(window: NullablePointer[SGtkWindow] tag, title: Pointer[U8] tag): None =>
+  fun set_title(window: NullablePointer[SGtkWindow] tag, title: Pointer[U8] tag): None =>
 """
 Sets the title of the `GtkWindow`.
 
@@ -451,7 +451,7 @@ include the application name and current document filename, for example.
 Passing %NULL does the same as setting the title to an empty string.a `GtkWindow`title of the window
 """
     @gtk_window_set_title(window, title)
-  fun gtk_window_close(window: NullablePointer[SGtkWindow] tag): None =>
+  fun close(window: NullablePointer[SGtkWindow] tag): None =>
 """
 Requests that the window is closed.
 
@@ -462,12 +462,12 @@ This function can be used with close buttons in custom
 titlebars.a `GtkWindow`
 """
     @gtk_window_close(window)
-  fun gtk_window_get_application(window: NullablePointer[SGtkWindow] tag): NullablePointer[SGtkApplication] =>
+  fun get_application(window: NullablePointer[SGtkWindow] tag): NullablePointer[SGtkApplication] =>
 """
 Gets the `GtkApplication` associated with the window.a `GtkApplication`a `GtkWindow`
 """
     @gtk_window_get_application(window)
-  fun gtk_window_set_application(window: NullablePointer[SGtkWindow] tag, application: NullablePointer[SGtkApplication] tag): None =>
+  fun set_application(window: NullablePointer[SGtkWindow] tag, application: NullablePointer[SGtkApplication] tag): None =>
 """
 Sets or unsets the `GtkApplication` associated with the window.
 
@@ -484,12 +484,12 @@ and/or [method@Gtk.Application.add_window] on the old/new applications
 as relevant.a `GtkWindow`a `GtkApplication`, or %NULL to unset
 """
     @gtk_window_set_application(window, application)
-  fun gtk_window_set_child(window: NullablePointer[SGtkWindow] tag, child: NullablePointer[SGtkWidget] tag): None =>
+  fun set_child(window: NullablePointer[SGtkWindow] tag, child: NullablePointer[SGtkWidget] tag): None =>
 """
 Sets the child widget of @window.a `GtkWindow`the child widget
 """
     @gtk_window_set_child(window, child)
-  fun gtk_window_get_child(window: NullablePointer[SGtkWindow] tag): NullablePointer[SGtkWidget] =>
+  fun get_child(window: NullablePointer[SGtkWindow] tag): NullablePointer[SGtkWidget] =>
 """
 Gets the child widget of @window.the child widget of @windowa `GtkWindow`
 """

@@ -231,7 +231,7 @@ to delay the end of the session until state has been saved.Emitted when a [class
 This can happen as a side-effect of the window being destroyed
 or explicitly through [method@Gtk.Application.remove_window].the [class@Gtk.Window] that is being removed
 """
-  fun gtk_application_new(applicationid: Pointer[U8] tag, flags: I32): NullablePointer[SGtkApplication] =>
+  fun gnew(applicationid: Pointer[U8] tag, flags: I32): NullablePointer[SGtkApplication] =>
 """
 Creates a new `GtkApplication` instance.
 

@@ -1,0 +1,11 @@
+
+use "GLibSys"
+use "debug"
+
+use @gtk_widget_show[None](widget: NullablePointer[SGtkWidget] tag)
+use @gtk_widget_queue_draw[None](widget: NullablePointer[SGtkWidget] tag)
+use @gtk_widget_get_native[NullablePointer[SGtkNative]](widget: NullablePointer[SGtkWidget] tag)
+use @gtk_widget_get_width[I32](widget: NullablePointer[SGtkWidget] tag)
+use @gtk_widget_get_height[I32](widget: NullablePointer[SGtkWidget] tag)
+use @gtk_widget_set_size_request[None](widget: NullablePointer[SGtkWidget] tag, width: I32, height: I32)
+use @gtk_widget_add_controller[None](widget: NullablePointer[SGtkWidget] tag, controller: NullablePointer[SGtkEventController] tag)

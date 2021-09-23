@@ -43,9 +43,11 @@ primitive Gtk4<xsl:value-of select="$primitive"/><xsl:text>
 </xsl:variable>
 <xsl:variable name="rrv" select="$n/@rv"/>
 <xsl:variable name="varargs" select="/castxml2pony/CastXML/Function[@id=$originalid]/Ellipsis"/>
+<xsl:variable name="pn" select="$n/@ponyname"/>
+<xsl:variable name="ppn" select="/castxml2pony/t:repository/t:namespace//*[@c:identifier=$pn]/@name"/>
 <xsl:if test="name($varargs)='Ellipsis'">/*</xsl:if>
 <xsl:if test="$render='0'"><xsl:text>/*
-</xsl:text></xsl:if><xsl:text>  fun </xsl:text><xsl:value-of select="$n/@ponyname"/>(<xsl:value-of select="$args"/>): <xsl:value-of select="/castxml2pony/typedefs/typedef[@name=$rrv]/@ponytypeout"/> =>
+</xsl:text></xsl:if><xsl:text>  fun </xsl:text><xsl:choose><xsl:when test="$ppn='new'">gnew</xsl:when><xsl:otherwise><xsl:value-of select="$ppn"/></xsl:otherwise></xsl:choose>(<xsl:value-of select="$args"/>): <xsl:value-of select="/castxml2pony/typedefs/typedef[@name=$rrv]/@ponytypeout"/> =>
 <xsl:text>"""
 </xsl:text>
 <xsl:variable name="pn" select="$n/@ponyname"/>

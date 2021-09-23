@@ -99,7 +99,7 @@ See [method@Gtk.Application.set_menubar].
 If %FALSE, the window will not display a menubar, regardless
 of whether the desktop shell is showing it or not.
 """
-  fun gtk_application_window_new(application: NullablePointer[SGtkApplication] tag): NullablePointer[SGtkWidget] =>
+  fun gnew(application: NullablePointer[SGtkApplication] tag): NullablePointer[SGtkWidget] =>
 """
 Creates a new `GtkApplicationWindow`.a newly created `GtkApplicationWindow`a `GtkApplication`
 """

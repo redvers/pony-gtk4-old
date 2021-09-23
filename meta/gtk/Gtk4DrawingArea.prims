@@ -116,12 +116,12 @@ is changed while realized.
 This is useful in order to keep state up to date with the widget size,
 like for instance a backing surface.the width of the viewportthe height of the viewport
 """
-  fun gtk_drawing_area_new(): NullablePointer[SGtkWidget] =>
+  fun gnew(): NullablePointer[SGtkWidget] =>
 """
 Creates a new drawing area.a new `GtkDrawingArea`
 """
     @gtk_drawing_area_new()
-  fun gtk_drawing_area_set_content_width(self: NullablePointer[SGtkDrawingArea] tag, width: I32): None =>
+  fun set_content_width(self: NullablePointer[SGtkDrawingArea] tag, width: I32): None =>
 """
 Sets the desired width of the contents of the drawing area.
 
@@ -133,12 +133,12 @@ function is larger than the width set here. You can use
 If the width is set to 0 (the default), the drawing area may disappear.a `GtkDrawingArea`the width of contents
 """
     @gtk_drawing_area_set_content_width(self, width)
-  fun gtk_drawing_area_get_content_width(self: NullablePointer[SGtkDrawingArea] tag): I32 =>
+  fun get_content_width(self: NullablePointer[SGtkDrawingArea] tag): I32 =>
 """
 Retrieves the content width of the `GtkDrawingArea`.The width requested for content of the drawing areaa `GtkDrawingArea`
 """
     @gtk_drawing_area_get_content_width(self)
-  fun gtk_drawing_area_set_content_height(self: NullablePointer[SGtkDrawingArea] tag, height: I32): None =>
+  fun set_content_height(self: NullablePointer[SGtkDrawingArea] tag, height: I32): None =>
 """
 Sets the desired height of the contents of the drawing area.
 
@@ -150,11 +150,11 @@ function is larger than the height set here. You can use
 If the height is set to 0 (the default), the drawing area may disappear.a `GtkDrawingArea`the height of contents
 """
     @gtk_drawing_area_set_content_height(self, height)
-  fun gtk_drawing_area_get_content_height(self: NullablePointer[SGtkDrawingArea] tag): I32 =>
+  fun get_content_height(self: NullablePointer[SGtkDrawingArea] tag): I32 =>
 """
 Retrieves the content height of the `GtkDrawingArea`.The height requested for content of the drawing areaa `GtkDrawingArea`
 """
     @gtk_drawing_area_get_content_height(self)
 
-    fun gtk_drawing_area_set_draw_func[A: Any ref](self: NullablePointer[SGtkDrawingArea] tag, drawfunc: Pointer[None] tag, userdata: A, destroy: Pointer[None] tag): None =>
+    fun set_draw_func[A: Any ref](self: NullablePointer[SGtkDrawingArea] tag, drawfunc: Pointer[None] tag, userdata: A, destroy: Pointer[None] tag): None =>
       @gtk_drawing_area_set_draw_func(self, drawfunc, userdata, destroy)

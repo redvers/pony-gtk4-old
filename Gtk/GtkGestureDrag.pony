@@ -8,7 +8,7 @@ class GtkGestureDrag is GtkGestureDragInterface
   var obj: NullablePointer[SGtkGesture]
 
   new create() =>
-    obj = Gtk4GestureDrag.gtk_gesture_drag_new()
+    obj = Gtk4GestureDrag.gnew()
 
   new create_from_ref(gesture: NullablePointer[SGtkGesture]) =>
     obj = gesture

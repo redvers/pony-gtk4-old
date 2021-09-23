@@ -231,7 +231,7 @@ more about the expectable sequence lifetimes.the `GdkEventSequence` that was can
 
 @sequence is guaranteed to pertain to the set of active touches.the `GdkEventSequence` that was updated
 """
-  fun gtk_gesture_single_set_button(gesture: NullablePointer[SGtkGestureSingle] tag, button: U32): None =>
+  fun set_button(gesture: NullablePointer[SGtkGestureSingle] tag, button: U32): None =>
 """
 Sets the button number @gesture listens to.
 

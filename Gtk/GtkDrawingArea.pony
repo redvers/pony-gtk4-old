@@ -8,7 +8,7 @@ class GtkDrawingArea is GtkDrawingAreaInterface
   var obj: NullablePointer[SGtkDrawingArea]
 
   new create() =>
-    obj = Gtk4DrawingArea.gtk_drawing_area_new()
+    obj = Gtk4DrawingArea.gnew()
 
   new create_from_ref(window: NullablePointer[SGtkDrawingArea]) =>
     obj = window
@@ -20,4 +20,4 @@ interface GtkDrawingAreaInterface is GtkWidgetInterface
   fun ref getobj(): NullablePointer[GObject]
 
   fun ref set_draw_func[A: Any ref](func: Pointer[None], userdata: A, destroy: Pointer[None] tag): None =>
-    Gtk4DrawingArea.gtk_drawing_area_set_draw_func[A](getobj(), func, userdata, destroy)
+    Gtk4DrawingArea.set_draw_func[A](getobj(), func, userdata, destroy)

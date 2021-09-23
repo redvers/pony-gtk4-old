@@ -21,7 +21,7 @@ If the @gesture is active, this function returns %TRUE
 and fills in @x and @y with the drag start coordinates,
 in surface-relative coordinates.%TRUE if the gesture is activea `GtkGesture`X coordinate for the drag start pointY coordinate for the drag start pointEmitted whenever dragging starts.X coordinate, relative to the widget allocationY coordinate, relative to the widget allocationEmitted whenever the dragging is finished.X offset, relative to the start pointY offset, relative to the start pointEmitted whenever the dragging point moves.X offset, relative to the start pointY offset, relative to the start point
 """
-  fun gtk_gesture_drag_new(): NullablePointer[SGtkGesture] =>
+  fun gnew(): NullablePointer[SGtkGesture] =>
 """
 Returns a newly created `GtkGesture` that recognizes drags.a newly created `GtkGestureDrag`
 """

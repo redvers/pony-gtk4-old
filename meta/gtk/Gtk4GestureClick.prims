@@ -22,7 +22,7 @@ Due to implicit grabs, this can only happen on situations
 where input is grabbed elsewhere mid-press or the pressed
 widget voluntarily relinquishes its implicit grab.X coordinate of the eventY coordinate of the eventButton being releasedSequence being released
 """
-  fun gtk_gesture_click_new(): NullablePointer[SGtkGesture] =>
+  fun gnew(): NullablePointer[SGtkGesture] =>
 """
 Returns a newly created `GtkGesture` that recognizes
 single and multiple presses.a newly created `GtkGestureClick`

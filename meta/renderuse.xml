@@ -1134,13 +1134,13 @@
   <renderuse id="_16772" render="0"/><!-- gtk_layout_manager_get_layout_child -->
   <renderuse id="_16090" render="0"/><!-- gtk_widget_get_type -->
   <renderuse id="_16091" render="0"/><!-- gtk_widget_unparent -->
-  <renderuse id="_16092" render="1"/><!-- gtk_widget_show -->
+  <renderuse id="_16092" render="0"/><!-- gtk_widget_show -->
   <renderuse id="_16093" render="0"/><!-- gtk_widget_hide -->
   <renderuse id="_16094" render="0"/><!-- gtk_widget_map -->
   <renderuse id="_16095" render="0"/><!-- gtk_widget_unmap -->
   <renderuse id="_16096" render="0"/><!-- gtk_widget_realize -->
   <renderuse id="_16097" render="0"/><!-- gtk_widget_unrealize -->
-  <renderuse id="_16098" render="1"/><!-- gtk_widget_queue_draw -->
+  <renderuse id="_16098" render="0"/><!-- gtk_widget_queue_draw -->
   <renderuse id="_16099" render="0"/><!-- gtk_widget_queue_resize -->
   <renderuse id="_16100" render="0"/><!-- gtk_widget_queue_allocate -->
   <renderuse id="_16101" render="0"/><!-- gtk_widget_get_frame_clock -->
@@ -1194,7 +1194,7 @@
   <renderuse id="_16149" render="0"/><!-- gtk_widget_set_parent -->
   <renderuse id="_16150" render="0"/><!-- gtk_widget_get_parent -->
   <renderuse id="_16151" render="0"/><!-- gtk_widget_get_root -->
-  <renderuse id="_16152" render="1"/><!-- gtk_widget_get_native -->
+  <renderuse id="_16152" render="0"/><!-- gtk_widget_get_native -->
   <renderuse id="_16153" render="0"/><!-- gtk_widget_set_child_visible -->
   <renderuse id="_16154" render="0"/><!-- gtk_widget_get_child_visible -->
   <renderuse id="_16155" render="0"/><!-- gtk_widget_get_allocated_width -->
@@ -1204,13 +1204,13 @@
   <renderuse id="_16159" render="0"/><!-- gtk_widget_compute_transform -->
   <renderuse id="_16160" render="0"/><!-- gtk_widget_compute_bounds -->
   <renderuse id="_16161" render="0"/><!-- gtk_widget_compute_point -->
-  <renderuse id="_16162" render="1"/><!-- gtk_widget_get_width -->
-  <renderuse id="_16163" render="1"/><!-- gtk_widget_get_height -->
+  <renderuse id="_16162" render="0"/><!-- gtk_widget_get_width -->
+  <renderuse id="_16163" render="0"/><!-- gtk_widget_get_height -->
   <renderuse id="_16164" render="0"/><!-- gtk_widget_get_size -->
   <renderuse id="_16165" render="0"/><!-- gtk_widget_child_focus -->
   <renderuse id="_16166" render="0"/><!-- gtk_widget_keynav_failed -->
   <renderuse id="_16167" render="0"/><!-- gtk_widget_error_bell -->
-  <renderuse id="_16168" render="1"/><!-- gtk_widget_set_size_request -->
+  <renderuse id="_16168" render="0"/><!-- gtk_widget_set_size_request -->
   <renderuse id="_16169" render="0"/><!-- gtk_widget_get_size_request -->
   <renderuse id="_16170" render="0"/><!-- gtk_widget_set_opacity -->
   <renderuse id="_16171" render="0"/><!-- gtk_widget_get_opacity -->
@@ -1247,7 +1247,7 @@
   <renderuse id="_16202" render="0"/><!-- gtk_widget_translate_coordinates -->
   <renderuse id="_16203" render="0"/><!-- gtk_widget_contains -->
   <renderuse id="_16204" render="0"/><!-- gtk_widget_pick -->
-  <renderuse id="_16205" render="1"/><!-- gtk_widget_add_controller -->
+  <renderuse id="_16205" render="0"/><!-- gtk_widget_add_controller -->
   <renderuse id="_16206" render="0"/><!-- gtk_widget_remove_controller -->
   <renderuse id="_16207" render="0"/><!-- gtk_widget_create_pango_context -->
   <renderuse id="_16208" render="0"/><!-- gtk_widget_get_pango_context -->
