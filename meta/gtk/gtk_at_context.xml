@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_16680" render="0"/><!-- gtk_at_context_get_type -->
+  <renderuse id="_16708" render="0"/><!-- gtk_at_context_get_accessible -->
+  <renderuse id="_16709" render="0"/><!-- gtk_at_context_get_accessible_role -->
+  <renderuse id="_16710" render="0"/><!-- gtk_at_context_create -->
+</renderuses>
+</castxml2pony>

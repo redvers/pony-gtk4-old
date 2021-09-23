@@ -1,0 +1,12 @@
+  <renderuse id="_17478" render="0"/><!-- gtk_center_layout_get_type -->
+  <renderuse id="_17503" render="0"/><!-- gtk_center_layout_new -->
+  <renderuse id="_17504" render="0"/><!-- gtk_center_layout_set_orientation -->
+  <renderuse id="_17505" render="0"/><!-- gtk_center_layout_get_orientation -->
+  <renderuse id="_17506" render="0"/><!-- gtk_center_layout_set_baseline_position -->
+  <renderuse id="_17507" render="0"/><!-- gtk_center_layout_get_baseline_position -->
+  <renderuse id="_17508" render="0"/><!-- gtk_center_layout_set_start_widget -->
+  <renderuse id="_17509" render="0"/><!-- gtk_center_layout_get_start_widget -->
+  <renderuse id="_17510" render="0"/><!-- gtk_center_layout_set_center_widget -->
+  <renderuse id="_17511" render="0"/><!-- gtk_center_layout_get_center_widget -->
+  <renderuse id="_17512" render="0"/><!-- gtk_center_layout_set_end_widget -->
+  <renderuse id="_17513" render="0"/><!-- gtk_center_layout_get_end_widget -->

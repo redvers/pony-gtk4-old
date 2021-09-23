@@ -1,0 +1,6 @@
+  <renderuse id="_20998" render="0"/><!-- gtk_shortcut_label_get_type -->
+  <renderuse id="_20999" render="0"/><!-- gtk_shortcut_label_new -->
+  <renderuse id="_21000" render="0"/><!-- gtk_shortcut_label_get_accelerator -->
+  <renderuse id="_21001" render="0"/><!-- gtk_shortcut_label_set_accelerator -->
+  <renderuse id="_21002" render="0"/><!-- gtk_shortcut_label_get_disabled_text -->
+  <renderuse id="_21003" render="0"/><!-- gtk_shortcut_label_set_disabled_text -->

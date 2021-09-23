@@ -1,0 +1,6 @@
+  <renderuse id="_17576" render="0"/><!-- gtk_sorter_get_type -->
+  <renderuse id="_17604" render="0"/><!-- gtk_sorter_compare -->
+  <renderuse id="_17605" render="0"/><!-- gtk_sorter_get_order -->
+  <renderuse id="_17606" render="0"/><!-- gtk_sorter_changed -->
+  <renderuse id="_18332" render="0"/><!-- gtk_sorter_order_get_type -->
+  <renderuse id="_18333" render="0"/><!-- gtk_sorter_change_get_type -->

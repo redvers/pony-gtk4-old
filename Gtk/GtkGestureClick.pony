@@ -8,7 +8,7 @@ class GtkGestureClick is GtkGestureClickInterface
   var obj: NullablePointer[SGtkGesture]
 
   new create() =>
-    obj = Gtk4Sys.gtk_gesture_click_new()
+    obj = Gtk4GestureClick.gtk_gesture_click_new()
 
   new create_from_ref(gesture: NullablePointer[SGtkGesture]) =>
     obj = gesture

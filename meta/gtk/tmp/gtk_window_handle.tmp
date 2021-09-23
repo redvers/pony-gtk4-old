@@ -1,0 +1,4 @@
+  <renderuse id="_22293" render="0"/><!-- gtk_window_handle_get_type -->
+  <renderuse id="_22318" render="0"/><!-- gtk_window_handle_new -->
+  <renderuse id="_22319" render="0"/><!-- gtk_window_handle_get_child -->
+  <renderuse id="_22320" render="0"/><!-- gtk_window_handle_set_child -->

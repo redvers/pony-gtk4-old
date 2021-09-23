@@ -1,0 +1,10 @@
+  <renderuse id="_21038" render="0"/><!-- gtk_shortcut_trigger_get_type -->
+  <renderuse id="_21064" render="0"/><!-- gtk_shortcut_trigger_parse_string -->
+  <renderuse id="_21065" render="0"/><!-- gtk_shortcut_trigger_to_string -->
+  <renderuse id="_21066" render="0"/><!-- gtk_shortcut_trigger_print -->
+  <renderuse id="_21067" render="0"/><!-- gtk_shortcut_trigger_to_label -->
+  <renderuse id="_21068" render="0"/><!-- gtk_shortcut_trigger_print_label -->
+  <renderuse id="_21069" render="0"/><!-- gtk_shortcut_trigger_hash -->
+  <renderuse id="_21070" render="0"/><!-- gtk_shortcut_trigger_equal -->
+  <renderuse id="_21071" render="0"/><!-- gtk_shortcut_trigger_compare -->
+  <renderuse id="_21072" render="0"/><!-- gtk_shortcut_trigger_trigger -->

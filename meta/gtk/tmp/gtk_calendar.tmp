@@ -1,0 +1,14 @@
+  <renderuse id="_17166" render="0"/><!-- gtk_calendar_get_type -->
+  <renderuse id="_17167" render="0"/><!-- gtk_calendar_new -->
+  <renderuse id="_17168" render="0"/><!-- gtk_calendar_select_day -->
+  <renderuse id="_17169" render="0"/><!-- gtk_calendar_mark_day -->
+  <renderuse id="_17170" render="0"/><!-- gtk_calendar_unmark_day -->
+  <renderuse id="_17171" render="0"/><!-- gtk_calendar_clear_marks -->
+  <renderuse id="_17172" render="0"/><!-- gtk_calendar_set_show_week_numbers -->
+  <renderuse id="_17173" render="0"/><!-- gtk_calendar_get_show_week_numbers -->
+  <renderuse id="_17174" render="0"/><!-- gtk_calendar_set_show_heading -->
+  <renderuse id="_17175" render="0"/><!-- gtk_calendar_get_show_heading -->
+  <renderuse id="_17176" render="0"/><!-- gtk_calendar_set_show_day_names -->
+  <renderuse id="_17177" render="0"/><!-- gtk_calendar_get_show_day_names -->
+  <renderuse id="_17178" render="0"/><!-- gtk_calendar_get_date -->
+  <renderuse id="_17179" render="0"/><!-- gtk_calendar_get_day_is_marked -->

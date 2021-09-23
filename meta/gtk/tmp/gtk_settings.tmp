@@ -1,0 +1,4 @@
+  <renderuse id="_20977" render="0"/><!-- gtk_settings_get_type -->
+  <renderuse id="_20978" render="0"/><!-- gtk_settings_get_default -->
+  <renderuse id="_20979" render="0"/><!-- gtk_settings_get_for_display -->
+  <renderuse id="_20980" render="0"/><!-- gtk_settings_reset_property -->

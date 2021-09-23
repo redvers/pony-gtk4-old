@@ -1,0 +1,4 @@
+  <renderuse id="_21163" render="0"/><!-- gtk_alternative_trigger_get_type -->
+  <renderuse id="_21191" render="0"/><!-- gtk_alternative_trigger_new -->
+  <renderuse id="_21192" render="0"/><!-- gtk_alternative_trigger_get_first -->
+  <renderuse id="_21193" render="0"/><!-- gtk_alternative_trigger_get_second -->

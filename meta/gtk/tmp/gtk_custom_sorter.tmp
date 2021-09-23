@@ -1,0 +1,3 @@
+  <renderuse id="_18486" render="0"/><!-- gtk_custom_sorter_get_type -->
+  <renderuse id="_18511" render="0"/><!-- gtk_custom_sorter_new -->
+  <renderuse id="_18512" render="0"/><!-- gtk_custom_sorter_set_sort_func -->

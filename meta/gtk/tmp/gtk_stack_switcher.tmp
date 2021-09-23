@@ -1,0 +1,4 @@
+  <renderuse id="_21435" render="0"/><!-- gtk_stack_switcher_get_type -->
+  <renderuse id="_21436" render="0"/><!-- gtk_stack_switcher_new -->
+  <renderuse id="_21437" render="0"/><!-- gtk_stack_switcher_set_stack -->
+  <renderuse id="_21438" render="0"/><!-- gtk_stack_switcher_get_stack -->

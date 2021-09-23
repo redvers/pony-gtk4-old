@@ -1,0 +1,8 @@
+  <renderuse id="_18281" render="0"/><!-- gtk_size_group_mode_get_type -->
+  <renderuse id="_21382" render="0"/><!-- gtk_size_group_get_type -->
+  <renderuse id="_21383" render="0"/><!-- gtk_size_group_new -->
+  <renderuse id="_21384" render="0"/><!-- gtk_size_group_set_mode -->
+  <renderuse id="_21385" render="0"/><!-- gtk_size_group_get_mode -->
+  <renderuse id="_21386" render="0"/><!-- gtk_size_group_add_widget -->
+  <renderuse id="_21387" render="0"/><!-- gtk_size_group_remove_widget -->
+  <renderuse id="_21388" render="0"/><!-- gtk_size_group_get_widgets -->

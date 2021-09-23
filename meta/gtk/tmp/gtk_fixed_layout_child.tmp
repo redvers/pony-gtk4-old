@@ -1,0 +1,3 @@
+  <renderuse id="_18834" render="0"/><!-- gtk_fixed_layout_child_get_type -->
+  <renderuse id="_18859" render="0"/><!-- gtk_fixed_layout_child_set_transform -->
+  <renderuse id="_18860" render="0"/><!-- gtk_fixed_layout_child_get_transform -->

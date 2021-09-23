@@ -1,0 +1,7 @@
+  <renderuse id="_20322" render="0"/><!-- gtk_overlay_layout_get_type -->
+  <renderuse id="_20347" render="0"/><!-- gtk_overlay_layout_new -->
+  <renderuse id="_20348" render="0"/><!-- gtk_overlay_layout_child_get_type -->
+  <renderuse id="_20373" render="0"/><!-- gtk_overlay_layout_child_set_measure -->
+  <renderuse id="_20374" render="0"/><!-- gtk_overlay_layout_child_get_measure -->
+  <renderuse id="_20375" render="0"/><!-- gtk_overlay_layout_child_set_clip_overlay -->
+  <renderuse id="_20376" render="0"/><!-- gtk_overlay_layout_child_get_clip_overlay -->

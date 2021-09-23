@@ -1,0 +1,11 @@
+  <renderuse id="_17375" render="0"/><!-- gtk_cell_area_context_get_type -->
+  <renderuse id="_17376" render="0"/><!-- gtk_cell_area_context_get_area -->
+  <renderuse id="_17377" render="0"/><!-- gtk_cell_area_context_allocate -->
+  <renderuse id="_17378" render="0"/><!-- gtk_cell_area_context_reset -->
+  <renderuse id="_17379" render="0"/><!-- gtk_cell_area_context_get_preferred_width -->
+  <renderuse id="_17380" render="0"/><!-- gtk_cell_area_context_get_preferred_height -->
+  <renderuse id="_17381" render="0"/><!-- gtk_cell_area_context_get_preferred_height_for_width -->
+  <renderuse id="_17382" render="0"/><!-- gtk_cell_area_context_get_preferred_width_for_height -->
+  <renderuse id="_17383" render="0"/><!-- gtk_cell_area_context_get_allocation -->
+  <renderuse id="_17384" render="0"/><!-- gtk_cell_area_context_push_preferred_width -->
+  <renderuse id="_17385" render="0"/><!-- gtk_cell_area_context_push_preferred_height -->

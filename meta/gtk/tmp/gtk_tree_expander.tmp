@@ -1,0 +1,7 @@
+  <renderuse id="_22043" render="0"/><!-- gtk_tree_expander_get_type -->
+  <renderuse id="_22068" render="0"/><!-- gtk_tree_expander_new -->
+  <renderuse id="_22069" render="0"/><!-- gtk_tree_expander_get_child -->
+  <renderuse id="_22070" render="0"/><!-- gtk_tree_expander_set_child -->
+  <renderuse id="_22071" render="0"/><!-- gtk_tree_expander_get_item -->
+  <renderuse id="_22072" render="0"/><!-- gtk_tree_expander_get_list_row -->
+  <renderuse id="_22073" render="0"/><!-- gtk_tree_expander_set_list_row -->

@@ -1,0 +1,11 @@
+  <renderuse id="_17132" render="0"/><!-- gtk_list_item_factory_get_type -->
+  <renderuse id="_19747" render="0"/><!-- gtk_list_item_get_type -->
+  <renderuse id="_19748" render="0"/><!-- gtk_list_item_get_item -->
+  <renderuse id="_19749" render="0"/><!-- gtk_list_item_get_position -->
+  <renderuse id="_19750" render="0"/><!-- gtk_list_item_get_selected -->
+  <renderuse id="_19751" render="0"/><!-- gtk_list_item_get_selectable -->
+  <renderuse id="_19752" render="0"/><!-- gtk_list_item_set_selectable -->
+  <renderuse id="_19753" render="0"/><!-- gtk_list_item_get_activatable -->
+  <renderuse id="_19754" render="0"/><!-- gtk_list_item_set_activatable -->
+  <renderuse id="_19755" render="0"/><!-- gtk_list_item_set_child -->
+  <renderuse id="_19756" render="0"/><!-- gtk_list_item_get_child -->

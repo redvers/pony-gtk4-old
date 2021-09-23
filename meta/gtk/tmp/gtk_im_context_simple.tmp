@@ -1,0 +1,4 @@
+  <renderuse id="_19550" render="0"/><!-- gtk_im_context_simple_get_type -->
+  <renderuse id="_19551" render="0"/><!-- gtk_im_context_simple_new -->
+  <renderuse id="_19552" render="0"/><!-- gtk_im_context_simple_add_table -->
+  <renderuse id="_19553" render="0"/><!-- gtk_im_context_simple_add_compose_file -->

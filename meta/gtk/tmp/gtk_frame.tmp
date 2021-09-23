@@ -1,0 +1,10 @@
+  <renderuse id="_19174" render="0"/><!-- gtk_frame_get_type -->
+  <renderuse id="_19175" render="1"/><!-- gtk_frame_new -->
+  <renderuse id="_19176" render="0"/><!-- gtk_frame_set_label -->
+  <renderuse id="_19177" render="0"/><!-- gtk_frame_get_label -->
+  <renderuse id="_19178" render="0"/><!-- gtk_frame_set_label_widget -->
+  <renderuse id="_19179" render="0"/><!-- gtk_frame_get_label_widget -->
+  <renderuse id="_19180" render="0"/><!-- gtk_frame_set_label_align -->
+  <renderuse id="_19181" render="0"/><!-- gtk_frame_get_label_align -->
+  <renderuse id="_19182" render="1"/><!-- gtk_frame_set_child -->
+  <renderuse id="_19183" render="1"/><!-- gtk_frame_get_child -->

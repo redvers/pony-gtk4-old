@@ -1,0 +1,11 @@
+  <renderuse id="_20928" render="0"/><!-- gtk_search_bar_get_type -->
+  <renderuse id="_20929" render="0"/><!-- gtk_search_bar_new -->
+  <renderuse id="_20930" render="0"/><!-- gtk_search_bar_connect_entry -->
+  <renderuse id="_20931" render="0"/><!-- gtk_search_bar_get_search_mode -->
+  <renderuse id="_20932" render="0"/><!-- gtk_search_bar_set_search_mode -->
+  <renderuse id="_20933" render="0"/><!-- gtk_search_bar_get_show_close_button -->
+  <renderuse id="_20934" render="0"/><!-- gtk_search_bar_set_show_close_button -->
+  <renderuse id="_20935" render="0"/><!-- gtk_search_bar_set_key_capture_widget -->
+  <renderuse id="_20936" render="0"/><!-- gtk_search_bar_get_key_capture_widget -->
+  <renderuse id="_20937" render="0"/><!-- gtk_search_bar_set_child -->
+  <renderuse id="_20938" render="0"/><!-- gtk_search_bar_get_child -->

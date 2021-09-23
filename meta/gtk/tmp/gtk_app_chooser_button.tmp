@@ -1,0 +1,13 @@
+  <renderuse id="_16596" render="0"/><!-- gtk_app_chooser_button_get_type -->
+  <renderuse id="_16597" render="0"/><!-- gtk_app_chooser_button_new -->
+  <renderuse id="_16598" render="0"/><!-- gtk_app_chooser_button_append_separator -->
+  <renderuse id="_16599" render="0"/><!-- gtk_app_chooser_button_append_custom_item -->
+  <renderuse id="_16600" render="0"/><!-- gtk_app_chooser_button_set_active_custom_item -->
+  <renderuse id="_16601" render="0"/><!-- gtk_app_chooser_button_set_show_dialog_item -->
+  <renderuse id="_16602" render="0"/><!-- gtk_app_chooser_button_get_show_dialog_item -->
+  <renderuse id="_16603" render="0"/><!-- gtk_app_chooser_button_set_heading -->
+  <renderuse id="_16604" render="0"/><!-- gtk_app_chooser_button_get_heading -->
+  <renderuse id="_16605" render="0"/><!-- gtk_app_chooser_button_set_show_default_item -->
+  <renderuse id="_16606" render="0"/><!-- gtk_app_chooser_button_get_show_default_item -->
+  <renderuse id="_16607" render="0"/><!-- gtk_app_chooser_button_get_modal -->
+  <renderuse id="_16608" render="0"/><!-- gtk_app_chooser_button_set_modal -->

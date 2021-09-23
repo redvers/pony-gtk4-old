@@ -1,0 +1,3 @@
+  <renderuse id="_21133" render="0"/><!-- gtk_mnemonic_trigger_get_type -->
+  <renderuse id="_21161" render="0"/><!-- gtk_mnemonic_trigger_new -->
+  <renderuse id="_21162" render="0"/><!-- gtk_mnemonic_trigger_get_keyval -->

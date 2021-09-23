@@ -1,0 +1,6 @@
+  <renderuse id="_15876" render="0"/><!-- gtk_shortcut_action_get_type -->
+  <renderuse id="_15902" render="0"/><!-- gtk_shortcut_action_to_string -->
+  <renderuse id="_15903" render="0"/><!-- gtk_shortcut_action_parse_string -->
+  <renderuse id="_15904" render="0"/><!-- gtk_shortcut_action_print -->
+  <renderuse id="_15905" render="0"/><!-- gtk_shortcut_action_activate -->
+  <renderuse id="_18330" render="0"/><!-- gtk_shortcut_action_flags_get_type -->

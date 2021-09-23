@@ -1,0 +1,7 @@
+  <renderuse id="_22257" render="0"/><!-- gtk_window_controls_get_type -->
+  <renderuse id="_22282" render="0"/><!-- gtk_window_controls_new -->
+  <renderuse id="_22283" render="0"/><!-- gtk_window_controls_get_side -->
+  <renderuse id="_22284" render="0"/><!-- gtk_window_controls_set_side -->
+  <renderuse id="_22285" render="0"/><!-- gtk_window_controls_get_decoration_layout -->
+  <renderuse id="_22286" render="0"/><!-- gtk_window_controls_set_decoration_layout -->
+  <renderuse id="_22287" render="0"/><!-- gtk_window_controls_get_empty -->

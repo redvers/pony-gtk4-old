@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_22120" render="0"/><!-- gtk_tree_selection_get_type -->
+  <renderuse id="_22121" render="0"/><!-- gtk_tree_selection_set_mode -->
+  <renderuse id="_22122" render="0"/><!-- gtk_tree_selection_get_mode -->
+  <renderuse id="_22123" render="0"/><!-- gtk_tree_selection_set_select_function -->
+  <renderuse id="_22124" render="0"/><!-- gtk_tree_selection_get_user_data -->
+  <renderuse id="_22125" render="0"/><!-- gtk_tree_selection_get_tree_view -->
+  <renderuse id="_22126" render="0"/><!-- gtk_tree_selection_get_select_function -->
+  <renderuse id="_22127" render="0"/><!-- gtk_tree_selection_get_selected -->
+  <renderuse id="_22128" render="0"/><!-- gtk_tree_selection_get_selected_rows -->
+  <renderuse id="_22129" render="0"/><!-- gtk_tree_selection_count_selected_rows -->
+  <renderuse id="_22130" render="0"/><!-- gtk_tree_selection_selected_foreach -->
+  <renderuse id="_22131" render="0"/><!-- gtk_tree_selection_select_path -->
+  <renderuse id="_22132" render="0"/><!-- gtk_tree_selection_unselect_path -->
+  <renderuse id="_22133" render="0"/><!-- gtk_tree_selection_select_iter -->
+  <renderuse id="_22134" render="0"/><!-- gtk_tree_selection_unselect_iter -->
+  <renderuse id="_22135" render="0"/><!-- gtk_tree_selection_path_is_selected -->
+  <renderuse id="_22136" render="0"/><!-- gtk_tree_selection_iter_is_selected -->
+  <renderuse id="_22137" render="0"/><!-- gtk_tree_selection_select_all -->
+  <renderuse id="_22138" render="0"/><!-- gtk_tree_selection_unselect_all -->
+  <renderuse id="_22139" render="0"/><!-- gtk_tree_selection_select_range -->
+  <renderuse id="_22140" render="0"/><!-- gtk_tree_selection_unselect_range -->
+</renderuses>
+</castxml2pony>

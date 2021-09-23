@@ -1,0 +1,12 @@
+  <renderuse id="_17842" render="0"/><!-- gtk_entry_buffer_get_type -->
+  <renderuse id="_17843" render="0"/><!-- gtk_entry_buffer_new -->
+  <renderuse id="_17844" render="0"/><!-- gtk_entry_buffer_get_bytes -->
+  <renderuse id="_17845" render="0"/><!-- gtk_entry_buffer_get_length -->
+  <renderuse id="_17846" render="0"/><!-- gtk_entry_buffer_get_text -->
+  <renderuse id="_17847" render="0"/><!-- gtk_entry_buffer_set_text -->
+  <renderuse id="_17848" render="0"/><!-- gtk_entry_buffer_set_max_length -->
+  <renderuse id="_17849" render="0"/><!-- gtk_entry_buffer_get_max_length -->
+  <renderuse id="_17850" render="0"/><!-- gtk_entry_buffer_insert_text -->
+  <renderuse id="_17851" render="0"/><!-- gtk_entry_buffer_delete_text -->
+  <renderuse id="_17852" render="0"/><!-- gtk_entry_buffer_emit_inserted_text -->
+  <renderuse id="_17853" render="0"/><!-- gtk_entry_buffer_emit_deleted_text -->

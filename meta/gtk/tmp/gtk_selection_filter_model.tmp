@@ -1,0 +1,4 @@
+  <renderuse id="_20945" render="0"/><!-- gtk_selection_filter_model_get_type -->
+  <renderuse id="_20970" render="0"/><!-- gtk_selection_filter_model_new -->
+  <renderuse id="_20971" render="0"/><!-- gtk_selection_filter_model_set_model -->
+  <renderuse id="_20972" render="0"/><!-- gtk_selection_filter_model_get_model -->

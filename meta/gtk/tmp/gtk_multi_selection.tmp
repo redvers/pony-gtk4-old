@@ -1,0 +1,4 @@
+  <renderuse id="_20114" render="0"/><!-- gtk_multi_selection_get_type -->
+  <renderuse id="_20139" render="0"/><!-- gtk_multi_selection_new -->
+  <renderuse id="_20140" render="0"/><!-- gtk_multi_selection_get_model -->
+  <renderuse id="_20141" render="0"/><!-- gtk_multi_selection_set_model -->

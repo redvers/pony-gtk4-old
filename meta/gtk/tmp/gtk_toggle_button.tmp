@@ -1,0 +1,8 @@
+  <renderuse id="_17518" render="0"/><!-- gtk_toggle_button_get_type -->
+  <renderuse id="_17519" render="0"/><!-- gtk_toggle_button_new -->
+  <renderuse id="_17520" render="0"/><!-- gtk_toggle_button_new_with_label -->
+  <renderuse id="_17521" render="0"/><!-- gtk_toggle_button_new_with_mnemonic -->
+  <renderuse id="_17522" render="0"/><!-- gtk_toggle_button_set_active -->
+  <renderuse id="_17523" render="0"/><!-- gtk_toggle_button_get_active -->
+  <renderuse id="_17524" render="0"/><!-- gtk_toggle_button_toggled -->
+  <renderuse id="_17525" render="0"/><!-- gtk_toggle_button_set_group -->

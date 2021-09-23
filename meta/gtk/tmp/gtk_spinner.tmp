@@ -1,0 +1,6 @@
+  <renderuse id="_21427" render="0"/><!-- gtk_spinner_get_type -->
+  <renderuse id="_21428" render="0"/><!-- gtk_spinner_new -->
+  <renderuse id="_21429" render="0"/><!-- gtk_spinner_start -->
+  <renderuse id="_21430" render="0"/><!-- gtk_spinner_stop -->
+  <renderuse id="_21431" render="0"/><!-- gtk_spinner_set_spinning -->
+  <renderuse id="_21432" render="0"/><!-- gtk_spinner_get_spinning -->

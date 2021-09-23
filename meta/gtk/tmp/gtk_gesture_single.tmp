@@ -1,0 +1,9 @@
+  <renderuse id="_19208" render="0"/><!-- gtk_gesture_single_get_type -->
+  <renderuse id="_19209" render="0"/><!-- gtk_gesture_single_get_touch_only -->
+  <renderuse id="_19210" render="0"/><!-- gtk_gesture_single_set_touch_only -->
+  <renderuse id="_19211" render="0"/><!-- gtk_gesture_single_get_exclusive -->
+  <renderuse id="_19212" render="0"/><!-- gtk_gesture_single_set_exclusive -->
+  <renderuse id="_19213" render="0"/><!-- gtk_gesture_single_get_button -->
+  <renderuse id="_19214" render="1"/><!-- gtk_gesture_single_set_button -->
+  <renderuse id="_19215" render="0"/><!-- gtk_gesture_single_get_current_button -->
+  <renderuse id="_19216" render="0"/><!-- gtk_gesture_single_get_current_sequence -->

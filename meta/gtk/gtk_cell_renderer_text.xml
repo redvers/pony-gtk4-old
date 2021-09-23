@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_17409" render="0"/><!-- gtk_cell_renderer_text_get_type -->
+  <renderuse id="_17410" render="0"/><!-- gtk_cell_renderer_text_new -->
+  <renderuse id="_17411" render="0"/><!-- gtk_cell_renderer_text_set_fixed_height_from_font -->
+</renderuses>
+</castxml2pony>

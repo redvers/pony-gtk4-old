@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_17450" render="0"/><!-- gtk_cell_view_get_type -->
+  <renderuse id="_17451" render="0"/><!-- gtk_cell_view_new -->
+  <renderuse id="_17452" render="0"/><!-- gtk_cell_view_new_with_context -->
+  <renderuse id="_17453" render="0"/><!-- gtk_cell_view_new_with_text -->
+  <renderuse id="_17454" render="0"/><!-- gtk_cell_view_new_with_markup -->
+  <renderuse id="_17455" render="0"/><!-- gtk_cell_view_new_with_texture -->
+  <renderuse id="_17456" render="0"/><!-- gtk_cell_view_set_model -->
+  <renderuse id="_17457" render="0"/><!-- gtk_cell_view_get_model -->
+  <renderuse id="_17458" render="0"/><!-- gtk_cell_view_set_displayed_row -->
+  <renderuse id="_17459" render="0"/><!-- gtk_cell_view_get_displayed_row -->
+  <renderuse id="_17460" render="0"/><!-- gtk_cell_view_get_draw_sensitive -->
+  <renderuse id="_17461" render="0"/><!-- gtk_cell_view_set_draw_sensitive -->
+  <renderuse id="_17462" render="0"/><!-- gtk_cell_view_get_fit_model -->
+  <renderuse id="_17463" render="0"/><!-- gtk_cell_view_set_fit_model -->
+</renderuses>
+</castxml2pony>

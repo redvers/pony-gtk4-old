@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_21335" render="0"/><!-- gtk_stack_page_get_type -->
+  <renderuse id="_21336" render="0"/><!-- gtk_stack_page_get_child -->
+  <renderuse id="_21337" render="0"/><!-- gtk_stack_page_get_visible -->
+  <renderuse id="_21338" render="0"/><!-- gtk_stack_page_set_visible -->
+  <renderuse id="_21339" render="0"/><!-- gtk_stack_page_get_needs_attention -->
+  <renderuse id="_21340" render="0"/><!-- gtk_stack_page_set_needs_attention -->
+  <renderuse id="_21341" render="0"/><!-- gtk_stack_page_get_use_underline -->
+  <renderuse id="_21342" render="0"/><!-- gtk_stack_page_set_use_underline -->
+  <renderuse id="_21343" render="0"/><!-- gtk_stack_page_get_name -->
+  <renderuse id="_21344" render="0"/><!-- gtk_stack_page_set_name -->
+  <renderuse id="_21345" render="0"/><!-- gtk_stack_page_get_title -->
+  <renderuse id="_21346" render="0"/><!-- gtk_stack_page_set_title -->
+  <renderuse id="_21347" render="0"/><!-- gtk_stack_page_get_icon_name -->
+  <renderuse id="_21348" render="0"/><!-- gtk_stack_page_set_icon_name -->
+</renderuses>
+</castxml2pony>

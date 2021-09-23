@@ -1,0 +1,5 @@
+  <renderuse id="_19043" render="0"/><!-- gtk_flatten_list_model_get_type -->
+  <renderuse id="_19068" render="0"/><!-- gtk_flatten_list_model_new -->
+  <renderuse id="_19069" render="0"/><!-- gtk_flatten_list_model_set_model -->
+  <renderuse id="_19070" render="0"/><!-- gtk_flatten_list_model_get_model -->
+  <renderuse id="_19071" render="0"/><!-- gtk_flatten_list_model_get_model_for_item -->

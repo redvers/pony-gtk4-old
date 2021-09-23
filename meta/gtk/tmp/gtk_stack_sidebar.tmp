@@ -1,0 +1,4 @@
+  <renderuse id="_21376" render="0"/><!-- gtk_stack_sidebar_get_type -->
+  <renderuse id="_21377" render="0"/><!-- gtk_stack_sidebar_new -->
+  <renderuse id="_21378" render="0"/><!-- gtk_stack_sidebar_set_stack -->
+  <renderuse id="_21379" render="0"/><!-- gtk_stack_sidebar_get_stack -->

@@ -1,0 +1,7 @@
+  <renderuse id="_17545" render="0"/><!-- gtk_color_button_get_type -->
+  <renderuse id="_17546" render="0"/><!-- gtk_color_button_new -->
+  <renderuse id="_17547" render="0"/><!-- gtk_color_button_new_with_rgba -->
+  <renderuse id="_17548" render="0"/><!-- gtk_color_button_set_title -->
+  <renderuse id="_17549" render="0"/><!-- gtk_color_button_get_title -->
+  <renderuse id="_17550" render="0"/><!-- gtk_color_button_get_modal -->
+  <renderuse id="_17551" render="0"/><!-- gtk_color_button_set_modal -->

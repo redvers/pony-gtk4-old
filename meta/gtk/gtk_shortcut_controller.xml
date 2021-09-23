@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_20985" render="0"/><!-- gtk_shortcut_controller_get_type -->
+  <renderuse id="_20986" render="0"/><!-- gtk_shortcut_controller_new -->
+  <renderuse id="_20987" render="0"/><!-- gtk_shortcut_controller_new_for_model -->
+  <renderuse id="_20988" render="0"/><!-- gtk_shortcut_controller_set_mnemonics_modifiers -->
+  <renderuse id="_20989" render="0"/><!-- gtk_shortcut_controller_get_mnemonics_modifiers -->
+  <renderuse id="_20990" render="0"/><!-- gtk_shortcut_controller_set_scope -->
+  <renderuse id="_20991" render="0"/><!-- gtk_shortcut_controller_get_scope -->
+  <renderuse id="_20992" render="0"/><!-- gtk_shortcut_controller_add_shortcut -->
+  <renderuse id="_20993" render="0"/><!-- gtk_shortcut_controller_remove_shortcut -->
+</renderuses>
+</castxml2pony>

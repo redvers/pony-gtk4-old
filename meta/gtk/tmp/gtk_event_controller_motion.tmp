@@ -1,0 +1,4 @@
+  <renderuse id="_18763" render="0"/><!-- gtk_event_controller_motion_get_type -->
+  <renderuse id="_18764" render="0"/><!-- gtk_event_controller_motion_new -->
+  <renderuse id="_18765" render="0"/><!-- gtk_event_controller_motion_contains_pointer -->
+  <renderuse id="_18766" render="0"/><!-- gtk_event_controller_motion_is_pointer -->

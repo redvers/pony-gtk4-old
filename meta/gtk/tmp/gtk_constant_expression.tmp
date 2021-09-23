@@ -1,0 +1,4 @@
+  <renderuse id="_16897" render="0"/><!-- gtk_constant_expression_get_type -->
+  <renderuse id="_16898" render="0"/><!-- gtk_constant_expression_new -->
+  <renderuse id="_16899" render="0"/><!-- gtk_constant_expression_new_for_value -->
+  <renderuse id="_16900" render="0"/><!-- gtk_constant_expression_get_value -->

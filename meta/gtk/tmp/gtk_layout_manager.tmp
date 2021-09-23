@@ -1,0 +1,7 @@
+  <renderuse id="_16741" render="0"/><!-- gtk_layout_manager_get_type -->
+  <renderuse id="_16767" render="0"/><!-- gtk_layout_manager_measure -->
+  <renderuse id="_16768" render="0"/><!-- gtk_layout_manager_allocate -->
+  <renderuse id="_16769" render="0"/><!-- gtk_layout_manager_get_request_mode -->
+  <renderuse id="_16770" render="0"/><!-- gtk_layout_manager_get_widget -->
+  <renderuse id="_16771" render="0"/><!-- gtk_layout_manager_layout_changed -->
+  <renderuse id="_16772" render="0"/><!-- gtk_layout_manager_get_layout_child -->

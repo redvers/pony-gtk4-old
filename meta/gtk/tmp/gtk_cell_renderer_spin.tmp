@@ -1,0 +1,4 @@
+  <renderuse id="_17432" render="0"/><!-- gtk_cell_renderer_spin_get_type -->
+  <renderuse id="_17433" render="0"/><!-- gtk_cell_renderer_spin_new -->
+  <renderuse id="_17436" render="0"/><!-- gtk_cell_renderer_spinner_get_type -->
+  <renderuse id="_17437" render="0"/><!-- gtk_cell_renderer_spinner_new -->

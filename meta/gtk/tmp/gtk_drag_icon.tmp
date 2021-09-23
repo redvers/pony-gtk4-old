@@ -1,0 +1,6 @@
+  <renderuse id="_18553" render="0"/><!-- gtk_drag_icon_get_type -->
+  <renderuse id="_18578" render="0"/><!-- gtk_drag_icon_get_for_drag -->
+  <renderuse id="_18579" render="0"/><!-- gtk_drag_icon_set_child -->
+  <renderuse id="_18580" render="0"/><!-- gtk_drag_icon_get_child -->
+  <renderuse id="_18581" render="0"/><!-- gtk_drag_icon_set_from_paintable -->
+  <renderuse id="_18582" render="0"/><!-- gtk_drag_icon_create_widget_for_value -->

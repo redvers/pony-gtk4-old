@@ -1,0 +1,7 @@
+  <renderuse id="_19663" render="0"/><!-- gtk_link_button_get_type -->
+  <renderuse id="_19664" render="0"/><!-- gtk_link_button_new -->
+  <renderuse id="_19665" render="0"/><!-- gtk_link_button_new_with_label -->
+  <renderuse id="_19666" render="0"/><!-- gtk_link_button_get_uri -->
+  <renderuse id="_19667" render="0"/><!-- gtk_link_button_set_uri -->
+  <renderuse id="_19668" render="0"/><!-- gtk_link_button_get_visited -->
+  <renderuse id="_19669" render="0"/><!-- gtk_link_button_set_visited -->

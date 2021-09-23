@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_17036" render="0"/><!-- gtk_builder_scope_get_type -->
+  <renderuse id="_17054" render="0"/><!-- gtk_builder_cscope_get_type -->
+  <renderuse id="_17081" render="0"/><!-- gtk_builder_cscope_new -->
+  <renderuse id="_17082" render="0"/><!-- gtk_builder_cscope_add_callback_symbol -->
+  <renderuse id="_17083" render="0"/><!-- gtk_builder_cscope_add_callback_symbols -->
+  <renderuse id="_17084" render="0"/><!-- gtk_builder_cscope_lookup_callback_symbol -->
+  <renderuse id="_17089" render="0"/><!-- gtk_builder_error_quark -->
+  <renderuse id="_17090" render="0"/><!-- gtk_builder_get_type -->
+  <renderuse id="_17091" render="1"/><!-- gtk_builder_new -->
+  <renderuse id="_17092" render="1"/><!-- gtk_builder_add_from_file -->
+  <renderuse id="_17093" render="0"/><!-- gtk_builder_add_from_resource -->
+  <renderuse id="_17094" render="0"/><!-- gtk_builder_add_from_string -->
+  <renderuse id="_17095" render="0"/><!-- gtk_builder_add_objects_from_file -->
+  <renderuse id="_17096" render="0"/><!-- gtk_builder_add_objects_from_resource -->
+  <renderuse id="_17097" render="0"/><!-- gtk_builder_add_objects_from_string -->
+  <renderuse id="_17098" render="1"/><!-- gtk_builder_get_object -->
+  <renderuse id="_17099" render="1"/><!-- gtk_builder_get_objects -->
+  <renderuse id="_17100" render="0"/><!-- gtk_builder_expose_object -->
+  <renderuse id="_17101" render="0"/><!-- gtk_builder_get_current_object -->
+  <renderuse id="_17102" render="0"/><!-- gtk_builder_set_current_object -->
+  <renderuse id="_17103" render="0"/><!-- gtk_builder_set_translation_domain -->
+  <renderuse id="_17104" render="0"/><!-- gtk_builder_get_translation_domain -->
+  <renderuse id="_17105" render="0"/><!-- gtk_builder_get_scope -->
+  <renderuse id="_17106" render="0"/><!-- gtk_builder_set_scope -->
+  <renderuse id="_17107" render="0"/><!-- gtk_builder_get_type_from_name -->
+  <renderuse id="_17108" render="0"/><!-- gtk_builder_value_from_string -->
+  <renderuse id="_17109" render="0"/><!-- gtk_builder_value_from_string_type -->
+  <renderuse id="_17110" render="0"/><!-- gtk_builder_new_from_file -->
+  <renderuse id="_17111" render="0"/><!-- gtk_builder_new_from_resource -->
+  <renderuse id="_17112" render="0"/><!-- gtk_builder_new_from_string -->
+  <renderuse id="_17113" render="0"/><!-- gtk_builder_create_closure -->
+  <renderuse id="_17114" render="0"/><!-- gtk_builder_extend_with_template -->
+  <renderuse id="_17137" render="0"/><!-- gtk_builder_list_item_factory_get_type -->
+  <renderuse id="_17138" render="0"/><!-- gtk_builder_list_item_factory_new_from_bytes -->
+  <renderuse id="_17139" render="0"/><!-- gtk_builder_list_item_factory_new_from_resource -->
+  <renderuse id="_17140" render="0"/><!-- gtk_builder_list_item_factory_get_bytes -->
+  <renderuse id="_17141" render="0"/><!-- gtk_builder_list_item_factory_get_resource -->
+  <renderuse id="_17142" render="0"/><!-- gtk_builder_list_item_factory_get_scope -->
+  <renderuse id="_18242" render="0"/><!-- gtk_builder_error_get_type -->
+  <renderuse id="_18243" render="0"/><!-- gtk_builder_closure_flags_get_type -->
+</renderuses>
+</castxml2pony>

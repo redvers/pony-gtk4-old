@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_20542" render="0"/><!-- gtk_print_context_get_type -->
+  <renderuse id="_20543" render="0"/><!-- gtk_print_context_get_cairo_context -->
+  <renderuse id="_20544" render="0"/><!-- gtk_print_context_get_page_setup -->
+  <renderuse id="_20545" render="0"/><!-- gtk_print_context_get_width -->
+  <renderuse id="_20546" render="0"/><!-- gtk_print_context_get_height -->
+  <renderuse id="_20547" render="0"/><!-- gtk_print_context_get_dpi_x -->
+  <renderuse id="_20548" render="0"/><!-- gtk_print_context_get_dpi_y -->
+  <renderuse id="_20549" render="0"/><!-- gtk_print_context_get_hard_margins -->
+  <renderuse id="_20550" render="0"/><!-- gtk_print_context_get_pango_fontmap -->
+  <renderuse id="_20551" render="0"/><!-- gtk_print_context_create_pango_context -->
+  <renderuse id="_20552" render="0"/><!-- gtk_print_context_create_pango_layout -->
+  <renderuse id="_20553" render="0"/><!-- gtk_print_context_set_cairo_context -->
+</renderuses>
+</castxml2pony>

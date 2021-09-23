@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_22001" render="0"/><!-- gtk_tree_list_row_get_type -->
+  <renderuse id="_22034" render="0"/><!-- gtk_tree_list_row_get_item -->
+  <renderuse id="_22035" render="0"/><!-- gtk_tree_list_row_set_expanded -->
+  <renderuse id="_22036" render="0"/><!-- gtk_tree_list_row_get_expanded -->
+  <renderuse id="_22037" render="0"/><!-- gtk_tree_list_row_is_expandable -->
+  <renderuse id="_22038" render="0"/><!-- gtk_tree_list_row_get_position -->
+  <renderuse id="_22039" render="0"/><!-- gtk_tree_list_row_get_depth -->
+  <renderuse id="_22040" render="0"/><!-- gtk_tree_list_row_get_children -->
+  <renderuse id="_22041" render="0"/><!-- gtk_tree_list_row_get_parent -->
+  <renderuse id="_22042" render="0"/><!-- gtk_tree_list_row_get_child_row -->
+  <renderuse id="_22074" render="0"/><!-- gtk_tree_list_row_sorter_get_type -->
+  <renderuse id="_22099" render="0"/><!-- gtk_tree_list_row_sorter_new -->
+  <renderuse id="_22100" render="0"/><!-- gtk_tree_list_row_sorter_get_sorter -->
+  <renderuse id="_22101" render="0"/><!-- gtk_tree_list_row_sorter_set_sorter -->
+</renderuses>
+</castxml2pony>

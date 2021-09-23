@@ -1,0 +1,5 @@
+  <renderuse id="_18700" render="0"/><!-- gtk_editable_label_get_type -->
+  <renderuse id="_18725" render="0"/><!-- gtk_editable_label_new -->
+  <renderuse id="_18726" render="0"/><!-- gtk_editable_label_get_editing -->
+  <renderuse id="_18727" render="0"/><!-- gtk_editable_label_start_editing -->
+  <renderuse id="_18728" render="0"/><!-- gtk_editable_label_stop_editing -->

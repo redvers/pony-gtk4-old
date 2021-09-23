@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_20695" render="0"/><!-- gtk_progress_bar_get_type -->
+  <renderuse id="_20696" render="0"/><!-- gtk_progress_bar_new -->
+  <renderuse id="_20697" render="0"/><!-- gtk_progress_bar_pulse -->
+  <renderuse id="_20698" render="0"/><!-- gtk_progress_bar_set_text -->
+  <renderuse id="_20699" render="0"/><!-- gtk_progress_bar_set_fraction -->
+  <renderuse id="_20700" render="0"/><!-- gtk_progress_bar_set_pulse_step -->
+  <renderuse id="_20701" render="0"/><!-- gtk_progress_bar_set_inverted -->
+  <renderuse id="_20702" render="0"/><!-- gtk_progress_bar_get_text -->
+  <renderuse id="_20703" render="0"/><!-- gtk_progress_bar_get_fraction -->
+  <renderuse id="_20704" render="0"/><!-- gtk_progress_bar_get_pulse_step -->
+  <renderuse id="_20705" render="0"/><!-- gtk_progress_bar_get_inverted -->
+  <renderuse id="_20706" render="0"/><!-- gtk_progress_bar_set_ellipsize -->
+  <renderuse id="_20707" render="0"/><!-- gtk_progress_bar_get_ellipsize -->
+  <renderuse id="_20708" render="0"/><!-- gtk_progress_bar_set_show_text -->
+  <renderuse id="_20709" render="0"/><!-- gtk_progress_bar_get_show_text -->
+</renderuses>
+</castxml2pony>

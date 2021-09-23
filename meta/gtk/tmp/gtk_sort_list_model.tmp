@@ -1,0 +1,9 @@
+  <renderuse id="_17607" render="0"/><!-- gtk_sort_list_model_get_type -->
+  <renderuse id="_17632" render="0"/><!-- gtk_sort_list_model_new -->
+  <renderuse id="_17633" render="0"/><!-- gtk_sort_list_model_set_sorter -->
+  <renderuse id="_17634" render="0"/><!-- gtk_sort_list_model_get_sorter -->
+  <renderuse id="_17635" render="0"/><!-- gtk_sort_list_model_set_model -->
+  <renderuse id="_17636" render="0"/><!-- gtk_sort_list_model_get_model -->
+  <renderuse id="_17637" render="0"/><!-- gtk_sort_list_model_set_incremental -->
+  <renderuse id="_17638" render="0"/><!-- gtk_sort_list_model_get_incremental -->
+  <renderuse id="_17639" render="0"/><!-- gtk_sort_list_model_get_pending -->

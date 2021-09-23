@@ -1,0 +1,4 @@
+  <renderuse id="_16680" render="0"/><!-- gtk_at_context_get_type -->
+  <renderuse id="_16708" render="0"/><!-- gtk_at_context_get_accessible -->
+  <renderuse id="_16709" render="0"/><!-- gtk_at_context_get_accessible_role -->
+  <renderuse id="_16710" render="0"/><!-- gtk_at_context_create -->

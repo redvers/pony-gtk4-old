@@ -1,0 +1,3 @@
+  <renderuse id="_20239" render="0"/><!-- gtk_notebook_page_num -->
+  <renderuse id="_20269" render="0"/><!-- gtk_notebook_page_get_type -->
+  <renderuse id="_20271" render="0"/><!-- gtk_notebook_page_get_child -->

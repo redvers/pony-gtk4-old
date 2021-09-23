@@ -1,0 +1,6 @@
+  <renderuse id="_19258" render="0"/><!-- gtk_gesture_stylus_get_type -->
+  <renderuse id="_19259" render="0"/><!-- gtk_gesture_stylus_new -->
+  <renderuse id="_19260" render="0"/><!-- gtk_gesture_stylus_get_axis -->
+  <renderuse id="_19261" render="0"/><!-- gtk_gesture_stylus_get_axes -->
+  <renderuse id="_19262" render="0"/><!-- gtk_gesture_stylus_get_backlog -->
+  <renderuse id="_19263" render="0"/><!-- gtk_gesture_stylus_get_device_tool -->

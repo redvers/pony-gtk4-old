@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_20419" render="0"/><!-- gtk_page_setup_get_type -->
+  <renderuse id="_20420" render="0"/><!-- gtk_page_setup_new -->
+  <renderuse id="_20421" render="0"/><!-- gtk_page_setup_copy -->
+  <renderuse id="_20422" render="0"/><!-- gtk_page_setup_get_orientation -->
+  <renderuse id="_20423" render="0"/><!-- gtk_page_setup_set_orientation -->
+  <renderuse id="_20424" render="0"/><!-- gtk_page_setup_get_paper_size -->
+  <renderuse id="_20425" render="0"/><!-- gtk_page_setup_set_paper_size -->
+  <renderuse id="_20426" render="0"/><!-- gtk_page_setup_get_top_margin -->
+  <renderuse id="_20427" render="0"/><!-- gtk_page_setup_set_top_margin -->
+  <renderuse id="_20428" render="0"/><!-- gtk_page_setup_get_bottom_margin -->
+  <renderuse id="_20429" render="0"/><!-- gtk_page_setup_set_bottom_margin -->
+  <renderuse id="_20430" render="0"/><!-- gtk_page_setup_get_left_margin -->
+  <renderuse id="_20431" render="0"/><!-- gtk_page_setup_set_left_margin -->
+  <renderuse id="_20432" render="0"/><!-- gtk_page_setup_get_right_margin -->
+  <renderuse id="_20433" render="0"/><!-- gtk_page_setup_set_right_margin -->
+  <renderuse id="_20434" render="0"/><!-- gtk_page_setup_set_paper_size_and_default_margins -->
+  <renderuse id="_20435" render="0"/><!-- gtk_page_setup_get_paper_width -->
+  <renderuse id="_20436" render="0"/><!-- gtk_page_setup_get_paper_height -->
+  <renderuse id="_20437" render="0"/><!-- gtk_page_setup_get_page_width -->
+  <renderuse id="_20438" render="0"/><!-- gtk_page_setup_get_page_height -->
+  <renderuse id="_20439" render="0"/><!-- gtk_page_setup_new_from_file -->
+  <renderuse id="_20440" render="0"/><!-- gtk_page_setup_load_file -->
+  <renderuse id="_20441" render="0"/><!-- gtk_page_setup_to_file -->
+  <renderuse id="_20442" render="0"/><!-- gtk_page_setup_new_from_key_file -->
+  <renderuse id="_20443" render="0"/><!-- gtk_page_setup_load_key_file -->
+  <renderuse id="_20444" render="0"/><!-- gtk_page_setup_to_key_file -->
+  <renderuse id="_20445" render="0"/><!-- gtk_page_setup_to_gvariant -->
+  <renderuse id="_20446" render="0"/><!-- gtk_page_setup_new_from_gvariant -->
+</renderuses>
+</castxml2pony>

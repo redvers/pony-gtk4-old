@@ -1,0 +1,5 @@
+
+use "GLibSys"
+use "debug"
+
+use @gtk_application_new[NullablePointer[SGtkApplication]](applicationid: Pointer[U8] tag, flags: I32)

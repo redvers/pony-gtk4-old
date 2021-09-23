@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_17364" render="0"/><!-- gtk_cell_area_box_get_type -->
+  <renderuse id="_17365" render="0"/><!-- gtk_cell_area_box_new -->
+  <renderuse id="_17366" render="0"/><!-- gtk_cell_area_box_pack_start -->
+  <renderuse id="_17367" render="0"/><!-- gtk_cell_area_box_pack_end -->
+  <renderuse id="_17368" render="0"/><!-- gtk_cell_area_box_get_spacing -->
+  <renderuse id="_17369" render="0"/><!-- gtk_cell_area_box_set_spacing -->
+  <renderuse id="_17370" render="0"/><!-- _gtk_cell_area_box_group_visible -->
+</renderuses>
+</castxml2pony>

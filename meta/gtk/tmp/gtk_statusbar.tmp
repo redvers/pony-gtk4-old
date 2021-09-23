@@ -1,0 +1,7 @@
+  <renderuse id="_21441" render="0"/><!-- gtk_statusbar_get_type -->
+  <renderuse id="_21442" render="0"/><!-- gtk_statusbar_new -->
+  <renderuse id="_21443" render="0"/><!-- gtk_statusbar_get_context_id -->
+  <renderuse id="_21444" render="0"/><!-- gtk_statusbar_push -->
+  <renderuse id="_21445" render="0"/><!-- gtk_statusbar_pop -->
+  <renderuse id="_21446" render="0"/><!-- gtk_statusbar_remove -->
+  <renderuse id="_21447" render="0"/><!-- gtk_statusbar_remove_all -->

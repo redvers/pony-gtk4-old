@@ -1,0 +1,3 @@
+  <renderuse id="_17409" render="0"/><!-- gtk_cell_renderer_text_get_type -->
+  <renderuse id="_17410" render="0"/><!-- gtk_cell_renderer_text_new -->
+  <renderuse id="_17411" render="0"/><!-- gtk_cell_renderer_text_set_fixed_height_from_font -->

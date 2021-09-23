@@ -1,0 +1,4 @@
+  <renderuse id="_21674" render="0"/><!-- gtk_text_child_anchor_get_type -->
+  <renderuse id="_21675" render="0"/><!-- gtk_text_child_anchor_new -->
+  <renderuse id="_21676" render="0"/><!-- gtk_text_child_anchor_get_widgets -->
+  <renderuse id="_21677" render="0"/><!-- gtk_text_child_anchor_get_deleted -->

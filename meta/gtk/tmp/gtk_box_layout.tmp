@@ -1,0 +1,8 @@
+  <renderuse id="_16987" render="0"/><!-- gtk_box_layout_get_type -->
+  <renderuse id="_17012" render="0"/><!-- gtk_box_layout_new -->
+  <renderuse id="_17013" render="0"/><!-- gtk_box_layout_set_homogeneous -->
+  <renderuse id="_17014" render="0"/><!-- gtk_box_layout_get_homogeneous -->
+  <renderuse id="_17015" render="0"/><!-- gtk_box_layout_set_spacing -->
+  <renderuse id="_17016" render="0"/><!-- gtk_box_layout_get_spacing -->
+  <renderuse id="_17017" render="0"/><!-- gtk_box_layout_set_baseline_position -->
+  <renderuse id="_17018" render="0"/><!-- gtk_box_layout_get_baseline_position -->

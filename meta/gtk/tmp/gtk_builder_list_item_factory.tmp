@@ -1,0 +1,6 @@
+  <renderuse id="_17137" render="0"/><!-- gtk_builder_list_item_factory_get_type -->
+  <renderuse id="_17138" render="0"/><!-- gtk_builder_list_item_factory_new_from_bytes -->
+  <renderuse id="_17139" render="0"/><!-- gtk_builder_list_item_factory_new_from_resource -->
+  <renderuse id="_17140" render="0"/><!-- gtk_builder_list_item_factory_get_bytes -->
+  <renderuse id="_17141" render="0"/><!-- gtk_builder_list_item_factory_get_resource -->
+  <renderuse id="_17142" render="0"/><!-- gtk_builder_list_item_factory_get_scope -->

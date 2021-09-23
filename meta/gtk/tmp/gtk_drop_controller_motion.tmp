@@ -1,0 +1,5 @@
+  <renderuse id="_18628" render="0"/><!-- gtk_drop_controller_motion_get_type -->
+  <renderuse id="_18629" render="0"/><!-- gtk_drop_controller_motion_new -->
+  <renderuse id="_18630" render="0"/><!-- gtk_drop_controller_motion_contains_pointer -->
+  <renderuse id="_18631" render="0"/><!-- gtk_drop_controller_motion_get_drop -->
+  <renderuse id="_18632" render="0"/><!-- gtk_drop_controller_motion_is_pointer -->

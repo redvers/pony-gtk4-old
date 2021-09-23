@@ -1,0 +1,6 @@
+  <renderuse id="_22219" render="0"/><!-- gtk_viewport_get_type -->
+  <renderuse id="_22220" render="0"/><!-- gtk_viewport_new -->
+  <renderuse id="_22221" render="0"/><!-- gtk_viewport_get_scroll_to_focus -->
+  <renderuse id="_22222" render="0"/><!-- gtk_viewport_set_scroll_to_focus -->
+  <renderuse id="_22223" render="0"/><!-- gtk_viewport_set_child -->
+  <renderuse id="_22224" render="0"/><!-- gtk_viewport_get_child -->

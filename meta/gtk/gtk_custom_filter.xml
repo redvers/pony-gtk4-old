@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_19016" render="0"/><!-- gtk_custom_filter_get_type -->
+  <renderuse id="_19041" render="0"/><!-- gtk_custom_filter_new -->
+  <renderuse id="_19042" render="0"/><!-- gtk_custom_filter_set_filter_func -->
+</renderuses>
+</castxml2pony>

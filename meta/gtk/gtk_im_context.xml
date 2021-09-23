@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_17823" render="0"/><!-- gtk_im_context_get_type -->
+  <renderuse id="_17824" render="0"/><!-- gtk_im_context_set_client_widget -->
+  <renderuse id="_17825" render="0"/><!-- gtk_im_context_get_preedit_string -->
+  <renderuse id="_17826" render="0"/><!-- gtk_im_context_filter_keypress -->
+  <renderuse id="_17827" render="0"/><!-- gtk_im_context_filter_key -->
+  <renderuse id="_17828" render="0"/><!-- gtk_im_context_focus_in -->
+  <renderuse id="_17829" render="0"/><!-- gtk_im_context_focus_out -->
+  <renderuse id="_17830" render="0"/><!-- gtk_im_context_reset -->
+  <renderuse id="_17831" render="0"/><!-- gtk_im_context_set_cursor_location -->
+  <renderuse id="_17832" render="0"/><!-- gtk_im_context_set_use_preedit -->
+  <renderuse id="_17833" render="0"/><!-- gtk_im_context_set_surrounding -->
+  <renderuse id="_17834" render="0"/><!-- gtk_im_context_get_surrounding -->
+  <renderuse id="_17835" render="0"/><!-- gtk_im_context_set_surrounding_with_selection -->
+  <renderuse id="_17836" render="0"/><!-- gtk_im_context_get_surrounding_with_selection -->
+  <renderuse id="_17837" render="0"/><!-- gtk_im_context_delete_surrounding -->
+  <renderuse id="_19550" render="0"/><!-- gtk_im_context_simple_get_type -->
+  <renderuse id="_19551" render="0"/><!-- gtk_im_context_simple_new -->
+  <renderuse id="_19552" render="0"/><!-- gtk_im_context_simple_add_table -->
+  <renderuse id="_19553" render="0"/><!-- gtk_im_context_simple_add_compose_file -->
+</renderuses>
+</castxml2pony>

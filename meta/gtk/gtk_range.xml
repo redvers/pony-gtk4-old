@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_20714" render="0"/><!-- gtk_range_get_type -->
+  <renderuse id="_20715" render="0"/><!-- gtk_range_set_adjustment -->
+  <renderuse id="_20716" render="0"/><!-- gtk_range_get_adjustment -->
+  <renderuse id="_20717" render="0"/><!-- gtk_range_set_inverted -->
+  <renderuse id="_20718" render="0"/><!-- gtk_range_get_inverted -->
+  <renderuse id="_20719" render="0"/><!-- gtk_range_set_flippable -->
+  <renderuse id="_20720" render="0"/><!-- gtk_range_get_flippable -->
+  <renderuse id="_20721" render="0"/><!-- gtk_range_set_slider_size_fixed -->
+  <renderuse id="_20722" render="0"/><!-- gtk_range_get_slider_size_fixed -->
+  <renderuse id="_20723" render="0"/><!-- gtk_range_get_range_rect -->
+  <renderuse id="_20724" render="0"/><!-- gtk_range_get_slider_range -->
+  <renderuse id="_20725" render="0"/><!-- gtk_range_set_increments -->
+  <renderuse id="_20726" render="0"/><!-- gtk_range_set_range -->
+  <renderuse id="_20727" render="0"/><!-- gtk_range_set_value -->
+  <renderuse id="_20728" render="0"/><!-- gtk_range_get_value -->
+  <renderuse id="_20729" render="0"/><!-- gtk_range_set_show_fill_level -->
+  <renderuse id="_20730" render="0"/><!-- gtk_range_get_show_fill_level -->
+  <renderuse id="_20731" render="0"/><!-- gtk_range_set_restrict_to_fill_level -->
+  <renderuse id="_20732" render="0"/><!-- gtk_range_get_restrict_to_fill_level -->
+  <renderuse id="_20733" render="0"/><!-- gtk_range_set_fill_level -->
+  <renderuse id="_20734" render="0"/><!-- gtk_range_get_fill_level -->
+  <renderuse id="_20735" render="0"/><!-- gtk_range_set_round_digits -->
+  <renderuse id="_20736" render="0"/><!-- gtk_range_get_round_digits -->
+</renderuses>
+</castxml2pony>

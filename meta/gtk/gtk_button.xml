@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_17149" render="0"/><!-- gtk_button_get_type -->
+  <renderuse id="_17150" render="0"/><!-- gtk_button_new -->
+  <renderuse id="_17151" render="0"/><!-- gtk_button_new_with_label -->
+  <renderuse id="_17152" render="0"/><!-- gtk_button_new_from_icon_name -->
+  <renderuse id="_17153" render="0"/><!-- gtk_button_new_with_mnemonic -->
+  <renderuse id="_17154" render="0"/><!-- gtk_button_set_has_frame -->
+  <renderuse id="_17155" render="0"/><!-- gtk_button_get_has_frame -->
+  <renderuse id="_17156" render="0"/><!-- gtk_button_set_label -->
+  <renderuse id="_17157" render="0"/><!-- gtk_button_get_label -->
+  <renderuse id="_17158" render="0"/><!-- gtk_button_set_use_underline -->
+  <renderuse id="_17159" render="0"/><!-- gtk_button_get_use_underline -->
+  <renderuse id="_17160" render="0"/><!-- gtk_button_set_icon_name -->
+  <renderuse id="_17161" render="0"/><!-- gtk_button_get_icon_name -->
+  <renderuse id="_17162" render="0"/><!-- gtk_button_set_child -->
+  <renderuse id="_17163" render="0"/><!-- gtk_button_get_child -->
+  <renderuse id="_18318" render="0"/><!-- gtk_buttons_type_get_type -->
+</renderuses>
+</castxml2pony>

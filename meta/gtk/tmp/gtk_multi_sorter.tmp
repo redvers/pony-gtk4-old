@@ -1,0 +1,4 @@
+  <renderuse id="_20142" render="0"/><!-- gtk_multi_sorter_get_type -->
+  <renderuse id="_20167" render="0"/><!-- gtk_multi_sorter_new -->
+  <renderuse id="_20168" render="0"/><!-- gtk_multi_sorter_append -->
+  <renderuse id="_20169" render="0"/><!-- gtk_multi_sorter_remove -->

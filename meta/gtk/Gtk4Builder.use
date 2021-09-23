@@ -1,0 +1,8 @@
+
+use "GLibSys"
+use "debug"
+
+use @gtk_builder_new[NullablePointer[SGtkBuilder]]()
+use @gtk_builder_add_from_file[I32](builder: NullablePointer[SGtkBuilder] tag, filename: Pointer[U8] tag, g_error: Pointer[NullablePointer[GError]] tag)
+use @gtk_builder_get_object[NullablePointer[GObject]](builder: NullablePointer[SGtkBuilder] tag, name: Pointer[U8] tag)
+use @gtk_builder_get_objects[NullablePointer[GSList]](builder: NullablePointer[SGtkBuilder] tag)

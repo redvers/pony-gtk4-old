@@ -1,0 +1,4 @@
+  <renderuse id="_19227" render="0"/><!-- gtk_gesture_drag_get_type -->
+  <renderuse id="_19228" render="1"/><!-- gtk_gesture_drag_new -->
+  <renderuse id="_19229" render="0"/><!-- gtk_gesture_drag_get_start_point -->
+  <renderuse id="_19230" render="0"/><!-- gtk_gesture_drag_get_offset -->

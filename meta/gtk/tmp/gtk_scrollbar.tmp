@@ -1,0 +1,4 @@
+  <renderuse id="_20883" render="0"/><!-- gtk_scrollbar_get_type -->
+  <renderuse id="_20884" render="0"/><!-- gtk_scrollbar_new -->
+  <renderuse id="_20885" render="0"/><!-- gtk_scrollbar_set_adjustment -->
+  <renderuse id="_20886" render="0"/><!-- gtk_scrollbar_get_adjustment -->

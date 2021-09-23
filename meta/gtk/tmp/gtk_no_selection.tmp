@@ -1,0 +1,4 @@
+  <renderuse id="_20191" render="0"/><!-- gtk_no_selection_get_type -->
+  <renderuse id="_20216" render="0"/><!-- gtk_no_selection_new -->
+  <renderuse id="_20217" render="0"/><!-- gtk_no_selection_get_model -->
+  <renderuse id="_20218" render="0"/><!-- gtk_no_selection_set_model -->

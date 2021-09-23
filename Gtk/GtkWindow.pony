@@ -8,7 +8,7 @@ class GtkWindow is GtkWindowInterface
   var obj: NullablePointer[SGtkWindow]
 
   new create() =>
-    obj = Gtk4Sys.gtk_window_new()
+    obj = Gtk4Window.gtk_window_new()
 
   new create_from_ref(window: NullablePointer[SGtkWindow]) =>
     obj = window
@@ -20,14 +20,14 @@ interface GtkWindowInterface is GtkWidgetInterface
   fun ref getobj(): NullablePointer[GObject]
 
   fun ref set_application(app: GtkApplication) =>
-    Gtk4Sys.gtk_window_set_application(getobj(), app.getobj())
+    Gtk4Window.gtk_window_set_application(getobj(), app.getobj())
 
   fun ref close(): None =>
-    Gtk4Sys.gtk_window_close(getobj())
+    Gtk4Window.gtk_window_close(getobj())
 
   fun ref set_title(title: String): None =>
-    Gtk4Sys.gtk_window_set_title(getobj(), title.cstring())
+    Gtk4Window.gtk_window_set_title(getobj(), title.cstring())
 
   fun ref set_child(widget: GtkWidgetInterface): None =>
-    Gtk4Sys.gtk_window_set_child(getobj(), widget.getobj())
+    Gtk4Window.gtk_window_set_child(getobj(), widget.getobj())
 

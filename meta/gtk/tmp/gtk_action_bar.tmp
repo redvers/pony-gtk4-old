@@ -1,0 +1,9 @@
+  <renderuse id="_16506" render="0"/><!-- gtk_action_bar_get_type -->
+  <renderuse id="_16507" render="0"/><!-- gtk_action_bar_new -->
+  <renderuse id="_16508" render="0"/><!-- gtk_action_bar_get_center_widget -->
+  <renderuse id="_16509" render="0"/><!-- gtk_action_bar_set_center_widget -->
+  <renderuse id="_16510" render="0"/><!-- gtk_action_bar_pack_start -->
+  <renderuse id="_16511" render="0"/><!-- gtk_action_bar_pack_end -->
+  <renderuse id="_16512" render="0"/><!-- gtk_action_bar_remove -->
+  <renderuse id="_16513" render="0"/><!-- gtk_action_bar_set_revealed -->
+  <renderuse id="_16514" render="0"/><!-- gtk_action_bar_get_revealed -->

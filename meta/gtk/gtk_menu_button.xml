@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_19981" render="0"/><!-- gtk_menu_button_get_type -->
+  <renderuse id="_19982" render="0"/><!-- gtk_menu_button_new -->
+  <renderuse id="_19983" render="0"/><!-- gtk_menu_button_set_popover -->
+  <renderuse id="_19984" render="0"/><!-- gtk_menu_button_get_popover -->
+  <renderuse id="_19985" render="0"/><!-- gtk_menu_button_set_direction -->
+  <renderuse id="_19986" render="0"/><!-- gtk_menu_button_get_direction -->
+  <renderuse id="_19987" render="0"/><!-- gtk_menu_button_set_menu_model -->
+  <renderuse id="_19988" render="0"/><!-- gtk_menu_button_get_menu_model -->
+  <renderuse id="_19989" render="0"/><!-- gtk_menu_button_set_icon_name -->
+  <renderuse id="_19990" render="0"/><!-- gtk_menu_button_get_icon_name -->
+  <renderuse id="_19991" render="0"/><!-- gtk_menu_button_set_label -->
+  <renderuse id="_19992" render="0"/><!-- gtk_menu_button_get_label -->
+  <renderuse id="_19993" render="0"/><!-- gtk_menu_button_set_use_underline -->
+  <renderuse id="_19994" render="0"/><!-- gtk_menu_button_get_use_underline -->
+  <renderuse id="_19995" render="0"/><!-- gtk_menu_button_set_has_frame -->
+  <renderuse id="_19996" render="0"/><!-- gtk_menu_button_get_has_frame -->
+  <renderuse id="_19997" render="0"/><!-- gtk_menu_button_popup -->
+  <renderuse id="_19998" render="0"/><!-- gtk_menu_button_popdown -->
+  <renderuse id="_19999" render="0"/><!-- gtk_menu_button_set_create_popup_func -->
+</renderuses>
+</castxml2pony>

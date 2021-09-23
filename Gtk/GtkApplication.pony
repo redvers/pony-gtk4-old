@@ -9,7 +9,7 @@ class GtkApplication is GtkApplicationInterface
 
   new create(applicationid: String, flags: I32, appstate': PonyGtkApplication) =>
     appstate = appstate'
-    obj = Gtk4Sys.gtk_application_new(applicationid.cstring(), flags)
+    obj = Gtk4Application.gtk_application_new(applicationid.cstring(), flags)
     GLibSys.set_data[GtkApplication](obj, "PonyGtkApplication".cstring(), this)
 
     try

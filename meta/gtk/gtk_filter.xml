@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_16926" render="0"/><!-- gtk_filter_get_type -->
+  <renderuse id="_16954" render="0"/><!-- gtk_filter_match -->
+  <renderuse id="_16955" render="0"/><!-- gtk_filter_get_strictness -->
+  <renderuse id="_16956" render="0"/><!-- gtk_filter_changed -->
+  <renderuse id="_18311" render="0"/><!-- gtk_filter_match_get_type -->
+  <renderuse id="_18312" render="0"/><!-- gtk_filter_change_get_type -->
+  <renderuse id="_18982" render="0"/><!-- gtk_filter_list_model_get_type -->
+  <renderuse id="_19007" render="0"/><!-- gtk_filter_list_model_new -->
+  <renderuse id="_19008" render="0"/><!-- gtk_filter_list_model_set_filter -->
+  <renderuse id="_19009" render="0"/><!-- gtk_filter_list_model_get_filter -->
+  <renderuse id="_19010" render="0"/><!-- gtk_filter_list_model_set_model -->
+  <renderuse id="_19011" render="0"/><!-- gtk_filter_list_model_get_model -->
+  <renderuse id="_19012" render="0"/><!-- gtk_filter_list_model_set_incremental -->
+  <renderuse id="_19013" render="0"/><!-- gtk_filter_list_model_get_incremental -->
+  <renderuse id="_19014" render="0"/><!-- gtk_filter_list_model_get_pending -->
+</renderuses>
+</castxml2pony>

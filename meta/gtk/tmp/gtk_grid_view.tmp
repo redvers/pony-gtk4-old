@@ -1,0 +1,14 @@
+  <renderuse id="_19408" render="0"/><!-- gtk_grid_view_get_type -->
+  <renderuse id="_19409" render="0"/><!-- gtk_grid_view_new -->
+  <renderuse id="_19410" render="0"/><!-- gtk_grid_view_get_model -->
+  <renderuse id="_19411" render="0"/><!-- gtk_grid_view_set_model -->
+  <renderuse id="_19412" render="0"/><!-- gtk_grid_view_set_factory -->
+  <renderuse id="_19413" render="0"/><!-- gtk_grid_view_get_factory -->
+  <renderuse id="_19414" render="0"/><!-- gtk_grid_view_get_min_columns -->
+  <renderuse id="_19415" render="0"/><!-- gtk_grid_view_set_min_columns -->
+  <renderuse id="_19416" render="0"/><!-- gtk_grid_view_get_max_columns -->
+  <renderuse id="_19417" render="0"/><!-- gtk_grid_view_set_max_columns -->
+  <renderuse id="_19418" render="0"/><!-- gtk_grid_view_set_enable_rubberband -->
+  <renderuse id="_19419" render="0"/><!-- gtk_grid_view_get_enable_rubberband -->
+  <renderuse id="_19420" render="0"/><!-- gtk_grid_view_set_single_click_activate -->
+  <renderuse id="_19421" render="0"/><!-- gtk_grid_view_get_single_click_activate -->

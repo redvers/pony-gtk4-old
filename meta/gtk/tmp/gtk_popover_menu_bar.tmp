@@ -1,0 +1,6 @@
+  <renderuse id="_20534" render="0"/><!-- gtk_popover_menu_bar_get_type -->
+  <renderuse id="_20535" render="0"/><!-- gtk_popover_menu_bar_new_from_model -->
+  <renderuse id="_20536" render="0"/><!-- gtk_popover_menu_bar_set_menu_model -->
+  <renderuse id="_20537" render="0"/><!-- gtk_popover_menu_bar_get_menu_model -->
+  <renderuse id="_20538" render="0"/><!-- gtk_popover_menu_bar_add_child -->
+  <renderuse id="_20539" render="0"/><!-- gtk_popover_menu_bar_remove_child -->

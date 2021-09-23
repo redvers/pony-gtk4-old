@@ -1,0 +1,13 @@
+  <renderuse id="_19912" render="0"/><!-- gtk_media_file_get_type -->
+  <renderuse id="_19940" render="0"/><!-- gtk_media_file_new -->
+  <renderuse id="_19941" render="0"/><!-- gtk_media_file_new_for_filename -->
+  <renderuse id="_19942" render="0"/><!-- gtk_media_file_new_for_resource -->
+  <renderuse id="_19943" render="0"/><!-- gtk_media_file_new_for_file -->
+  <renderuse id="_19944" render="0"/><!-- gtk_media_file_new_for_input_stream -->
+  <renderuse id="_19945" render="0"/><!-- gtk_media_file_clear -->
+  <renderuse id="_19946" render="0"/><!-- gtk_media_file_set_filename -->
+  <renderuse id="_19947" render="0"/><!-- gtk_media_file_set_resource -->
+  <renderuse id="_19948" render="0"/><!-- gtk_media_file_set_file -->
+  <renderuse id="_19949" render="0"/><!-- gtk_media_file_get_file -->
+  <renderuse id="_19950" render="0"/><!-- gtk_media_file_set_input_stream -->
+  <renderuse id="_19951" render="0"/><!-- gtk_media_file_get_input_stream -->

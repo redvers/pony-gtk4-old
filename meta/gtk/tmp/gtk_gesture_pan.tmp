@@ -1,0 +1,4 @@
+  <renderuse id="_19243" render="0"/><!-- gtk_gesture_pan_get_type -->
+  <renderuse id="_19244" render="0"/><!-- gtk_gesture_pan_new -->
+  <renderuse id="_19245" render="0"/><!-- gtk_gesture_pan_get_orientation -->
+  <renderuse id="_19246" render="0"/><!-- gtk_gesture_pan_set_orientation -->

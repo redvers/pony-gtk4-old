@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_22147" render="0"/><!-- gtk_tree_store_get_type -->
+  <renderuse id="_22148" render="0"/><!-- gtk_tree_store_new -->
+  <renderuse id="_22149" render="0"/><!-- gtk_tree_store_newv -->
+  <renderuse id="_22150" render="0"/><!-- gtk_tree_store_set_column_types -->
+  <renderuse id="_22151" render="0"/><!-- gtk_tree_store_set_value -->
+  <renderuse id="_22152" render="0"/><!-- gtk_tree_store_set -->
+  <renderuse id="_22153" render="0"/><!-- gtk_tree_store_set_valuesv -->
+  <renderuse id="_22154" render="0"/><!-- gtk_tree_store_set_valist -->
+  <renderuse id="_22155" render="0"/><!-- gtk_tree_store_remove -->
+  <renderuse id="_22156" render="0"/><!-- gtk_tree_store_insert -->
+  <renderuse id="_22157" render="0"/><!-- gtk_tree_store_insert_before -->
+  <renderuse id="_22158" render="0"/><!-- gtk_tree_store_insert_after -->
+  <renderuse id="_22159" render="0"/><!-- gtk_tree_store_insert_with_values -->
+  <renderuse id="_22160" render="0"/><!-- gtk_tree_store_insert_with_valuesv -->
+  <renderuse id="_22161" render="0"/><!-- gtk_tree_store_prepend -->
+  <renderuse id="_22162" render="0"/><!-- gtk_tree_store_append -->
+  <renderuse id="_22163" render="0"/><!-- gtk_tree_store_is_ancestor -->
+  <renderuse id="_22164" render="0"/><!-- gtk_tree_store_iter_depth -->
+  <renderuse id="_22165" render="0"/><!-- gtk_tree_store_clear -->
+  <renderuse id="_22166" render="0"/><!-- gtk_tree_store_iter_is_valid -->
+  <renderuse id="_22167" render="0"/><!-- gtk_tree_store_reorder -->
+  <renderuse id="_22168" render="0"/><!-- gtk_tree_store_swap -->
+  <renderuse id="_22169" render="0"/><!-- gtk_tree_store_move_before -->
+  <renderuse id="_22170" render="0"/><!-- gtk_tree_store_move_after -->
+</renderuses>
+</castxml2pony>

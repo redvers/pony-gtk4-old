@@ -1,0 +1,4 @@
+  <renderuse id="_21102" render="0"/><!-- gtk_keyval_trigger_get_type -->
+  <renderuse id="_21130" render="0"/><!-- gtk_keyval_trigger_new -->
+  <renderuse id="_21131" render="0"/><!-- gtk_keyval_trigger_get_modifiers -->
+  <renderuse id="_21132" render="0"/><!-- gtk_keyval_trigger_get_keyval -->

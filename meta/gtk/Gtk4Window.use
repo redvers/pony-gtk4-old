@@ -1,0 +1,11 @@
+
+use "GLibSys"
+use "debug"
+
+use @gtk_window_new[NullablePointer[SGtkWidget]]()
+use @gtk_window_set_title[None](window: NullablePointer[SGtkWindow] tag, title: Pointer[U8] tag)
+use @gtk_window_close[None](window: NullablePointer[SGtkWindow] tag)
+use @gtk_window_get_application[NullablePointer[SGtkApplication]](window: NullablePointer[SGtkWindow] tag)
+use @gtk_window_set_application[None](window: NullablePointer[SGtkWindow] tag, application: NullablePointer[SGtkApplication] tag)
+use @gtk_window_set_child[None](window: NullablePointer[SGtkWindow] tag, child: NullablePointer[SGtkWidget] tag)
+use @gtk_window_get_child[NullablePointer[SGtkWidget]](window: NullablePointer[SGtkWindow] tag)

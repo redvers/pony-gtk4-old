@@ -3,4 +3,4 @@ use "CairoSys"
 use "PangoSys"
 use "GrapheneSys"
 
-use @gtk_drawing_area_set_draw_func[None](self: NullablePointer[SGtkDrawingArea] tag, drawfunc: Pointer[None] tag, userdata: Any tag, destroy: Pointer[None] tag)
+//use @gtk_drawing_area_set_draw_func[None](self: NullablePointer[SGtkDrawingArea] tag, drawfunc: Pointer[None] tag, userdata: Any tag, destroy: Pointer[None] tag)

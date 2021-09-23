@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_21778" render="0"/><!-- gtk_text_mark_get_type -->
+  <renderuse id="_21779" render="0"/><!-- gtk_text_mark_new -->
+  <renderuse id="_21780" render="0"/><!-- gtk_text_mark_set_visible -->
+  <renderuse id="_21781" render="0"/><!-- gtk_text_mark_get_visible -->
+  <renderuse id="_21782" render="0"/><!-- gtk_text_mark_get_name -->
+  <renderuse id="_21783" render="0"/><!-- gtk_text_mark_get_deleted -->
+  <renderuse id="_21784" render="0"/><!-- gtk_text_mark_get_buffer -->
+  <renderuse id="_21785" render="0"/><!-- gtk_text_mark_get_left_gravity -->
+</renderuses>
+</castxml2pony>

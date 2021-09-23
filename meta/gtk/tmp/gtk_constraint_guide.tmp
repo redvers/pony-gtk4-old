@@ -1,0 +1,12 @@
+  <renderuse id="_18346" render="0"/><!-- gtk_constraint_guide_get_type -->
+  <renderuse id="_18371" render="0"/><!-- gtk_constraint_guide_new -->
+  <renderuse id="_18372" render="0"/><!-- gtk_constraint_guide_set_min_size -->
+  <renderuse id="_18373" render="0"/><!-- gtk_constraint_guide_get_min_size -->
+  <renderuse id="_18374" render="0"/><!-- gtk_constraint_guide_set_nat_size -->
+  <renderuse id="_18375" render="0"/><!-- gtk_constraint_guide_get_nat_size -->
+  <renderuse id="_18376" render="0"/><!-- gtk_constraint_guide_set_max_size -->
+  <renderuse id="_18377" render="0"/><!-- gtk_constraint_guide_get_max_size -->
+  <renderuse id="_18378" render="0"/><!-- gtk_constraint_guide_get_strength -->
+  <renderuse id="_18379" render="0"/><!-- gtk_constraint_guide_set_strength -->
+  <renderuse id="_18380" render="0"/><!-- gtk_constraint_guide_set_name -->
+  <renderuse id="_18381" render="0"/><!-- gtk_constraint_guide_get_name -->

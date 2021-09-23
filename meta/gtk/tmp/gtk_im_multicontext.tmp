@@ -1,0 +1,4 @@
+  <renderuse id="_19560" render="0"/><!-- gtk_im_multicontext_get_type -->
+  <renderuse id="_19561" render="0"/><!-- gtk_im_multicontext_new -->
+  <renderuse id="_19562" render="0"/><!-- gtk_im_multicontext_get_context_id -->
+  <renderuse id="_19563" render="0"/><!-- gtk_im_multicontext_set_context_id -->

@@ -1,0 +1,6 @@
+  <renderuse id="_19794" render="0"/><!-- gtk_map_list_model_get_type -->
+  <renderuse id="_19820" render="0"/><!-- gtk_map_list_model_new -->
+  <renderuse id="_19821" render="0"/><!-- gtk_map_list_model_set_map_func -->
+  <renderuse id="_19822" render="0"/><!-- gtk_map_list_model_set_model -->
+  <renderuse id="_19823" render="0"/><!-- gtk_map_list_model_get_model -->
+  <renderuse id="_19824" render="0"/><!-- gtk_map_list_model_has_map -->

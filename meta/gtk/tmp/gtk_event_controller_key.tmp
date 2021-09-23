@@ -1,0 +1,6 @@
+  <renderuse id="_18747" render="0"/><!-- gtk_event_controller_key_get_type -->
+  <renderuse id="_18748" render="0"/><!-- gtk_event_controller_key_new -->
+  <renderuse id="_18749" render="0"/><!-- gtk_event_controller_key_set_im_context -->
+  <renderuse id="_18750" render="0"/><!-- gtk_event_controller_key_get_im_context -->
+  <renderuse id="_18751" render="0"/><!-- gtk_event_controller_key_forward -->
+  <renderuse id="_18752" render="0"/><!-- gtk_event_controller_key_get_group -->

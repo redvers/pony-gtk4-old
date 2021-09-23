@@ -1,0 +1,4 @@
+  <renderuse id="_19784" render="0"/><!-- gtk_lock_button_get_type -->
+  <renderuse id="_19785" render="0"/><!-- gtk_lock_button_new -->
+  <renderuse id="_19786" render="0"/><!-- gtk_lock_button_get_permission -->
+  <renderuse id="_19787" render="0"/><!-- gtk_lock_button_set_permission -->

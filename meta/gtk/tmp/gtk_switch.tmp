@@ -1,0 +1,6 @@
+  <renderuse id="_21603" render="0"/><!-- gtk_switch_get_type -->
+  <renderuse id="_21604" render="0"/><!-- gtk_switch_new -->
+  <renderuse id="_21605" render="0"/><!-- gtk_switch_set_active -->
+  <renderuse id="_21606" render="0"/><!-- gtk_switch_get_active -->
+  <renderuse id="_21607" render="0"/><!-- gtk_switch_set_state -->
+  <renderuse id="_21608" render="0"/><!-- gtk_switch_get_state -->

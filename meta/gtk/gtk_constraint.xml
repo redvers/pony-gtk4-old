@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_18186" render="0"/><!-- gtk_constraint_target_get_type -->
+  <renderuse id="_18201" render="0"/><!-- gtk_constraint_get_type -->
+  <renderuse id="_18226" render="0"/><!-- gtk_constraint_new -->
+  <renderuse id="_18227" render="0"/><!-- gtk_constraint_new_constant -->
+  <renderuse id="_18228" render="0"/><!-- gtk_constraint_get_target -->
+  <renderuse id="_18229" render="0"/><!-- gtk_constraint_get_target_attribute -->
+  <renderuse id="_18230" render="0"/><!-- gtk_constraint_get_source -->
+  <renderuse id="_18231" render="0"/><!-- gtk_constraint_get_source_attribute -->
+  <renderuse id="_18232" render="0"/><!-- gtk_constraint_get_relation -->
+  <renderuse id="_18233" render="0"/><!-- gtk_constraint_get_multiplier -->
+  <renderuse id="_18234" render="0"/><!-- gtk_constraint_get_constant -->
+  <renderuse id="_18235" render="0"/><!-- gtk_constraint_get_strength -->
+  <renderuse id="_18236" render="0"/><!-- gtk_constraint_is_required -->
+  <renderuse id="_18237" render="0"/><!-- gtk_constraint_is_attached -->
+  <renderuse id="_18238" render="0"/><!-- gtk_constraint_is_constant -->
+  <renderuse id="_18295" render="0"/><!-- gtk_constraint_relation_get_type -->
+  <renderuse id="_18296" render="0"/><!-- gtk_constraint_strength_get_type -->
+  <renderuse id="_18297" render="0"/><!-- gtk_constraint_attribute_get_type -->
+  <renderuse id="_18298" render="0"/><!-- gtk_constraint_vfl_parser_error_get_type -->
+  <renderuse id="_18346" render="0"/><!-- gtk_constraint_guide_get_type -->
+  <renderuse id="_18371" render="0"/><!-- gtk_constraint_guide_new -->
+  <renderuse id="_18372" render="0"/><!-- gtk_constraint_guide_set_min_size -->
+  <renderuse id="_18373" render="0"/><!-- gtk_constraint_guide_get_min_size -->
+  <renderuse id="_18374" render="0"/><!-- gtk_constraint_guide_set_nat_size -->
+  <renderuse id="_18375" render="0"/><!-- gtk_constraint_guide_get_nat_size -->
+  <renderuse id="_18376" render="0"/><!-- gtk_constraint_guide_set_max_size -->
+  <renderuse id="_18377" render="0"/><!-- gtk_constraint_guide_get_max_size -->
+  <renderuse id="_18378" render="0"/><!-- gtk_constraint_guide_get_strength -->
+  <renderuse id="_18379" render="0"/><!-- gtk_constraint_guide_set_strength -->
+  <renderuse id="_18380" render="0"/><!-- gtk_constraint_guide_set_name -->
+  <renderuse id="_18381" render="0"/><!-- gtk_constraint_guide_get_name -->
+  <renderuse id="_18382" render="0"/><!-- gtk_constraint_layout_child_get_type -->
+  <renderuse id="_18407" render="0"/><!-- gtk_constraint_layout_get_type -->
+  <renderuse id="_18432" render="0"/><!-- gtk_constraint_vfl_parser_error_quark -->
+  <renderuse id="_18433" render="0"/><!-- gtk_constraint_layout_new -->
+  <renderuse id="_18434" render="0"/><!-- gtk_constraint_layout_add_constraint -->
+  <renderuse id="_18435" render="0"/><!-- gtk_constraint_layout_remove_constraint -->
+  <renderuse id="_18436" render="0"/><!-- gtk_constraint_layout_add_guide -->
+  <renderuse id="_18437" render="0"/><!-- gtk_constraint_layout_remove_guide -->
+  <renderuse id="_18438" render="0"/><!-- gtk_constraint_layout_remove_all_constraints -->
+  <renderuse id="_18439" render="0"/><!-- gtk_constraint_layout_add_constraints_from_description -->
+  <renderuse id="_18440" render="0"/><!-- gtk_constraint_layout_add_constraints_from_descriptionv -->
+  <renderuse id="_18441" render="0"/><!-- gtk_constraint_layout_observe_constraints -->
+  <renderuse id="_18442" render="0"/><!-- gtk_constraint_layout_observe_guides -->
+</renderuses>
+</castxml2pony>

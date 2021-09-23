@@ -1,0 +1,3 @@
+  <renderuse id="_21484" render="0"/><!-- gtk_string_object_get_type -->
+  <renderuse id="_21509" render="0"/><!-- gtk_string_object_new -->
+  <renderuse id="_21510" render="0"/><!-- gtk_string_object_get_string -->

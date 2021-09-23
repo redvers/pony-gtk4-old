@@ -1,0 +1,10 @@
+  <renderuse id="_20857" render="0"/><!-- gtk_scale_button_get_type -->
+  <renderuse id="_20858" render="0"/><!-- gtk_scale_button_new -->
+  <renderuse id="_20859" render="0"/><!-- gtk_scale_button_set_icons -->
+  <renderuse id="_20860" render="0"/><!-- gtk_scale_button_get_value -->
+  <renderuse id="_20861" render="0"/><!-- gtk_scale_button_set_value -->
+  <renderuse id="_20862" render="0"/><!-- gtk_scale_button_get_adjustment -->
+  <renderuse id="_20863" render="0"/><!-- gtk_scale_button_set_adjustment -->
+  <renderuse id="_20864" render="0"/><!-- gtk_scale_button_get_plus_button -->
+  <renderuse id="_20865" render="0"/><!-- gtk_scale_button_get_minus_button -->
+  <renderuse id="_20866" render="0"/><!-- gtk_scale_button_get_popup -->

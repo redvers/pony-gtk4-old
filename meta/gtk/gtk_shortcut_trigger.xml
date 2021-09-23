@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_21038" render="0"/><!-- gtk_shortcut_trigger_get_type -->
+  <renderuse id="_21064" render="0"/><!-- gtk_shortcut_trigger_parse_string -->
+  <renderuse id="_21065" render="0"/><!-- gtk_shortcut_trigger_to_string -->
+  <renderuse id="_21066" render="0"/><!-- gtk_shortcut_trigger_print -->
+  <renderuse id="_21067" render="0"/><!-- gtk_shortcut_trigger_to_label -->
+  <renderuse id="_21068" render="0"/><!-- gtk_shortcut_trigger_print_label -->
+  <renderuse id="_21069" render="0"/><!-- gtk_shortcut_trigger_hash -->
+  <renderuse id="_21070" render="0"/><!-- gtk_shortcut_trigger_equal -->
+  <renderuse id="_21071" render="0"/><!-- gtk_shortcut_trigger_compare -->
+  <renderuse id="_21072" render="0"/><!-- gtk_shortcut_trigger_trigger -->
+</renderuses>
+</castxml2pony>

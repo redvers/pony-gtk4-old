@@ -1,0 +1,3 @@
+  <renderuse id="_19275" render="0"/><!-- gtk_gesture_zoom_get_type -->
+  <renderuse id="_19276" render="0"/><!-- gtk_gesture_zoom_new -->
+  <renderuse id="_19277" render="0"/><!-- gtk_gesture_zoom_get_scale_delta -->

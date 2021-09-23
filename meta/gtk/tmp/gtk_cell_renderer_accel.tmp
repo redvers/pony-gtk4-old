@@ -1,0 +1,3 @@
+  <renderuse id="_17416" render="0"/><!-- gtk_cell_renderer_accel_get_type -->
+  <renderuse id="_17417" render="0"/><!-- gtk_cell_renderer_accel_new -->
+  <renderuse id="_18246" render="0"/><!-- gtk_cell_renderer_accel_mode_get_type -->

@@ -1,0 +1,16 @@
+  <renderuse id="_22177" render="0"/><!-- gtk_video_get_type -->
+  <renderuse id="_22202" render="0"/><!-- gtk_video_new -->
+  <renderuse id="_22203" render="0"/><!-- gtk_video_new_for_media_stream -->
+  <renderuse id="_22204" render="0"/><!-- gtk_video_new_for_file -->
+  <renderuse id="_22205" render="0"/><!-- gtk_video_new_for_filename -->
+  <renderuse id="_22206" render="0"/><!-- gtk_video_new_for_resource -->
+  <renderuse id="_22207" render="0"/><!-- gtk_video_get_media_stream -->
+  <renderuse id="_22208" render="0"/><!-- gtk_video_set_media_stream -->
+  <renderuse id="_22209" render="0"/><!-- gtk_video_get_file -->
+  <renderuse id="_22210" render="0"/><!-- gtk_video_set_file -->
+  <renderuse id="_22211" render="0"/><!-- gtk_video_set_filename -->
+  <renderuse id="_22212" render="0"/><!-- gtk_video_set_resource -->
+  <renderuse id="_22213" render="0"/><!-- gtk_video_get_autoplay -->
+  <renderuse id="_22214" render="0"/><!-- gtk_video_set_autoplay -->
+  <renderuse id="_22215" render="0"/><!-- gtk_video_get_loop -->
+  <renderuse id="_22216" render="0"/><!-- gtk_video_set_loop -->

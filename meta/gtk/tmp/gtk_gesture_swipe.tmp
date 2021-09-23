@@ -1,0 +1,3 @@
+  <renderuse id="_19268" render="0"/><!-- gtk_gesture_swipe_get_type -->
+  <renderuse id="_19269" render="0"/><!-- gtk_gesture_swipe_new -->
+  <renderuse id="_19270" render="0"/><!-- gtk_gesture_swipe_get_velocity -->

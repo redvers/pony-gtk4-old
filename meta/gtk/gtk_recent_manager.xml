@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_18326" render="0"/><!-- gtk_recent_manager_error_get_type -->
+  <renderuse id="_20749" render="0"/><!-- gtk_recent_manager_error_quark -->
+  <renderuse id="_20750" render="0"/><!-- gtk_recent_manager_get_type -->
+  <renderuse id="_20751" render="0"/><!-- gtk_recent_manager_new -->
+  <renderuse id="_20752" render="0"/><!-- gtk_recent_manager_get_default -->
+  <renderuse id="_20753" render="0"/><!-- gtk_recent_manager_add_item -->
+  <renderuse id="_20754" render="0"/><!-- gtk_recent_manager_add_full -->
+  <renderuse id="_20755" render="0"/><!-- gtk_recent_manager_remove_item -->
+  <renderuse id="_20756" render="0"/><!-- gtk_recent_manager_lookup_item -->
+  <renderuse id="_20757" render="0"/><!-- gtk_recent_manager_has_item -->
+  <renderuse id="_20758" render="0"/><!-- gtk_recent_manager_move_item -->
+  <renderuse id="_20759" render="0"/><!-- gtk_recent_manager_get_items -->
+  <renderuse id="_20760" render="0"/><!-- gtk_recent_manager_purge_items -->
+  <renderuse id="_20786" render="0"/><!-- _gtk_recent_manager_sync -->
+</renderuses>
+</castxml2pony>
