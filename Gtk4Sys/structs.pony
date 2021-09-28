@@ -18476,7 +18476,8 @@ struct SGtkListItemClass
 
   Fields (Offset in bits):
 */
-struct SGtkListView
+//struct SGtkListView
+type SGtkListView is GObject
 
 
 /*
@@ -20362,7 +20363,7 @@ struct SGtkTreeDragDestIface
 
   Fields (Offset in bits):
 */
-struct SGtkTreeListModel
+type SGtkTreeListModel is GListModel
 
 
 /*
