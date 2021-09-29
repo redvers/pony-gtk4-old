@@ -437,7 +437,7 @@ return a reference to the caller.
 To delete a `GtkWindow`, call [method@Gtk.Window.destroy].a new `GtkWindow`.
 """
 
-    @printf("gnew()\n".cstring())
+    @printf("gtk_window_new()\n".cstring())
     @gtk_window_new()
   fun set_title(window: NullablePointer[SGtkWindow] tag, title: Pointer[U8] tag): None =>
 """
@@ -453,7 +453,7 @@ include the application name and current document filename, for example.
 Passing %NULL does the same as setting the title to an empty string.a `GtkWindow`title of the window
 """
 
-    @printf("set_title(window: NullablePointer[SGtkWindow] tag, title: Pointer[U8] tag)\n".cstring())
+    @printf("gtk_window_set_title(window: NullablePointer[SGtkWindow] tag, title: Pointer[U8] tag)\n".cstring())
     @gtk_window_set_title(window, title)
   fun close(window: NullablePointer[SGtkWindow] tag): None =>
 """
@@ -466,14 +466,14 @@ This function can be used with close buttons in custom
 titlebars.a `GtkWindow`
 """
 
-    @printf("close(window: NullablePointer[SGtkWindow] tag)\n".cstring())
+    @printf("gtk_window_close(window: NullablePointer[SGtkWindow] tag)\n".cstring())
     @gtk_window_close(window)
   fun get_application(window: NullablePointer[SGtkWindow] tag): NullablePointer[SGtkApplication] =>
 """
 Gets the `GtkApplication` associated with the window.a `GtkApplication`a `GtkWindow`
 """
 
-    @printf("get_application(window: NullablePointer[SGtkWindow] tag)\n".cstring())
+    @printf("gtk_window_get_application(window: NullablePointer[SGtkWindow] tag)\n".cstring())
     @gtk_window_get_application(window)
   fun set_application(window: NullablePointer[SGtkWindow] tag, application: NullablePointer[SGtkApplication] tag): None =>
 """
@@ -492,19 +492,19 @@ and/or [method@Gtk.Application.add_window] on the old/new applications
 as relevant.a `GtkWindow`a `GtkApplication`, or %NULL to unset
 """
 
-    @printf("set_application(window: NullablePointer[SGtkWindow] tag, application: NullablePointer[SGtkApplication] tag)\n".cstring())
+    @printf("gtk_window_set_application(window: NullablePointer[SGtkWindow] tag, application: NullablePointer[SGtkApplication] tag)\n".cstring())
     @gtk_window_set_application(window, application)
   fun set_child(window: NullablePointer[SGtkWindow] tag, child: NullablePointer[SGtkWidget] tag): None =>
 """
 Sets the child widget of @window.a `GtkWindow`the child widget
 """
 
-    @printf("set_child(window: NullablePointer[SGtkWindow] tag, child: NullablePointer[SGtkWidget] tag)\n".cstring())
+    @printf("gtk_window_set_child(window: NullablePointer[SGtkWindow] tag, child: NullablePointer[SGtkWidget] tag)\n".cstring())
     @gtk_window_set_child(window, child)
   fun get_child(window: NullablePointer[SGtkWindow] tag): NullablePointer[SGtkWidget] =>
 """
 Gets the child widget of @window.the child widget of @windowa `GtkWindow`
 """
 
-    @printf("get_child(window: NullablePointer[SGtkWindow] tag)\n".cstring())
+    @printf("gtk_window_get_child(window: NullablePointer[SGtkWindow] tag)\n".cstring())
     @gtk_window_get_child(window)

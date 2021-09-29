@@ -133,14 +133,14 @@ list_view = gtk_list_view_new (create_model (),
 ```a new `GtkListView` using the given @model and @factorythe model to useThe factory to populate items with
 """
 
-    @printf("gnew(model: NullablePointer[SGtkSelectionModel] tag, factory: NullablePointer[SGtkListItemFactory] tag)\n".cstring())
+    @printf("gtk_list_view_new(model: NullablePointer[SGtkSelectionModel] tag, factory: NullablePointer[SGtkListItemFactory] tag)\n".cstring())
     @gtk_list_view_new(model, factory)
   fun get_model(self: NullablePointer[SGtkListView] tag): NullablePointer[SGtkSelectionModel] =>
 """
 Gets the model that's currently used to read the items displayed.The model in usea `GtkListView`
 """
 
-    @printf("get_model(self: NullablePointer[SGtkListView] tag)\n".cstring())
+    @printf("gtk_list_view_get_model(self: NullablePointer[SGtkListView] tag)\n".cstring())
     @gtk_list_view_get_model(self)
   fun set_model(self: NullablePointer[SGtkListView] tag, model: NullablePointer[SGtkSelectionModel] tag): None =>
 """
@@ -149,21 +149,21 @@ Sets the model to use.
 This must be a [iface@Gtk.SelectionModel] to use.a `GtkListView`the model to use
 """
 
-    @printf("set_model(self: NullablePointer[SGtkListView] tag, model: NullablePointer[SGtkSelectionModel] tag)\n".cstring())
+    @printf("gtk_list_view_set_model(self: NullablePointer[SGtkListView] tag, model: NullablePointer[SGtkSelectionModel] tag)\n".cstring())
     @gtk_list_view_set_model(self, model)
   fun set_factory(self: NullablePointer[SGtkListView] tag, factory: NullablePointer[SGtkListItemFactory] tag): None =>
 """
 Sets the `GtkListItemFactory` to use for populating list items.a `GtkListView`the factory to use
 """
 
-    @printf("set_factory(self: NullablePointer[SGtkListView] tag, factory: NullablePointer[SGtkListItemFactory] tag)\n".cstring())
+    @printf("gtk_list_view_set_factory(self: NullablePointer[SGtkListView] tag, factory: NullablePointer[SGtkListItemFactory] tag)\n".cstring())
     @gtk_list_view_set_factory(self, factory)
   fun get_factory(self: NullablePointer[SGtkListView] tag): NullablePointer[SGtkListItemFactory] =>
 """
 Gets the factory that's currently used to populate list items.The factory in usea `GtkListView`
 """
 
-    @printf("get_factory(self: NullablePointer[SGtkListView] tag)\n".cstring())
+    @printf("gtk_list_view_get_factory(self: NullablePointer[SGtkListView] tag)\n".cstring())
     @gtk_list_view_get_factory(self)
   fun set_show_separators(self: NullablePointer[SGtkListView] tag, showseparators: I32): None =>
 """
@@ -171,7 +171,7 @@ Sets whether the list box should show separators
 between rows.a `GtkListView`%TRUE to show separators
 """
 
-    @printf("set_show_separators(self: NullablePointer[SGtkListView] tag, showseparators: I32)\n".cstring())
+    @printf("gtk_list_view_set_show_separators(self: NullablePointer[SGtkListView] tag, showseparators: I32)\n".cstring())
     @gtk_list_view_set_show_separators(self, showseparators)
   fun get_show_separators(self: NullablePointer[SGtkListView] tag): I32 =>
 """
@@ -179,7 +179,7 @@ Returns whether the list box should show separators
 between rows.%TRUE if the list box shows separatorsa `GtkListView`
 """
 
-    @printf("get_show_separators(self: NullablePointer[SGtkListView] tag)\n".cstring())
+    @printf("gtk_list_view_get_show_separators(self: NullablePointer[SGtkListView] tag)\n".cstring())
     @gtk_list_view_get_show_separators(self)
   fun set_single_click_activate(self: NullablePointer[SGtkListView] tag, singleclickactivate: I32): None =>
 """
@@ -187,7 +187,7 @@ Sets whether rows should be activated on single click and
 selected on hover.a `GtkListView`%TRUE to activate items on single click
 """
 
-    @printf("set_single_click_activate(self: NullablePointer[SGtkListView] tag, singleclickactivate: I32)\n".cstring())
+    @printf("gtk_list_view_set_single_click_activate(self: NullablePointer[SGtkListView] tag, singleclickactivate: I32)\n".cstring())
     @gtk_list_view_set_single_click_activate(self, singleclickactivate)
   fun get_single_click_activate(self: NullablePointer[SGtkListView] tag): I32 =>
 """
@@ -195,19 +195,19 @@ Returns whether rows will be activated on single click and
 selected on hover.%TRUE if rows are activated on single clicka `GtkListView`
 """
 
-    @printf("get_single_click_activate(self: NullablePointer[SGtkListView] tag)\n".cstring())
+    @printf("gtk_list_view_get_single_click_activate(self: NullablePointer[SGtkListView] tag)\n".cstring())
     @gtk_list_view_get_single_click_activate(self)
   fun set_enable_rubberband(self: NullablePointer[SGtkListView] tag, enablerubberband: I32): None =>
 """
 Sets whether selections can be changed by dragging with the mouse.a `GtkListView`%TRUE to enable rubberband selection
 """
 
-    @printf("set_enable_rubberband(self: NullablePointer[SGtkListView] tag, enablerubberband: I32)\n".cstring())
+    @printf("gtk_list_view_set_enable_rubberband(self: NullablePointer[SGtkListView] tag, enablerubberband: I32)\n".cstring())
     @gtk_list_view_set_enable_rubberband(self, enablerubberband)
   fun get_enable_rubberband(self: NullablePointer[SGtkListView] tag): I32 =>
 """
 Returns whether rows can be selected by dragging with the mouse.%TRUE if rubberband selection is enableda `GtkListView`
 """
 
-    @printf("get_enable_rubberband(self: NullablePointer[SGtkListView] tag)\n".cstring())
+    @printf("gtk_list_view_get_enable_rubberband(self: NullablePointer[SGtkListView] tag)\n".cstring())
     @gtk_list_view_get_enable_rubberband(self)

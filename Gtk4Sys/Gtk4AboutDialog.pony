@@ -216,14 +216,14 @@ which is to call [func@Gtk.show_uri].`TRUE` if the link has been activatedthe UR
 Creates a new `GtkAboutDialog`.a newly created `GtkAboutDialog`
 """
 
-    @printf("gnew()\n".cstring())
+    @printf("gtk_about_dialog_new()\n".cstring())
     @gtk_about_dialog_new()
   fun get_program_name(about: NullablePointer[SGtkAboutDialog] tag): Pointer[U8] =>
 """
 Returns the program name displayed in the about dialog.The program namea `GtkAboutDialog`
 """
 
-    @printf("get_program_name(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
+    @printf("gtk_about_dialog_get_program_name(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
     @gtk_about_dialog_get_program_name(about)
   fun set_program_name(about: NullablePointer[SGtkAboutDialog] tag, name: Pointer[U8] tag): None =>
 """
@@ -233,28 +233,28 @@ If `name` is not set, the string returned
 by `g_get_application_name()` is used.a `GtkAboutDialog`the program name
 """
 
-    @printf("set_program_name(about: NullablePointer[SGtkAboutDialog] tag, name: Pointer[U8] tag)\n".cstring())
+    @printf("gtk_about_dialog_set_program_name(about: NullablePointer[SGtkAboutDialog] tag, name: Pointer[U8] tag)\n".cstring())
     @gtk_about_dialog_set_program_name(about, name)
   fun get_version(about: NullablePointer[SGtkAboutDialog] tag): Pointer[U8] =>
 """
 Returns the version string.The version stringa `GtkAboutDialog`
 """
 
-    @printf("get_version(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
+    @printf("gtk_about_dialog_get_version(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
     @gtk_about_dialog_get_version(about)
   fun set_version(about: NullablePointer[SGtkAboutDialog] tag, version: Pointer[U8] tag): None =>
 """
 Sets the version string to display in the about dialog.a `GtkAboutDialog`the version string
 """
 
-    @printf("set_version(about: NullablePointer[SGtkAboutDialog] tag, version: Pointer[U8] tag)\n".cstring())
+    @printf("gtk_about_dialog_set_version(about: NullablePointer[SGtkAboutDialog] tag, version: Pointer[U8] tag)\n".cstring())
     @gtk_about_dialog_set_version(about, version)
   fun get_copyright(about: NullablePointer[SGtkAboutDialog] tag): Pointer[U8] =>
 """
 Returns the copyright string.The copyright stringa `GtkAboutDialog`
 """
 
-    @printf("get_copyright(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
+    @printf("gtk_about_dialog_get_copyright(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
     @gtk_about_dialog_get_copyright(about)
   fun set_copyright(about: NullablePointer[SGtkAboutDialog] tag, copyright: Pointer[U8] tag): None =>
 """
@@ -263,14 +263,14 @@ Sets the copyright string to display in the about dialog.
 This should be a short string of one or two lines.a `GtkAboutDialog`the copyright string
 """
 
-    @printf("set_copyright(about: NullablePointer[SGtkAboutDialog] tag, copyright: Pointer[U8] tag)\n".cstring())
+    @printf("gtk_about_dialog_set_copyright(about: NullablePointer[SGtkAboutDialog] tag, copyright: Pointer[U8] tag)\n".cstring())
     @gtk_about_dialog_set_copyright(about, copyright)
   fun get_comments(about: NullablePointer[SGtkAboutDialog] tag): Pointer[U8] =>
 """
 Returns the comments string.The commentsa `GtkAboutDialog`
 """
 
-    @printf("get_comments(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
+    @printf("gtk_about_dialog_get_comments(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
     @gtk_about_dialog_get_comments(about)
   fun set_comments(about: NullablePointer[SGtkAboutDialog] tag, comments: Pointer[U8] tag): None =>
 """
@@ -279,14 +279,14 @@ Sets the comments string to display in the about dialog.
 This should be a short string of one or two lines.a `GtkAboutDialog`a comments string
 """
 
-    @printf("set_comments(about: NullablePointer[SGtkAboutDialog] tag, comments: Pointer[U8] tag)\n".cstring())
+    @printf("gtk_about_dialog_set_comments(about: NullablePointer[SGtkAboutDialog] tag, comments: Pointer[U8] tag)\n".cstring())
     @gtk_about_dialog_set_comments(about, comments)
   fun get_license(about: NullablePointer[SGtkAboutDialog] tag): Pointer[U8] =>
 """
 Returns the license information.The license informationa `GtkAboutDialog`
 """
 
-    @printf("get_license(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
+    @printf("gtk_about_dialog_get_license(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
     @gtk_about_dialog_get_license(about)
   fun set_license(about: NullablePointer[SGtkAboutDialog] tag, license: Pointer[U8] tag): None =>
 """
@@ -296,7 +296,7 @@ about dialog.
 If `license` is `NULL`, the license page is hidden.a `GtkAboutDialog`the license information
 """
 
-    @printf("set_license(about: NullablePointer[SGtkAboutDialog] tag, license: Pointer[U8] tag)\n".cstring())
+    @printf("gtk_about_dialog_set_license(about: NullablePointer[SGtkAboutDialog] tag, license: Pointer[U8] tag)\n".cstring())
     @gtk_about_dialog_set_license(about, license)
   fun set_license_type(about: NullablePointer[SGtkAboutDialog] tag, licensetype: I32): None =>
 """
@@ -307,14 +307,14 @@ This function overrides the license set using
 [method@Gtk.AboutDialog.set_license].a `GtkAboutDialog`the type of license
 """
 
-    @printf("set_license_type(about: NullablePointer[SGtkAboutDialog] tag, licensetype: I32)\n".cstring())
+    @printf("gtk_about_dialog_set_license_type(about: NullablePointer[SGtkAboutDialog] tag, licensetype: I32)\n".cstring())
     @gtk_about_dialog_set_license_type(about, licensetype)
   fun get_license_type(about: NullablePointer[SGtkAboutDialog] tag): I32 =>
 """
 Retrieves the license type.a [enum@Gtk.License] valuea `GtkAboutDialog`
 """
 
-    @printf("get_license_type(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
+    @printf("gtk_about_dialog_get_license_type(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
     @gtk_about_dialog_get_license_type(about)
   fun get_wrap_license(about: NullablePointer[SGtkAboutDialog] tag): I32 =>
 """
@@ -322,7 +322,7 @@ Returns whether the license text in the about dialog is
 automatically wrapped.`TRUE` if the license text is wrappeda `GtkAboutDialog`
 """
 
-    @printf("get_wrap_license(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
+    @printf("gtk_about_dialog_get_wrap_license(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
     @gtk_about_dialog_get_wrap_license(about)
   fun set_wrap_license(about: NullablePointer[SGtkAboutDialog] tag, wraplicense: I32): None =>
 """
@@ -330,14 +330,14 @@ Sets whether the license text in the about dialog should be
 automatically wrapped.a `GtkAboutDialog`whether to wrap the license
 """
 
-    @printf("set_wrap_license(about: NullablePointer[SGtkAboutDialog] tag, wraplicense: I32)\n".cstring())
+    @printf("gtk_about_dialog_set_wrap_license(about: NullablePointer[SGtkAboutDialog] tag, wraplicense: I32)\n".cstring())
     @gtk_about_dialog_set_wrap_license(about, wraplicense)
   fun get_system_information(about: NullablePointer[SGtkAboutDialog] tag): Pointer[U8] =>
 """
 Returns the system information that is shown in the about dialog.the system informationa `GtkAboutDialog`
 """
 
-    @printf("get_system_information(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
+    @printf("gtk_about_dialog_get_system_information(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
     @gtk_about_dialog_get_system_information(about)
   fun set_system_information(about: NullablePointer[SGtkAboutDialog] tag, systeminformation: Pointer[U8] tag): None =>
 """
@@ -350,35 +350,35 @@ page is hidden.
 See [property@Gtk.AboutDialog:system-information].a `GtkAboutDialog`system information
 """
 
-    @printf("set_system_information(about: NullablePointer[SGtkAboutDialog] tag, systeminformation: Pointer[U8] tag)\n".cstring())
+    @printf("gtk_about_dialog_set_system_information(about: NullablePointer[SGtkAboutDialog] tag, systeminformation: Pointer[U8] tag)\n".cstring())
     @gtk_about_dialog_set_system_information(about, systeminformation)
   fun get_website(about: NullablePointer[SGtkAboutDialog] tag): Pointer[U8] =>
 """
 Returns the website URL.The website URLa `GtkAboutDialog`
 """
 
-    @printf("get_website(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
+    @printf("gtk_about_dialog_get_website(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
     @gtk_about_dialog_get_website(about)
   fun set_website(about: NullablePointer[SGtkAboutDialog] tag, website: Pointer[U8] tag): None =>
 """
 Sets the URL to use for the website link.a `GtkAboutDialog`a URL string starting with `http://`
 """
 
-    @printf("set_website(about: NullablePointer[SGtkAboutDialog] tag, website: Pointer[U8] tag)\n".cstring())
+    @printf("gtk_about_dialog_set_website(about: NullablePointer[SGtkAboutDialog] tag, website: Pointer[U8] tag)\n".cstring())
     @gtk_about_dialog_set_website(about, website)
   fun get_website_label(about: NullablePointer[SGtkAboutDialog] tag): Pointer[U8] =>
 """
 Returns the label used for the website link.The label used for the website linka `GtkAboutDialog`
 """
 
-    @printf("get_website_label(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
+    @printf("gtk_about_dialog_get_website_label(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
     @gtk_about_dialog_get_website_label(about)
   fun set_website_label(about: NullablePointer[SGtkAboutDialog] tag, websitelabel: Pointer[U8] tag): None =>
 """
 Sets the label to be used for the website link.a `GtkAboutDialog`the label used for the website link
 """
 
-    @printf("set_website_label(about: NullablePointer[SGtkAboutDialog] tag, websitelabel: Pointer[U8] tag)\n".cstring())
+    @printf("gtk_about_dialog_set_website_label(about: NullablePointer[SGtkAboutDialog] tag, websitelabel: Pointer[U8] tag)\n".cstring())
     @gtk_about_dialog_set_website_label(about, websitelabel)
   fun get_authors(about: NullablePointer[SGtkAboutDialog] tag): NullablePointer[Pointer[U8]] =>
 """
@@ -387,7 +387,7 @@ in the credits page.A
   `NULL`-terminated string array containing the authorsa `GtkAboutDialog`
 """
 
-    @printf("get_authors(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
+    @printf("gtk_about_dialog_get_authors(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
     @gtk_about_dialog_get_authors(about)
   fun set_authors(about: NullablePointer[SGtkAboutDialog] tag, authors: NullablePointer[Pointer[U8]] tag): None =>
 """
@@ -395,7 +395,7 @@ Sets the names of the authors which are displayed
 in the "Credits" page of the about dialog.a `GtkAboutDialog`the authors of the application
 """
 
-    @printf("set_authors(about: NullablePointer[SGtkAboutDialog] tag, authors: NullablePointer[Pointer[U8]] tag)\n".cstring())
+    @printf("gtk_about_dialog_set_authors(about: NullablePointer[SGtkAboutDialog] tag, authors: NullablePointer[Pointer[U8]] tag)\n".cstring())
     @gtk_about_dialog_set_authors(about, authors)
   fun get_documenters(about: NullablePointer[SGtkAboutDialog] tag): NullablePointer[Pointer[U8]] =>
 """
@@ -404,7 +404,7 @@ in the credits page.A
   `NULL`-terminated string array containing the documentersa `GtkAboutDialog`
 """
 
-    @printf("get_documenters(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
+    @printf("gtk_about_dialog_get_documenters(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
     @gtk_about_dialog_get_documenters(about)
   fun set_documenters(about: NullablePointer[SGtkAboutDialog] tag, documenters: NullablePointer[Pointer[U8]] tag): None =>
 """
@@ -413,7 +413,7 @@ in the "Credits" page.a `GtkAboutDialog`the authors of the documentation
   of the application
 """
 
-    @printf("set_documenters(about: NullablePointer[SGtkAboutDialog] tag, documenters: NullablePointer[Pointer[U8]] tag)\n".cstring())
+    @printf("gtk_about_dialog_set_documenters(about: NullablePointer[SGtkAboutDialog] tag, documenters: NullablePointer[Pointer[U8]] tag)\n".cstring())
     @gtk_about_dialog_set_documenters(about, documenters)
   fun get_artists(about: NullablePointer[SGtkAboutDialog] tag): NullablePointer[Pointer[U8]] =>
 """
@@ -422,7 +422,7 @@ in the credits page.A
   `NULL`-terminated string array containing the artistsa `GtkAboutDialog`
 """
 
-    @printf("get_artists(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
+    @printf("gtk_about_dialog_get_artists(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
     @gtk_about_dialog_get_artists(about)
   fun set_artists(about: NullablePointer[SGtkAboutDialog] tag, artists: NullablePointer[Pointer[U8]] tag): None =>
 """
@@ -431,7 +431,7 @@ in the "Credits" page.a `GtkAboutDialog`the authors of the artwork
   of the application
 """
 
-    @printf("set_artists(about: NullablePointer[SGtkAboutDialog] tag, artists: NullablePointer[Pointer[U8]] tag)\n".cstring())
+    @printf("gtk_about_dialog_set_artists(about: NullablePointer[SGtkAboutDialog] tag, artists: NullablePointer[Pointer[U8]] tag)\n".cstring())
     @gtk_about_dialog_set_artists(about, artists)
   fun get_translator_credits(about: NullablePointer[SGtkAboutDialog] tag): Pointer[U8] =>
 """
@@ -439,7 +439,7 @@ Returns the translator credits string which is displayed
 in the credits page.The translator credits stringa `GtkAboutDialog`
 """
 
-    @printf("get_translator_credits(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
+    @printf("gtk_about_dialog_get_translator_credits(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
     @gtk_about_dialog_get_translator_credits(about)
   fun set_translator_credits(about: NullablePointer[SGtkAboutDialog] tag, translatorcredits: Pointer[U8] tag): None =>
 """
@@ -463,7 +463,7 @@ that `msgid`, and since `GtkAboutDialog` will detect if “translator-credits”
 is untranslated and omit translator credits.a `GtkAboutDialog`the translator credits
 """
 
-    @printf("set_translator_credits(about: NullablePointer[SGtkAboutDialog] tag, translatorcredits: Pointer[U8] tag)\n".cstring())
+    @printf("gtk_about_dialog_set_translator_credits(about: NullablePointer[SGtkAboutDialog] tag, translatorcredits: Pointer[U8] tag)\n".cstring())
     @gtk_about_dialog_set_translator_credits(about, translatorcredits)
   fun get_logo(about: NullablePointer[SGtkAboutDialog] tag): NullablePointer[GdkPaintable] =>
 """
@@ -472,14 +472,14 @@ Returns the paintable displayed as logo in the about dialog.the paintable displa
   [method@Gtk.AboutDialog.set_logo_icon_name]a `GtkAboutDialog`
 """
 
-    @printf("get_logo(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
+    @printf("gtk_about_dialog_get_logo(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
     @gtk_about_dialog_get_logo(about)
   fun set_logo(about: NullablePointer[SGtkAboutDialog] tag, logo: NullablePointer[GdkPaintable] tag): None =>
 """
 Sets the logo in the about dialog.a `GtkAboutDialog`a `GdkPaintable`
 """
 
-    @printf("set_logo(about: NullablePointer[SGtkAboutDialog] tag, logo: NullablePointer[GdkPaintable] tag)\n".cstring())
+    @printf("gtk_about_dialog_set_logo(about: NullablePointer[SGtkAboutDialog] tag, logo: NullablePointer[GdkPaintable] tag)\n".cstring())
     @gtk_about_dialog_set_logo(about, logo)
   fun get_logo_icon_name(about: NullablePointer[SGtkAboutDialog] tag): Pointer[U8] =>
 """
@@ -487,19 +487,19 @@ Returns the icon name displayed as logo in the about dialog.the icon name displa
   or `NULL` if the logo has been set via [method@Gtk.AboutDialog.set_logo]a `GtkAboutDialog`
 """
 
-    @printf("get_logo_icon_name(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
+    @printf("gtk_about_dialog_get_logo_icon_name(about: NullablePointer[SGtkAboutDialog] tag)\n".cstring())
     @gtk_about_dialog_get_logo_icon_name(about)
   fun set_logo_icon_name(about: NullablePointer[SGtkAboutDialog] tag, iconname: Pointer[U8] tag): None =>
 """
 Sets the icon name to be displayed as logo in the about dialog.a `GtkAboutDialog`an icon name
 """
 
-    @printf("set_logo_icon_name(about: NullablePointer[SGtkAboutDialog] tag, iconname: Pointer[U8] tag)\n".cstring())
+    @printf("gtk_about_dialog_set_logo_icon_name(about: NullablePointer[SGtkAboutDialog] tag, iconname: Pointer[U8] tag)\n".cstring())
     @gtk_about_dialog_set_logo_icon_name(about, iconname)
   fun add_credit_section(about: NullablePointer[SGtkAboutDialog] tag, sectionname: Pointer[U8] tag, people: NullablePointer[Pointer[U8]] tag): None =>
 """
 Creates a new section in the "Credits" page.A `GtkAboutDialog`The name of the sectionThe people who belong to that section
 """
 
-    @printf("add_credit_section(about: NullablePointer[SGtkAboutDialog] tag, sectionname: Pointer[U8] tag, people: NullablePointer[Pointer[U8]] tag)\n".cstring())
+    @printf("gtk_about_dialog_add_credit_section(about: NullablePointer[SGtkAboutDialog] tag, sectionname: Pointer[U8] tag, people: NullablePointer[Pointer[U8]] tag)\n".cstring())
     @gtk_about_dialog_add_credit_section(about, sectionname, people)

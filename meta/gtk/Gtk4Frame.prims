@@ -68,19 +68,19 @@ Creates a new `GtkFrame`, with optional label @label.
 If @label is %NULL, the label is omitted.a new `GtkFrame` widgetthe text to use as the label of the frame
 """
 
-    @printf("gnew(label: Pointer[U8] tag)\n".cstring())
+    @printf("gtk_frame_new(label: Pointer[U8] tag)\n".cstring())
     @gtk_frame_new(label)
   fun set_child(frame: NullablePointer[SGtkFrame] tag, child: NullablePointer[SGtkWidget] tag): None =>
 """
 Sets the child widget of @frame.a `GtkFrame`the child widget
 """
 
-    @printf("set_child(frame: NullablePointer[SGtkFrame] tag, child: NullablePointer[SGtkWidget] tag)\n".cstring())
+    @printf("gtk_frame_set_child(frame: NullablePointer[SGtkFrame] tag, child: NullablePointer[SGtkWidget] tag)\n".cstring())
     @gtk_frame_set_child(frame, child)
   fun get_child(frame: NullablePointer[SGtkFrame] tag): NullablePointer[SGtkWidget] =>
 """
 Gets the child widget of @frame.the child widget of @framea `GtkFrame`
 """
 
-    @printf("get_child(frame: NullablePointer[SGtkFrame] tag)\n".cstring())
+    @printf("gtk_frame_get_child(frame: NullablePointer[SGtkFrame] tag)\n".cstring())
     @gtk_frame_get_child(frame)

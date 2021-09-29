@@ -55,14 +55,14 @@ will be selected.a `GtkSingleSelection`the item to select or %GTK_INVALID_LIST_P
 Creates a new selection to handle @model.a new `GtkSingleSelection`the `GListModel` to manage
 """
 
-    @printf("gnew(model: NullablePointer[GListModel] tag)\n".cstring())
+    @printf("gtk_single_selection_new(model: NullablePointer[GListModel] tag)\n".cstring())
     @gtk_single_selection_new(model)
   fun get_model(self: NullablePointer[SGtkSingleSelection] tag): NullablePointer[GListModel] =>
 """
 Gets the model that @self is wrapping.The model being wrappeda `GtkSingleSelection`
 """
 
-    @printf("get_model(self: NullablePointer[SGtkSingleSelection] tag)\n".cstring())
+    @printf("gtk_single_selection_get_model(self: NullablePointer[SGtkSingleSelection] tag)\n".cstring())
     @gtk_single_selection_get_model(self)
   fun set_model(self: NullablePointer[SGtkSingleSelection] tag, model: NullablePointer[GListModel] tag): None =>
 """
@@ -71,7 +71,7 @@ Sets the model that @self should wrap.
 If @model is %NULL, @self will be empty.a `GtkSingleSelection`A `GListModel` to wrap
 """
 
-    @printf("set_model(self: NullablePointer[SGtkSingleSelection] tag, model: NullablePointer[GListModel] tag)\n".cstring())
+    @printf("gtk_single_selection_set_model(self: NullablePointer[SGtkSingleSelection] tag, model: NullablePointer[GListModel] tag)\n".cstring())
     @gtk_single_selection_set_model(self, model)
   fun get_selected(self: NullablePointer[SGtkSingleSelection] tag): U32 =>
 """
@@ -80,7 +80,7 @@ Gets the position of the selected item.
 If no item is selected, %GTK_INVALID_LIST_POSITION is returned.The position of the selected itema `GtkSingleSelection`
 """
 
-    @printf("get_selected(self: NullablePointer[SGtkSingleSelection] tag)\n".cstring())
+    @printf("gtk_single_selection_get_selected(self: NullablePointer[SGtkSingleSelection] tag)\n".cstring())
     @gtk_single_selection_get_selected(self)
   fun set_selected(self: NullablePointer[SGtkSingleSelection] tag, position: U32): None =>
 """
@@ -94,7 +94,7 @@ selected. If it is unset, the selection will be unset and no item
 will be selected.a `GtkSingleSelection`the item to select or %GTK_INVALID_LIST_POSITION
 """
 
-    @printf("set_selected(self: NullablePointer[SGtkSingleSelection] tag, position: U32)\n".cstring())
+    @printf("gtk_single_selection_set_selected(self: NullablePointer[SGtkSingleSelection] tag, position: U32)\n".cstring())
     @gtk_single_selection_set_selected(self, position)
   fun get_selected_item(self: NullablePointer[SGtkSingleSelection] tag): Pointer[None] =>
 """
@@ -103,7 +103,7 @@ Gets the selected item.
 If no item is selected, %NULL is returned.The selected itema `GtkSingleSelection`
 """
 
-    @printf("get_selected_item(self: NullablePointer[SGtkSingleSelection] tag)\n".cstring())
+    @printf("gtk_single_selection_get_selected_item(self: NullablePointer[SGtkSingleSelection] tag)\n".cstring())
     @gtk_single_selection_get_selected_item(self)
   fun get_autoselect(self: NullablePointer[SGtkSingleSelection] tag): I32 =>
 """
@@ -111,7 +111,7 @@ Checks if autoselect has been enabled or disabled via
 gtk_single_selection_set_autoselect().%TRUE if autoselect is enableda `GtkSingleSelection`
 """
 
-    @printf("get_autoselect(self: NullablePointer[SGtkSingleSelection] tag)\n".cstring())
+    @printf("gtk_single_selection_get_autoselect(self: NullablePointer[SGtkSingleSelection] tag)\n".cstring())
     @gtk_single_selection_get_autoselect(self)
   fun set_autoselect(self: NullablePointer[SGtkSingleSelection] tag, autoselect: I32): None =>
 """
@@ -122,7 +122,7 @@ selected. It will select a new item when the currently selected
 item is deleted and it will disallow unselecting the current item.a `GtkSingleSelection`%TRUE to always select an item
 """
 
-    @printf("set_autoselect(self: NullablePointer[SGtkSingleSelection] tag, autoselect: I32)\n".cstring())
+    @printf("gtk_single_selection_set_autoselect(self: NullablePointer[SGtkSingleSelection] tag, autoselect: I32)\n".cstring())
     @gtk_single_selection_set_autoselect(self, autoselect)
   fun get_can_unselect(self: NullablePointer[SGtkSingleSelection] tag): I32 =>
 """
@@ -130,7 +130,7 @@ If %TRUE, gtk_selection_model_unselect_item() is supported and allows
 unselecting the selected item.%TRUE to support unselectinga `GtkSingleSelection`
 """
 
-    @printf("get_can_unselect(self: NullablePointer[SGtkSingleSelection] tag)\n".cstring())
+    @printf("gtk_single_selection_get_can_unselect(self: NullablePointer[SGtkSingleSelection] tag)\n".cstring())
     @gtk_single_selection_get_can_unselect(self)
   fun set_can_unselect(self: NullablePointer[SGtkSingleSelection] tag, canunselect: I32): None =>
 """
@@ -142,5 +142,5 @@ cause unselecting to not work, so it practically makes no sense
 to set both at the same time the same time.a `GtkSingleSelection`%TRUE to allow unselecting
 """
 
-    @printf("set_can_unselect(self: NullablePointer[SGtkSingleSelection] tag, canunselect: I32)\n".cstring())
+    @printf("gtk_single_selection_set_can_unselect(self: NullablePointer[SGtkSingleSelection] tag, canunselect: I32)\n".cstring())
     @gtk_single_selection_set_can_unselect(self, canunselect)

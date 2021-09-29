@@ -61,10 +61,7 @@ primitive Gtk4<xsl:value-of select="$primitive"/><xsl:text>
 <xsl:text>
 """
 </xsl:text>
-    @printf("<xsl:choose>
-		<xsl:when test="$ppn='new'">gnew</xsl:when>
-		<xsl:otherwise><xsl:value-of select="$ppn"/></xsl:otherwise>
-</xsl:choose>(<xsl:value-of select="$args"/>)\n".cstring())
+    @printf("<xsl:value-of select="$n/@name"/>(<xsl:value-of select="$args"/>)\n".cstring())
 <xsl:variable name="pfix">
 <xsl:apply-templates select="/castxml2pony/typedefs/typedef[@name=$rrv]/ponytypeconvout/prefixs/prefix" mode="perline"/>
 </xsl:variable>

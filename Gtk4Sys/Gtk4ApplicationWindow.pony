@@ -105,5 +105,5 @@ of whether the desktop shell is showing it or not.
 Creates a new `GtkApplicationWindow`.a newly created `GtkApplicationWindow`a `GtkApplication`
 """
 
-    @printf("gnew(application: NullablePointer[SGtkApplication] tag)\n".cstring())
+    @printf("gtk_application_window_new(application: NullablePointer[SGtkApplication] tag)\n".cstring())
     @gtk_application_window_new(application)

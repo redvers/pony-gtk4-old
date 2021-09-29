@@ -359,7 +359,7 @@ or [method@Gtk.Builder.add_from_string] in order to merge multiple UI
 descriptions into a single builder.a new (empty) `GtkBuilder` object
 """
 
-    @printf("gnew()\n".cstring())
+    @printf("gtk_builder_new()\n".cstring())
     @gtk_builder_new()
   fun add_from_file(builder: NullablePointer[SGtkBuilder] tag, filename: Pointer[U8] tag, g_error: Pointer[NullablePointer[GError]] tag): I32 =>
 """
@@ -383,7 +383,7 @@ was leaked leading up to the reported failure. The only reasonable
 thing to do when an error is detected is to call `g_error()`.%TRUE on success, %FALSE if an error occurreda `GtkBuilder`the name of the file to parse
 """
 
-    @printf("add_from_file(builder: NullablePointer[SGtkBuilder] tag, filename: Pointer[U8] tag, g_error: Pointer[NullablePointer[GError]] tag)\n".cstring())
+    @printf("gtk_builder_add_from_file(builder: NullablePointer[SGtkBuilder] tag, filename: Pointer[U8] tag, g_error: Pointer[NullablePointer[GError]] tag)\n".cstring())
     @gtk_builder_add_from_file(builder, filename, g_error)
   fun add_from_resource(builder: NullablePointer[SGtkBuilder] tag, resourcepath: Pointer[U8] tag, g_error: Pointer[NullablePointer[GError]] tag): I32 =>
 """
@@ -404,7 +404,7 @@ call.  The only reasonable thing to do when an error is detected is
 to call g_error().%TRUE on success, %FALSE if an error occurreda `GtkBuilder`the path of the resource file to parse
 """
 
-    @printf("add_from_resource(builder: NullablePointer[SGtkBuilder] tag, resourcepath: Pointer[U8] tag, g_error: Pointer[NullablePointer[GError]] tag)\n".cstring())
+    @printf("gtk_builder_add_from_resource(builder: NullablePointer[SGtkBuilder] tag, resourcepath: Pointer[U8] tag, g_error: Pointer[NullablePointer[GError]] tag)\n".cstring())
     @gtk_builder_add_from_resource(builder, resourcepath, g_error)
   fun add_from_string(builder: NullablePointer[SGtkBuilder] tag, buffer: Pointer[U8] tag, length: I64, g_error: Pointer[NullablePointer[GError]] tag): I32 =>
 """
@@ -425,7 +425,7 @@ call.  The only reasonable thing to do when an error is detected is
 to call g_error().%TRUE on success, %FALSE if an error occurreda `GtkBuilder`the string to parsethe length of @buffer (may be -1 if @buffer is nul-terminated)
 """
 
-    @printf("add_from_string(builder: NullablePointer[SGtkBuilder] tag, buffer: Pointer[U8] tag, length: I64, g_error: Pointer[NullablePointer[GError]] tag)\n".cstring())
+    @printf("gtk_builder_add_from_string(builder: NullablePointer[SGtkBuilder] tag, buffer: Pointer[U8] tag, length: I64, g_error: Pointer[NullablePointer[GError]] tag)\n".cstring())
     @gtk_builder_add_from_string(builder, buffer, length, g_error)
   fun get_object(builder: NullablePointer[SGtkBuilder] tag, name: Pointer[U8] tag): NullablePointer[GObject] =>
 """
@@ -435,7 +435,7 @@ Note that this function does not increment the reference count
 of the returned object.the object named @namea `GtkBuilder`name of object to get
 """
 
-    @printf("get_object(builder: NullablePointer[SGtkBuilder] tag, name: Pointer[U8] tag)\n".cstring())
+    @printf("gtk_builder_get_object(builder: NullablePointer[SGtkBuilder] tag, name: Pointer[U8] tag)\n".cstring())
     @gtk_builder_get_object(builder, name)
   fun get_objects(builder: NullablePointer[SGtkBuilder] tag): NullablePointer[GSList] =>
 """
@@ -448,7 +448,7 @@ counts of the returned objects.a
   freed by g_slist_free()a `GtkBuilder`
 """
 
-    @printf("get_objects(builder: NullablePointer[SGtkBuilder] tag)\n".cstring())
+    @printf("gtk_builder_get_objects(builder: NullablePointer[SGtkBuilder] tag)\n".cstring())
     @gtk_builder_get_objects(builder)
   fun new_from_file(filename: Pointer[U8] tag): NullablePointer[SGtkBuilder] =>
 """
@@ -459,7 +459,7 @@ the program will be aborted. You should only ever attempt to parse
 user interface descriptions that are shipped as part of your program.a `GtkBuilder` containing the described interfacefilename of user interface description file
 """
 
-    @printf("new_from_file(filename: Pointer[U8] tag)\n".cstring())
+    @printf("gtk_builder_new_from_file(filename: Pointer[U8] tag)\n".cstring())
     @gtk_builder_new_from_file(filename)
   fun new_from_resource(resourcepath: Pointer[U8] tag): NullablePointer[SGtkBuilder] =>
 """
@@ -469,7 +469,7 @@ If there is an error locating the resource or parsing the
 description, then the program will be aborted.a `GtkBuilder` containing the described interfacea `GResource` resource path
 """
 
-    @printf("new_from_resource(resourcepath: Pointer[U8] tag)\n".cstring())
+    @printf("gtk_builder_new_from_resource(resourcepath: Pointer[U8] tag)\n".cstring())
     @gtk_builder_new_from_resource(resourcepath)
   fun new_from_string(string: Pointer[U8] tag, length: I64): NullablePointer[SGtkBuilder] =>
 """
@@ -483,5 +483,5 @@ aborted. You should not attempt to parse user interface description
 from untrusted sources.a `GtkBuilder` containing the interface described by @stringa user interface (XML) descriptionthe length of @string, or -1
 """
 
-    @printf("new_from_string(string: Pointer[U8] tag, length: I64)\n".cstring())
+    @printf("gtk_builder_new_from_string(string: Pointer[U8] tag, length: I64)\n".cstring())
     @gtk_builder_new_from_string(string, length)

@@ -34,5 +34,5 @@ Returns a newly created `GtkGesture` that recognizes
 single and multiple presses.a newly created `GtkGestureClick`
 """
 
-    @printf("gnew()\n".cstring())
+    @printf("gtk_gesture_click_new()\n".cstring())
     @gtk_gesture_click_new()

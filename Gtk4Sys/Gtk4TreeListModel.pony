@@ -69,14 +69,14 @@ with all rows collapsed.a newly created `GtkTreeListModel`.The `GListModel` to u
   of an itemData to pass to @create_funcFunction to call to free @user_data
 """
 
-    @printf("gnew(root: NullablePointer[GListModel] tag, passthrough: I32, autoexpand: I32, createfunc: Pointer[None] tag, userdata: NullablePointer[GListModel] tag, userdestroy: Pointer[None] tag)\n".cstring())
+    @printf("gtk_tree_list_model_new(root: NullablePointer[GListModel] tag, passthrough: I32, autoexpand: I32, createfunc: Pointer[None] tag, userdata: NullablePointer[GListModel] tag, userdestroy: Pointer[None] tag)\n".cstring())
     @gtk_tree_list_model_new(root, passthrough, autoexpand, createfunc, userdata, userdestroy)
   fun get_model(self: NullablePointer[SGtkTreeListModel] tag): NullablePointer[GListModel] =>
 """
 Gets the root model that @self was created with.the root modela `GtkTreeListModel`
 """
 
-    @printf("get_model(self: NullablePointer[SGtkTreeListModel] tag)\n".cstring())
+    @printf("gtk_tree_list_model_get_model(self: NullablePointer[SGtkTreeListModel] tag)\n".cstring())
     @gtk_tree_list_model_get_model(self)
   fun get_passthrough(self: NullablePointer[SGtkTreeListModel] tag): I32 =>
 """
@@ -92,7 +92,7 @@ original state. You then need to call [method@Gtk.TreeListModel.get_row]
 to get the custom `GtkTreeListRow`s.%TRUE if the model is passing through original row itemsa `GtkTreeListModel`
 """
 
-    @printf("get_passthrough(self: NullablePointer[SGtkTreeListModel] tag)\n".cstring())
+    @printf("gtk_tree_list_model_get_passthrough(self: NullablePointer[SGtkTreeListModel] tag)\n".cstring())
     @gtk_tree_list_model_get_passthrough(self)
   fun set_autoexpand(self: NullablePointer[SGtkTreeListModel] tag, autoexpand: I32): None =>
 """
@@ -103,7 +103,7 @@ get added to the model. This can be either rows added by changes
 to the underlying models or via [method@Gtk.TreeListRow.set_expanded].a `GtkTreeListModel`%TRUE to make the model autoexpand its rows
 """
 
-    @printf("set_autoexpand(self: NullablePointer[SGtkTreeListModel] tag, autoexpand: I32)\n".cstring())
+    @printf("gtk_tree_list_model_set_autoexpand(self: NullablePointer[SGtkTreeListModel] tag, autoexpand: I32)\n".cstring())
     @gtk_tree_list_model_set_autoexpand(self, autoexpand)
   fun get_autoexpand(self: NullablePointer[SGtkTreeListModel] tag): I32 =>
 """
@@ -114,7 +114,7 @@ This can be either rows added by changes to the underlying
 models or via [method@Gtk.TreeListRow.set_expanded].%TRUE if the model is set to autoexpanda `GtkTreeListModel`
 """
 
-    @printf("get_autoexpand(self: NullablePointer[SGtkTreeListModel] tag)\n".cstring())
+    @printf("gtk_tree_list_model_get_autoexpand(self: NullablePointer[SGtkTreeListModel] tag)\n".cstring())
     @gtk_tree_list_model_get_autoexpand(self)
   fun get_child_row(self: NullablePointer[SGtkTreeListModel] tag, position: U32): NullablePointer[SGtkTreeListRow] =>
 """
@@ -127,7 +127,7 @@ If @position is greater than the number of children in the root model,
 Do not confuse this function with [method@Gtk.TreeListModel.get_row].the child in @positiona `GtkTreeListModel`position of the child to get
 """
 
-    @printf("get_child_row(self: NullablePointer[SGtkTreeListModel] tag, position: U32)\n".cstring())
+    @printf("gtk_tree_list_model_get_child_row(self: NullablePointer[SGtkTreeListModel] tag, position: U32)\n".cstring())
     @gtk_tree_list_model_get_child_row(self, position)
   fun get_row(self: NullablePointer[SGtkTreeListModel] tag, position: U32): NullablePointer[SGtkTreeListRow] =>
 """
@@ -150,5 +150,5 @@ equivalent to calling g_list_model_get_item().
 Do not confuse this function with [method@Gtk.TreeListModel.get_child_row].The row itema `GtkTreeListModel`the position of the row to fetch
 """
 
-    @printf("get_row(self: NullablePointer[SGtkTreeListModel] tag, position: U32)\n".cstring())
+    @printf("gtk_tree_list_model_get_row(self: NullablePointer[SGtkTreeListModel] tag, position: U32)\n".cstring())
     @gtk_tree_list_model_get_row(self, position)
