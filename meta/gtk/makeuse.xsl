@@ -6,6 +6,7 @@
 
 <xsl:template match="/castxml2pony">
 <xsl:result-document href="Gtk4{$primitive}.use">
+use "PangoSys"
 use "GLibSys"
 use "debug"
 

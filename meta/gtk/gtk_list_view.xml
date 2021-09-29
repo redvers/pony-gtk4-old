@@ -6,16 +6,16 @@
 <xi:include href="./Gtk-4.0.gir"/>
 <renderuses>
   <renderuse id="_19761" render="0"/><!-- gtk_list_view_get_type -->
-  <renderuse id="_19762" render="0"/><!-- gtk_list_view_new -->
-  <renderuse id="_19763" render="0"/><!-- gtk_list_view_get_model -->
-  <renderuse id="_19764" render="0"/><!-- gtk_list_view_set_model -->
-  <renderuse id="_19765" render="0"/><!-- gtk_list_view_set_factory -->
-  <renderuse id="_19766" render="0"/><!-- gtk_list_view_get_factory -->
-  <renderuse id="_19767" render="0"/><!-- gtk_list_view_set_show_separators -->
-  <renderuse id="_19768" render="0"/><!-- gtk_list_view_get_show_separators -->
-  <renderuse id="_19769" render="0"/><!-- gtk_list_view_set_single_click_activate -->
-  <renderuse id="_19770" render="0"/><!-- gtk_list_view_get_single_click_activate -->
-  <renderuse id="_19771" render="0"/><!-- gtk_list_view_set_enable_rubberband -->
-  <renderuse id="_19772" render="0"/><!-- gtk_list_view_get_enable_rubberband -->
+  <renderuse id="_19762" render="1"/><!-- gtk_list_view_new -->
+  <renderuse id="_19763" render="1"/><!-- gtk_list_view_get_model -->
+  <renderuse id="_19764" render="1"/><!-- gtk_list_view_set_model -->
+  <renderuse id="_19765" render="1"/><!-- gtk_list_view_set_factory -->
+  <renderuse id="_19766" render="1"/><!-- gtk_list_view_get_factory -->
+  <renderuse id="_19767" render="1"/><!-- gtk_list_view_set_show_separators -->
+  <renderuse id="_19768" render="1"/><!-- gtk_list_view_get_show_separators -->
+  <renderuse id="_19769" render="1"/><!-- gtk_list_view_set_single_click_activate -->
+  <renderuse id="_19770" render="1"/><!-- gtk_list_view_get_single_click_activate -->
+  <renderuse id="_19771" render="1"/><!-- gtk_list_view_set_enable_rubberband -->
+  <renderuse id="_19772" render="1"/><!-- gtk_list_view_get_enable_rubberband -->
 </renderuses>
 </castxml2pony>

@@ -1,4 +1,5 @@
 
+use "PangoSys"
 use "GLibSys"
 use "debug"
 
@@ -32,4 +33,6 @@ widget voluntarily relinquishes its implicit grab.X coordinate of the eventY coo
 Returns a newly created `GtkGesture` that recognizes
 single and multiple presses.a newly created `GtkGestureClick`
 """
+
+    @printf("gnew()\n".cstring())
     @gtk_gesture_click_new()

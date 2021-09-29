@@ -1,4 +1,5 @@
 
+use "PangoSys"
 use "GLibSys"
 use "debug"
 
@@ -253,6 +254,8 @@ If `application_id` is not %NULL, then it must be valid. See
 If no application ID is given then some features (most notably application
 uniqueness) will be disabled.a new `GtkApplication` instanceThe application IDthe application flags
 """
+
+    @printf("gnew(applicationid: Pointer[U8] tag, flags: I32)\n".cstring())
     @gtk_application_new(applicationid, flags)
   fun add_window(application: NullablePointer[SGtkApplication] tag, window: NullablePointer[SGtkWindow] tag): None =>
 """
@@ -272,4 +275,6 @@ remove it with [method@Gtk.Application.remove_window].
 GTK will keep the `application` running as long as it has
 any windows.a `GtkApplication`a `GtkWindow`
 """
+
+    @printf("add_window(application: NullablePointer[SGtkApplication] tag, window: NullablePointer[SGtkWindow] tag)\n".cstring())
     @gtk_application_add_window(application, window)

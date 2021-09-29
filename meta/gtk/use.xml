@@ -52970,7 +52970,7 @@
        <usearg name="passthrough" type="I32"/>
        <usearg name="autoexpand" type="I32"/>
        <usearg name="createfunc" type="Pointer[None]"/>
-       <usearg name="userdata" type="Pointer[None]"/>
+       <usearg name="userdata" type="NullablePointer[GListModel]"/>
        <usearg name="userdestroy" type="Pointer[None]"/>
      </useargs>
   </use>

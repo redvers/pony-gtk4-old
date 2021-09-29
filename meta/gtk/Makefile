@@ -406,7 +406,7 @@ gtk_list_store:
 #	saxon-he -xi gtk_list_store.xml makeprimitives.xsl primitive=
 
 gtk_list_view:
-#	saxon-he -xi gtk_list_view.xml makeprimitives.xsl primitive=
+	bash -x genpony.sh gtk_list_view ListView
 
 gtk_lock_button:
 #	saxon-he -xi gtk_lock_button.xml makeprimitives.xsl primitive=
@@ -610,6 +610,7 @@ gtk_signal_list_item_factory:
 #	saxon-he -xi gtk_signal_list_item_factory.xml makeprimitives.xsl primitive=
 
 gtk_single_selection:
+	bash -x genpony.sh gtk_single_selection SingleSelection
 #	saxon-he -xi gtk_single_selection.xml makeprimitives.xsl primitive=
 
 gtk_size_group:
@@ -697,7 +698,7 @@ gtk_tree_expander:
 #	saxon-he -xi gtk_tree_expander.xml makeprimitives.xsl primitive=
 
 gtk_tree_list_model:
-#	saxon-he -xi gtk_tree_list_model.xml makeprimitives.xsl primitive=
+	bash -x genpony.sh gtk_tree_list_model TreeListModel
 
 gtk_tree_list_row:
 #	saxon-he -xi gtk_tree_list_row.xml makeprimitives.xsl primitive=

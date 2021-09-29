@@ -1,4 +1,5 @@
 
+use "PangoSys"
 use "GLibSys"
 use "debug"
 
@@ -1588,6 +1589,8 @@ When a toplevel container is shown, it is immediately realized and
 mapped; other shown widgets are realized and mapped when their
 toplevel container is realized and mapped.a `GtkWidget`
 """
+
+    @printf("show(widget: NullablePointer[SGtkWidget] tag)\n".cstring())
     @gtk_widget_show(widget)
   fun queue_draw(widget: NullablePointer[SGtkWidget] tag): None =>
 """
@@ -1597,6 +1600,8 @@ of the current or the next frame.
 This means @widget's [vfunc@Gtk.Widget.snapshot]
 implementation will be called.a `GtkWidget`
 """
+
+    @printf("queue_draw(widget: NullablePointer[SGtkWidget] tag)\n".cstring())
     @gtk_widget_queue_draw(widget)
   fun get_native(widget: NullablePointer[SGtkWidget] tag): NullablePointer[SGtkNative] =>
 """
@@ -1607,6 +1612,8 @@ contained inside a widget tree with a native ancestor.
 
 `GtkNative` widgets will return themselves here.the `GtkNative` ancestor of @widgeta `GtkWidget`
 """
+
+    @printf("get_native(widget: NullablePointer[SGtkWidget] tag)\n".cstring())
     @gtk_widget_get_native(widget)
   fun get_width(widget: NullablePointer[SGtkWidget] tag): I32 =>
 """
@@ -1618,6 +1625,8 @@ should be using in [vfunc@Gtk.Widget.snapshot].
 
 For pointer events, see [method@Gtk.Widget.contains].The width of @widgeta `GtkWidget`
 """
+
+    @printf("get_width(widget: NullablePointer[SGtkWidget] tag)\n".cstring())
     @gtk_widget_get_width(widget)
   fun get_height(widget: NullablePointer[SGtkWidget] tag): I32 =>
 """
@@ -1629,6 +1638,8 @@ should be using in [vfunc@Gtk.Widget.snapshot].
 
 For pointer events, see [method@Gtk.Widget.contains].The height of @widgeta `GtkWidget`
 """
+
+    @printf("get_height(widget: NullablePointer[SGtkWidget] tag)\n".cstring())
     @gtk_widget_get_height(widget)
   fun set_size_request(widget: NullablePointer[SGtkWidget] tag, width: I32, height: I32): None =>
 """
@@ -1668,6 +1679,8 @@ properties
 much all other padding or border properties set by any subclass
 of `GtkWidget`.a `GtkWidget`width @widget should request, or -1 to unsetheight @widget should request, or -1 to unset
 """
+
+    @printf("set_size_request(widget: NullablePointer[SGtkWidget] tag, width: I32, height: I32)\n".cstring())
     @gtk_widget_set_size_request(widget, width, height)
   fun add_controller(widget: NullablePointer[SGtkWidget] tag, controller: NullablePointer[SGtkEventController] tag): None =>
 """
@@ -1677,4 +1690,6 @@ You will usually want to call this function right after
 creating any kind of [class@Gtk.EventController].a `GtkWidget`a `GtkEventController` that hasn't been
   added to a widget yet
 """
+
+    @printf("add_controller(widget: NullablePointer[SGtkWidget] tag, controller: NullablePointer[SGtkEventController] tag)\n".cstring())
     @gtk_widget_add_controller(widget, controller)

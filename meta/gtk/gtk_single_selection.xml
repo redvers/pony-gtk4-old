@@ -6,15 +6,15 @@
 <xi:include href="./Gtk-4.0.gir"/>
 <renderuses>
   <renderuse id="_21203" render="0"/><!-- gtk_single_selection_get_type -->
-  <renderuse id="_21228" render="0"/><!-- gtk_single_selection_new -->
-  <renderuse id="_21229" render="0"/><!-- gtk_single_selection_get_model -->
-  <renderuse id="_21230" render="0"/><!-- gtk_single_selection_set_model -->
-  <renderuse id="_21231" render="0"/><!-- gtk_single_selection_get_selected -->
-  <renderuse id="_21232" render="0"/><!-- gtk_single_selection_set_selected -->
-  <renderuse id="_21233" render="0"/><!-- gtk_single_selection_get_selected_item -->
-  <renderuse id="_21234" render="0"/><!-- gtk_single_selection_get_autoselect -->
-  <renderuse id="_21235" render="0"/><!-- gtk_single_selection_set_autoselect -->
-  <renderuse id="_21236" render="0"/><!-- gtk_single_selection_get_can_unselect -->
-  <renderuse id="_21237" render="0"/><!-- gtk_single_selection_set_can_unselect -->
+  <renderuse id="_21228" render="1"/><!-- gtk_single_selection_new -->
+  <renderuse id="_21229" render="1"/><!-- gtk_single_selection_get_model -->
+  <renderuse id="_21230" render="1"/><!-- gtk_single_selection_set_model -->
+  <renderuse id="_21231" render="1"/><!-- gtk_single_selection_get_selected -->
+  <renderuse id="_21232" render="1"/><!-- gtk_single_selection_set_selected -->
+  <renderuse id="_21233" render="1"/><!-- gtk_single_selection_get_selected_item -->
+  <renderuse id="_21234" render="1"/><!-- gtk_single_selection_get_autoselect -->
+  <renderuse id="_21235" render="1"/><!-- gtk_single_selection_set_autoselect -->
+  <renderuse id="_21236" render="1"/><!-- gtk_single_selection_get_can_unselect -->
+  <renderuse id="_21237" render="1"/><!-- gtk_single_selection_set_can_unselect -->
 </renderuses>
 </castxml2pony>

@@ -6,12 +6,12 @@
 <xi:include href="./Gtk-4.0.gir"/>
 <renderuses>
   <renderuse id="_21976" render="0"/><!-- gtk_tree_list_model_get_type -->
-  <renderuse id="_22027" render="0"/><!-- gtk_tree_list_model_new -->
-  <renderuse id="_22028" render="0"/><!-- gtk_tree_list_model_get_model -->
-  <renderuse id="_22029" render="0"/><!-- gtk_tree_list_model_get_passthrough -->
-  <renderuse id="_22030" render="0"/><!-- gtk_tree_list_model_set_autoexpand -->
-  <renderuse id="_22031" render="0"/><!-- gtk_tree_list_model_get_autoexpand -->
-  <renderuse id="_22032" render="0"/><!-- gtk_tree_list_model_get_child_row -->
-  <renderuse id="_22033" render="0"/><!-- gtk_tree_list_model_get_row -->
+  <renderuse id="_22027" render="1"/><!-- gtk_tree_list_model_new -->
+  <renderuse id="_22028" render="1"/><!-- gtk_tree_list_model_get_model -->
+  <renderuse id="_22029" render="1"/><!-- gtk_tree_list_model_get_passthrough -->
+  <renderuse id="_22030" render="1"/><!-- gtk_tree_list_model_set_autoexpand -->
+  <renderuse id="_22031" render="1"/><!-- gtk_tree_list_model_get_autoexpand -->
+  <renderuse id="_22032" render="1"/><!-- gtk_tree_list_model_get_child_row -->
+  <renderuse id="_22033" render="1"/><!-- gtk_tree_list_model_get_row -->
 </renderuses>
 </castxml2pony>

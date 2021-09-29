@@ -1,6 +1,7 @@
 use "GLibSys"
 use "GrapheneSys"
 
+use @printf[I32](fmt: Pointer[U8] tag, ...)
 /*
   Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/css/gtkcsslocation.h:31
   Original Name: _SGtkCssLocation
@@ -19774,7 +19775,7 @@ struct SGtkSignalListItemFactoryClass
 
   Fields (Offset in bits):
 */
-struct SGtkSingleSelection
+type SGtkSingleSelection is SGtkSelectionModel
 
 
 /*

@@ -1,4 +1,5 @@
 
+use "PangoSys"
 use "GLibSys"
 use "debug"
 
@@ -239,4 +240,6 @@ If non-0, every button press from a different button
 number will be ignored. Touch events implicitly match
 with button 1.a `GtkGestureSingle`button number to listen to, or 0 for any button
 """
+
+    @printf("set_button(gesture: NullablePointer[SGtkGestureSingle] tag, button: U32)\n".cstring())
     @gtk_gesture_single_set_button(gesture, button)

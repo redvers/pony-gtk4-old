@@ -3,6 +3,7 @@
 <xsl:output method="text" omit-xml-declaration="yes" indent="no"/>
 <xsl:strip-space elements="*"/>
 <xsl:param name="primitive" />
+<xsl:param name="debug" />
 
 <xsl:template match="/castxml2pony">
 <xsl:result-document href="Gtk4{$primitive}.prims">
@@ -47,7 +48,12 @@ primitive Gtk4<xsl:value-of select="$primitive"/><xsl:text>
 <xsl:variable name="ppn" select="/castxml2pony/t:repository/t:namespace//*[@c:identifier=$pn]/@name"/>
 <xsl:if test="name($varargs)='Ellipsis'">/*</xsl:if>
 <xsl:if test="$render='0'"><xsl:text>/*
-</xsl:text></xsl:if><xsl:text>  fun </xsl:text><xsl:choose><xsl:when test="$ppn='new'">gnew</xsl:when><xsl:otherwise><xsl:value-of select="$ppn"/></xsl:otherwise></xsl:choose>(<xsl:value-of select="$args"/>): <xsl:value-of select="/castxml2pony/typedefs/typedef[@name=$rrv]/@ponytypeout"/> =>
+</xsl:text></xsl:if>
+
+<xsl:text>  fun </xsl:text><xsl:choose>
+	<xsl:when test="$ppn='new'">gnew</xsl:when>
+	<xsl:otherwise><xsl:value-of select="$ppn"/></xsl:otherwise>
+</xsl:choose>(<xsl:value-of select="$args"/>): <xsl:value-of select="/castxml2pony/typedefs/typedef[@name=$rrv]/@ponytypeout"/> =>
 <xsl:text>"""
 </xsl:text>
 <xsl:variable name="pn" select="$n/@ponyname"/>
@@ -55,6 +61,10 @@ primitive Gtk4<xsl:value-of select="$primitive"/><xsl:text>
 <xsl:text>
 """
 </xsl:text>
+    @printf("<xsl:choose>
+		<xsl:when test="$ppn='new'">gnew</xsl:when>
+		<xsl:otherwise><xsl:value-of select="$ppn"/></xsl:otherwise>
+</xsl:choose>(<xsl:value-of select="$args"/>)\n".cstring())
 <xsl:variable name="pfix">
 <xsl:apply-templates select="/castxml2pony/typedefs/typedef[@name=$rrv]/ponytypeconvout/prefixs/prefix" mode="perline"/>
 </xsl:variable>
@@ -62,7 +72,8 @@ primitive Gtk4<xsl:value-of select="$primitive"/><xsl:text>
 <xsl:apply-templates select="/castxml2pony/typedefs/typedef[@name=$rrv]/ponytypeconvout/suffixes/suffix" mode="perline"/>
 </xsl:variable>
 
-<xsl:if test="$pfix=''"><xsl:text>   </xsl:text></xsl:if><xsl:value-of select="$pfix"/> @<xsl:value-of select="$n/@name"/>(<xsl:value-of select="$cargs"/>)
+<xsl:if test="$pfix=''"><xsl:text>   </xsl:text></xsl:if>
+<xsl:value-of select="$pfix"/> @<xsl:value-of select="$n/@name"/>(<xsl:value-of select="$cargs"/>)
 <xsl:value-of select="$sfix"/>
 <xsl:if test="$render='0'"><xsl:text>*/
 </xsl:text></xsl:if>

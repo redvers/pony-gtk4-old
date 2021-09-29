@@ -1,4 +1,5 @@
 
+use "PangoSys"
 use "GLibSys"
 use "debug"
 
@@ -30,4 +31,6 @@ in surface-relative coordinates.%TRUE if the gesture is activea `GtkGesture`X co
 """
 Returns a newly created `GtkGesture` that recognizes drags.a newly created `GtkGestureDrag`
 """
+
+    @printf("gnew()\n".cstring())
     @gtk_gesture_drag_new()

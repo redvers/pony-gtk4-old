@@ -473,3 +473,536 @@ There are too many key combinations to list them all here.
 - Ctrl-arrow key combinations move by words/paragraphs
 - Home/End keys move to the ends of the bufferthe granularity of the move, as a `GtkMovementStep`the number of @step units to move%TRUE if the move should extend the selection
 """
+  fun gnew(str: Pointer[U8] tag): NullablePointer[SGtkWidget] =>
+"""
+Creates a new label with the given text inside it.
+
+You can pass %NULL to get an empty label widget.the new `GtkLabel`The text of the label
+"""
+
+    @printf("gnew(str: Pointer[U8] tag)\n".cstring())
+    @gtk_label_new(str)
+  fun new_with_mnemonic(str: Pointer[U8] tag): NullablePointer[SGtkWidget] =>
+"""
+Creates a new `GtkLabel`, containing the text in @str.
+
+If characters in @str are preceded by an underscore, they are
+underlined. If you need a literal underscore character in a label, use
+'__' (two underscores). The first underlined character represents a
+keyboard accelerator called a mnemonic. The mnemonic key can be used
+to activate another widget, chosen automatically, or explicitly using
+[method@Gtk.Label.set_mnemonic_widget].
+
+If [method@Gtk.Label.set_mnemonic_widget] is not called, then the first
+activatable ancestor of the `GtkLabel` will be chosen as the mnemonic
+widget. For instance, if the label is inside a button or menu item,
+the button or menu item will automatically become the mnemonic widget
+and be activated by the mnemonic.the new `GtkLabel`The text of the label, with an underscore in front of the
+  mnemonic character
+"""
+
+    @printf("new_with_mnemonic(str: Pointer[U8] tag)\n".cstring())
+    @gtk_label_new_with_mnemonic(str)
+  fun set_text(self: NullablePointer[SGtkLabel] tag, str: Pointer[U8] tag): None =>
+"""
+Sets the text within the `GtkLabel` widget.
+
+It overwrites any text that was there before.
+
+This function will clear any previously set mnemonic accelerators,
+and set the [property@Gtk.Label:use-underline property] to %FALSE as
+a side effect.
+
+This function will set the [property@Gtk.Label:use-markup] property
+to %FALSE as a side effect.
+
+See also: [method@Gtk.Label.set_markup]a `GtkLabel`The text you want to set
+"""
+
+    @printf("set_text(self: NullablePointer[SGtkLabel] tag, str: Pointer[U8] tag)\n".cstring())
+    @gtk_label_set_text(self, str)
+  fun get_text(self: NullablePointer[SGtkLabel] tag): Pointer[U8] =>
+"""
+Fetches the text from a label.
+
+The returned text is as it appears on screen. This does not include
+any embedded underlines indicating mnemonics or Pango markup. (See
+[method@Gtk.Label.get_label])the text in the label widget. This is the internal
+  string used by the label, and must not be modified.a `GtkLabel`
+"""
+
+    @printf("get_text(self: NullablePointer[SGtkLabel] tag)\n".cstring())
+    @gtk_label_get_text(self)
+  fun set_attributes(self: NullablePointer[SGtkLabel] tag, attrs: NullablePointer[PangoAttrList] tag): None =>
+"""
+Apply attributes to the label text.
+
+The attributes set with this function will be applied and merged with
+any other attributes previously effected by way of the
+[property@Gtk.Label:use-underline] or [property@Gtk.Label:use-markup]
+properties. While it is not recommended to mix markup strings with
+manually set attributes, if you must; know that the attributes will
+be applied to the label after the markup string is parsed.a `GtkLabel`a [struct@Pango.AttrList]
+"""
+
+    @printf("set_attributes(self: NullablePointer[SGtkLabel] tag, attrs: NullablePointer[PangoAttrList] tag)\n".cstring())
+    @gtk_label_set_attributes(self, attrs)
+  fun get_attributes(self: NullablePointer[SGtkLabel] tag): NullablePointer[PangoAttrList] =>
+"""
+Gets the labels attribute list.
+
+This is the [struct@Pango.AttrList] that was set on the label using
+[method@Gtk.Label.set_attributes], if any. This function does not
+reflect attributes that come from the labels markup (see
+[method@Gtk.Label.set_markup]). If you want to get the effective
+attributes for the label, use
+`pango_layout_get_attribute (gtk_label_get_layout (self))`.the attribute lista `GtkLabel`
+"""
+
+    @printf("get_attributes(self: NullablePointer[SGtkLabel] tag)\n".cstring())
+    @gtk_label_get_attributes(self)
+  fun set_label(self: NullablePointer[SGtkLabel] tag, str: Pointer[U8] tag): None =>
+"""
+Sets the text of the label.
+
+The label is interpreted as including embedded underlines and/or Pango
+markup depending on the values of the [property@Gtk.Label:use-underline]
+and [property@Gtk.Label:use-markup] properties.a `GtkLabel`the new text to set for the label
+"""
+
+    @printf("set_label(self: NullablePointer[SGtkLabel] tag, str: Pointer[U8] tag)\n".cstring())
+    @gtk_label_set_label(self, str)
+  fun get_label(self: NullablePointer[SGtkLabel] tag): Pointer[U8] =>
+"""
+Fetches the text from a label.
+
+The returned text includes any embedded underlines indicating
+mnemonics and Pango markup. (See [method@Gtk.Label.get_text]).the text of the label widget. This string is
+  owned by the widget and must not be modified or freed.a `GtkLabel`
+"""
+
+    @printf("get_label(self: NullablePointer[SGtkLabel] tag)\n".cstring())
+    @gtk_label_get_label(self)
+  fun set_markup(self: NullablePointer[SGtkLabel] tag, str: Pointer[U8] tag): None =>
+"""
+Sets the labels text and attributes from markup.
+
+The string must be marked up with Pango markup
+(see [func@Pango.parse_markup]).
+
+If the @str is external data, you may need to escape it
+with g_markup_escape_text() or g_markup_printf_escaped():
+
+```c
+GtkWidget *self = gtk_label_new (NULL);
+const char *str = "...";
+const char *format = "<span style=\"italic\">\%s</span>";
+char *markup;
+
+markup = g_markup_printf_escaped (format, str);
+gtk_label_set_markup (GTK_LABEL (self), markup);
+g_free (markup);
+```
+
+This function will set the [property@Gtk.Label:use-markup] property
+to %TRUE as a side effect.
+
+If you set the label contents using the [property@Gtk.Label:label]
+property you should also ensure that you set the
+[property@Gtk.Label:use-markup] property accordingly.
+
+See also: [method@Gtk.Label.set_text]a `GtkLabel`a markup string
+"""
+
+    @printf("set_markup(self: NullablePointer[SGtkLabel] tag, str: Pointer[U8] tag)\n".cstring())
+    @gtk_label_set_markup(self, str)
+  fun set_use_markup(self: NullablePointer[SGtkLabel] tag, setting: I32): None =>
+"""
+Sets whether the text of the label contains markup.
+
+See [method@Gtk.Label.set_markup].a `GtkLabel`%TRUE if the label’s text should be parsed for markup.
+"""
+
+    @printf("set_use_markup(self: NullablePointer[SGtkLabel] tag, setting: I32)\n".cstring())
+    @gtk_label_set_use_markup(self, setting)
+  fun get_use_markup(self: NullablePointer[SGtkLabel] tag): I32 =>
+"""
+Returns whether the label’s text is interpreted as Pango markup.
+
+See [method@Gtk.Label.set_use_markup].%TRUE if the label’s text will be parsed for markup.a `GtkLabel`
+"""
+
+    @printf("get_use_markup(self: NullablePointer[SGtkLabel] tag)\n".cstring())
+    @gtk_label_get_use_markup(self)
+  fun set_use_underline(self: NullablePointer[SGtkLabel] tag, setting: I32): None =>
+"""
+Sets whether underlines in the text indicate mnemonics.a `GtkLabel`%TRUE if underlines in the text indicate mnemonics
+"""
+
+    @printf("set_use_underline(self: NullablePointer[SGtkLabel] tag, setting: I32)\n".cstring())
+    @gtk_label_set_use_underline(self, setting)
+  fun get_use_underline(self: NullablePointer[SGtkLabel] tag): I32 =>
+"""
+Returns whether an embedded underlines in the label indicate mnemonics.
+
+See [method@Gtk.Label.set_use_underline].%TRUE whether an embedded underline in the label indicates
+  the mnemonic accelerator keys.a `GtkLabel`
+"""
+
+    @printf("get_use_underline(self: NullablePointer[SGtkLabel] tag)\n".cstring())
+    @gtk_label_get_use_underline(self)
+  fun set_markup_with_mnemonic(self: NullablePointer[SGtkLabel] tag, str: Pointer[U8] tag): None =>
+"""
+Sets the labels text, attributes and mnemonic from markup.
+
+Parses @str which is marked up with Pango markup (see [func@Pango.parse_markup]),
+setting the label’s text and attribute list based on the parse results.
+If characters in @str are preceded by an underscore, they are underlined
+indicating that they represent a keyboard accelerator called a mnemonic.
+
+The mnemonic key can be used to activate another widget, chosen
+automatically, or explicitly using [method@Gtk.Label.set_mnemonic_widget].a `GtkLabel`a markup string
+"""
+
+    @printf("set_markup_with_mnemonic(self: NullablePointer[SGtkLabel] tag, str: Pointer[U8] tag)\n".cstring())
+    @gtk_label_set_markup_with_mnemonic(self, str)
+  fun get_mnemonic_keyval(self: NullablePointer[SGtkLabel] tag): U32 =>
+"""
+Return the mnemonic accelerator.
+
+If the label has been set so that it has a mnemonic key this function
+returns the keyval used for the mnemonic accelerator. If there is no
+mnemonic set up it returns `GDK_KEY_VoidSymbol`.GDK keyval usable for accelerators, or `GDK_KEY_VoidSymbol`a `GtkLabel`
+"""
+
+    @printf("get_mnemonic_keyval(self: NullablePointer[SGtkLabel] tag)\n".cstring())
+    @gtk_label_get_mnemonic_keyval(self)
+  fun set_mnemonic_widget(self: NullablePointer[SGtkLabel] tag, widget: NullablePointer[SGtkWidget] tag): None =>
+"""
+Associate the label with its mnemonic target.
+
+If the label has been set so that it has a mnemonic key (using
+i.e. [method@Gtk.Label.set_markup_with_mnemonic],
+[method@Gtk.Label.set_text_with_mnemonic],
+[ctor@Gtk.Label.new_with_mnemonic]
+or the [property@Gtk.Label:use_underline] property) the label can be
+associated with a widget that is the target of the mnemonic. When the
+label is inside a widget (like a [class@Gtk.Button] or a
+[class@Gtk.Notebook] tab) it is automatically associated with the correct
+widget, but sometimes (i.e. when the target is a [class@Gtk.Entry] next to
+the label) you need to set it explicitly using this function.
+
+The target widget will be accelerated by emitting the
+[signal@GtkWidget::mnemonic-activate] signal on it. The default handler for
+this signal will activate the widget if there are no mnemonic collisions
+and toggle focus between the colliding widgets otherwise.a `GtkLabel`the target `GtkWidget`, or %NULL to unset
+"""
+
+    @printf("set_mnemonic_widget(self: NullablePointer[SGtkLabel] tag, widget: NullablePointer[SGtkWidget] tag)\n".cstring())
+    @gtk_label_set_mnemonic_widget(self, widget)
+  fun get_mnemonic_widget(self: NullablePointer[SGtkLabel] tag): NullablePointer[SGtkWidget] =>
+"""
+Retrieves the target of the mnemonic (keyboard shortcut) of this
+label.
+
+See [method@Gtk.Label.set_mnemonic_widget].the target of the label’s mnemonic,
+  or %NULL if none has been set and the default algorithm will be used.a `GtkLabel`
+"""
+
+    @printf("get_mnemonic_widget(self: NullablePointer[SGtkLabel] tag)\n".cstring())
+    @gtk_label_get_mnemonic_widget(self)
+  fun set_text_with_mnemonic(self: NullablePointer[SGtkLabel] tag, str: Pointer[U8] tag): None =>
+"""
+Sets the label’s text from the string @str.
+
+If characters in @str are preceded by an underscore, they are underlined
+indicating that they represent a keyboard accelerator called a mnemonic.
+The mnemonic key can be used to activate another widget, chosen
+automatically, or explicitly using [method@Gtk.Label.set_mnemonic_widget].a `GtkLabel`a string
+"""
+
+    @printf("set_text_with_mnemonic(self: NullablePointer[SGtkLabel] tag, str: Pointer[U8] tag)\n".cstring())
+    @gtk_label_set_text_with_mnemonic(self, str)
+  fun set_justify(self: NullablePointer[SGtkLabel] tag, jtype: I32): None =>
+"""
+Sets the alignment of the lines in the text of the label relative to
+each other.
+
+%GTK_JUSTIFY_LEFT is the default value when the widget is first created
+with [ctor@Gtk.Label.new]. If you instead want to set the alignment of
+the label as a whole, use [method@Gtk.Widget.set_halign] instead.
+[method@Gtk.Label.set_justify] has no effect on labels containing
+only a single line.a `GtkLabel`a `GtkJustification`
+"""
+
+    @printf("set_justify(self: NullablePointer[SGtkLabel] tag, jtype: I32)\n".cstring())
+    @gtk_label_set_justify(self, jtype)
+  fun get_justify(self: NullablePointer[SGtkLabel] tag): I32 =>
+"""
+Returns the justification of the label.
+
+See [method@Gtk.Label.set_justify].`GtkJustification`a `GtkLabel`
+"""
+
+    @printf("get_justify(self: NullablePointer[SGtkLabel] tag)\n".cstring())
+    @gtk_label_get_justify(self)
+  fun set_ellipsize(self: NullablePointer[SGtkLabel] tag, mode: I32): None =>
+"""
+Sets the mode used to ellipsizei the text.
+
+The text will be ellipsized if there is not enough space
+to render the entire string.a `GtkLabel`a `PangoEllipsizeMode`
+"""
+
+    @printf("set_ellipsize(self: NullablePointer[SGtkLabel] tag, mode: I32)\n".cstring())
+    @gtk_label_set_ellipsize(self, mode)
+  fun get_ellipsize(self: NullablePointer[SGtkLabel] tag): I32 =>
+"""
+Returns the ellipsizing position of the label.
+
+See [method@Gtk.Label.set_ellipsize].`PangoEllipsizeMode`a `GtkLabel`
+"""
+
+    @printf("get_ellipsize(self: NullablePointer[SGtkLabel] tag)\n".cstring())
+    @gtk_label_get_ellipsize(self)
+  fun set_width_chars(self: NullablePointer[SGtkLabel] tag, nchars: I32): None =>
+"""
+Sets the desired width in characters of @label to @n_chars.a `GtkLabel`the new desired width, in characters.
+"""
+
+    @printf("set_width_chars(self: NullablePointer[SGtkLabel] tag, nchars: I32)\n".cstring())
+    @gtk_label_set_width_chars(self, nchars)
+  fun get_width_chars(self: NullablePointer[SGtkLabel] tag): I32 =>
+"""
+Retrieves the desired width of @label, in characters.
+
+See [method@Gtk.Label.set_width_chars].the width of the label in characters.a `GtkLabel`
+"""
+
+    @printf("get_width_chars(self: NullablePointer[SGtkLabel] tag)\n".cstring())
+    @gtk_label_get_width_chars(self)
+  fun set_max_width_chars(self: NullablePointer[SGtkLabel] tag, nchars: I32): None =>
+"""
+Sets the desired maximum width in characters of @label to @n_chars.a `GtkLabel`the new desired maximum width, in characters.
+"""
+
+    @printf("set_max_width_chars(self: NullablePointer[SGtkLabel] tag, nchars: I32)\n".cstring())
+    @gtk_label_set_max_width_chars(self, nchars)
+  fun get_max_width_chars(self: NullablePointer[SGtkLabel] tag): I32 =>
+"""
+Retrieves the desired maximum width of @label, in characters.
+
+See [method@Gtk.Label.set_width_chars].the maximum width of the label in characters.a `GtkLabel`
+"""
+
+    @printf("get_max_width_chars(self: NullablePointer[SGtkLabel] tag)\n".cstring())
+    @gtk_label_get_max_width_chars(self)
+  fun set_lines(self: NullablePointer[SGtkLabel] tag, lines: I32): None =>
+"""
+Sets the number of lines to which an ellipsized, wrapping label
+should be limited.
+
+This has no effect if the label is not wrapping or ellipsized.
+Set this to -1 if you don’t want to limit the number of lines.a `GtkLabel`the desired number of lines, or -1
+"""
+
+    @printf("set_lines(self: NullablePointer[SGtkLabel] tag, lines: I32)\n".cstring())
+    @gtk_label_set_lines(self, lines)
+  fun get_lines(self: NullablePointer[SGtkLabel] tag): I32 =>
+"""
+Gets the number of lines to which an ellipsized, wrapping
+label should be limited.
+
+See [method@Gtk.Label.set_lines].The number of linesa `GtkLabel`
+"""
+
+    @printf("get_lines(self: NullablePointer[SGtkLabel] tag)\n".cstring())
+    @gtk_label_get_lines(self)
+  fun set_wrap(self: NullablePointer[SGtkLabel] tag, wrap: I32): None =>
+"""
+Toggles line wrapping within the `GtkLabel` widget.
+
+%TRUE makes it break lines if text exceeds the widget’s size.
+%FALSE lets the text get cut off by the edge of the widget if
+it exceeds the widget size.
+
+Note that setting line wrapping to %TRUE does not make the label
+wrap at its parent container’s width, because GTK widgets
+conceptually can’t make their requisition depend on the parent
+container’s size. For a label that wraps at a specific position,
+set the label’s width using [method@Gtk.Widget.set_size_request].a `GtkLabel`the setting
+"""
+
+    @printf("set_wrap(self: NullablePointer[SGtkLabel] tag, wrap: I32)\n".cstring())
+    @gtk_label_set_wrap(self, wrap)
+  fun get_wrap(self: NullablePointer[SGtkLabel] tag): I32 =>
+"""
+Returns whether lines in the label are automatically wrapped.
+
+See [method@Gtk.Label.set_wrap].%TRUE if the lines of the label are automatically wrapped.a `GtkLabel`
+"""
+
+    @printf("get_wrap(self: NullablePointer[SGtkLabel] tag)\n".cstring())
+    @gtk_label_get_wrap(self)
+  fun set_wrap_mode(self: NullablePointer[SGtkLabel] tag, wrapmode: I32): None =>
+"""
+Controls how line wrapping is done.
+
+This only affects the label if line wrapping is on. (See
+[method@Gtk.Label.set_wrap]) The default is %PANGO_WRAP_WORD
+which means wrap on word boundaries.a `GtkLabel`the line wrapping mode
+"""
+
+    @printf("set_wrap_mode(self: NullablePointer[SGtkLabel] tag, wrapmode: I32)\n".cstring())
+    @gtk_label_set_wrap_mode(self, wrapmode)
+  fun get_wrap_mode(self: NullablePointer[SGtkLabel] tag): I32 =>
+"""
+Returns line wrap mode used by the label.
+
+See [method@Gtk.Label.set_wrap_mode].%TRUE if the lines of the label are automatically wrapped.a `GtkLabel`
+"""
+
+    @printf("get_wrap_mode(self: NullablePointer[SGtkLabel] tag)\n".cstring())
+    @gtk_label_get_wrap_mode(self)
+  fun set_selectable(self: NullablePointer[SGtkLabel] tag, setting: I32): None =>
+"""
+Makes text in the label selectable.
+
+Selectable labels allow the user to select text from the label,
+for copy-and-paste.a `GtkLabel`%TRUE to allow selecting text in the label
+"""
+
+    @printf("set_selectable(self: NullablePointer[SGtkLabel] tag, setting: I32)\n".cstring())
+    @gtk_label_set_selectable(self, setting)
+  fun get_selectable(self: NullablePointer[SGtkLabel] tag): I32 =>
+"""
+Returns whether the label is selectable.%TRUE if the user can copy text from the labela `GtkLabel`
+"""
+
+    @printf("get_selectable(self: NullablePointer[SGtkLabel] tag)\n".cstring())
+    @gtk_label_get_selectable(self)
+  fun select_region(self: NullablePointer[SGtkLabel] tag, startoffset: I32, endoffset: I32): None =>
+"""
+Selects a range of characters in the label, if the label is selectable.
+
+See [method@Gtk.Label.set_selectable]. If the label is not selectable,
+this function has no effect. If @start_offset or
+@end_offset are -1, then the end of the label will be substituted.a `GtkLabel`start offset (in characters not bytes)end offset (in characters not bytes)
+"""
+
+    @printf("select_region(self: NullablePointer[SGtkLabel] tag, startoffset: I32, endoffset: I32)\n".cstring())
+    @gtk_label_select_region(self, startoffset, endoffset)
+  fun get_selection_bounds(self: NullablePointer[SGtkLabel] tag, start: Pointer[I32] tag, g_end: Pointer[I32] tag): I32 =>
+"""
+Gets the selected range of characters in the label.%TRUE if selection is non-emptya `GtkLabel`return location for start of selection, as a character offsetreturn location for end of selection, as a character offset
+"""
+
+    @printf("get_selection_bounds(self: NullablePointer[SGtkLabel] tag, start: Pointer[I32] tag, g_end: Pointer[I32] tag)\n".cstring())
+    @gtk_label_get_selection_bounds(self, start, g_end)
+  fun get_layout(self: NullablePointer[SGtkLabel] tag): NullablePointer[PangoLayout] =>
+"""
+Gets the `PangoLayout` used to display the label.
+
+The layout is useful to e.g. convert text positions to pixel
+positions, in combination with [method@Gtk.Label.get_layout_offsets].
+The returned layout is owned by the @label so need not be
+freed by the caller. The @label is free to recreate its layout
+at any time, so it should be considered read-only.the [class@Pango.Layout] for this labela `GtkLabel`
+"""
+
+    @printf("get_layout(self: NullablePointer[SGtkLabel] tag)\n".cstring())
+    @gtk_label_get_layout(self)
+  fun get_layout_offsets(self: NullablePointer[SGtkLabel] tag, x: Pointer[I32] tag, y: Pointer[I32] tag): None =>
+"""
+Obtains the coordinates where the label will draw its `PangoLayout`.
+
+The coordinates are useful to convert mouse events into coordinates
+inside the [class@Pango.Layout], e.g. to take some action if some part
+of the label is clicked. Remember when using the [class@Pango.Layout]
+functions you need to convert to and from pixels using PANGO_PIXELS()
+or [const@Pango.SCALE].a `GtkLabel`location to store X offset of layoutlocation to store Y offset of layout
+"""
+
+    @printf("get_layout_offsets(self: NullablePointer[SGtkLabel] tag, x: Pointer[I32] tag, y: Pointer[I32] tag)\n".cstring())
+    @gtk_label_get_layout_offsets(self, x, y)
+  fun set_single_line_mode(self: NullablePointer[SGtkLabel] tag, singlelinemode: I32): None =>
+"""
+Sets whether the label is in single line mode.a `GtkLabel`%TRUE if the label should be in single line mode
+"""
+
+    @printf("set_single_line_mode(self: NullablePointer[SGtkLabel] tag, singlelinemode: I32)\n".cstring())
+    @gtk_label_set_single_line_mode(self, singlelinemode)
+  fun get_single_line_mode(self: NullablePointer[SGtkLabel] tag): I32 =>
+"""
+Returns whether the label is in single line mode.%TRUE when the label is in single line mode.a `GtkLabel`
+"""
+
+    @printf("get_single_line_mode(self: NullablePointer[SGtkLabel] tag)\n".cstring())
+    @gtk_label_get_single_line_mode(self)
+  fun get_current_uri(self: NullablePointer[SGtkLabel] tag): Pointer[U8] =>
+"""
+Returns the URI for the currently active link in the label.
+
+The active link is the one under the mouse pointer or, in a
+selectable label, the link in which the text cursor is currently
+positioned.
+
+This function is intended for use in a [signal@Gtk.Label::activate-link]
+handler or for use in a [signal@Gtk.Widget::query-tooltip] handler.the currently active URIa `GtkLabel`
+"""
+
+    @printf("get_current_uri(self: NullablePointer[SGtkLabel] tag)\n".cstring())
+    @gtk_label_get_current_uri(self)
+  fun set_xalign(self: NullablePointer[SGtkLabel] tag, xalign: F32): None =>
+"""
+Sets the `xalign` of the label.
+
+See the [property@Gtk.Label:xalign] property.a `GtkLabel`the new xalign value, between 0 and 1
+"""
+
+    @printf("set_xalign(self: NullablePointer[SGtkLabel] tag, xalign: F32)\n".cstring())
+    @gtk_label_set_xalign(self, xalign)
+  fun get_xalign(self: NullablePointer[SGtkLabel] tag): F32 =>
+"""
+Gets the `xalign` of the label.
+
+See the [property@Gtk.Label:xalign] property.the xalign propertya `GtkLabel`
+"""
+
+    @printf("get_xalign(self: NullablePointer[SGtkLabel] tag)\n".cstring())
+    @gtk_label_get_xalign(self)
+  fun set_yalign(self: NullablePointer[SGtkLabel] tag, yalign: F32): None =>
+"""
+Sets the `yalign` of the label.
+
+See the [property@Gtk.Label:yalign] property.a `GtkLabel`the new yalign value, between 0 and 1
+"""
+
+    @printf("set_yalign(self: NullablePointer[SGtkLabel] tag, yalign: F32)\n".cstring())
+    @gtk_label_set_yalign(self, yalign)
+  fun get_yalign(self: NullablePointer[SGtkLabel] tag): F32 =>
+"""
+Gets the `yalign` of the label.
+
+See the [property@Gtk.Label:yalign] property.the yalign propertya `GtkLabel`
+"""
+
+    @printf("get_yalign(self: NullablePointer[SGtkLabel] tag)\n".cstring())
+    @gtk_label_get_yalign(self)
+  fun set_extra_menu(self: NullablePointer[SGtkLabel] tag, model: NullablePointer[GMenuModel] tag): None =>
+"""
+Sets a menu model to add when constructing
+the context menu for @label.a `GtkLabel`a `GMenuModel`
+"""
+
+    @printf("set_extra_menu(self: NullablePointer[SGtkLabel] tag, model: NullablePointer[GMenuModel] tag)\n".cstring())
+    @gtk_label_set_extra_menu(self, model)
+  fun get_extra_menu(self: NullablePointer[SGtkLabel] tag): NullablePointer[GMenuModel] =>
+"""
+Gets the extra menu model of @label.
+
+See [method@Gtk.Label.set_extra_menu].the menu modela `GtkLabel`
+"""
+
+    @printf("get_extra_menu(self: NullablePointer[SGtkLabel] tag)\n".cstring())
+    @gtk_label_get_extra_menu(self)
