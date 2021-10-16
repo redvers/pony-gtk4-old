@@ -6,7 +6,7 @@
 <xi:include href="./Gtk-4.0.gir"/>
 <renderuses>
   <renderuse id="_22001" render="0"/><!-- gtk_tree_list_row_get_type -->
-  <renderuse id="_22034" render="0"/><!-- gtk_tree_list_row_get_item -->
+  <renderuse id="_22034" render="1"/><!-- gtk_tree_list_row_get_item -->
   <renderuse id="_22035" render="0"/><!-- gtk_tree_list_row_set_expanded -->
   <renderuse id="_22036" render="0"/><!-- gtk_tree_list_row_get_expanded -->
   <renderuse id="_22037" render="0"/><!-- gtk_tree_list_row_is_expandable -->

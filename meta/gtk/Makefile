@@ -701,7 +701,7 @@ gtk_tree_list_model:
 	bash -x genpony.sh gtk_tree_list_model TreeListModel
 
 gtk_tree_list_row:
-#	saxon-he -xi gtk_tree_list_row.xml makeprimitives.xsl primitive=
+	bash -x genpony.sh gtk_tree_list_row TreeListRow
 
 gtk_tree_list_row_sorter:
 #	saxon-he -xi gtk_tree_list_row_sorter.xml makeprimitives.xsl primitive=

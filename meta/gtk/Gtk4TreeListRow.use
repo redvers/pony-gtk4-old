@@ -1,0 +1,6 @@
+
+use "PangoSys"
+use "GLibSys"
+use "debug"
+
+use @gtk_tree_list_row_get_item[Pointer[None]](self: NullablePointer[SGtkTreeListRow] tag)
