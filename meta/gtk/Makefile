@@ -671,6 +671,7 @@ gtk_text:
 #	saxon-he -xi gtk_text.xml makeprimitives.xsl primitive=
 
 gtk_text_buffer:
+	bash -x genpony.sh gtk_text_buffer TextBuffer
 #	saxon-he -xi gtk_text_buffer.xml makeprimitives.xsl primitive=
 
 gtk_text_child_anchor:
@@ -686,6 +687,7 @@ gtk_text_tag_table:
 #	saxon-he -xi gtk_text_tag_table.xml makeprimitives.xsl primitive=
 
 gtk_text_view:
+	bash -x genpony.sh gtk_text_view TextView
 #	saxon-he -xi gtk_text_view.xml makeprimitives.xsl primitive=
 
 gtk_toggle_button:

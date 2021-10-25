@@ -1,0 +1,15 @@
+
+use "PangoSys"
+use "GLibSys"
+use "debug"
+
+use @gtk_text_view_new[NullablePointer[SGtkWidget]]()
+use @gtk_text_view_new_with_buffer[NullablePointer[SGtkWidget]](buffer: NullablePointer[SGtkTextBuffer] tag)
+use @gtk_text_view_set_buffer[None](textview: NullablePointer[SGtkTextView] tag, buffer: NullablePointer[SGtkTextBuffer] tag)
+use @gtk_text_view_get_buffer[NullablePointer[SGtkTextBuffer]](textview: NullablePointer[SGtkTextView] tag)
+use @gtk_text_view_set_wrap_mode[None](textview: NullablePointer[SGtkTextView] tag, wrapmode: I32)
+use @gtk_text_view_get_wrap_mode[I32](textview: NullablePointer[SGtkTextView] tag)
+use @gtk_text_view_set_editable[None](textview: NullablePointer[SGtkTextView] tag, setting: I32)
+use @gtk_text_view_get_editable[I32](textview: NullablePointer[SGtkTextView] tag)
+use @gtk_text_view_set_monospace[None](textview: NullablePointer[SGtkTextView] tag, monospace: I32)
+use @gtk_text_view_get_monospace[I32](textview: NullablePointer[SGtkTextView] tag)

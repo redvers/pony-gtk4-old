@@ -5,11 +5,29 @@ use "debug"
 
 use @gtk_window_new[NullablePointer[SGtkWidget]]()
 use @gtk_window_set_title[None](window: NullablePointer[SGtkWindow] tag, title: Pointer[U8] tag)
+use @gtk_window_get_title[Pointer[U8]](window: NullablePointer[SGtkWindow] tag)
+use @gtk_window_set_focus[None](window: NullablePointer[SGtkWindow] tag, focus: NullablePointer[SGtkWidget] tag)
+use @gtk_window_get_focus[NullablePointer[SGtkWidget]](window: NullablePointer[SGtkWindow] tag)
+use @gtk_window_is_active[I32](window: NullablePointer[SGtkWindow] tag)
+use @gtk_window_minimize[None](window: NullablePointer[SGtkWindow] tag)
+use @gtk_window_unminimize[None](window: NullablePointer[SGtkWindow] tag)
+use @gtk_window_maximize[None](window: NullablePointer[SGtkWindow] tag)
+use @gtk_window_unmaximize[None](window: NullablePointer[SGtkWindow] tag)
+use @gtk_window_fullscreen[None](window: NullablePointer[SGtkWindow] tag)
+use @gtk_window_unfullscreen[None](window: NullablePointer[SGtkWindow] tag)
 use @gtk_window_close[None](window: NullablePointer[SGtkWindow] tag)
+use @gtk_window_set_default_size[None](window: NullablePointer[SGtkWindow] tag, width: I32, height: I32)
+use @gtk_window_get_default_size[None](window: NullablePointer[SGtkWindow] tag, width: Pointer[I32] tag, height: Pointer[I32] tag)
 use @gtk_window_get_application[NullablePointer[SGtkApplication]](window: NullablePointer[SGtkWindow] tag)
 use @gtk_window_set_application[None](window: NullablePointer[SGtkWindow] tag, application: NullablePointer[SGtkApplication] tag)
 use @gtk_window_set_child[None](window: NullablePointer[SGtkWindow] tag, child: NullablePointer[SGtkWidget] tag)
 use @gtk_window_get_child[NullablePointer[SGtkWidget]](window: NullablePointer[SGtkWindow] tag)
+use @gtk_window_set_titlebar[None](window: NullablePointer[SGtkWindow] tag, titlebar: NullablePointer[SGtkWidget] tag)
+use @gtk_window_get_titlebar[NullablePointer[SGtkWidget]](window: NullablePointer[SGtkWindow] tag)
+use @gtk_window_is_maximized[I32](window: NullablePointer[SGtkWindow] tag)
+use @gtk_window_is_fullscreen[I32](window: NullablePointer[SGtkWindow] tag)
+use @gtk_window_destroy[None](window: NullablePointer[SGtkWindow] tag)
+use @gtk_window_set_interactive_debugging[None](enable: I32)
 
 
 
@@ -467,6 +485,160 @@ Passing %NULL does the same as setting the title to an empty string.a `GtkWindow
 
     @printf("gtk_window_set_title(window: NullablePointer[SGtkWindow] tag, title: Pointer[U8] tag)\n".cstring())
     @gtk_window_set_title(window, title)
+  fun get_title(window: NullablePointer[SGtkWindow] tag): Pointer[U8] =>
+"""
+Retrieves the title of the window.the title of the windowa `GtkWindow`
+"""
+
+    @printf("gtk_window_get_title(window: NullablePointer[SGtkWindow] tag)\n".cstring())
+    @gtk_window_get_title(window)
+  fun set_focus(window: NullablePointer[SGtkWindow] tag, focus: NullablePointer[SGtkWidget] tag): None =>
+"""
+Sets the focus widget.
+
+If @focus is not the current focus widget, and is focusable,
+sets it as the focus widget for the window. If @focus is %NULL,
+unsets the focus widget for this window. To set the focus to a
+particular widget in the toplevel, it is usually more convenient
+to use [method@Gtk.Widget.grab_focus] instead of this function.a `GtkWindow`widget to be the new focus widget, or %NULL to unset
+  any focus widget for the toplevel window.
+"""
+
+    @printf("gtk_window_set_focus(window: NullablePointer[SGtkWindow] tag, focus: NullablePointer[SGtkWidget] tag)\n".cstring())
+    @gtk_window_set_focus(window, focus)
+  fun get_focus(window: NullablePointer[SGtkWindow] tag): NullablePointer[SGtkWidget] =>
+"""
+Retrieves the current focused widget within the window.
+
+Note that this is the widget that would have the focus
+if the toplevel window focused; if the toplevel window
+is not focused then `gtk_widget_has_focus (widget)` will
+not be %TRUE for the widget.the currently focused widgeta `GtkWindow`
+"""
+
+    @printf("gtk_window_get_focus(window: NullablePointer[SGtkWindow] tag)\n".cstring())
+    @gtk_window_get_focus(window)
+  fun is_active(window: NullablePointer[SGtkWindow] tag): I32 =>
+"""
+Returns whether the window is part of the current active toplevel.
+
+The active toplevel is the window receiving keystrokes.
+
+The return value is %TRUE if the window is active toplevel itself.
+You might use this function if you wanted to draw a widget
+differently in an active window from a widget in an inactive window.%TRUE if the window part of the current active window.a `GtkWindow`
+"""
+
+    @printf("gtk_window_is_active(window: NullablePointer[SGtkWindow] tag)\n".cstring())
+    @gtk_window_is_active(window)
+  fun minimize(window: NullablePointer[SGtkWindow] tag): None =>
+"""
+Asks to minimize the specified @window.
+
+Note that you shouldn’t assume the window is definitely minimized
+afterward, because the windowing system might not support this
+functionality; other entities (e.g. the user or the window manager
+could unminimize it again, or there may not be a window manager in
+which case minimization isn’t possible, etc.
+
+It’s permitted to call this function before showing a window,
+in which case the window will be minimized before it ever appears
+onscreen.
+
+You can track result of this operation via the
+[property@Gdk.Toplevel:state] property.a `GtkWindow`
+"""
+
+    @printf("gtk_window_minimize(window: NullablePointer[SGtkWindow] tag)\n".cstring())
+    @gtk_window_minimize(window)
+  fun unminimize(window: NullablePointer[SGtkWindow] tag): None =>
+"""
+Asks to unminimize the specified @window.
+
+Note that you shouldn’t assume the window is definitely unminimized
+afterward, because the windowing system might not support this
+functionality; other entities (e.g. the user or the window manager
+could minimize it again, or there may not be a window manager in
+which case minimization isn’t possible, etc.
+
+You can track result of this operation via the
+[property@Gdk.Toplevel:state] property.a `GtkWindow`
+"""
+
+    @printf("gtk_window_unminimize(window: NullablePointer[SGtkWindow] tag)\n".cstring())
+    @gtk_window_unminimize(window)
+  fun maximize(window: NullablePointer[SGtkWindow] tag): None =>
+"""
+Asks to maximize @window, so that it fills the screen.
+
+Note that you shouldn’t assume the window is definitely maximized
+afterward, because other entities (e.g. the user or window manager
+could unmaximize it again, and not all window managers support
+maximization.
+
+It’s permitted to call this function before showing a window,
+in which case the window will be maximized when it appears onscreen
+initially.
+
+You can track the result of this operation via the
+[property@Gdk.Toplevel:state] property, or by listening to
+notifications on the [property@Gtk.Window:maximized]
+property.a `GtkWindow`
+"""
+
+    @printf("gtk_window_maximize(window: NullablePointer[SGtkWindow] tag)\n".cstring())
+    @gtk_window_maximize(window)
+  fun unmaximize(window: NullablePointer[SGtkWindow] tag): None =>
+"""
+Asks to unmaximize @window.
+
+Note that you shouldn’t assume the window is definitely unmaximized
+afterward, because other entities (e.g. the user or window manager
+maximize it again, and not all window managers honor requests to
+unmaximize.
+
+You can track the result of this operation via the
+[property@Gdk.Toplevel:state] property, or by listening to
+notifications on the [property@Gtk.Window:maximized] property.a `GtkWindow`
+"""
+
+    @printf("gtk_window_unmaximize(window: NullablePointer[SGtkWindow] tag)\n".cstring())
+    @gtk_window_unmaximize(window)
+  fun fullscreen(window: NullablePointer[SGtkWindow] tag): None =>
+"""
+Asks to place @window in the fullscreen state.
+
+Note that you shouldn’t assume the window is definitely fullscreen
+afterward, because other entities (e.g. the user or window manager
+unfullscreen it again, and not all window managers honor requests
+to fullscreen windows.
+
+You can track the result of this operation via the
+[property@Gdk.Toplevel:state] property, or by listening to
+notifications of the [property@Gtk.Window:fullscreened] property.a `GtkWindow`
+"""
+
+    @printf("gtk_window_fullscreen(window: NullablePointer[SGtkWindow] tag)\n".cstring())
+    @gtk_window_fullscreen(window)
+  fun unfullscreen(window: NullablePointer[SGtkWindow] tag): None =>
+"""
+Asks to remove the fullscreen state for @window, and return to
+its previous state.
+
+Note that you shouldn’t assume the window is definitely not
+fullscreen afterward, because other entities (e.g. the user or
+window manager could fullscreen it again, and not all window
+managers honor requests to unfullscreen windows; normally the
+window will end up restored to its normal state. Just don’t
+write code that crashes if not.
+
+You can track the result of this operation via the
+[property@Gdk.Toplevel:state] property, or by listening to
+notifications of the [property@Gtk.Window:fullscreened] property.a `GtkWindow`
+"""
+
+    @printf("gtk_window_unfullscreen(window: NullablePointer[SGtkWindow] tag)\n".cstring())
+    @gtk_window_unfullscreen(window)
   fun close(window: NullablePointer[SGtkWindow] tag): None =>
 """
 Requests that the window is closed.
@@ -480,6 +652,48 @@ titlebars.a `GtkWindow`
 
     @printf("gtk_window_close(window: NullablePointer[SGtkWindow] tag)\n".cstring())
     @gtk_window_close(window)
+  fun set_default_size(window: NullablePointer[SGtkWindow] tag, width: I32, height: I32): None =>
+"""
+Sets the default size of a window.
+
+If the window’s “natural” size (its size request) is larger than
+the default, the default will be ignored.
+
+Unlike [method@Gtk.Widget.set_size_request], which sets a size
+request for a widget and thus would keep users from shrinking
+the window, this function only sets the initial size, just as
+if the user had resized the window themselves. Users can still
+shrink the window again as they normally would. Setting a default
+size of -1 means to use the “natural” default size (the size request
+of the window).
+
+The default size of a window only affects the first time a window is
+shown; if a window is hidden and re-shown, it will remember the size
+it had prior to hiding, rather than using the default size.
+
+Windows can’t actually be 0x0 in size, they must be at least 1x1, but
+passing 0 for @width and @height is OK, resulting in a 1x1 default size.
+
+If you use this function to reestablish a previously saved window size,
+note that the appropriate size to save is the one returned by
+[method@Gtk.Window.get_default_size]. Using the window allocation
+directly will not work in all circumstances and can lead to growing
+or shrinking windows.a `GtkWindow`width in pixels, or -1 to unset the default widthheight in pixels, or -1 to unset the default height
+"""
+
+    @printf("gtk_window_set_default_size(window: NullablePointer[SGtkWindow] tag, width: I32, height: I32)\n".cstring())
+    @gtk_window_set_default_size(window, width, height)
+  fun get_default_size(window: NullablePointer[SGtkWindow] tag, width: Pointer[I32] tag, height: Pointer[I32] tag): None =>
+"""
+Gets the default size of the window.
+
+A value of 0 for the width or height indicates that a default
+size has not been explicitly set for that dimension, so the
+“natural” size of the window will be used.a `GtkWindow`location to store the default widthlocation to store the default height
+"""
+
+    @printf("gtk_window_get_default_size(window: NullablePointer[SGtkWindow] tag, width: Pointer[I32] tag, height: Pointer[I32] tag)\n".cstring())
+    @gtk_window_get_default_size(window, width, height)
   fun get_application(window: NullablePointer[SGtkWindow] tag): NullablePointer[SGtkApplication] =>
 """
 Gets the `GtkApplication` associated with the window.a `GtkApplication`a `GtkWindow`
@@ -520,3 +734,77 @@ Gets the child widget of @window.the child widget of @windowa `GtkWindow`
 
     @printf("gtk_window_get_child(window: NullablePointer[SGtkWindow] tag)\n".cstring())
     @gtk_window_get_child(window)
+  fun set_titlebar(window: NullablePointer[SGtkWindow] tag, titlebar: NullablePointer[SGtkWidget] tag): None =>
+"""
+Sets a custom titlebar for @window.
+
+A typical widget used here is [class@Gtk.HeaderBar], as it
+provides various features expected of a titlebar while allowing
+the addition of child widgets to it.
+
+If you set a custom titlebar, GTK will do its best to convince
+the window manager not to put its own titlebar on the window.
+Depending on the system, this function may not work for a window
+that is already visible, so you set the titlebar before calling
+[method@Gtk.Widget.show].a `GtkWindow`the widget to use as titlebar
+"""
+
+    @printf("gtk_window_set_titlebar(window: NullablePointer[SGtkWindow] tag, titlebar: NullablePointer[SGtkWidget] tag)\n".cstring())
+    @gtk_window_set_titlebar(window, titlebar)
+  fun get_titlebar(window: NullablePointer[SGtkWindow] tag): NullablePointer[SGtkWidget] =>
+"""
+Returns the custom titlebar that has been set with
+gtk_window_set_titlebar().the custom titlebara `GtkWindow`
+"""
+
+    @printf("gtk_window_get_titlebar(window: NullablePointer[SGtkWindow] tag)\n".cstring())
+    @gtk_window_get_titlebar(window)
+  fun is_maximized(window: NullablePointer[SGtkWindow] tag): I32 =>
+"""
+Retrieves the current maximized state of @window.
+
+Note that since maximization is ultimately handled by the window
+manager and happens asynchronously to an application request, you
+shouldn’t assume the return value of this function changing
+immediately (or at all), as an effect of calling
+[method@Gtk.Window.maximize] or [method@Gtk.Window.unmaximize].
+
+If the window isn't yet mapped, the value returned will whether the
+initial requested state is maximized.whether the window has a maximized state.a `GtkWindow`
+"""
+
+    @printf("gtk_window_is_maximized(window: NullablePointer[SGtkWindow] tag)\n".cstring())
+    @gtk_window_is_maximized(window)
+  fun is_fullscreen(window: NullablePointer[SGtkWindow] tag): I32 =>
+"""
+Retrieves the current fullscreen state of @window.
+
+Note that since fullscreening is ultimately handled by the window
+manager and happens asynchronously to an application request, you
+shouldn’t assume the return value of this function changing
+immediately (or at all), as an effect of calling
+[method@Gtk.Window.fullscreen] or [method@Gtk.Window.unfullscreen].
+
+If the window isn't yet mapped, the value returned will whether the
+initial requested state is fullscreen.whether the window has a fullscreen state.a `GtkWindow`
+"""
+
+    @printf("gtk_window_is_fullscreen(window: NullablePointer[SGtkWindow] tag)\n".cstring())
+    @gtk_window_is_fullscreen(window)
+  fun destroy(window: NullablePointer[SGtkWindow] tag): None =>
+"""
+Drop the internal reference GTK holds on toplevel windows.The window to destroy
+"""
+
+    @printf("gtk_window_destroy(window: NullablePointer[SGtkWindow] tag)\n".cstring())
+    @gtk_window_destroy(window)
+  fun set_interactive_debugging(enable: I32): None =>
+"""
+Opens or closes the [interactive debugger](running.html#interactive-debugging).
+
+The debugger offers access to the widget hierarchy of the application
+and to useful debugging tools.%TRUE to enable interactive debugging
+"""
+
+    @printf("gtk_window_set_interactive_debugging(enable: I32)\n".cstring())
+    @gtk_window_set_interactive_debugging(enable)

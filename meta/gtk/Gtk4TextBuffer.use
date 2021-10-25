@@ -1,0 +1,10 @@
+
+use "PangoSys"
+use "GLibSys"
+use "debug"
+
+use @gtk_text_buffer_new[NullablePointer[SGtkTextBuffer]](table: NullablePointer[SGtkTextTagTable] tag)
+use @gtk_text_buffer_set_text[None](buffer: NullablePointer[SGtkTextBuffer] tag, text: Pointer[U8] tag, len: I32)
+use @gtk_text_buffer_insert[None](buffer: NullablePointer[SGtkTextBuffer] tag, iter: NullablePointer[SGtkTextIter] tag, text: Pointer[U8] tag, len: I32)
+use @gtk_text_buffer_insert_at_cursor[None](buffer: NullablePointer[SGtkTextBuffer] tag, text: Pointer[U8] tag, len: I32)
+use @gtk_text_buffer_get_text[Pointer[U8]](buffer: NullablePointer[SGtkTextBuffer] tag, start: NullablePointer[SGtkTextIter] tag, g_end: NullablePointer[SGtkTextIter] tag, includehiddenchars: I32)

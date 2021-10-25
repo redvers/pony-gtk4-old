@@ -16618,7 +16618,7 @@ struct SGtkSortListModel
 
   Fields (Offset in bits):
 */
-struct SGtkSelectionModel
+type SGtkSelectionModel is GObject
 
 
 /*

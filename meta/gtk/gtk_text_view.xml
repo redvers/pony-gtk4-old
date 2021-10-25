@@ -7,10 +7,10 @@
 <renderuses>
   <renderuse id="_18341" render="0"/><!-- gtk_text_view_layer_get_type -->
   <renderuse id="_21874" render="0"/><!-- gtk_text_view_get_type -->
-  <renderuse id="_21875" render="0"/><!-- gtk_text_view_new -->
-  <renderuse id="_21876" render="0"/><!-- gtk_text_view_new_with_buffer -->
-  <renderuse id="_21877" render="0"/><!-- gtk_text_view_set_buffer -->
-  <renderuse id="_21878" render="0"/><!-- gtk_text_view_get_buffer -->
+  <renderuse id="_21875" render="1"/><!-- gtk_text_view_new -->
+  <renderuse id="_21876" render="1"/><!-- gtk_text_view_new_with_buffer -->
+  <renderuse id="_21877" render="1"/><!-- gtk_text_view_set_buffer -->
+  <renderuse id="_21878" render="1"/><!-- gtk_text_view_get_buffer -->
   <renderuse id="_21879" render="0"/><!-- gtk_text_view_scroll_to_iter -->
   <renderuse id="_21880" render="0"/><!-- gtk_text_view_scroll_to_mark -->
   <renderuse id="_21881" render="0"/><!-- gtk_text_view_scroll_mark_onscreen -->
@@ -42,10 +42,10 @@
   <renderuse id="_21907" render="0"/><!-- gtk_text_view_add_overlay -->
   <renderuse id="_21908" render="0"/><!-- gtk_text_view_move_overlay -->
   <renderuse id="_21909" render="0"/><!-- gtk_text_view_remove -->
-  <renderuse id="_21910" render="0"/><!-- gtk_text_view_set_wrap_mode -->
-  <renderuse id="_21911" render="0"/><!-- gtk_text_view_get_wrap_mode -->
-  <renderuse id="_21912" render="0"/><!-- gtk_text_view_set_editable -->
-  <renderuse id="_21913" render="0"/><!-- gtk_text_view_get_editable -->
+  <renderuse id="_21910" render="1"/><!-- gtk_text_view_set_wrap_mode -->
+  <renderuse id="_21911" render="1"/><!-- gtk_text_view_get_wrap_mode -->
+  <renderuse id="_21912" render="1"/><!-- gtk_text_view_set_editable -->
+  <renderuse id="_21913" render="1"/><!-- gtk_text_view_get_editable -->
   <renderuse id="_21914" render="0"/><!-- gtk_text_view_set_overwrite -->
   <renderuse id="_21915" render="0"/><!-- gtk_text_view_get_overwrite -->
   <renderuse id="_21916" render="0"/><!-- gtk_text_view_set_accepts_tab -->
@@ -74,8 +74,8 @@
   <renderuse id="_21939" render="0"/><!-- gtk_text_view_get_input_purpose -->
   <renderuse id="_21940" render="0"/><!-- gtk_text_view_set_input_hints -->
   <renderuse id="_21941" render="0"/><!-- gtk_text_view_get_input_hints -->
-  <renderuse id="_21942" render="0"/><!-- gtk_text_view_set_monospace -->
-  <renderuse id="_21943" render="0"/><!-- gtk_text_view_get_monospace -->
+  <renderuse id="_21942" render="1"/><!-- gtk_text_view_set_monospace -->
+  <renderuse id="_21943" render="1"/><!-- gtk_text_view_get_monospace -->
   <renderuse id="_21944" render="0"/><!-- gtk_text_view_set_extra_menu -->
   <renderuse id="_21945" render="0"/><!-- gtk_text_view_get_extra_menu -->
 </renderuses>
