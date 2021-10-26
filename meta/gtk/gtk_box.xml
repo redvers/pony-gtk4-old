@@ -14,17 +14,17 @@
   <renderuse id="_17017" render="0"/><!-- gtk_box_layout_set_baseline_position -->
   <renderuse id="_17018" render="0"/><!-- gtk_box_layout_get_baseline_position -->
   <renderuse id="_17023" render="0"/><!-- gtk_box_get_type -->
-  <renderuse id="_17024" render="0"/><!-- gtk_box_new -->
-  <renderuse id="_17025" render="0"/><!-- gtk_box_set_homogeneous -->
-  <renderuse id="_17026" render="0"/><!-- gtk_box_get_homogeneous -->
-  <renderuse id="_17027" render="0"/><!-- gtk_box_set_spacing -->
-  <renderuse id="_17028" render="0"/><!-- gtk_box_get_spacing -->
-  <renderuse id="_17029" render="0"/><!-- gtk_box_set_baseline_position -->
-  <renderuse id="_17030" render="0"/><!-- gtk_box_get_baseline_position -->
-  <renderuse id="_17031" render="0"/><!-- gtk_box_append -->
-  <renderuse id="_17032" render="0"/><!-- gtk_box_prepend -->
-  <renderuse id="_17033" render="0"/><!-- gtk_box_remove -->
-  <renderuse id="_17034" render="0"/><!-- gtk_box_insert_child_after -->
-  <renderuse id="_17035" render="0"/><!-- gtk_box_reorder_child_after -->
+  <renderuse id="_17024" render="1"/><!-- gtk_box_new -->
+  <renderuse id="_17025" render="1"/><!-- gtk_box_set_homogeneous -->
+  <renderuse id="_17026" render="1"/><!-- gtk_box_get_homogeneous -->
+  <renderuse id="_17027" render="1"/><!-- gtk_box_set_spacing -->
+  <renderuse id="_17028" render="1"/><!-- gtk_box_get_spacing -->
+  <renderuse id="_17029" render="1"/><!-- gtk_box_set_baseline_position -->
+  <renderuse id="_17030" render="1"/><!-- gtk_box_get_baseline_position -->
+  <renderuse id="_17031" render="1"/><!-- gtk_box_append -->
+  <renderuse id="_17032" render="1"/><!-- gtk_box_prepend -->
+  <renderuse id="_17033" render="1"/><!-- gtk_box_remove -->
+  <renderuse id="_17034" render="1"/><!-- gtk_box_insert_child_after -->
+  <renderuse id="_17035" render="1"/><!-- gtk_box_reorder_child_after -->
 </renderuses>
 </castxml2pony>

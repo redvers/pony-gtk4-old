@@ -95,27 +95,27 @@
   <renderuse id="_16177" render="0"/><!-- gtk_widget_get_settings -->
   <renderuse id="_16178" render="0"/><!-- gtk_widget_get_clipboard -->
   <renderuse id="_16179" render="0"/><!-- gtk_widget_get_primary_clipboard -->
-  <renderuse id="_16180" render="0"/><!-- gtk_widget_get_hexpand -->
-  <renderuse id="_16181" render="0"/><!-- gtk_widget_set_hexpand -->
+  <renderuse id="_16180" render="1"/><!-- gtk_widget_get_hexpand -->
+  <renderuse id="_16181" render="1"/><!-- gtk_widget_set_hexpand -->
   <renderuse id="_16182" render="0"/><!-- gtk_widget_get_hexpand_set -->
   <renderuse id="_16183" render="0"/><!-- gtk_widget_set_hexpand_set -->
-  <renderuse id="_16184" render="0"/><!-- gtk_widget_get_vexpand -->
-  <renderuse id="_16185" render="0"/><!-- gtk_widget_set_vexpand -->
+  <renderuse id="_16184" render="1"/><!-- gtk_widget_get_vexpand -->
+  <renderuse id="_16185" render="1"/><!-- gtk_widget_set_vexpand -->
   <renderuse id="_16186" render="0"/><!-- gtk_widget_get_vexpand_set -->
   <renderuse id="_16187" render="0"/><!-- gtk_widget_set_vexpand_set -->
   <renderuse id="_16188" render="0"/><!-- gtk_widget_compute_expand -->
-  <renderuse id="_16189" render="0"/><!-- gtk_widget_get_halign -->
-  <renderuse id="_16190" render="0"/><!-- gtk_widget_set_halign -->
-  <renderuse id="_16191" render="0"/><!-- gtk_widget_get_valign -->
-  <renderuse id="_16192" render="0"/><!-- gtk_widget_set_valign -->
-  <renderuse id="_16193" render="0"/><!-- gtk_widget_get_margin_start -->
-  <renderuse id="_16194" render="0"/><!-- gtk_widget_set_margin_start -->
-  <renderuse id="_16195" render="0"/><!-- gtk_widget_get_margin_end -->
-  <renderuse id="_16196" render="0"/><!-- gtk_widget_set_margin_end -->
-  <renderuse id="_16197" render="0"/><!-- gtk_widget_get_margin_top -->
-  <renderuse id="_16198" render="0"/><!-- gtk_widget_set_margin_top -->
-  <renderuse id="_16199" render="0"/><!-- gtk_widget_get_margin_bottom -->
-  <renderuse id="_16200" render="0"/><!-- gtk_widget_set_margin_bottom -->
+  <renderuse id="_16189" render="1"/><!-- gtk_widget_get_halign -->
+  <renderuse id="_16190" render="1"/><!-- gtk_widget_set_halign -->
+  <renderuse id="_16191" render="1"/><!-- gtk_widget_get_valign -->
+  <renderuse id="_16192" render="1"/><!-- gtk_widget_set_valign -->
+  <renderuse id="_16193" render="1"/><!-- gtk_widget_get_margin_start -->
+  <renderuse id="_16194" render="1"/><!-- gtk_widget_set_margin_start -->
+  <renderuse id="_16195" render="1"/><!-- gtk_widget_get_margin_end -->
+  <renderuse id="_16196" render="1"/><!-- gtk_widget_set_margin_end -->
+  <renderuse id="_16197" render="1"/><!-- gtk_widget_get_margin_top -->
+  <renderuse id="_16198" render="1"/><!-- gtk_widget_set_margin_top -->
+  <renderuse id="_16199" render="1"/><!-- gtk_widget_get_margin_bottom -->
+  <renderuse id="_16200" render="1"/><!-- gtk_widget_set_margin_bottom -->
   <renderuse id="_16201" render="0"/><!-- gtk_widget_is_ancestor -->
   <renderuse id="_16202" render="0"/><!-- gtk_widget_translate_coordinates -->
   <renderuse id="_16203" render="0"/><!-- gtk_widget_contains -->

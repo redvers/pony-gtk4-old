@@ -43,7 +43,7 @@
   <renderuse id="_17937" render="0"/><!-- gtk_entry_completion_set_text_column -->
   <renderuse id="_17938" render="0"/><!-- gtk_entry_completion_get_text_column -->
   <renderuse id="_17972" render="0"/><!-- gtk_entry_get_type -->
-  <renderuse id="_17973" render="0"/><!-- gtk_entry_new -->
+  <renderuse id="_17973" render="1"/><!-- gtk_entry_new -->
   <renderuse id="_17974" render="0"/><!-- gtk_entry_new_with_buffer -->
   <renderuse id="_17975" render="0"/><!-- gtk_entry_get_buffer -->
   <renderuse id="_17976" render="0"/><!-- gtk_entry_set_buffer -->
@@ -58,9 +58,9 @@
   <renderuse id="_17985" render="0"/><!-- gtk_entry_get_overwrite_mode -->
   <renderuse id="_17986" render="0"/><!-- gtk_entry_set_max_length -->
   <renderuse id="_17987" render="0"/><!-- gtk_entry_get_max_length -->
-  <renderuse id="_17988" render="0"/><!-- gtk_entry_get_text_length -->
-  <renderuse id="_17989" render="0"/><!-- gtk_entry_set_activates_default -->
-  <renderuse id="_17990" render="0"/><!-- gtk_entry_get_activates_default -->
+  <renderuse id="_17988" render="1"/><!-- gtk_entry_get_text_length -->
+  <renderuse id="_17989" render="1"/><!-- gtk_entry_set_activates_default -->
+  <renderuse id="_17990" render="1"/><!-- gtk_entry_get_activates_default -->
   <renderuse id="_17991" render="0"/><!-- gtk_entry_set_alignment -->
   <renderuse id="_17992" render="0"/><!-- gtk_entry_get_alignment -->
   <renderuse id="_17993" render="0"/><!-- gtk_entry_set_completion -->

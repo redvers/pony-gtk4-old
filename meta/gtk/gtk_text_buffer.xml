@@ -19,7 +19,7 @@
   <renderuse id="_21801" render="0"/><!-- gtk_text_buffer_insert_range_interactive -->
   <renderuse id="_21802" render="0"/><!-- gtk_text_buffer_insert_with_tags -->
   <renderuse id="_21803" render="0"/><!-- gtk_text_buffer_insert_with_tags_by_name -->
-  <renderuse id="_21804" render="0"/><!-- gtk_text_buffer_insert_markup -->
+  <renderuse id="_21804" render="1"/><!-- gtk_text_buffer_insert_markup -->
   <renderuse id="_21805" render="0"/><!-- gtk_text_buffer_delete -->
   <renderuse id="_21806" render="0"/><!-- gtk_text_buffer_delete_interactive -->
   <renderuse id="_21807" render="0"/><!-- gtk_text_buffer_backspace -->
@@ -45,12 +45,12 @@
   <renderuse id="_21827" render="0"/><!-- gtk_text_buffer_remove_tag_by_name -->
   <renderuse id="_21828" render="0"/><!-- gtk_text_buffer_remove_all_tags -->
   <renderuse id="_21829" render="0"/><!-- gtk_text_buffer_create_tag -->
-  <renderuse id="_21830" render="0"/><!-- gtk_text_buffer_get_iter_at_line_offset -->
-  <renderuse id="_21831" render="0"/><!-- gtk_text_buffer_get_iter_at_line_index -->
-  <renderuse id="_21832" render="0"/><!-- gtk_text_buffer_get_iter_at_offset -->
-  <renderuse id="_21833" render="0"/><!-- gtk_text_buffer_get_iter_at_line -->
-  <renderuse id="_21834" render="0"/><!-- gtk_text_buffer_get_start_iter -->
-  <renderuse id="_21835" render="0"/><!-- gtk_text_buffer_get_end_iter -->
+  <renderuse id="_21830" render="1"/><!-- gtk_text_buffer_get_iter_at_line_offset -->
+  <renderuse id="_21831" render="1"/><!-- gtk_text_buffer_get_iter_at_line_index -->
+  <renderuse id="_21832" render="1"/><!-- gtk_text_buffer_get_iter_at_offset -->
+  <renderuse id="_21833" render="1"/><!-- gtk_text_buffer_get_iter_at_line -->
+  <renderuse id="_21834" render="1"/><!-- gtk_text_buffer_get_start_iter -->
+  <renderuse id="_21835" render="1"/><!-- gtk_text_buffer_get_end_iter -->
   <renderuse id="_21836" render="0"/><!-- gtk_text_buffer_get_bounds -->
   <renderuse id="_21837" render="0"/><!-- gtk_text_buffer_get_iter_at_mark -->
   <renderuse id="_21838" render="0"/><!-- gtk_text_buffer_get_iter_at_child_anchor -->
@@ -73,8 +73,8 @@
   <renderuse id="_21855" render="0"/><!-- gtk_text_buffer_set_max_undo_levels -->
   <renderuse id="_21856" render="0"/><!-- gtk_text_buffer_undo -->
   <renderuse id="_21857" render="0"/><!-- gtk_text_buffer_redo -->
-  <renderuse id="_21858" render="0"/><!-- gtk_text_buffer_begin_irreversible_action -->
-  <renderuse id="_21859" render="0"/><!-- gtk_text_buffer_end_irreversible_action -->
+  <renderuse id="_21858" render="1"/><!-- gtk_text_buffer_begin_irreversible_action -->
+  <renderuse id="_21859" render="1"/><!-- gtk_text_buffer_end_irreversible_action -->
   <renderuse id="_21860" render="0"/><!-- gtk_text_buffer_begin_user_action -->
   <renderuse id="_21861" render="0"/><!-- gtk_text_buffer_end_user_action -->
 </renderuses>
