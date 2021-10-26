@@ -1,0 +1,30 @@
+
+use "PangoSys"
+use "GLibSys"
+use "debug"
+
+use @gtk_assistant_new[NullablePointer[SGtkWidget]]()
+use @gtk_assistant_next_page[None](assistant: NullablePointer[SGtkAssistant] tag)
+use @gtk_assistant_previous_page[None](assistant: NullablePointer[SGtkAssistant] tag)
+use @gtk_assistant_get_current_page[I32](assistant: NullablePointer[SGtkAssistant] tag)
+use @gtk_assistant_set_current_page[None](assistant: NullablePointer[SGtkAssistant] tag, pagenum: I32)
+use @gtk_assistant_get_n_pages[I32](assistant: NullablePointer[SGtkAssistant] tag)
+use @gtk_assistant_get_nth_page[NullablePointer[SGtkWidget]](assistant: NullablePointer[SGtkAssistant] tag, pagenum: I32)
+use @gtk_assistant_prepend_page[I32](assistant: NullablePointer[SGtkAssistant] tag, page: NullablePointer[SGtkWidget] tag)
+use @gtk_assistant_append_page[I32](assistant: NullablePointer[SGtkAssistant] tag, page: NullablePointer[SGtkWidget] tag)
+use @gtk_assistant_insert_page[I32](assistant: NullablePointer[SGtkAssistant] tag, page: NullablePointer[SGtkWidget] tag, position: I32)
+use @gtk_assistant_remove_page[None](assistant: NullablePointer[SGtkAssistant] tag, pagenum: I32)
+use @gtk_assistant_set_forward_page_func[None](assistant: NullablePointer[SGtkAssistant] tag, pagefunc: Pointer[None] tag, data: Pointer[None] tag, destroy: Pointer[None] tag)
+use @gtk_assistant_set_page_type[None](assistant: NullablePointer[SGtkAssistant] tag, page: NullablePointer[SGtkWidget] tag, g_type: I32)
+use @gtk_assistant_get_page_type[I32](assistant: NullablePointer[SGtkAssistant] tag, page: NullablePointer[SGtkWidget] tag)
+use @gtk_assistant_set_page_title[None](assistant: NullablePointer[SGtkAssistant] tag, page: NullablePointer[SGtkWidget] tag, title: Pointer[U8] tag)
+use @gtk_assistant_get_page_title[Pointer[U8]](assistant: NullablePointer[SGtkAssistant] tag, page: NullablePointer[SGtkWidget] tag)
+use @gtk_assistant_set_page_complete[None](assistant: NullablePointer[SGtkAssistant] tag, page: NullablePointer[SGtkWidget] tag, complete: I32)
+use @gtk_assistant_get_page_complete[I32](assistant: NullablePointer[SGtkAssistant] tag, page: NullablePointer[SGtkWidget] tag)
+use @gtk_assistant_add_action_widget[None](assistant: NullablePointer[SGtkAssistant] tag, child: NullablePointer[SGtkWidget] tag)
+use @gtk_assistant_remove_action_widget[None](assistant: NullablePointer[SGtkAssistant] tag, child: NullablePointer[SGtkWidget] tag)
+use @gtk_assistant_update_buttons_state[None](assistant: NullablePointer[SGtkAssistant] tag)
+use @gtk_assistant_commit[None](assistant: NullablePointer[SGtkAssistant] tag)
+use @gtk_assistant_get_page[NullablePointer[SGtkAssistantPage]](assistant: NullablePointer[SGtkAssistant] tag, child: NullablePointer[SGtkWidget] tag)
+use @gtk_assistant_page_get_child[NullablePointer[SGtkWidget]](page: NullablePointer[SGtkAssistantPage] tag)
+use @gtk_assistant_get_pages[NullablePointer[GListModel]](assistant: NullablePointer[SGtkAssistant] tag)

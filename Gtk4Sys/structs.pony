@@ -15391,7 +15391,7 @@ struct SGtkAspectFrame
 
   Fields (Offset in bits):
 */
-struct SGtkAssistant
+type SGtkAssistant is SGtkWindow
 
 
 /*
@@ -16751,7 +16751,7 @@ struct SGtkTreeViewColumn
 
   Fields (Offset in bits):
 */
-struct SGtkEditable
+type SGtkEditable is SGtkWidget
 
 
 /*
@@ -19213,7 +19213,7 @@ type SGtkPrintOperation is GObject
 
   Fields (Offset in bits):
 */
-struct SGtkProgressBar
+type SGtkProgressBar is SGtkWidget
 
 
 /*

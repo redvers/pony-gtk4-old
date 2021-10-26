@@ -1,0 +1,17 @@
+
+use "PangoSys"
+use "GLibSys"
+use "debug"
+
+use @gtk_check_button_new[NullablePointer[SGtkWidget]]()
+use @gtk_check_button_new_with_label[NullablePointer[SGtkWidget]](label: Pointer[U8] tag)
+use @gtk_check_button_new_with_mnemonic[NullablePointer[SGtkWidget]](label: Pointer[U8] tag)
+use @gtk_check_button_set_inconsistent[None](checkbutton: NullablePointer[SGtkCheckButton] tag, inconsistent: I32)
+use @gtk_check_button_get_inconsistent[I32](checkbutton: NullablePointer[SGtkCheckButton] tag)
+use @gtk_check_button_get_active[I32](self: NullablePointer[SGtkCheckButton] tag)
+use @gtk_check_button_set_active[None](self: NullablePointer[SGtkCheckButton] tag, setting: I32)
+use @gtk_check_button_get_label[Pointer[U8]](self: NullablePointer[SGtkCheckButton] tag)
+use @gtk_check_button_set_label[None](self: NullablePointer[SGtkCheckButton] tag, label: Pointer[U8] tag)
+use @gtk_check_button_set_group[None](self: NullablePointer[SGtkCheckButton] tag, group: NullablePointer[SGtkCheckButton] tag)
+use @gtk_check_button_get_use_underline[I32](self: NullablePointer[SGtkCheckButton] tag)
+use @gtk_check_button_set_use_underline[None](self: NullablePointer[SGtkCheckButton] tag, setting: I32)

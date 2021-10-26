@@ -7,7 +7,16 @@ use @gtk_text_buffer_new[NullablePointer[SGtkTextBuffer]](table: NullablePointer
 use @gtk_text_buffer_set_text[None](buffer: NullablePointer[SGtkTextBuffer] tag, text: Pointer[U8] tag, len: I32)
 use @gtk_text_buffer_insert[None](buffer: NullablePointer[SGtkTextBuffer] tag, iter: NullablePointer[SGtkTextIter] tag, text: Pointer[U8] tag, len: I32)
 use @gtk_text_buffer_insert_at_cursor[None](buffer: NullablePointer[SGtkTextBuffer] tag, text: Pointer[U8] tag, len: I32)
+use @gtk_text_buffer_insert_markup[None](buffer: NullablePointer[SGtkTextBuffer] tag, iter: NullablePointer[SGtkTextIter] tag, markup: Pointer[U8] tag, len: I32)
 use @gtk_text_buffer_get_text[Pointer[U8]](buffer: NullablePointer[SGtkTextBuffer] tag, start: NullablePointer[SGtkTextIter] tag, g_end: NullablePointer[SGtkTextIter] tag, includehiddenchars: I32)
+use @gtk_text_buffer_get_iter_at_line_offset[I32](buffer: NullablePointer[SGtkTextBuffer] tag, iter: NullablePointer[SGtkTextIter] tag, linenumber: I32, charoffset: I32)
+use @gtk_text_buffer_get_iter_at_line_index[I32](buffer: NullablePointer[SGtkTextBuffer] tag, iter: NullablePointer[SGtkTextIter] tag, linenumber: I32, byteindex: I32)
+use @gtk_text_buffer_get_iter_at_offset[None](buffer: NullablePointer[SGtkTextBuffer] tag, iter: NullablePointer[SGtkTextIter] tag, charoffset: I32)
+use @gtk_text_buffer_get_iter_at_line[I32](buffer: NullablePointer[SGtkTextBuffer] tag, iter: NullablePointer[SGtkTextIter] tag, linenumber: I32)
+use @gtk_text_buffer_get_start_iter[None](buffer: NullablePointer[SGtkTextBuffer] tag, iter: NullablePointer[SGtkTextIter] tag)
+use @gtk_text_buffer_get_end_iter[None](buffer: NullablePointer[SGtkTextBuffer] tag, iter: NullablePointer[SGtkTextIter] tag)
+use @gtk_text_buffer_begin_irreversible_action[None](buffer: NullablePointer[SGtkTextBuffer] tag)
+use @gtk_text_buffer_end_irreversible_action[None](buffer: NullablePointer[SGtkTextBuffer] tag)
 
 
 
@@ -592,6 +601,18 @@ using the current cursor position as the insertion point.a `GtkTextBuffer`text i
 
     @printf("gtk_text_buffer_insert_at_cursor(buffer: NullablePointer[SGtkTextBuffer] tag, text: Pointer[U8] tag, len: I32)\n".cstring())
     @gtk_text_buffer_insert_at_cursor(buffer, text, len)
+  fun insert_markup(buffer: NullablePointer[SGtkTextBuffer] tag, iter: NullablePointer[SGtkTextIter] tag, markup: Pointer[U8] tag, len: I32): None =>
+"""
+Inserts the text in @markup at position @iter.
+
+@markup will be inserted in its entirety and must be nul-terminated
+and valid UTF-8. Emits the [signal@Gtk.TextBuffer::insert-text] signal,
+possibly multiple times; insertion actually occurs in the default handler
+for the signal. @iter will point to the end of the inserted text on return.a `GtkTextBuffer`location to insert the markupa nul-terminated UTF-8 string containing Pango markuplength of @markup in bytes, or -1
+"""
+
+    @printf("gtk_text_buffer_insert_markup(buffer: NullablePointer[SGtkTextBuffer] tag, iter: NullablePointer[SGtkTextIter] tag, markup: Pointer[U8] tag, len: I32)\n".cstring())
+    @gtk_text_buffer_insert_markup(buffer, iter, markup, len)
   fun get_text(buffer: NullablePointer[SGtkTextBuffer] tag, start: NullablePointer[SGtkTextIter] tag, g_end: NullablePointer[SGtkTextIter] tag, includehiddenchars: I32): Pointer[U8] =>
 """
 Returns the text in the range [@start,@end).
@@ -606,3 +627,111 @@ Contrast with [method@Gtk.TextBuffer.get_slice].an allocated UTF-8 stringa `GtkT
 
     @printf("gtk_text_buffer_get_text(buffer: NullablePointer[SGtkTextBuffer] tag, start: NullablePointer[SGtkTextIter] tag, g_end: NullablePointer[SGtkTextIter] tag, includehiddenchars: I32)\n".cstring())
     @gtk_text_buffer_get_text(buffer, start, g_end, includehiddenchars)
+  fun get_iter_at_line_offset(buffer: NullablePointer[SGtkTextBuffer] tag, iter: NullablePointer[SGtkTextIter] tag, linenumber: I32, charoffset: I32): I32 =>
+"""
+Obtains an iterator pointing to @char_offset within the given line.
+
+Note characters, not bytes; UTF-8 may encode one character as multiple
+bytes.
+
+If @line_number is greater than or equal to the number of lines in the @buffer,
+the end iterator is returned. And if @char_offset is off the
+end of the line, the iterator at the end of the line is returned.whether the exact position has been founda `GtkTextBuffer`iterator to initializeline number counting from 0char offset from start of line
+"""
+
+    @printf("gtk_text_buffer_get_iter_at_line_offset(buffer: NullablePointer[SGtkTextBuffer] tag, iter: NullablePointer[SGtkTextIter] tag, linenumber: I32, charoffset: I32)\n".cstring())
+    @gtk_text_buffer_get_iter_at_line_offset(buffer, iter, linenumber, charoffset)
+  fun get_iter_at_line_index(buffer: NullablePointer[SGtkTextBuffer] tag, iter: NullablePointer[SGtkTextIter] tag, linenumber: I32, byteindex: I32): I32 =>
+"""
+Obtains an iterator pointing to @byte_index within the given line.
+
+@byte_index must be the start of a UTF-8 character. Note bytes, not
+characters; UTF-8 may encode one character as multiple bytes.
+
+If @line_number is greater than or equal to the number of lines in the @buffer,
+the end iterator is returned. And if @byte_index is off the
+end of the line, the iterator at the end of the line is returned.whether the exact position has been founda `GtkTextBuffer`iterator to initializeline number counting from 0byte index from start of line
+"""
+
+    @printf("gtk_text_buffer_get_iter_at_line_index(buffer: NullablePointer[SGtkTextBuffer] tag, iter: NullablePointer[SGtkTextIter] tag, linenumber: I32, byteindex: I32)\n".cstring())
+    @gtk_text_buffer_get_iter_at_line_index(buffer, iter, linenumber, byteindex)
+  fun get_iter_at_offset(buffer: NullablePointer[SGtkTextBuffer] tag, iter: NullablePointer[SGtkTextIter] tag, charoffset: I32): None =>
+"""
+Initializes @iter to a position @char_offset chars from the start
+of the entire buffer.
+
+If @char_offset is -1 or greater than the number
+of characters in the buffer, @iter is initialized to the end iterator,
+the iterator one past the last valid character in the buffer.a `GtkTextBuffer`iterator to initializechar offset from start of buffer, counting from 0, or -1
+"""
+
+    @printf("gtk_text_buffer_get_iter_at_offset(buffer: NullablePointer[SGtkTextBuffer] tag, iter: NullablePointer[SGtkTextIter] tag, charoffset: I32)\n".cstring())
+    @gtk_text_buffer_get_iter_at_offset(buffer, iter, charoffset)
+  fun get_iter_at_line(buffer: NullablePointer[SGtkTextBuffer] tag, iter: NullablePointer[SGtkTextIter] tag, linenumber: I32): I32 =>
+"""
+Initializes @iter to the start of the given line.
+
+If @line_number is greater than or equal to the number of lines
+in the @buffer, the end iterator is returned.whether the exact position has been founda `GtkTextBuffer`iterator to initializeline number counting from 0
+"""
+
+    @printf("gtk_text_buffer_get_iter_at_line(buffer: NullablePointer[SGtkTextBuffer] tag, iter: NullablePointer[SGtkTextIter] tag, linenumber: I32)\n".cstring())
+    @gtk_text_buffer_get_iter_at_line(buffer, iter, linenumber)
+  fun get_start_iter(buffer: NullablePointer[SGtkTextBuffer] tag, iter: NullablePointer[SGtkTextIter] tag): None =>
+"""
+Initialized @iter with the first position in the text buffer.
+
+This is the same as using [method@Gtk.TextBuffer.get_iter_at_offset]
+to get the iter at character offset 0.a `GtkTextBuffer`iterator to initialize
+"""
+
+    @printf("gtk_text_buffer_get_start_iter(buffer: NullablePointer[SGtkTextBuffer] tag, iter: NullablePointer[SGtkTextIter] tag)\n".cstring())
+    @gtk_text_buffer_get_start_iter(buffer, iter)
+  fun get_end_iter(buffer: NullablePointer[SGtkTextBuffer] tag, iter: NullablePointer[SGtkTextIter] tag): None =>
+"""
+Initializes @iter with the “end iterator,” one past the last valid
+character in the text buffer.
+
+If dereferenced with [method@Gtk.TextIter.get_char], the end
+iterator has a character value of 0.
+The entire buffer lies in the range from the first position in
+the buffer (call [method@Gtk.TextBuffer.get_start_iter] to get
+character position 0) to the end iterator.a `GtkTextBuffer`iterator to initialize
+"""
+
+    @printf("gtk_text_buffer_get_end_iter(buffer: NullablePointer[SGtkTextBuffer] tag, iter: NullablePointer[SGtkTextIter] tag)\n".cstring())
+    @gtk_text_buffer_get_end_iter(buffer, iter)
+  fun begin_irreversible_action(buffer: NullablePointer[SGtkTextBuffer] tag): None =>
+"""
+Denotes the beginning of an action that may not be undone.
+
+This will cause any previous operations in the undo/redo queue
+to be cleared.
+
+This should be paired with a call to
+[method@Gtk.TextBuffer.end_irreversible_action] after the irreversible
+action has completed.
+
+You may nest calls to gtk_text_buffer_begin_irreversible_action()
+and gtk_text_buffer_end_irreversible_action() pairs.a `GtkTextBuffer`
+"""
+
+    @printf("gtk_text_buffer_begin_irreversible_action(buffer: NullablePointer[SGtkTextBuffer] tag)\n".cstring())
+    @gtk_text_buffer_begin_irreversible_action(buffer)
+  fun end_irreversible_action(buffer: NullablePointer[SGtkTextBuffer] tag): None =>
+"""
+Denotes the end of an action that may not be undone.
+
+This will cause any previous operations in the undo/redo
+queue to be cleared.
+
+This should be called after completing modifications to the
+text buffer after [method@Gtk.TextBuffer.begin_irreversible_action]
+was called.
+
+You may nest calls to gtk_text_buffer_begin_irreversible_action()
+and gtk_text_buffer_end_irreversible_action() pairs.a `GtkTextBuffer`
+"""
+
+    @printf("gtk_text_buffer_end_irreversible_action(buffer: NullablePointer[SGtkTextBuffer] tag)\n".cstring())
+    @gtk_text_buffer_end_irreversible_action(buffer)

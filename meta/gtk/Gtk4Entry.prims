@@ -342,3 +342,39 @@ actual text (“password mode”).Emitted when the entry is activated.
 The keybindings for this signal are all forms of the Enter key.Emitted when an activatable icon is clicked.The position of the clicked iconEmitted on the button release from a mouse click
 over an activatable icon.The position of the clicked icon
 """
+  fun gnew(): NullablePointer[SGtkWidget] =>
+"""
+Creates a new entry.a new `GtkEntry`.
+"""
+
+    @printf("gtk_entry_new()\n".cstring())
+    @gtk_entry_new()
+  fun get_text_length(entry: NullablePointer[SGtkEntry] tag): U16 =>
+"""
+Retrieves the current length of the text in @entry.
+
+This is equivalent to getting @entry's `GtkEntryBuffer`
+and calling [method@Gtk.EntryBuffer.get_length] on it.the current number of characters
+  in `GtkEntry`, or 0 if there are none.a `GtkEntry`
+"""
+
+    @printf("gtk_entry_get_text_length(entry: NullablePointer[SGtkEntry] tag)\n".cstring())
+    @gtk_entry_get_text_length(entry)
+  fun set_activates_default(entry: NullablePointer[SGtkEntry] tag, setting: I32): None =>
+"""
+Sets whether pressing Enter in the @entry will activate the default
+widget for the window containing the entry.
+
+This usually means that the dialog containing the entry will be closed,
+since the default widget is usually one of the dialog buttons.a `GtkEntry`%TRUE to activate window’s default widget on Enter keypress
+"""
+
+    @printf("gtk_entry_set_activates_default(entry: NullablePointer[SGtkEntry] tag, setting: I32)\n".cstring())
+    @gtk_entry_set_activates_default(entry, setting)
+  fun get_activates_default(entry: NullablePointer[SGtkEntry] tag): I32 =>
+"""
+Retrieves the value set by gtk_entry_set_activates_default().%TRUE if the entry will activate the default widgeta `GtkEntry`
+"""
+
+    @printf("gtk_entry_get_activates_default(entry: NullablePointer[SGtkEntry] tag)\n".cstring())
+    @gtk_entry_get_activates_default(entry)

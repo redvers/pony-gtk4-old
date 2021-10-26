@@ -9,6 +9,22 @@ use @gtk_widget_get_native[NullablePointer[SGtkNative]](widget: NullablePointer[
 use @gtk_widget_get_width[I32](widget: NullablePointer[SGtkWidget] tag)
 use @gtk_widget_get_height[I32](widget: NullablePointer[SGtkWidget] tag)
 use @gtk_widget_set_size_request[None](widget: NullablePointer[SGtkWidget] tag, width: I32, height: I32)
+use @gtk_widget_get_hexpand[I32](widget: NullablePointer[SGtkWidget] tag)
+use @gtk_widget_set_hexpand[None](widget: NullablePointer[SGtkWidget] tag, expand: I32)
+use @gtk_widget_get_vexpand[I32](widget: NullablePointer[SGtkWidget] tag)
+use @gtk_widget_set_vexpand[None](widget: NullablePointer[SGtkWidget] tag, expand: I32)
+use @gtk_widget_get_halign[I32](widget: NullablePointer[SGtkWidget] tag)
+use @gtk_widget_set_halign[None](widget: NullablePointer[SGtkWidget] tag, align: I32)
+use @gtk_widget_get_valign[I32](widget: NullablePointer[SGtkWidget] tag)
+use @gtk_widget_set_valign[None](widget: NullablePointer[SGtkWidget] tag, align: I32)
+use @gtk_widget_get_margin_start[I32](widget: NullablePointer[SGtkWidget] tag)
+use @gtk_widget_set_margin_start[None](widget: NullablePointer[SGtkWidget] tag, margin: I32)
+use @gtk_widget_get_margin_end[I32](widget: NullablePointer[SGtkWidget] tag)
+use @gtk_widget_set_margin_end[None](widget: NullablePointer[SGtkWidget] tag, margin: I32)
+use @gtk_widget_get_margin_top[I32](widget: NullablePointer[SGtkWidget] tag)
+use @gtk_widget_set_margin_top[None](widget: NullablePointer[SGtkWidget] tag, margin: I32)
+use @gtk_widget_get_margin_bottom[I32](widget: NullablePointer[SGtkWidget] tag)
+use @gtk_widget_set_margin_bottom[None](widget: NullablePointer[SGtkWidget] tag, margin: I32)
 use @gtk_widget_add_controller[None](widget: NullablePointer[SGtkWidget] tag, controller: NullablePointer[SGtkEventController] tag)
 
 
@@ -1682,6 +1698,170 @@ of `GtkWidget`.a `GtkWidget`width @widget should request, or -1 to unsetheight @
 
     @printf("gtk_widget_set_size_request(widget: NullablePointer[SGtkWidget] tag, width: I32, height: I32)\n".cstring())
     @gtk_widget_set_size_request(widget, width, height)
+  fun get_hexpand(widget: NullablePointer[SGtkWidget] tag): I32 =>
+"""
+Gets whether the widget would like any available extra horizontal
+space.
+
+When a user resizes a `GtkWindow`, widgets with expand=TRUE
+generally receive the extra space. For example, a list or
+scrollable area or document in your window would often be set to
+expand.
+
+Containers should use [method@Gtk.Widget.compute_expand] rather
+than this function, to see whether a widget, or any of its children,
+has the expand flag set. If any child of a widget wants to
+expand, the parent may ask to expand also.
+
+This function only looks at the widget’s own hexpand flag, rather
+than computing whether the entire widget tree rooted at this widget
+wants to expand.whether hexpand flag is setthe widget
+"""
+
+    @printf("gtk_widget_get_hexpand(widget: NullablePointer[SGtkWidget] tag)\n".cstring())
+    @gtk_widget_get_hexpand(widget)
+  fun set_hexpand(widget: NullablePointer[SGtkWidget] tag, expand: I32): None =>
+"""
+Sets whether the widget would like any available extra horizontal
+space.
+
+When a user resizes a `GtkWindow`, widgets with expand=TRUE
+generally receive the extra space. For example, a list or
+scrollable area or document in your window would often be set to
+expand.
+
+Call this function to set the expand flag if you would like your
+widget to become larger horizontally when the window has extra
+room.
+
+By default, widgets automatically expand if any of their children
+want to expand. (To see if a widget will automatically expand given
+its current children and state, call [method@Gtk.Widget.compute_expand].
+A container can decide how the expandability of children affects the
+expansion of the container by overriding the compute_expand virtual
+method on `GtkWidget`.).
+
+Setting hexpand explicitly with this function will override the
+automatic expand behavior.
+
+This function forces the widget to expand or not to expand,
+regardless of children.  The override occurs because
+[method@Gtk.Widget.set_hexpand] sets the hexpand-set property (see
+[method@Gtk.Widget.set_hexpand_set]) which causes the widget’s hexpand
+value to be used, rather than looking at children and widget state.the widgetwhether to expand
+"""
+
+    @printf("gtk_widget_set_hexpand(widget: NullablePointer[SGtkWidget] tag, expand: I32)\n".cstring())
+    @gtk_widget_set_hexpand(widget, expand)
+  fun get_vexpand(widget: NullablePointer[SGtkWidget] tag): I32 =>
+"""
+Gets whether the widget would like any available extra vertical
+space.
+
+See [method@Gtk.Widget.get_hexpand] for more detail.whether vexpand flag is setthe widget
+"""
+
+    @printf("gtk_widget_get_vexpand(widget: NullablePointer[SGtkWidget] tag)\n".cstring())
+    @gtk_widget_get_vexpand(widget)
+  fun set_vexpand(widget: NullablePointer[SGtkWidget] tag, expand: I32): None =>
+"""
+Sets whether the widget would like any available extra vertical
+space.
+
+See [method@Gtk.Widget.set_hexpand] for more detail.the widgetwhether to expand
+"""
+
+    @printf("gtk_widget_set_vexpand(widget: NullablePointer[SGtkWidget] tag, expand: I32)\n".cstring())
+    @gtk_widget_set_vexpand(widget, expand)
+  fun get_halign(widget: NullablePointer[SGtkWidget] tag): I32 =>
+"""
+Gets the horizontal alignment of @widget.
+
+For backwards compatibility reasons this method will never return
+%GTK_ALIGN_BASELINE, but instead it will convert it to
+%GTK_ALIGN_FILL. Baselines are not supported for horizontal
+alignment.the horizontal alignment of @widgeta `GtkWidget`
+"""
+
+    @printf("gtk_widget_get_halign(widget: NullablePointer[SGtkWidget] tag)\n".cstring())
+    @gtk_widget_get_halign(widget)
+  fun set_halign(widget: NullablePointer[SGtkWidget] tag, align: I32): None =>
+"""
+Sets the horizontal alignment of @widget.a `GtkWidget`the horizontal alignment
+"""
+
+    @printf("gtk_widget_set_halign(widget: NullablePointer[SGtkWidget] tag, align: I32)\n".cstring())
+    @gtk_widget_set_halign(widget, align)
+  fun get_valign(widget: NullablePointer[SGtkWidget] tag): I32 =>
+"""
+Gets the vertical alignment of @widget.the vertical alignment of @widgeta `GtkWidget`
+"""
+
+    @printf("gtk_widget_get_valign(widget: NullablePointer[SGtkWidget] tag)\n".cstring())
+    @gtk_widget_get_valign(widget)
+  fun set_valign(widget: NullablePointer[SGtkWidget] tag, align: I32): None =>
+"""
+Sets the vertical alignment of @widget.a `GtkWidget`the vertical alignment
+"""
+
+    @printf("gtk_widget_set_valign(widget: NullablePointer[SGtkWidget] tag, align: I32)\n".cstring())
+    @gtk_widget_set_valign(widget, align)
+  fun get_margin_start(widget: NullablePointer[SGtkWidget] tag): I32 =>
+"""
+Gets the start margin of @widget.The start margin of @widgeta `GtkWidget`
+"""
+
+    @printf("gtk_widget_get_margin_start(widget: NullablePointer[SGtkWidget] tag)\n".cstring())
+    @gtk_widget_get_margin_start(widget)
+  fun set_margin_start(widget: NullablePointer[SGtkWidget] tag, margin: I32): None =>
+"""
+Sets the start margin of @widget.a `GtkWidget`the start margin
+"""
+
+    @printf("gtk_widget_set_margin_start(widget: NullablePointer[SGtkWidget] tag, margin: I32)\n".cstring())
+    @gtk_widget_set_margin_start(widget, margin)
+  fun get_margin_end(widget: NullablePointer[SGtkWidget] tag): I32 =>
+"""
+Gets the end margin of @widget.The end margin of @widgeta `GtkWidget`
+"""
+
+    @printf("gtk_widget_get_margin_end(widget: NullablePointer[SGtkWidget] tag)\n".cstring())
+    @gtk_widget_get_margin_end(widget)
+  fun set_margin_end(widget: NullablePointer[SGtkWidget] tag, margin: I32): None =>
+"""
+Sets the end margin of @widget.a `GtkWidget`the end margin
+"""
+
+    @printf("gtk_widget_set_margin_end(widget: NullablePointer[SGtkWidget] tag, margin: I32)\n".cstring())
+    @gtk_widget_set_margin_end(widget, margin)
+  fun get_margin_top(widget: NullablePointer[SGtkWidget] tag): I32 =>
+"""
+Gets the top margin of @widget.The top margin of @widgeta `GtkWidget`
+"""
+
+    @printf("gtk_widget_get_margin_top(widget: NullablePointer[SGtkWidget] tag)\n".cstring())
+    @gtk_widget_get_margin_top(widget)
+  fun set_margin_top(widget: NullablePointer[SGtkWidget] tag, margin: I32): None =>
+"""
+Sets the top margin of @widget.a `GtkWidget`the top margin
+"""
+
+    @printf("gtk_widget_set_margin_top(widget: NullablePointer[SGtkWidget] tag, margin: I32)\n".cstring())
+    @gtk_widget_set_margin_top(widget, margin)
+  fun get_margin_bottom(widget: NullablePointer[SGtkWidget] tag): I32 =>
+"""
+Gets the bottom margin of @widget.The bottom margin of @widgeta `GtkWidget`
+"""
+
+    @printf("gtk_widget_get_margin_bottom(widget: NullablePointer[SGtkWidget] tag)\n".cstring())
+    @gtk_widget_get_margin_bottom(widget)
+  fun set_margin_bottom(widget: NullablePointer[SGtkWidget] tag, margin: I32): None =>
+"""
+Sets the bottom margin of @widget.a `GtkWidget`the bottom margin
+"""
+
+    @printf("gtk_widget_set_margin_bottom(widget: NullablePointer[SGtkWidget] tag, margin: I32)\n".cstring())
+    @gtk_widget_set_margin_bottom(widget, margin)
   fun add_controller(widget: NullablePointer[SGtkWidget] tag, controller: NullablePointer[SGtkEventController] tag): None =>
 """
 Adds @controller to @widget so that it will receive events.
