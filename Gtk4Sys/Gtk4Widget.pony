@@ -26,6 +26,8 @@ use @gtk_widget_set_margin_top[None](widget: NullablePointer[SGtkWidget] tag, ma
 use @gtk_widget_get_margin_bottom[I32](widget: NullablePointer[SGtkWidget] tag)
 use @gtk_widget_set_margin_bottom[None](widget: NullablePointer[SGtkWidget] tag, margin: I32)
 use @gtk_widget_add_controller[None](widget: NullablePointer[SGtkWidget] tag, controller: NullablePointer[SGtkEventController] tag)
+use @gtk_widget_insert_action_group[None](widget: NullablePointer[SGtkWidget] tag, name: Pointer[U8] tag, group: NullablePointer[GActionGroup] tag)
+use @gtk_widget_activate_action[I32](widget: NullablePointer[SGtkWidget] tag, name: Pointer[U8] tag, formatstring: Pointer[U8] tag, ...)
 
 
 
@@ -1873,3 +1875,37 @@ creating any kind of [class@Gtk.EventController].a `GtkWidget`a `GtkEventControl
 
     @printf("gtk_widget_add_controller(widget: NullablePointer[SGtkWidget] tag, controller: NullablePointer[SGtkEventController] tag)\n".cstring())
     @gtk_widget_add_controller(widget, controller)
+  fun insert_action_group(widget: NullablePointer[SGtkWidget] tag, name: Pointer[U8] tag, group: NullablePointer[GActionGroup] tag): None =>
+"""
+Inserts @group into @widget.
+
+Children of @widget that implement [iface@Gtk.Actionable] can
+then be associated with actions in @group by setting their
+“action-name” to @prefix.`action-name`.
+
+Note that inheritance is defined for individual actions. I.e.
+even if you insert a group with prefix @prefix, actions with
+the same prefix will still be inherited from the parent, unless
+the group contains an action with the same name.
+
+If @group is %NULL, a previously inserted group for @name is
+removed from @widget.a `GtkWidget`the prefix for actions in @groupa `GActionGroup`, or %NULL to remove
+  the previously inserted group for @name
+"""
+
+    @printf("gtk_widget_insert_action_group(widget: NullablePointer[SGtkWidget] tag, name: Pointer[U8] tag, group: NullablePointer[GActionGroup] tag)\n".cstring())
+    @gtk_widget_insert_action_group(widget, name, group)
+/*  fun activate_action(widget: NullablePointer[SGtkWidget] tag, name: Pointer[U8] tag, formatstring: Pointer[U8] tag, ...): I32 =>
+"""
+Looks up the action in the action groups associated
+with @widget and its ancestors, and activates it.
+
+This is a wrapper around [method@Gtk.Widget.activate_action_variant]
+that constructs the @args variant according to @format_string.%TRUE if the action was activated, %FALSE if the action
+  does not exista `GtkWidget`the name of the action to activateGVariant format string for arguments or %NULL
+  for no argumentsarguments, as given by format string
+"""
+
+    @printf("gtk_widget_activate_action(widget: NullablePointer[SGtkWidget] tag, name: Pointer[U8] tag, formatstring: Pointer[U8] tag, ...)\n".cstring())
+    @gtk_widget_activate_action(widget, name, formatstring, ...)
+*/

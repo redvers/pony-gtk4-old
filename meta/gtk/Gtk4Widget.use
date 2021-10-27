@@ -26,3 +26,5 @@ use @gtk_widget_set_margin_top[None](widget: NullablePointer[SGtkWidget] tag, ma
 use @gtk_widget_get_margin_bottom[I32](widget: NullablePointer[SGtkWidget] tag)
 use @gtk_widget_set_margin_bottom[None](widget: NullablePointer[SGtkWidget] tag, margin: I32)
 use @gtk_widget_add_controller[None](widget: NullablePointer[SGtkWidget] tag, controller: NullablePointer[SGtkEventController] tag)
+use @gtk_widget_insert_action_group[None](widget: NullablePointer[SGtkWidget] tag, name: Pointer[U8] tag, group: NullablePointer[GActionGroup] tag)
+use @gtk_widget_activate_action[I32](widget: NullablePointer[SGtkWidget] tag, name: Pointer[U8] tag, formatstring: Pointer[U8] tag, ...)

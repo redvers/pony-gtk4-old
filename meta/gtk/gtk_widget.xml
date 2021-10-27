@@ -157,8 +157,8 @@
   <renderuse id="_16243" render="0"/><!-- gtk_widget_class_bind_template_callback_full -->
   <renderuse id="_16244" render="0"/><!-- gtk_widget_class_set_template_scope -->
   <renderuse id="_16245" render="0"/><!-- gtk_widget_class_bind_template_child_full -->
-  <renderuse id="_16246" render="0"/><!-- gtk_widget_insert_action_group -->
-  <renderuse id="_16247" render="0"/><!-- gtk_widget_activate_action -->
+  <renderuse id="_16246" render="1"/><!-- gtk_widget_insert_action_group -->
+  <renderuse id="_16247" render="1"/><!-- gtk_widget_activate_action -->
   <renderuse id="_16248" render="0"/><!-- gtk_widget_activate_action_variant -->
   <renderuse id="_16249" render="0"/><!-- gtk_widget_activate_default -->
   <renderuse id="_16250" render="0"/><!-- gtk_widget_set_font_map -->
