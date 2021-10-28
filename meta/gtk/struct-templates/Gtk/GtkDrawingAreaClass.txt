@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkdrawingarea.h:74
+  Original Name: _GtkDrawingAreaClass
+  Struct Size (bits):  3840
+  Struct Align (bits): 64
+
+  Fields (Offset in bits):
+     000000: [Struct size=3264,fid: f452]: parent_class  
+     003264: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: resize  
+     003328: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding  
+*/
+struct GtkDrawingAreaClass
+  var parent_class: GtkWidgetClass = GtkWidgetClass
+  var resize: Pointer[None] = Pointer[None]
+  var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]

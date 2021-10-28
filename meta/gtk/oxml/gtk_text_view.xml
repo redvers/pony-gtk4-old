@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_18341" render="0"/><!-- gtk_text_view_layer_get_type -->
+  <renderuse id="_21874" render="0"/><!-- gtk_text_view_get_type -->
+  <renderuse id="_21875" render="1"/><!-- gtk_text_view_new -->
+  <renderuse id="_21876" render="1"/><!-- gtk_text_view_new_with_buffer -->
+  <renderuse id="_21877" render="1"/><!-- gtk_text_view_set_buffer -->
+  <renderuse id="_21878" render="1"/><!-- gtk_text_view_get_buffer -->
+  <renderuse id="_21879" render="0"/><!-- gtk_text_view_scroll_to_iter -->
+  <renderuse id="_21880" render="0"/><!-- gtk_text_view_scroll_to_mark -->
+  <renderuse id="_21881" render="0"/><!-- gtk_text_view_scroll_mark_onscreen -->
+  <renderuse id="_21882" render="0"/><!-- gtk_text_view_move_mark_onscreen -->
+  <renderuse id="_21883" render="0"/><!-- gtk_text_view_place_cursor_onscreen -->
+  <renderuse id="_21884" render="0"/><!-- gtk_text_view_get_visible_rect -->
+  <renderuse id="_21885" render="0"/><!-- gtk_text_view_set_cursor_visible -->
+  <renderuse id="_21886" render="0"/><!-- gtk_text_view_get_cursor_visible -->
+  <renderuse id="_21887" render="0"/><!-- gtk_text_view_reset_cursor_blink -->
+  <renderuse id="_21888" render="0"/><!-- gtk_text_view_get_cursor_locations -->
+  <renderuse id="_21889" render="0"/><!-- gtk_text_view_get_iter_location -->
+  <renderuse id="_21890" render="0"/><!-- gtk_text_view_get_iter_at_location -->
+  <renderuse id="_21891" render="0"/><!-- gtk_text_view_get_iter_at_position -->
+  <renderuse id="_21892" render="0"/><!-- gtk_text_view_get_line_yrange -->
+  <renderuse id="_21893" render="0"/><!-- gtk_text_view_get_line_at_y -->
+  <renderuse id="_21894" render="0"/><!-- gtk_text_view_buffer_to_window_coords -->
+  <renderuse id="_21895" render="0"/><!-- gtk_text_view_window_to_buffer_coords -->
+  <renderuse id="_21896" render="0"/><!-- gtk_text_view_forward_display_line -->
+  <renderuse id="_21897" render="0"/><!-- gtk_text_view_backward_display_line -->
+  <renderuse id="_21898" render="0"/><!-- gtk_text_view_forward_display_line_end -->
+  <renderuse id="_21899" render="0"/><!-- gtk_text_view_backward_display_line_start -->
+  <renderuse id="_21900" render="0"/><!-- gtk_text_view_starts_display_line -->
+  <renderuse id="_21901" render="0"/><!-- gtk_text_view_move_visually -->
+  <renderuse id="_21902" render="0"/><!-- gtk_text_view_im_context_filter_keypress -->
+  <renderuse id="_21903" render="0"/><!-- gtk_text_view_reset_im_context -->
+  <renderuse id="_21904" render="0"/><!-- gtk_text_view_get_gutter -->
+  <renderuse id="_21905" render="0"/><!-- gtk_text_view_set_gutter -->
+  <renderuse id="_21906" render="0"/><!-- gtk_text_view_add_child_at_anchor -->
+  <renderuse id="_21907" render="0"/><!-- gtk_text_view_add_overlay -->
+  <renderuse id="_21908" render="0"/><!-- gtk_text_view_move_overlay -->
+  <renderuse id="_21909" render="0"/><!-- gtk_text_view_remove -->
+  <renderuse id="_21910" render="1"/><!-- gtk_text_view_set_wrap_mode -->
+  <renderuse id="_21911" render="1"/><!-- gtk_text_view_get_wrap_mode -->
+  <renderuse id="_21912" render="1"/><!-- gtk_text_view_set_editable -->
+  <renderuse id="_21913" render="1"/><!-- gtk_text_view_get_editable -->
+  <renderuse id="_21914" render="0"/><!-- gtk_text_view_set_overwrite -->
+  <renderuse id="_21915" render="0"/><!-- gtk_text_view_get_overwrite -->
+  <renderuse id="_21916" render="0"/><!-- gtk_text_view_set_accepts_tab -->
+  <renderuse id="_21917" render="0"/><!-- gtk_text_view_get_accepts_tab -->
+  <renderuse id="_21918" render="0"/><!-- gtk_text_view_set_pixels_above_lines -->
+  <renderuse id="_21919" render="0"/><!-- gtk_text_view_get_pixels_above_lines -->
+  <renderuse id="_21920" render="0"/><!-- gtk_text_view_set_pixels_below_lines -->
+  <renderuse id="_21921" render="0"/><!-- gtk_text_view_get_pixels_below_lines -->
+  <renderuse id="_21922" render="0"/><!-- gtk_text_view_set_pixels_inside_wrap -->
+  <renderuse id="_21923" render="0"/><!-- gtk_text_view_get_pixels_inside_wrap -->
+  <renderuse id="_21924" render="0"/><!-- gtk_text_view_set_justification -->
+  <renderuse id="_21925" render="0"/><!-- gtk_text_view_get_justification -->
+  <renderuse id="_21926" render="0"/><!-- gtk_text_view_set_left_margin -->
+  <renderuse id="_21927" render="0"/><!-- gtk_text_view_get_left_margin -->
+  <renderuse id="_21928" render="0"/><!-- gtk_text_view_set_right_margin -->
+  <renderuse id="_21929" render="0"/><!-- gtk_text_view_get_right_margin -->
+  <renderuse id="_21930" render="0"/><!-- gtk_text_view_set_top_margin -->
+  <renderuse id="_21931" render="0"/><!-- gtk_text_view_get_top_margin -->
+  <renderuse id="_21932" render="0"/><!-- gtk_text_view_set_bottom_margin -->
+  <renderuse id="_21933" render="0"/><!-- gtk_text_view_get_bottom_margin -->
+  <renderuse id="_21934" render="0"/><!-- gtk_text_view_set_indent -->
+  <renderuse id="_21935" render="0"/><!-- gtk_text_view_get_indent -->
+  <renderuse id="_21936" render="0"/><!-- gtk_text_view_set_tabs -->
+  <renderuse id="_21937" render="0"/><!-- gtk_text_view_get_tabs -->
+  <renderuse id="_21938" render="0"/><!-- gtk_text_view_set_input_purpose -->
+  <renderuse id="_21939" render="0"/><!-- gtk_text_view_get_input_purpose -->
+  <renderuse id="_21940" render="0"/><!-- gtk_text_view_set_input_hints -->
+  <renderuse id="_21941" render="0"/><!-- gtk_text_view_get_input_hints -->
+  <renderuse id="_21942" render="1"/><!-- gtk_text_view_set_monospace -->
+  <renderuse id="_21943" render="1"/><!-- gtk_text_view_get_monospace -->
+  <renderuse id="_21944" render="0"/><!-- gtk_text_view_set_extra_menu -->
+  <renderuse id="_21945" render="0"/><!-- gtk_text_view_get_extra_menu -->
+</renderuses>
+</castxml2pony>

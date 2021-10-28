@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkprintsettings.h:51
+  Original Name: _GtkPageRange
+  Struct Size (bits):  64
+  Struct Align (bits): 32
+
+  Fields (Offset in bits):
+     000000: [FundamentalType(int) size=32]: start  
+     000032: [FundamentalType(int) size=32]: end  
+*/
+struct GtkPageRange
+  var start: I32 = I32(0)
+  var g_end: I32 = I32(0)

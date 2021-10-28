@@ -1,0 +1,41 @@
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktextview.h:149
+  Original Name: _GtkTextViewClass
+  Struct Size (bits):  4608
+  Struct Align (bits): 64
+
+  Fields (Offset in bits):
+     000000: [Struct size=3264,fid: f452]: parent_class  
+     003264: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: move_cursor  
+     003328: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: set_anchor  
+     003392: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: insert_at_cursor  
+     003456: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: delete_from_cursor  
+     003520: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: backspace  
+     003584: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: cut_clipboard  
+     003648: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: copy_clipboard  
+     003712: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: paste_clipboard  
+     003776: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: toggle_overwrite  
+     003840: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: create_buffer  
+     003904: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: snapshot_layer  
+     003968: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: extend_selection  
+     004032: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: insert_emoji  
+     004096: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding  
+*/
+struct GtkTextViewClass
+  var parent_class: GtkWidgetClass = GtkWidgetClass
+  var move_cursor: Pointer[None] = Pointer[None]
+  var set_anchor: Pointer[None] = Pointer[None]
+  var insert_at_cursor: Pointer[None] = Pointer[None]
+  var delete_from_cursor: Pointer[None] = Pointer[None]
+  var backspace: Pointer[None] = Pointer[None]
+  var cut_clipboard: Pointer[None] = Pointer[None]
+  var copy_clipboard: Pointer[None] = Pointer[None]
+  var paste_clipboard: Pointer[None] = Pointer[None]
+  var toggle_overwrite: Pointer[None] = Pointer[None]
+  var create_buffer: Pointer[None] = Pointer[None]
+  var snapshot_layer: Pointer[None] = Pointer[None]
+  var extend_selection: Pointer[None] = Pointer[None]
+  var insert_emoji: Pointer[None] = Pointer[None]
+  var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]

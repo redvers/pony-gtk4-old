@@ -1,0 +1,67 @@
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkwidget.h:184
+  Original Name: _GtkWidgetClass
+  Struct Size (bits):  3264
+  Struct Align (bits): 64
+
+  Fields (Offset in bits):
+     000000: [Struct size=1088,fid: f141]: parent_class  
+     001088: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: show  
+     001152: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: hide  
+     001216: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: map  
+     001280: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: unmap  
+     001344: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: realize  
+     001408: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: unrealize  
+     001472: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: root  
+     001536: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: unroot  
+     001600: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: size_allocate  
+     001664: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: state_flags_changed  
+     001728: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: direction_changed  
+     001792: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: get_request_mode  
+     001856: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: measure  
+     001920: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: mnemonic_activate  
+     001984: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: grab_focus  
+     002048: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: focus  
+     002112: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: set_focus_child  
+     002176: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: move_focus  
+     002240: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: keynav_failed  
+     002304: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: query_tooltip  
+     002368: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: compute_expand  
+     002432: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: css_changed  
+     002496: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: system_setting_changed  
+     002560: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: snapshot  
+     002624: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: contains  
+     002688: [PointerType size=64]->[Struct size=,fid: f452]: priv  
+     002752: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding  
+*/
+struct GtkWidgetClass
+  var parent_class: GObjectClass = GObjectClass
+  var show: Pointer[None] = Pointer[None]
+  var hide: Pointer[None] = Pointer[None]
+  var map: Pointer[None] = Pointer[None]
+  var unmap: Pointer[None] = Pointer[None]
+  var realize: Pointer[None] = Pointer[None]
+  var unrealize: Pointer[None] = Pointer[None]
+  var root: Pointer[None] = Pointer[None]
+  var unroot: Pointer[None] = Pointer[None]
+  var size_allocate: Pointer[None] = Pointer[None]
+  var state_flags_changed: Pointer[None] = Pointer[None]
+  var direction_changed: Pointer[None] = Pointer[None]
+  var get_request_mode: Pointer[None] = Pointer[None]
+  var measure: Pointer[None] = Pointer[None]
+  var mnemonic_activate: Pointer[None] = Pointer[None]
+  var grab_focus: Pointer[None] = Pointer[None]
+  var focus: Pointer[None] = Pointer[None]
+  var set_focus_child: Pointer[None] = Pointer[None]
+  var move_focus: Pointer[None] = Pointer[None]
+  var keynav_failed: Pointer[None] = Pointer[None]
+  var query_tooltip: Pointer[None] = Pointer[None]
+  var compute_expand: Pointer[None] = Pointer[None]
+  var css_changed: Pointer[None] = Pointer[None]
+  var system_setting_changed: Pointer[None] = Pointer[None]
+  var snapshot: Pointer[None] = Pointer[None]
+  var contains: Pointer[None] = Pointer[None]
+  var priv: NullablePointer[GtkWidgetClassPrivate] = NullablePointer[GtkWidgetClassPrivate].none()
+  var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]

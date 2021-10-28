@@ -1,0 +1,37 @@
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkcellrenderer.h:108
+  Original Name: _GtkCellRendererClass
+  Struct Size (bits):  2304
+  Struct Align (bits): 64
+
+  Fields (Offset in bits):
+     000000: [Struct size=1088,fid: f141]: parent_class  
+     001088: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: get_request_mode  
+     001152: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: get_preferred_width  
+     001216: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: get_preferred_height_for_width  
+     001280: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: get_preferred_height  
+     001344: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: get_preferred_width_for_height  
+     001408: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: get_aligned_area  
+     001472: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: snapshot  
+     001536: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: activate  
+     001600: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: start_editing  
+     001664: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: editing_canceled  
+     001728: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: editing_started  
+     001792: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding  
+*/
+struct GtkCellRendererClass
+  var parent_class: GObjectClass = GObjectClass
+  var get_request_mode: Pointer[None] = Pointer[None]
+  var get_preferred_width: Pointer[None] = Pointer[None]
+  var get_preferred_height_for_width: Pointer[None] = Pointer[None]
+  var get_preferred_height: Pointer[None] = Pointer[None]
+  var get_preferred_width_for_height: Pointer[None] = Pointer[None]
+  var get_aligned_area: Pointer[None] = Pointer[None]
+  var snapshot: Pointer[None] = Pointer[None]
+  var activate: Pointer[None] = Pointer[None]
+  var start_editing: Pointer[None] = Pointer[None]
+  var editing_canceled: Pointer[None] = Pointer[None]
+  var editing_started: Pointer[None] = Pointer[None]
+  var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]

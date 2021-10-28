@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_18517" render="0"/><!-- gtk_directory_list_get_type -->
+  <renderuse id="_18542" render="0"/><!-- gtk_directory_list_new -->
+  <renderuse id="_18543" render="0"/><!-- gtk_directory_list_set_file -->
+  <renderuse id="_18544" render="0"/><!-- gtk_directory_list_get_file -->
+  <renderuse id="_18545" render="0"/><!-- gtk_directory_list_set_attributes -->
+  <renderuse id="_18546" render="0"/><!-- gtk_directory_list_get_attributes -->
+  <renderuse id="_18547" render="0"/><!-- gtk_directory_list_set_io_priority -->
+  <renderuse id="_18548" render="0"/><!-- gtk_directory_list_get_io_priority -->
+  <renderuse id="_18549" render="0"/><!-- gtk_directory_list_is_loading -->
+  <renderuse id="_18550" render="0"/><!-- gtk_directory_list_get_error -->
+  <renderuse id="_18551" render="0"/><!-- gtk_directory_list_set_monitored -->
+  <renderuse id="_18552" render="0"/><!-- gtk_directory_list_get_monitored -->
+</renderuses>
+</castxml2pony>

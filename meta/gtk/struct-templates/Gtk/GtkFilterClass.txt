@@ -1,0 +1,33 @@
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkfilter.h:81
+  Original Name: _GtkFilterClass
+  Struct Size (bits):  1728
+  Struct Align (bits): 64
+
+  Fields (Offset in bits):
+     000000: [Struct size=1088,fid: f141]: parent_class  
+     001088: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: match  
+     001152: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: get_strictness  
+     001216: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved1  
+     001280: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved2  
+     001344: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved3  
+     001408: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved4  
+     001472: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved5  
+     001536: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved6  
+     001600: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved7  
+     001664: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved8  
+*/
+struct GtkFilterClass
+  var parent_class: GObjectClass = GObjectClass
+  var g_match: Pointer[None] = Pointer[None]
+  var get_strictness: Pointer[None] = Pointer[None]
+  var _gtk_reserved1: Pointer[None] = Pointer[None]
+  var _gtk_reserved2: Pointer[None] = Pointer[None]
+  var _gtk_reserved3: Pointer[None] = Pointer[None]
+  var _gtk_reserved4: Pointer[None] = Pointer[None]
+  var _gtk_reserved5: Pointer[None] = Pointer[None]
+  var _gtk_reserved6: Pointer[None] = Pointer[None]
+  var _gtk_reserved7: Pointer[None] = Pointer[None]
+  var _gtk_reserved8: Pointer[None] = Pointer[None]

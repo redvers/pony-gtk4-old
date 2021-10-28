@@ -1,0 +1,31 @@
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkeditable.h:46
+  Original Name: _GtkEditableInterface
+  Struct Size (bits):  704
+  Struct Align (bits): 64
+
+  Fields (Offset in bits):
+     000000: [Struct size=128,fid: f133]: base_iface  
+     000128: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: insert_text  
+     000192: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: delete_text  
+     000256: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: changed  
+     000320: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: get_text  
+     000384: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: do_insert_text  
+     000448: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: do_delete_text  
+     000512: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: get_selection_bounds  
+     000576: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: set_selection_bounds  
+     000640: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: get_delegate  
+*/
+struct GtkEditableInterface
+  var base_iface: GTypeInterface = GTypeInterface
+  var insert_text: Pointer[None] = Pointer[None]
+  var delete_text: Pointer[None] = Pointer[None]
+  var changed: Pointer[None] = Pointer[None]
+  var get_text: Pointer[None] = Pointer[None]
+  var do_insert_text: Pointer[None] = Pointer[None]
+  var do_delete_text: Pointer[None] = Pointer[None]
+  var get_selection_bounds: Pointer[None] = Pointer[None]
+  var set_selection_bounds: Pointer[None] = Pointer[None]
+  var get_delegate: Pointer[None] = Pointer[None]

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_18653" render="0"/><!-- gtk_drop_target_async_get_type -->
+  <renderuse id="_18654" render="0"/><!-- gtk_drop_target_async_new -->
+  <renderuse id="_18655" render="0"/><!-- gtk_drop_target_async_set_formats -->
+  <renderuse id="_18656" render="0"/><!-- gtk_drop_target_async_get_formats -->
+  <renderuse id="_18657" render="0"/><!-- gtk_drop_target_async_set_actions -->
+  <renderuse id="_18658" render="0"/><!-- gtk_drop_target_async_get_actions -->
+  <renderuse id="_18659" render="0"/><!-- gtk_drop_target_async_reject_drop -->
+</renderuses>
+</castxml2pony>

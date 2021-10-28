@@ -1,0 +1,41 @@
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkmediastream.h:36
+  Original Name: _GtkMediaStreamClass
+  Struct Size (bits):  1984
+  Struct Align (bits): 64
+
+  Fields (Offset in bits):
+     000000: [Struct size=1088,fid: f141]: parent_class  
+     001088: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: play  
+     001152: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: pause  
+     001216: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: seek  
+     001280: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: update_audio  
+     001344: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: realize  
+     001408: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: unrealize  
+     001472: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved1  
+     001536: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved2  
+     001600: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved3  
+     001664: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved4  
+     001728: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved5  
+     001792: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved6  
+     001856: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved7  
+     001920: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: _gtk_reserved8  
+*/
+struct GtkMediaStreamClass
+  var parent_class: GObjectClass = GObjectClass
+  var play: Pointer[None] = Pointer[None]
+  var pause: Pointer[None] = Pointer[None]
+  var seek: Pointer[None] = Pointer[None]
+  var update_audio: Pointer[None] = Pointer[None]
+  var realize: Pointer[None] = Pointer[None]
+  var unrealize: Pointer[None] = Pointer[None]
+  var _gtk_reserved1: Pointer[None] = Pointer[None]
+  var _gtk_reserved2: Pointer[None] = Pointer[None]
+  var _gtk_reserved3: Pointer[None] = Pointer[None]
+  var _gtk_reserved4: Pointer[None] = Pointer[None]
+  var _gtk_reserved5: Pointer[None] = Pointer[None]
+  var _gtk_reserved6: Pointer[None] = Pointer[None]
+  var _gtk_reserved7: Pointer[None] = Pointer[None]
+  var _gtk_reserved8: Pointer[None] = Pointer[None]

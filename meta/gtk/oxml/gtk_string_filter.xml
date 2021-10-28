@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_18337" render="0"/><!-- gtk_string_filter_match_mode_get_type -->
+  <renderuse id="_21450" render="0"/><!-- gtk_string_filter_get_type -->
+  <renderuse id="_21475" render="0"/><!-- gtk_string_filter_new -->
+  <renderuse id="_21476" render="0"/><!-- gtk_string_filter_get_search -->
+  <renderuse id="_21477" render="0"/><!-- gtk_string_filter_set_search -->
+  <renderuse id="_21478" render="0"/><!-- gtk_string_filter_get_expression -->
+  <renderuse id="_21479" render="0"/><!-- gtk_string_filter_set_expression -->
+  <renderuse id="_21480" render="0"/><!-- gtk_string_filter_get_ignore_case -->
+  <renderuse id="_21481" render="0"/><!-- gtk_string_filter_set_ignore_case -->
+  <renderuse id="_21482" render="0"/><!-- gtk_string_filter_get_match_mode -->
+  <renderuse id="_21483" render="0"/><!-- gtk_string_filter_set_match_mode -->
+</renderuses>
+</castxml2pony>

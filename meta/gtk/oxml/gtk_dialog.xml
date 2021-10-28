@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_16548" render="0"/><!-- gtk_dialog_get_type -->
+  <renderuse id="_16549" render="0"/><!-- gtk_dialog_new -->
+  <renderuse id="_16550" render="0"/><!-- gtk_dialog_new_with_buttons -->
+  <renderuse id="_16551" render="0"/><!-- gtk_dialog_add_action_widget -->
+  <renderuse id="_16552" render="0"/><!-- gtk_dialog_add_button -->
+  <renderuse id="_16553" render="0"/><!-- gtk_dialog_add_buttons -->
+  <renderuse id="_16554" render="0"/><!-- gtk_dialog_set_response_sensitive -->
+  <renderuse id="_16555" render="0"/><!-- gtk_dialog_set_default_response -->
+  <renderuse id="_16556" render="0"/><!-- gtk_dialog_get_widget_for_response -->
+  <renderuse id="_16557" render="0"/><!-- gtk_dialog_get_response_for_widget -->
+  <renderuse id="_16558" render="0"/><!-- gtk_dialog_response -->
+  <renderuse id="_16559" render="0"/><!-- gtk_dialog_get_content_area -->
+  <renderuse id="_16560" render="0"/><!-- gtk_dialog_get_header_bar -->
+  <renderuse id="_18248" render="0"/><!-- gtk_dialog_flags_get_type -->
+</renderuses>
+</castxml2pony>

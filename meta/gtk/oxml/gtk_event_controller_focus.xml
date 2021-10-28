@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_18739" render="0"/><!-- gtk_event_controller_focus_get_type -->
+  <renderuse id="_18740" render="0"/><!-- gtk_event_controller_focus_new -->
+  <renderuse id="_18741" render="0"/><!-- gtk_event_controller_focus_contains_focus -->
+  <renderuse id="_18742" render="0"/><!-- gtk_event_controller_focus_is_focus -->
+</renderuses>
+</castxml2pony>

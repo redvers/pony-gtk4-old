@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_18319" render="0"/><!-- gtk_notebook_tab_get_type -->
+  <renderuse id="_20225" render="0"/><!-- gtk_notebook_get_type -->
+  <renderuse id="_20226" render="0"/><!-- gtk_notebook_new -->
+  <renderuse id="_20227" render="0"/><!-- gtk_notebook_append_page -->
+  <renderuse id="_20228" render="0"/><!-- gtk_notebook_append_page_menu -->
+  <renderuse id="_20229" render="0"/><!-- gtk_notebook_prepend_page -->
+  <renderuse id="_20230" render="0"/><!-- gtk_notebook_prepend_page_menu -->
+  <renderuse id="_20231" render="0"/><!-- gtk_notebook_insert_page -->
+  <renderuse id="_20232" render="0"/><!-- gtk_notebook_insert_page_menu -->
+  <renderuse id="_20233" render="0"/><!-- gtk_notebook_remove_page -->
+  <renderuse id="_20234" render="0"/><!-- gtk_notebook_set_group_name -->
+  <renderuse id="_20235" render="0"/><!-- gtk_notebook_get_group_name -->
+  <renderuse id="_20236" render="0"/><!-- gtk_notebook_get_current_page -->
+  <renderuse id="_20237" render="0"/><!-- gtk_notebook_get_nth_page -->
+  <renderuse id="_20238" render="0"/><!-- gtk_notebook_get_n_pages -->
+  <renderuse id="_20239" render="0"/><!-- gtk_notebook_page_num -->
+  <renderuse id="_20240" render="0"/><!-- gtk_notebook_set_current_page -->
+  <renderuse id="_20241" render="0"/><!-- gtk_notebook_next_page -->
+  <renderuse id="_20242" render="0"/><!-- gtk_notebook_prev_page -->
+  <renderuse id="_20243" render="0"/><!-- gtk_notebook_set_show_border -->
+  <renderuse id="_20244" render="0"/><!-- gtk_notebook_get_show_border -->
+  <renderuse id="_20245" render="0"/><!-- gtk_notebook_set_show_tabs -->
+  <renderuse id="_20246" render="0"/><!-- gtk_notebook_get_show_tabs -->
+  <renderuse id="_20247" render="0"/><!-- gtk_notebook_set_tab_pos -->
+  <renderuse id="_20248" render="0"/><!-- gtk_notebook_get_tab_pos -->
+  <renderuse id="_20249" render="0"/><!-- gtk_notebook_set_scrollable -->
+  <renderuse id="_20250" render="0"/><!-- gtk_notebook_get_scrollable -->
+  <renderuse id="_20251" render="0"/><!-- gtk_notebook_popup_enable -->
+  <renderuse id="_20252" render="0"/><!-- gtk_notebook_popup_disable -->
+  <renderuse id="_20253" render="0"/><!-- gtk_notebook_get_tab_label -->
+  <renderuse id="_20254" render="0"/><!-- gtk_notebook_set_tab_label -->
+  <renderuse id="_20255" render="0"/><!-- gtk_notebook_set_tab_label_text -->
+  <renderuse id="_20256" render="0"/><!-- gtk_notebook_get_tab_label_text -->
+  <renderuse id="_20257" render="0"/><!-- gtk_notebook_get_menu_label -->
+  <renderuse id="_20258" render="0"/><!-- gtk_notebook_set_menu_label -->
+  <renderuse id="_20259" render="0"/><!-- gtk_notebook_set_menu_label_text -->
+  <renderuse id="_20260" render="0"/><!-- gtk_notebook_get_menu_label_text -->
+  <renderuse id="_20261" render="0"/><!-- gtk_notebook_reorder_child -->
+  <renderuse id="_20262" render="0"/><!-- gtk_notebook_get_tab_reorderable -->
+  <renderuse id="_20263" render="0"/><!-- gtk_notebook_set_tab_reorderable -->
+  <renderuse id="_20264" render="0"/><!-- gtk_notebook_get_tab_detachable -->
+  <renderuse id="_20265" render="0"/><!-- gtk_notebook_set_tab_detachable -->
+  <renderuse id="_20266" render="0"/><!-- gtk_notebook_detach_tab -->
+  <renderuse id="_20267" render="0"/><!-- gtk_notebook_get_action_widget -->
+  <renderuse id="_20268" render="0"/><!-- gtk_notebook_set_action_widget -->
+  <renderuse id="_20269" render="0"/><!-- gtk_notebook_page_get_type -->
+  <renderuse id="_20270" render="0"/><!-- gtk_notebook_get_page -->
+  <renderuse id="_20271" render="0"/><!-- gtk_notebook_page_get_child -->
+  <renderuse id="_20272" render="0"/><!-- gtk_notebook_get_pages -->
+</renderuses>
+</castxml2pony>

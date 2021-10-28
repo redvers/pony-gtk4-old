@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_20998" render="0"/><!-- gtk_shortcut_label_get_type -->
+  <renderuse id="_20999" render="0"/><!-- gtk_shortcut_label_new -->
+  <renderuse id="_21000" render="0"/><!-- gtk_shortcut_label_get_accelerator -->
+  <renderuse id="_21001" render="0"/><!-- gtk_shortcut_label_set_accelerator -->
+  <renderuse id="_21002" render="0"/><!-- gtk_shortcut_label_get_disabled_text -->
+  <renderuse id="_21003" render="0"/><!-- gtk_shortcut_label_set_disabled_text -->
+</renderuses>
+</castxml2pony>

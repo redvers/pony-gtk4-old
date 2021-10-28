@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_17530" render="0"/><!-- gtk_check_button_get_type -->
+  <renderuse id="_17531" render="1"/><!-- gtk_check_button_new -->
+  <renderuse id="_17532" render="1"/><!-- gtk_check_button_new_with_label -->
+  <renderuse id="_17533" render="1"/><!-- gtk_check_button_new_with_mnemonic -->
+  <renderuse id="_17534" render="1"/><!-- gtk_check_button_set_inconsistent -->
+  <renderuse id="_17535" render="1"/><!-- gtk_check_button_get_inconsistent -->
+  <renderuse id="_17536" render="1"/><!-- gtk_check_button_get_active -->
+  <renderuse id="_17537" render="1"/><!-- gtk_check_button_set_active -->
+  <renderuse id="_17538" render="1"/><!-- gtk_check_button_get_label -->
+  <renderuse id="_17539" render="1"/><!-- gtk_check_button_set_label -->
+  <renderuse id="_17540" render="1"/><!-- gtk_check_button_set_group -->
+  <renderuse id="_17541" render="1"/><!-- gtk_check_button_get_use_underline -->
+  <renderuse id="_17542" render="1"/><!-- gtk_check_button_set_use_underline -->
+</renderuses>
+</castxml2pony>

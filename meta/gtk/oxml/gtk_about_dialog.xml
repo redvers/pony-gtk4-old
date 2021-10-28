@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_16418" render="0"/><!-- gtk_about_dialog_get_type -->
+  <renderuse id="_16419" render="1"/><!-- gtk_about_dialog_new -->
+  <renderuse id="_16421" render="1"/><!-- gtk_about_dialog_get_program_name -->
+  <renderuse id="_16422" render="1"/><!-- gtk_about_dialog_set_program_name -->
+  <renderuse id="_16423" render="1"/><!-- gtk_about_dialog_get_version -->
+  <renderuse id="_16424" render="1"/><!-- gtk_about_dialog_set_version -->
+  <renderuse id="_16425" render="1"/><!-- gtk_about_dialog_get_copyright -->
+  <renderuse id="_16426" render="1"/><!-- gtk_about_dialog_set_copyright -->
+  <renderuse id="_16427" render="1"/><!-- gtk_about_dialog_get_comments -->
+  <renderuse id="_16428" render="1"/><!-- gtk_about_dialog_set_comments -->
+  <renderuse id="_16429" render="1"/><!-- gtk_about_dialog_get_license -->
+  <renderuse id="_16430" render="1"/><!-- gtk_about_dialog_set_license -->
+  <renderuse id="_16431" render="1"/><!-- gtk_about_dialog_set_license_type -->
+  <renderuse id="_16432" render="1"/><!-- gtk_about_dialog_get_license_type -->
+  <renderuse id="_16433" render="1"/><!-- gtk_about_dialog_get_wrap_license -->
+  <renderuse id="_16434" render="1"/><!-- gtk_about_dialog_set_wrap_license -->
+  <renderuse id="_16435" render="1"/><!-- gtk_about_dialog_get_system_information -->
+  <renderuse id="_16436" render="1"/><!-- gtk_about_dialog_set_system_information -->
+  <renderuse id="_16437" render="1"/><!-- gtk_about_dialog_get_website -->
+  <renderuse id="_16438" render="1"/><!-- gtk_about_dialog_set_website -->
+  <renderuse id="_16439" render="1"/><!-- gtk_about_dialog_get_website_label -->
+  <renderuse id="_16440" render="1"/><!-- gtk_about_dialog_set_website_label -->
+  <renderuse id="_16441" render="1"/><!-- gtk_about_dialog_get_authors -->
+  <renderuse id="_16442" render="1"/><!-- gtk_about_dialog_set_authors -->
+  <renderuse id="_16443" render="1"/><!-- gtk_about_dialog_get_documenters -->
+  <renderuse id="_16444" render="1"/><!-- gtk_about_dialog_set_documenters -->
+  <renderuse id="_16445" render="1"/><!-- gtk_about_dialog_get_artists -->
+  <renderuse id="_16446" render="1"/><!-- gtk_about_dialog_set_artists -->
+  <renderuse id="_16447" render="1"/><!-- gtk_about_dialog_get_translator_credits -->
+  <renderuse id="_16448" render="1"/><!-- gtk_about_dialog_set_translator_credits -->
+  <renderuse id="_16449" render="1"/><!-- gtk_about_dialog_get_logo -->
+  <renderuse id="_16450" render="1"/><!-- gtk_about_dialog_set_logo -->
+  <renderuse id="_16451" render="1"/><!-- gtk_about_dialog_get_logo_icon_name -->
+  <renderuse id="_16452" render="1"/><!-- gtk_about_dialog_set_logo_icon_name -->
+  <renderuse id="_16453" render="1"/><!-- gtk_about_dialog_add_credit_section -->
+</renderuses>
+</castxml2pony>

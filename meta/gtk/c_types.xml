@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ctypes>
+  <type name="int*" ponyusearg="Pointer[I32]" ponyuserv="Pointer[I32]" ponyfnrv="Pointer[I32]"/>
+  <type name="const char*" ponyusearg="Pointer[U8] tag" ponyuserv="Pointer[U8]" ponyfnrv="String" pony2c=".cstring()">
+    <prefixes>
+      <prefix>    var cstr: Pointer[U8] ref =</prefix>
+    </prefixes>
+    <suffixes>
+      <suffix>    let p: String iso = String.from_cstring(cstr).clone()</suffix>
+      <suffix>    consume p</suffix>
+    </suffixes>
+  </type>
+  <type name="void" ponyusearg="None" ponyuserv="None" ponyfnrv="None"/>
+  <type name="gint8" ponyusearg="I8" ponyuserv="I8" ponyfnrv="I8"/>
+  <type name="guint8" ponyusearg="U8" ponyuserv="U8" ponyfnrv="U8"/>
+  <type name="gint16" ponyusearg="I16" ponyuserv="I16" ponyfnrv="I16"/>
+  <type name="guint16" ponyusearg="U16" ponyuserv="U16" ponyfnrv="U16"/>
+  <type name="gint" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
+  <type name="int" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
+  <type name="gint32" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
+  <type name="gint64" ponyusearg="I64" ponyuserv="I64" ponyfnrv="I64"/>
+  <type name="guint32" ponyusearg="U32" ponyuserv="U32" ponyfnrv="U32"/>
+  <type name="gsize" ponyusearg="ISize" ponyuserv="ISize" ponyfnrv="ISize"/>
+  <type name="char" ponyusearg="U8" ponyuserv="U8" ponyfnrv="U8"/>
+  <type name="gchar" ponyusearg="U8" ponyuserv="U8" ponyfnrv="U8"/>
+  <type name="gdouble" ponyusearg="F64" ponyuserv="F64" ponyfnrv="F64"/>
+  <type name="gchar*" ponyusearg="U8" ponyuserv="U8" ponyfnrv="String"/>
+  <type name="gchar**" ponyusearg="Pointer[Pointer[U8]]" ponyuserv="Pointer[Pointer[U8]]" ponyfnrv="Pointer[Pointer[U8]]"/>
+  <type name="gboolean" ponyusearg="Bool" ponyuserv="Bool" ponyfnrv="Bool"/>
+
+  <type name="GtkWindow*" ponyusearg="GtkWindow" ponyuserv="GtkWindow" ponyfnrv="GtkWindow"/>
+  <type name="GtkWidget*" ponyusearg="GtkWidget" ponyuserv="GtkWidget" ponyfnrv="GtkWidget"/>
+
+  <reservedfns>
+    <reserved name="new" newname="create"/>
+  </reservedfns>
+</ctypes>

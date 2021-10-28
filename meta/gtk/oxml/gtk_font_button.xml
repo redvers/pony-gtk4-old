@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_19124" render="0"/><!-- gtk_font_button_get_type -->
+  <renderuse id="_19125" render="0"/><!-- gtk_font_button_new -->
+  <renderuse id="_19126" render="0"/><!-- gtk_font_button_new_with_font -->
+  <renderuse id="_19127" render="0"/><!-- gtk_font_button_get_title -->
+  <renderuse id="_19128" render="0"/><!-- gtk_font_button_set_title -->
+  <renderuse id="_19129" render="0"/><!-- gtk_font_button_get_modal -->
+  <renderuse id="_19130" render="0"/><!-- gtk_font_button_set_modal -->
+  <renderuse id="_19131" render="0"/><!-- gtk_font_button_get_use_font -->
+  <renderuse id="_19132" render="0"/><!-- gtk_font_button_set_use_font -->
+  <renderuse id="_19133" render="0"/><!-- gtk_font_button_get_use_size -->
+  <renderuse id="_19134" render="0"/><!-- gtk_font_button_set_use_size -->
+</renderuses>
+</castxml2pony>

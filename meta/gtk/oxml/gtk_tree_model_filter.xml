@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_17899" render="0"/><!-- gtk_tree_model_filter_get_type -->
+  <renderuse id="_17900" render="0"/><!-- gtk_tree_model_filter_new -->
+  <renderuse id="_17901" render="0"/><!-- gtk_tree_model_filter_set_visible_func -->
+  <renderuse id="_17902" render="0"/><!-- gtk_tree_model_filter_set_modify_func -->
+  <renderuse id="_17903" render="0"/><!-- gtk_tree_model_filter_set_visible_column -->
+  <renderuse id="_17904" render="0"/><!-- gtk_tree_model_filter_get_model -->
+  <renderuse id="_17905" render="0"/><!-- gtk_tree_model_filter_convert_child_iter_to_iter -->
+  <renderuse id="_17906" render="0"/><!-- gtk_tree_model_filter_convert_iter_to_child_iter -->
+  <renderuse id="_17907" render="0"/><!-- gtk_tree_model_filter_convert_child_path_to_path -->
+  <renderuse id="_17908" render="0"/><!-- gtk_tree_model_filter_convert_path_to_child_path -->
+  <renderuse id="_17909" render="0"/><!-- gtk_tree_model_filter_refilter -->
+  <renderuse id="_17910" render="0"/><!-- gtk_tree_model_filter_clear_cache -->
+</renderuses>
+</castxml2pony>

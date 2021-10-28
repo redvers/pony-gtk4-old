@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_18382" render="0"/><!-- gtk_constraint_layout_child_get_type -->
+  <renderuse id="_18407" render="0"/><!-- gtk_constraint_layout_get_type -->
+  <renderuse id="_18433" render="0"/><!-- gtk_constraint_layout_new -->
+  <renderuse id="_18434" render="0"/><!-- gtk_constraint_layout_add_constraint -->
+  <renderuse id="_18435" render="0"/><!-- gtk_constraint_layout_remove_constraint -->
+  <renderuse id="_18436" render="0"/><!-- gtk_constraint_layout_add_guide -->
+  <renderuse id="_18437" render="0"/><!-- gtk_constraint_layout_remove_guide -->
+  <renderuse id="_18438" render="0"/><!-- gtk_constraint_layout_remove_all_constraints -->
+  <renderuse id="_18439" render="0"/><!-- gtk_constraint_layout_add_constraints_from_description -->
+  <renderuse id="_18440" render="0"/><!-- gtk_constraint_layout_add_constraints_from_descriptionv -->
+  <renderuse id="_18441" render="0"/><!-- gtk_constraint_layout_observe_constraints -->
+  <renderuse id="_18442" render="0"/><!-- gtk_constraint_layout_observe_guides -->
+</renderuses>
+</castxml2pony>

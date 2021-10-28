@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktogglebutton.h:54
+  Original Name: _GtkToggleButtonClass
+  Struct Size (bits):  4480
+  Struct Align (bits): 64
+
+  Fields (Offset in bits):
+     000000: [Struct size=3904,fid: f487]: parent_class  
+     003904: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: toggled  
+     003968: [ArrayType size=(0-7)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: padding  
+*/
+struct GtkToggleButtonClass
+  var parent_class: GtkButtonClass = GtkButtonClass
+  var toggled: Pointer[None] = Pointer[None]
+  var padding: Pointer[Pointer[None]] = Pointer[Pointer[None]]

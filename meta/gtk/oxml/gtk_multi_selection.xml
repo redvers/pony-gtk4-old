@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_20114" render="0"/><!-- gtk_multi_selection_get_type -->
+  <renderuse id="_20139" render="0"/><!-- gtk_multi_selection_new -->
+  <renderuse id="_20140" render="0"/><!-- gtk_multi_selection_get_model -->
+  <renderuse id="_20141" render="0"/><!-- gtk_multi_selection_set_model -->
+</renderuses>
+</castxml2pony>

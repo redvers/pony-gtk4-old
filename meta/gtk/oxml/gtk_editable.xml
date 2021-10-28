@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_17790" render="0"/><!-- gtk_editable_get_type" -->
+  <renderuse id="_17791" render="1"/><!-- gtk_editable_get_text" -->
+  <renderuse id="_17792" render="0"/><!-- gtk_editable_set_text" -->
+  <renderuse id="_17793" render="0"/><!-- gtk_editable_get_chars" -->
+  <renderuse id="_17794" render="0"/><!-- gtk_editable_insert_text" -->
+  <renderuse id="_17795" render="0"/><!-- gtk_editable_delete_text" -->
+  <renderuse id="_17796" render="0"/><!-- gtk_editable_get_selection_bounds" -->
+  <renderuse id="_17797" render="0"/><!-- gtk_editable_delete_selection" -->
+  <renderuse id="_17798" render="0"/><!-- gtk_editable_select_region" -->
+  <renderuse id="_17799" render="0"/><!-- gtk_editable_set_position" -->
+  <renderuse id="_17800" render="0"/><!-- gtk_editable_get_position" -->
+  <renderuse id="_17801" render="0"/><!-- gtk_editable_get_editable" -->
+  <renderuse id="_17802" render="0"/><!-- gtk_editable_set_editable" -->
+  <renderuse id="_17803" render="0"/><!-- gtk_editable_get_alignment" -->
+  <renderuse id="_17804" render="0"/><!-- gtk_editable_set_alignment" -->
+  <renderuse id="_17805" render="0"/><!-- gtk_editable_get_width_chars" -->
+  <renderuse id="_17806" render="0"/><!-- gtk_editable_set_width_chars" -->
+  <renderuse id="_17807" render="0"/><!-- gtk_editable_get_max_width_chars" -->
+  <renderuse id="_17808" render="0"/><!-- gtk_editable_set_max_width_chars" -->
+  <renderuse id="_17809" render="0"/><!-- gtk_editable_get_enable_undo" -->
+  <renderuse id="_17810" render="0"/><!-- gtk_editable_set_enable_undo" -->
+  <renderuse id="_17813" render="0"/><!-- gtk_editable_install_properties" -->
+  <renderuse id="_17814" render="0"/><!-- gtk_editable_get_delegate" -->
+  <renderuse id="_17815" render="0"/><!-- gtk_editable_init_delegate" -->
+  <renderuse id="_17816" render="0"/><!-- gtk_editable_finish_delegate" -->
+  <renderuse id="_17817" render="0"/><!-- gtk_editable_delegate_set_property" -->
+  <renderuse id="_17818" render="0"/><!-- gtk_editable_delegate_get_property" -->
+  <renderuse id="_18250" render="0"/><!-- gtk_editable_properties_get_type" -->
+  <renderuse id="_18700" render="0"/><!-- gtk_editable_label_get_type" -->
+  <renderuse id="_18725" render="0"/><!-- gtk_editable_label_new" -->
+  <renderuse id="_18726" render="0"/><!-- gtk_editable_label_get_editing" -->
+  <renderuse id="_18727" render="0"/><!-- gtk_editable_label_start_editing" -->
+  <renderuse id="_18728" render="0"/><!-- gtk_editable_label_stop_editing" -->
+</renderuses>
+</castxml2pony>
+ 

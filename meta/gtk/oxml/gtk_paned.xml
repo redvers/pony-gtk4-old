@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_20449" render="0"/><!-- gtk_paned_get_type -->
+  <renderuse id="_20450" render="0"/><!-- gtk_paned_new -->
+  <renderuse id="_20451" render="0"/><!-- gtk_paned_set_start_child -->
+  <renderuse id="_20452" render="0"/><!-- gtk_paned_get_start_child -->
+  <renderuse id="_20453" render="0"/><!-- gtk_paned_set_resize_start_child -->
+  <renderuse id="_20454" render="0"/><!-- gtk_paned_get_resize_start_child -->
+  <renderuse id="_20455" render="0"/><!-- gtk_paned_set_end_child -->
+  <renderuse id="_20456" render="0"/><!-- gtk_paned_get_end_child -->
+  <renderuse id="_20457" render="0"/><!-- gtk_paned_set_shrink_start_child -->
+  <renderuse id="_20458" render="0"/><!-- gtk_paned_get_shrink_start_child -->
+  <renderuse id="_20459" render="0"/><!-- gtk_paned_set_resize_end_child -->
+  <renderuse id="_20460" render="0"/><!-- gtk_paned_get_resize_end_child -->
+  <renderuse id="_20461" render="0"/><!-- gtk_paned_set_shrink_end_child -->
+  <renderuse id="_20462" render="0"/><!-- gtk_paned_get_shrink_end_child -->
+  <renderuse id="_20463" render="0"/><!-- gtk_paned_get_position -->
+  <renderuse id="_20464" render="0"/><!-- gtk_paned_set_position -->
+  <renderuse id="_20465" render="0"/><!-- gtk_paned_set_wide_handle -->
+  <renderuse id="_20466" render="0"/><!-- gtk_paned_get_wide_handle -->
+</renderuses>
+</castxml2pony>

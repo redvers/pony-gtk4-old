@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_19586" render="0"/><!-- gtk_label_get_type -->
+  <renderuse id="_19587" render="1"/><!-- gtk_label_new -->
+  <renderuse id="_19588" render="1"/><!-- gtk_label_new_with_mnemonic -->
+  <renderuse id="_19589" render="1"/><!-- gtk_label_set_text -->
+  <renderuse id="_19590" render="1"/><!-- gtk_label_get_text -->
+  <renderuse id="_19591" render="1"/><!-- gtk_label_set_attributes -->
+  <renderuse id="_19592" render="1"/><!-- gtk_label_get_attributes -->
+  <renderuse id="_19593" render="1"/><!-- gtk_label_set_label -->
+  <renderuse id="_19594" render="1"/><!-- gtk_label_get_label -->
+  <renderuse id="_19595" render="1"/><!-- gtk_label_set_markup -->
+  <renderuse id="_19596" render="1"/><!-- gtk_label_set_use_markup -->
+  <renderuse id="_19597" render="1"/><!-- gtk_label_get_use_markup -->
+  <renderuse id="_19598" render="1"/><!-- gtk_label_set_use_underline -->
+  <renderuse id="_19599" render="1"/><!-- gtk_label_get_use_underline -->
+  <renderuse id="_19600" render="1"/><!-- gtk_label_set_markup_with_mnemonic -->
+  <renderuse id="_19601" render="1"/><!-- gtk_label_get_mnemonic_keyval -->
+  <renderuse id="_19602" render="1"/><!-- gtk_label_set_mnemonic_widget -->
+  <renderuse id="_19603" render="1"/><!-- gtk_label_get_mnemonic_widget -->
+  <renderuse id="_19604" render="1"/><!-- gtk_label_set_text_with_mnemonic -->
+  <renderuse id="_19605" render="1"/><!-- gtk_label_set_justify -->
+  <renderuse id="_19606" render="1"/><!-- gtk_label_get_justify -->
+  <renderuse id="_19607" render="1"/><!-- gtk_label_set_ellipsize -->
+  <renderuse id="_19608" render="1"/><!-- gtk_label_get_ellipsize -->
+  <renderuse id="_19609" render="1"/><!-- gtk_label_set_width_chars -->
+  <renderuse id="_19610" render="1"/><!-- gtk_label_get_width_chars -->
+  <renderuse id="_19611" render="1"/><!-- gtk_label_set_max_width_chars -->
+  <renderuse id="_19612" render="1"/><!-- gtk_label_get_max_width_chars -->
+  <renderuse id="_19613" render="1"/><!-- gtk_label_set_lines -->
+  <renderuse id="_19614" render="1"/><!-- gtk_label_get_lines -->
+  <renderuse id="_19615" render="1"/><!-- gtk_label_set_wrap -->
+  <renderuse id="_19616" render="1"/><!-- gtk_label_get_wrap -->
+  <renderuse id="_19617" render="1"/><!-- gtk_label_set_wrap_mode -->
+  <renderuse id="_19618" render="1"/><!-- gtk_label_get_wrap_mode -->
+  <renderuse id="_19619" render="1"/><!-- gtk_label_set_selectable -->
+  <renderuse id="_19620" render="1"/><!-- gtk_label_get_selectable -->
+  <renderuse id="_19621" render="1"/><!-- gtk_label_select_region -->
+  <renderuse id="_19622" render="1"/><!-- gtk_label_get_selection_bounds -->
+  <renderuse id="_19623" render="1"/><!-- gtk_label_get_layout -->
+  <renderuse id="_19624" render="1"/><!-- gtk_label_get_layout_offsets -->
+  <renderuse id="_19625" render="1"/><!-- gtk_label_set_single_line_mode -->
+  <renderuse id="_19626" render="1"/><!-- gtk_label_get_single_line_mode -->
+  <renderuse id="_19627" render="1"/><!-- gtk_label_get_current_uri -->
+  <renderuse id="_19628" render="1"/><!-- gtk_label_set_xalign -->
+  <renderuse id="_19629" render="1"/><!-- gtk_label_get_xalign -->
+  <renderuse id="_19630" render="1"/><!-- gtk_label_set_yalign -->
+  <renderuse id="_19631" render="1"/><!-- gtk_label_get_yalign -->
+  <renderuse id="_19632" render="1"/><!-- gtk_label_set_extra_menu -->
+  <renderuse id="_19633" render="1"/><!-- gtk_label_get_extra_menu -->
+</renderuses>
+</castxml2pony>

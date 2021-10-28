@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_19884" render="0"/><!-- gtk_media_controls_get_type -->
+  <renderuse id="_19909" render="0"/><!-- gtk_media_controls_new -->
+  <renderuse id="_19910" render="0"/><!-- gtk_media_controls_get_media_stream -->
+  <renderuse id="_19911" render="0"/><!-- gtk_media_controls_set_media_stream -->
+</renderuses>
+</castxml2pony>

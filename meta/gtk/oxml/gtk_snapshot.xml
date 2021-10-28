@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_21281" render="0"/><!-- gtk_snapshot_get_type -->
+  <renderuse id="_21282" render="0"/><!-- gtk_snapshot_new -->
+  <renderuse id="_21283" render="0"/><!-- gtk_snapshot_free_to_node -->
+  <renderuse id="_21284" render="0"/><!-- gtk_snapshot_free_to_paintable -->
+  <renderuse id="_21285" render="0"/><!-- gtk_snapshot_to_node -->
+  <renderuse id="_21286" render="0"/><!-- gtk_snapshot_to_paintable -->
+  <renderuse id="_21287" render="0"/><!-- gtk_snapshot_push_debug -->
+  <renderuse id="_21288" render="0"/><!-- gtk_snapshot_push_opacity -->
+  <renderuse id="_21289" render="0"/><!-- gtk_snapshot_push_blur -->
+  <renderuse id="_21290" render="0"/><!-- gtk_snapshot_push_color_matrix -->
+  <renderuse id="_21291" render="0"/><!-- gtk_snapshot_push_repeat -->
+  <renderuse id="_21292" render="0"/><!-- gtk_snapshot_push_clip -->
+  <renderuse id="_21293" render="0"/><!-- gtk_snapshot_push_rounded_clip -->
+  <renderuse id="_21294" render="0"/><!-- gtk_snapshot_push_shadow -->
+  <renderuse id="_21295" render="0"/><!-- gtk_snapshot_push_blend -->
+  <renderuse id="_21296" render="0"/><!-- gtk_snapshot_push_cross_fade -->
+  <renderuse id="_21297" render="0"/><!-- gtk_snapshot_push_gl_shader -->
+  <renderuse id="_21298" render="0"/><!-- gtk_snapshot_gl_shader_pop_texture -->
+  <renderuse id="_21299" render="0"/><!-- gtk_snapshot_pop -->
+  <renderuse id="_21300" render="0"/><!-- gtk_snapshot_save -->
+  <renderuse id="_21301" render="0"/><!-- gtk_snapshot_restore -->
+  <renderuse id="_21302" render="0"/><!-- gtk_snapshot_transform -->
+  <renderuse id="_21303" render="0"/><!-- gtk_snapshot_transform_matrix -->
+  <renderuse id="_21304" render="0"/><!-- gtk_snapshot_translate -->
+  <renderuse id="_21305" render="0"/><!-- gtk_snapshot_translate_3d -->
+  <renderuse id="_21306" render="0"/><!-- gtk_snapshot_rotate -->
+  <renderuse id="_21307" render="0"/><!-- gtk_snapshot_rotate_3d -->
+  <renderuse id="_21308" render="0"/><!-- gtk_snapshot_scale -->
+  <renderuse id="_21309" render="0"/><!-- gtk_snapshot_scale_3d -->
+  <renderuse id="_21310" render="0"/><!-- gtk_snapshot_perspective -->
+  <renderuse id="_21311" render="0"/><!-- gtk_snapshot_append_node -->
+  <renderuse id="_21312" render="0"/><!-- gtk_snapshot_append_cairo -->
+  <renderuse id="_21313" render="0"/><!-- gtk_snapshot_append_texture -->
+  <renderuse id="_21314" render="0"/><!-- gtk_snapshot_append_color -->
+  <renderuse id="_21315" render="0"/><!-- gtk_snapshot_append_linear_gradient -->
+  <renderuse id="_21316" render="0"/><!-- gtk_snapshot_append_repeating_linear_gradient -->
+  <renderuse id="_21317" render="0"/><!-- gtk_snapshot_append_radial_gradient -->
+  <renderuse id="_21318" render="0"/><!-- gtk_snapshot_append_repeating_radial_gradient -->
+  <renderuse id="_21319" render="0"/><!-- gtk_snapshot_append_conic_gradient -->
+  <renderuse id="_21320" render="0"/><!-- gtk_snapshot_append_border -->
+  <renderuse id="_21321" render="0"/><!-- gtk_snapshot_append_inset_shadow -->
+  <renderuse id="_21322" render="0"/><!-- gtk_snapshot_append_outset_shadow -->
+  <renderuse id="_21323" render="0"/><!-- gtk_snapshot_append_layout -->
+  <renderuse id="_21324" render="0"/><!-- gtk_snapshot_render_background -->
+  <renderuse id="_21325" render="0"/><!-- gtk_snapshot_render_frame -->
+  <renderuse id="_21326" render="0"/><!-- gtk_snapshot_render_focus -->
+  <renderuse id="_21327" render="0"/><!-- gtk_snapshot_render_layout -->
+  <renderuse id="_21328" render="0"/><!-- gtk_snapshot_render_insertion_cursor -->
+</renderuses>
+</castxml2pony>

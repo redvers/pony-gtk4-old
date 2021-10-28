@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_17054" render="0"/><!-- gtk_builder_cscope_get_type -->
+  <renderuse id="_17081" render="0"/><!-- gtk_builder_cscope_new -->
+  <renderuse id="_17082" render="0"/><!-- gtk_builder_cscope_add_callback_symbol -->
+  <renderuse id="_17083" render="0"/><!-- gtk_builder_cscope_add_callback_symbols -->
+  <renderuse id="_17084" render="0"/><!-- gtk_builder_cscope_lookup_callback_symbol -->
+</renderuses>
+</castxml2pony>

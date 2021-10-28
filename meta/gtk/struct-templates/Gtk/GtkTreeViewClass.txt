@@ -1,0 +1,45 @@
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtktreeview.h:145
+  Original Name: _GtkTreeViewClass
+  Struct Size (bits):  5248
+  Struct Align (bits): 64
+
+  Fields (Offset in bits):
+     000000: [Struct size=3264,fid: f452]: parent_class  
+     003264: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: row_activated  
+     003328: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: test_expand_row  
+     003392: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: test_collapse_row  
+     003456: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: row_expanded  
+     003520: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: row_collapsed  
+     003584: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: columns_changed  
+     003648: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: cursor_changed  
+     003712: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: move_cursor  
+     003776: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: select_all  
+     003840: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: unselect_all  
+     003904: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: select_cursor_row  
+     003968: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: toggle_cursor_row  
+     004032: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: expand_collapse_cursor_row  
+     004096: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: select_cursor_parent  
+     004160: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: start_interactive_search  
+     004224: [ArrayType size=(0-15)]->[PointerType size=64]->[FundamentalType(void) size=0] -- UNSUPPORTED - FIXME: _reserved  
+*/
+struct GtkTreeViewClass
+  var parent_class: GtkWidgetClass = GtkWidgetClass
+  var row_activated: Pointer[None] = Pointer[None]
+  var test_expand_row: Pointer[None] = Pointer[None]
+  var test_collapse_row: Pointer[None] = Pointer[None]
+  var row_expanded: Pointer[None] = Pointer[None]
+  var row_collapsed: Pointer[None] = Pointer[None]
+  var columns_changed: Pointer[None] = Pointer[None]
+  var cursor_changed: Pointer[None] = Pointer[None]
+  var move_cursor: Pointer[None] = Pointer[None]
+  var select_all: Pointer[None] = Pointer[None]
+  var unselect_all: Pointer[None] = Pointer[None]
+  var select_cursor_row: Pointer[None] = Pointer[None]
+  var toggle_cursor_row: Pointer[None] = Pointer[None]
+  var expand_collapse_cursor_row: Pointer[None] = Pointer[None]
+  var select_cursor_parent: Pointer[None] = Pointer[None]
+  var start_interactive_search: Pointer[None] = Pointer[None]
+  var _reserved: Pointer[Pointer[None]] = Pointer[Pointer[None]]

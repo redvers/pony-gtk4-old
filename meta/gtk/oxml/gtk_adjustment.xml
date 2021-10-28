@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_16517" render="0"/><!-- gtk_adjustment_get_type -->
+  <renderuse id="_16518" render="0"/><!-- gtk_adjustment_new -->
+  <renderuse id="_16519" render="0"/><!-- gtk_adjustment_clamp_page -->
+  <renderuse id="_16520" render="0"/><!-- gtk_adjustment_get_value -->
+  <renderuse id="_16521" render="0"/><!-- gtk_adjustment_set_value -->
+  <renderuse id="_16522" render="0"/><!-- gtk_adjustment_get_lower -->
+  <renderuse id="_16523" render="0"/><!-- gtk_adjustment_set_lower -->
+  <renderuse id="_16524" render="0"/><!-- gtk_adjustment_get_upper -->
+  <renderuse id="_16525" render="0"/><!-- gtk_adjustment_set_upper -->
+  <renderuse id="_16526" render="0"/><!-- gtk_adjustment_get_step_increment -->
+  <renderuse id="_16527" render="0"/><!-- gtk_adjustment_set_step_increment -->
+  <renderuse id="_16528" render="0"/><!-- gtk_adjustment_get_page_increment -->
+  <renderuse id="_16529" render="0"/><!-- gtk_adjustment_set_page_increment -->
+  <renderuse id="_16530" render="0"/><!-- gtk_adjustment_get_page_size -->
+  <renderuse id="_16531" render="0"/><!-- gtk_adjustment_set_page_size -->
+  <renderuse id="_16532" render="0"/><!-- gtk_adjustment_configure -->
+  <renderuse id="_16533" render="0"/><!-- gtk_adjustment_get_minimum_increment -->
+</renderuses>
+</castxml2pony>

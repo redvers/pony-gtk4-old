@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_20559" render="0"/><!-- gtk_print_settings_get_type -->
+  <renderuse id="_20560" render="0"/><!-- gtk_print_settings_new -->
+  <renderuse id="_20561" render="0"/><!-- gtk_print_settings_copy -->
+  <renderuse id="_20562" render="0"/><!-- gtk_print_settings_new_from_file -->
+  <renderuse id="_20563" render="0"/><!-- gtk_print_settings_load_file -->
+  <renderuse id="_20564" render="0"/><!-- gtk_print_settings_to_file -->
+  <renderuse id="_20565" render="0"/><!-- gtk_print_settings_new_from_key_file -->
+  <renderuse id="_20566" render="0"/><!-- gtk_print_settings_load_key_file -->
+  <renderuse id="_20567" render="0"/><!-- gtk_print_settings_to_key_file -->
+  <renderuse id="_20568" render="0"/><!-- gtk_print_settings_has_key -->
+  <renderuse id="_20569" render="0"/><!-- gtk_print_settings_get -->
+  <renderuse id="_20570" render="0"/><!-- gtk_print_settings_set -->
+  <renderuse id="_20571" render="0"/><!-- gtk_print_settings_unset -->
+  <renderuse id="_20572" render="0"/><!-- gtk_print_settings_foreach -->
+  <renderuse id="_20573" render="0"/><!-- gtk_print_settings_get_bool -->
+  <renderuse id="_20574" render="0"/><!-- gtk_print_settings_set_bool -->
+  <renderuse id="_20575" render="0"/><!-- gtk_print_settings_get_double -->
+  <renderuse id="_20576" render="0"/><!-- gtk_print_settings_get_double_with_default -->
+  <renderuse id="_20577" render="0"/><!-- gtk_print_settings_set_double -->
+  <renderuse id="_20578" render="0"/><!-- gtk_print_settings_get_length -->
+  <renderuse id="_20579" render="0"/><!-- gtk_print_settings_set_length -->
+  <renderuse id="_20580" render="0"/><!-- gtk_print_settings_get_int -->
+  <renderuse id="_20581" render="0"/><!-- gtk_print_settings_get_int_with_default -->
+  <renderuse id="_20582" render="0"/><!-- gtk_print_settings_set_int -->
+  <renderuse id="_20583" render="0"/><!-- gtk_print_settings_get_printer -->
+  <renderuse id="_20584" render="0"/><!-- gtk_print_settings_set_printer -->
+  <renderuse id="_20585" render="0"/><!-- gtk_print_settings_get_orientation -->
+  <renderuse id="_20586" render="0"/><!-- gtk_print_settings_set_orientation -->
+  <renderuse id="_20587" render="0"/><!-- gtk_print_settings_get_paper_size -->
+  <renderuse id="_20588" render="0"/><!-- gtk_print_settings_set_paper_size -->
+  <renderuse id="_20589" render="0"/><!-- gtk_print_settings_get_paper_width -->
+  <renderuse id="_20590" render="0"/><!-- gtk_print_settings_set_paper_width -->
+  <renderuse id="_20591" render="0"/><!-- gtk_print_settings_get_paper_height -->
+  <renderuse id="_20592" render="0"/><!-- gtk_print_settings_set_paper_height -->
+  <renderuse id="_20593" render="0"/><!-- gtk_print_settings_get_use_color -->
+  <renderuse id="_20594" render="0"/><!-- gtk_print_settings_set_use_color -->
+  <renderuse id="_20595" render="0"/><!-- gtk_print_settings_get_collate -->
+  <renderuse id="_20596" render="0"/><!-- gtk_print_settings_set_collate -->
+  <renderuse id="_20597" render="0"/><!-- gtk_print_settings_get_reverse -->
+  <renderuse id="_20598" render="0"/><!-- gtk_print_settings_set_reverse -->
+  <renderuse id="_20599" render="0"/><!-- gtk_print_settings_get_duplex -->
+  <renderuse id="_20600" render="0"/><!-- gtk_print_settings_set_duplex -->
+  <renderuse id="_20601" render="0"/><!-- gtk_print_settings_get_quality -->
+  <renderuse id="_20602" render="0"/><!-- gtk_print_settings_set_quality -->
+  <renderuse id="_20603" render="0"/><!-- gtk_print_settings_get_n_copies -->
+  <renderuse id="_20604" render="0"/><!-- gtk_print_settings_set_n_copies -->
+  <renderuse id="_20605" render="0"/><!-- gtk_print_settings_get_number_up -->
+  <renderuse id="_20606" render="0"/><!-- gtk_print_settings_set_number_up -->
+  <renderuse id="_20607" render="0"/><!-- gtk_print_settings_get_number_up_layout -->
+  <renderuse id="_20608" render="0"/><!-- gtk_print_settings_set_number_up_layout -->
+  <renderuse id="_20609" render="0"/><!-- gtk_print_settings_get_resolution -->
+  <renderuse id="_20610" render="0"/><!-- gtk_print_settings_set_resolution -->
+  <renderuse id="_20611" render="0"/><!-- gtk_print_settings_get_resolution_x -->
+  <renderuse id="_20612" render="0"/><!-- gtk_print_settings_get_resolution_y -->
+  <renderuse id="_20613" render="0"/><!-- gtk_print_settings_set_resolution_xy -->
+  <renderuse id="_20614" render="0"/><!-- gtk_print_settings_get_printer_lpi -->
+  <renderuse id="_20615" render="0"/><!-- gtk_print_settings_set_printer_lpi -->
+  <renderuse id="_20616" render="0"/><!-- gtk_print_settings_get_scale -->
+  <renderuse id="_20617" render="0"/><!-- gtk_print_settings_set_scale -->
+  <renderuse id="_20618" render="0"/><!-- gtk_print_settings_get_print_pages -->
+  <renderuse id="_20619" render="0"/><!-- gtk_print_settings_set_print_pages -->
+  <renderuse id="_20620" render="0"/><!-- gtk_print_settings_get_page_ranges -->
+  <renderuse id="_20621" render="0"/><!-- gtk_print_settings_set_page_ranges -->
+  <renderuse id="_20622" render="0"/><!-- gtk_print_settings_get_page_set -->
+  <renderuse id="_20623" render="0"/><!-- gtk_print_settings_set_page_set -->
+  <renderuse id="_20624" render="0"/><!-- gtk_print_settings_get_default_source -->
+  <renderuse id="_20625" render="0"/><!-- gtk_print_settings_set_default_source -->
+  <renderuse id="_20626" render="0"/><!-- gtk_print_settings_get_media_type -->
+  <renderuse id="_20627" render="0"/><!-- gtk_print_settings_set_media_type -->
+  <renderuse id="_20628" render="0"/><!-- gtk_print_settings_get_dither -->
+  <renderuse id="_20629" render="0"/><!-- gtk_print_settings_set_dither -->
+  <renderuse id="_20630" render="0"/><!-- gtk_print_settings_get_finishings -->
+  <renderuse id="_20631" render="0"/><!-- gtk_print_settings_set_finishings -->
+  <renderuse id="_20632" render="0"/><!-- gtk_print_settings_get_output_bin -->
+  <renderuse id="_20633" render="0"/><!-- gtk_print_settings_set_output_bin -->
+  <renderuse id="_20634" render="0"/><!-- gtk_print_settings_to_gvariant -->
+  <renderuse id="_20635" render="0"/><!-- gtk_print_settings_new_from_gvariant -->
+</renderuses>
+</castxml2pony>

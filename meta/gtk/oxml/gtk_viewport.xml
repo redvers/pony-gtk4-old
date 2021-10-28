@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_22219" render="0"/><!-- gtk_viewport_get_type -->
+  <renderuse id="_22220" render="0"/><!-- gtk_viewport_new -->
+  <renderuse id="_22221" render="0"/><!-- gtk_viewport_get_scroll_to_focus -->
+  <renderuse id="_22222" render="0"/><!-- gtk_viewport_set_scroll_to_focus -->
+  <renderuse id="_22223" render="0"/><!-- gtk_viewport_set_child -->
+  <renderuse id="_22224" render="0"/><!-- gtk_viewport_get_child -->
+</renderuses>
+</castxml2pony>

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /nix/store/xrn67nh83wyghnvi9v31m5ck6zys3qrh-gtk4-4.2.1-dev/include/gtk-4.0/gtk/gtkprintoperation.h:123
+  Original Name: _GtkPrintOperation
+  Struct Size (bits):  256
+  Struct Align (bits): 64
+
+  Fields (Offset in bits):
+     000000: [Struct size=192,fid: f141]: parent_instance  
+     000192: [PointerType size=64]->[Struct size=,fid: f633]: priv  
+*/
+struct GtkPrintOperation
+  embed parent_instance: GObject = GObject
+  var priv: NullablePointer[GtkPrintOperationPrivate] = NullablePointer[GtkPrintOperationPrivate].none()

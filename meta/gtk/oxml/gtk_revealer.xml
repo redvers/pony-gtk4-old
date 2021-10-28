@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<castxml2pony xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="./usetypes.xml"/>
+<xi:include href="./gtk4.xml"/>
+<xi:include href="./use.xml"/>
+<xi:include href="./Gtk-4.0.gir"/>
+<renderuses>
+  <renderuse id="_18327" render="0"/><!-- gtk_revealer_transition_type_get_type -->
+  <renderuse id="_20803" render="0"/><!-- gtk_revealer_get_type -->
+  <renderuse id="_20804" render="0"/><!-- gtk_revealer_new -->
+  <renderuse id="_20805" render="0"/><!-- gtk_revealer_get_reveal_child -->
+  <renderuse id="_20806" render="0"/><!-- gtk_revealer_set_reveal_child -->
+  <renderuse id="_20807" render="0"/><!-- gtk_revealer_get_child_revealed -->
+  <renderuse id="_20808" render="0"/><!-- gtk_revealer_get_transition_duration -->
+  <renderuse id="_20809" render="0"/><!-- gtk_revealer_set_transition_duration -->
+  <renderuse id="_20810" render="0"/><!-- gtk_revealer_set_transition_type -->
+  <renderuse id="_20811" render="0"/><!-- gtk_revealer_get_transition_type -->
+  <renderuse id="_20812" render="0"/><!-- gtk_revealer_set_child -->
+  <renderuse id="_20813" render="0"/><!-- gtk_revealer_get_child -->
+</renderuses>
+</castxml2pony>
