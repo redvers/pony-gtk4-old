@@ -6,22 +6,21 @@
 <xsl:param name="namespace" />
 
 <xsl:template match="/bp">
-<xsl:for-each select="/bp/render/constructor"><xsl:call-template name="constructor"/></xsl:for-each>
+<xsl:for-each select="/bp/render/method[@render='1']"><xsl:call-template name="method"/></xsl:for-each>
 </xsl:template>
-<xsl:template match="/bp/render/constructor"><xsl:call-template name="constructor"/></xsl:template>
 
-<xsl:template name="constructor">
+<xsl:template name="method">
 	<xsl:variable name="cname" select="@name"/>
-	<xsl:text>  new </xsl:text>
+	<xsl:text>  fun ref </xsl:text>
 	<xsl:variable name="rawponyname"><xsl:call-template name="nativefnname"><xsl:with-param name="cname" select="$cname"/></xsl:call-template></xsl:variable>
 	<xsl:call-template name="reservedfn"><xsl:with-param name="fname" select="$rawponyname"/></xsl:call-template>
 	<xsl:text>(</xsl:text><xsl:call-template name="usefnparams"><xsl:with-param name="cname" select="$cname"/></xsl:call-template>
-	<xsl:text>) =>
+	<xsl:text>): </xsl:text><xsl:call-template name="usefnrv"><xsl:with-param name="cname" select="@name"/></xsl:call-template><xsl:text> =>
 </xsl:text>
 <xsl:variable name="ctype" select="/bp/t:repository/t:namespace/t:class/*[@c:identifier=$cname]/t:return-value/t:type/@c:type"/>
 <xsl:value-of select="/bp/ctypes/type[@name=$ctype]/prefixes/prefix"/>
 <xsl:text>    @</xsl:text><xsl:value-of select="$cname"/>
-<xsl:text>(</xsl:text><xsl:call-template name="fnparams"><xsl:with-param name="cname" select="$cname"/></xsl:call-template>
+<xsl:text>(this</xsl:text><xsl:call-template name="fnparams"><xsl:with-param name="cname" select="$cname"/></xsl:call-template>
 <xsl:text>)
 </xsl:text>
 <xsl:for-each select="/bp/ctypes/type[@name=$ctype]/suffixes/suffix/text()">
@@ -47,7 +46,7 @@
 
 <xsl:template name="fnparams">
 <xsl:param name="cname"/>
-<xsl:variable name="parameter" select="/bp/t:repository/t:namespace/t:class/*[@c:identifier=$cname]/t:parameters/*"/>
+<xsl:variable name="parameter" select="/bp/t:repository/t:namespace/t:class/*[@c:identifier=$cname]/t:parameters/t:parameter"/>
 <xsl:call-template name="joinfn"><xsl:with-param name="valueList" select="$parameter"/></xsl:call-template>
 </xsl:template>
 
@@ -62,7 +61,7 @@
 
 <xsl:template name="usefnparams">
 <xsl:param name="cname"/>
-<xsl:variable name="parameter" select="/bp/t:repository/t:namespace/t:class/*[@c:identifier=$cname]/t:parameters/*"/>
+<xsl:variable name="parameter" select="/bp/t:repository/t:namespace/t:class/*[@c:identifier=$cname]/t:parameters/t:parameter"/>
 <xsl:call-template name="join"><xsl:with-param name="valueList" select="$parameter"/></xsl:call-template>
 </xsl:template>
 
@@ -71,7 +70,7 @@
   <xsl:param name="separator" select="', '"/>
   <xsl:for-each select="$valueList">
      <xsl:choose>
-       <xsl:when test="position() = 1">
+       <xsl:when test="position() = 0">
          <xsl:variable name="name"><xsl:value-of select="./@name"/></xsl:variable>
          <xsl:variable name="pctype"><xsl:value-of select="./t:type/@c:type"/></xsl:variable>
          <xsl:value-of select="$name"/>

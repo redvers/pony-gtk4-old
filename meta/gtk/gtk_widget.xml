@@ -18,8 +18,8 @@
   <function name="gtk_widget_get_default_direction" render="0"/>
 
   <method name="gtk_widget_unparent" render="0"/>
-  <method name="gtk_widget_show" render="0"/>
-  <method name="gtk_widget_hide" render="0"/>
+  <method name="gtk_widget_show" render="1"/>
+  <method name="gtk_widget_hide" render="1"/>
   <method name="gtk_widget_map" render="0"/>
   <method name="gtk_widget_unmap" render="0"/>
   <method name="gtk_widget_realize" render="0"/>
@@ -46,11 +46,11 @@
   <method name="gtk_widget_class_get_activate_signal" render="0"/>
   <method name="gtk_widget_mnemonic_activate" render="0"/>
   <method name="gtk_widget_activate" render="0"/>
-  <method name="gtk_widget_set_can_focus" render="0"/>
-  <method name="gtk_widget_get_can_focus" render="0"/>
+  <method name="gtk_widget_set_can_focus" render="1"/>
+  <method name="gtk_widget_get_can_focus" render="1"/>
   <method name="gtk_widget_set_focusable" render="0"/>
   <method name="gtk_widget_get_focusable" render="0"/>
-  <method name="gtk_widget_has_focus" render="0"/>
+  <method name="gtk_widget_has_focus" render="1"/>
   <method name="gtk_widget_is_focus" render="0"/>
   <method name="gtk_widget_has_visible_focus" render="0"/>
   <method name="gtk_widget_grab_focus" render="0"/>
@@ -61,8 +61,8 @@
   <method name="gtk_widget_has_default" render="0"/>
   <method name="gtk_widget_set_receives_default" render="0"/>
   <method name="gtk_widget_get_receives_default" render="0"/>
-  <method name="gtk_widget_set_name" render="0"/>
-  <method name="gtk_widget_get_name" render="0"/>
+  <method name="gtk_widget_set_name" render="1"/>
+  <method name="gtk_widget_get_name" render="1"/>
   <method name="gtk_widget_set_state_flags" render="0"/>
   <method name="gtk_widget_unset_state_flags" render="0"/>
   <method name="gtk_widget_get_state_flags" render="0"/>

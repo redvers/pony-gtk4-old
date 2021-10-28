@@ -19,6 +19,7 @@
   <function name="gtk_window_set_auto_startup_notification" render="1"/>
   <constructor name="gtk_window_new" render="1"/><!-- gtk_window_new -->
   <method name="gtk_window_set_title" render="1"/><!-- gtk_window_set_title -->
+  <method name="gtk_window_get_title" render="1"/><!-- gtk_window_set_title -->
   <method name="gtk_window_close" render="1"/><!-- gtk_window_close -->
   <method name="gtk_window_get_application" render="0"/><!-- gtk_window_get_application -->
   <method name="gtk_window_set_application" render="0"/><!-- gtk_window_set_application -->
@@ -26,7 +27,6 @@
   <method name="gtk_window_get_child" render="1"/><!-- gtk_window_get_child -->
   <method name="gtk_window_destroy" render="1"/><!-- gtk_window_destroy -->
   <method name="gtk_window_get_default_size" render="1"/><!-- gtk_window_destroy -->
-  <method name="gtk_widget_show" render="1"/><!-- gtk_widget_show -->
 </render>
 
 </bp>
