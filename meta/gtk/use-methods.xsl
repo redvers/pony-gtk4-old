@@ -43,7 +43,7 @@
 
 <xsl:template name="usepair">
 <xsl:param name="parampair"/>
-<xsl:value-of select="./@name"/><xsl:text>: </xsl:text><xsl:call-template name="c2pony"><xsl:with-param name="ctype" select="./*/@c:type"/></xsl:call-template>
+<xsl:text>g</xsl:text><xsl:value-of select="./@name"/><xsl:text>: </xsl:text><xsl:call-template name="c2pony"><xsl:with-param name="ctype" select="./*/@c:type"/></xsl:call-template> <!-- dirty rotten cheap hac FIXME -->
 </xsl:template>
 
 <xsl:template name="usefnrv">
