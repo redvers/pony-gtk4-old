@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <method name="gtk_builder_cscope_get_type" render="0"/>
+  <method name="gtk_builder_cscope_new" render="0"/>
+  <method name="gtk_builder_cscope_add_callback_symbol" render="0"/>
+  <method name="gtk_builder_cscope_add_callback_symbols" render="0"/>
+  <method name="gtk_builder_cscope_lookup_callback_symbol" render="0"/>
+  <method name="gtk_builder_error_quark" render="0"/>
+  <method name="gtk_builder_get_type" render="0"/>
+  <constructor name="gtk_builder_new" render="1"/>
+  <method name="gtk_builder_add_from_file" render="1"/>
+  <method name="gtk_builder_add_from_resource" render="1"/>
+  <method name="gtk_builder_add_from_string" render="1"/>
+  <method name="gtk_builder_add_objects_from_file" render="0"/>
+  <method name="gtk_builder_add_objects_from_resource" render="0"/>
+  <method name="gtk_builder_add_objects_from_string" render="0"/>
+  <method name="gtk_builder_get_object" render="1"/>
+  <method name="gtk_builder_get_objects" render="1"/>
+  <method name="gtk_builder_expose_object" render="0"/>
+  <method name="gtk_builder_get_current_object" render="0"/>
+  <method name="gtk_builder_set_current_object" render="0"/>
+  <method name="gtk_builder_set_translation_domain" render="0"/>
+  <method name="gtk_builder_get_translation_domain" render="0"/>
+  <method name="gtk_builder_get_scope" render="0"/>
+  <method name="gtk_builder_set_scope" render="0"/>
+  <method name="gtk_builder_get_type_from_name" render="0"/>
+  <method name="gtk_builder_value_from_string" render="0"/>
+  <method name="gtk_builder_value_from_string_type" render="0"/>
+  <constructor name="gtk_builder_new_from_file" render="1"/>
+  <constructor name="gtk_builder_new_from_resource" render="1"/>
+  <constructor name="gtk_builder_new_from_string" render="1"/>
+  <method name="gtk_builder_create_closure" render="0"/>
+  <method name="gtk_builder_extend_with_template" render="0"/>
+  <method name="gtk_builder_list_item_factory_get_type" render="0"/>
+  <method name="gtk_builder_list_item_factory_new_from_bytes" render="0"/>
+  <method name="gtk_builder_list_item_factory_new_from_resource" render="0"/>
+  <method name="gtk_builder_list_item_factory_get_bytes" render="0"/>
+  <method name="gtk_builder_list_item_factory_get_resource" render="0"/>
+  <method name="gtk_builder_list_item_factory_get_scope" render="0"/>
+  <method name="gtk_builder_error_get_type" render="0"/>
+  <method name="gtk_builder_closure_flags_get_type" render="0"/>
+</render>
+</bp>
