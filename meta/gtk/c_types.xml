@@ -32,6 +32,6 @@
   <type name="GtkWidget*" ponyusearg="GtkWidget" ponyuserv="GtkWidget" ponyfnrv="GtkWidget"/>
 
   <reservedfns>
-    <reserved name="new" newname="create"/>
+    <reserved name="new" newname="gnew"/>
   </reservedfns>
 </ctypes>

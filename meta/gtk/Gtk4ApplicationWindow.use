@@ -1,6 +1,0 @@
-
-use "PangoSys"
-use "GLibSys"
-use "debug"
-
-use @gtk_application_window_new[NullablePointer[SGtkWidget]](application: NullablePointer[SGtkApplication] tag)

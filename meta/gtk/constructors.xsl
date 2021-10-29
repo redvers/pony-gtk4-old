@@ -12,11 +12,11 @@
 
 <xsl:template name="constructor">
 	<xsl:variable name="cname" select="@name"/>
-	<xsl:text>  new </xsl:text>
+	<xsl:text>  fun </xsl:text>
 	<xsl:variable name="rawponyname"><xsl:call-template name="nativefnname"><xsl:with-param name="cname" select="$cname"/></xsl:call-template></xsl:variable>
 	<xsl:call-template name="reservedfn"><xsl:with-param name="fname" select="$rawponyname"/></xsl:call-template>
 	<xsl:text>(</xsl:text><xsl:call-template name="usefnparams"><xsl:with-param name="cname" select="$cname"/></xsl:call-template>
-	<xsl:text>) =>
+	<xsl:text>): </xsl:text><xsl:value-of select="$namespace"/><xsl:value-of select="$class"/><xsl:text> =>
 </xsl:text>
 <xsl:variable name="ctype" select="/bp/t:repository/t:namespace/t:class/*[@c:identifier=$cname]/t:return-value/t:type/@c:type"/>
 <xsl:value-of select="/bp/ctypes/type[@name=$ctype]/prefixes/prefix"/>

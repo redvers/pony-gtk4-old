@@ -1,6 +1,0 @@
-
-use "PangoSys"
-use "GLibSys"
-use "debug"
-
-use @gtk_gesture_click_new[NullablePointer[SGtkGesture]]()

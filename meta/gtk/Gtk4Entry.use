@@ -1,9 +1,0 @@
-
-use "PangoSys"
-use "GLibSys"
-use "debug"
-
-use @gtk_entry_new[NullablePointer[SGtkWidget]]()
-use @gtk_entry_get_text_length[U16](entry: NullablePointer[SGtkEntry] tag)
-use @gtk_entry_set_activates_default[None](entry: NullablePointer[SGtkEntry] tag, setting: I32)
-use @gtk_entry_get_activates_default[I32](entry: NullablePointer[SGtkEntry] tag)

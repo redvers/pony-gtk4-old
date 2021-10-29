@@ -1,6 +1,0 @@
-
-use "PangoSys"
-use "GLibSys"
-use "debug"
-
-use @gtk_gesture_single_set_button[None](gesture: NullablePointer[SGtkGestureSingle] tag, button: U32)

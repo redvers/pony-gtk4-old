@@ -1,8 +1,0 @@
-
-use "PangoSys"
-use "GLibSys"
-use "debug"
-
-use @gtk_frame_new[NullablePointer[SGtkWidget]](label: Pointer[U8] tag)
-use @gtk_frame_set_child[None](frame: NullablePointer[SGtkFrame] tag, child: NullablePointer[SGtkWidget] tag)
-use @gtk_frame_get_child[NullablePointer[SGtkWidget]](frame: NullablePointer[SGtkFrame] tag)

@@ -1,6 +1,0 @@
-
-use "PangoSys"
-use "GLibSys"
-use "debug"
-
-use @gtk_editable_get_text[Pointer[U8]](editable: NullablePointer[SGtkEditable] tag)
