@@ -1,10 +1,10 @@
 use "GLibSys"
 use "GLib"
-use @gtk_builder_add_from_file[Bool](builder: GtkBuilder, filename: Pointer[U8] tag)
-use @gtk_builder_add_from_resource[Bool](builder: GtkBuilder, resource_path: Pointer[U8] tag)
-use @gtk_builder_add_from_string[Bool](builder: GtkBuilder, buffer: Pointer[U8] tag, length: ISize)
-use @gtk_builder_get_object[GObject](builder: GtkBuilder, name: Pointer[U8] tag)
-use @gtk_builder_get_objects[GSList](builder: GtkBuilder)
+use @gtk_builder_add_from_file[Bool](gbuilder: GtkBuilder, gfilename: Pointer[U8] tag)
+use @gtk_builder_add_from_resource[Bool](gbuilder: GtkBuilder, gresource_path: Pointer[U8] tag)
+use @gtk_builder_add_from_string[Bool](gbuilder: GtkBuilder, gbuffer: Pointer[U8] tag, glength: ISize)
+use @gtk_builder_get_object[GObject](gbuilder: GtkBuilder, gname: Pointer[U8] tag)
+use @gtk_builder_get_objects[GSList](gbuilder: GtkBuilder)
 
 
 /*

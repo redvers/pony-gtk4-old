@@ -1,8 +1,8 @@
 use "GLibSys"
 use "GLib"
-use @gtk_application_window_set_show_menubar[None](window: GtkApplicationWindow, show_menubar: Bool)
-use @gtk_application_window_get_show_menubar[Bool](window: GtkApplicationWindow)
-use @gtk_application_window_get_id[U32](window: GtkApplicationWindow)
+use @gtk_application_window_set_show_menubar[None](gwindow: GtkApplicationWindow, gshow_menubar: Bool)
+use @gtk_application_window_get_show_menubar[Bool](gwindow: GtkApplicationWindow)
+use @gtk_application_window_get_id[U32](gwindow: GtkApplicationWindow)
 
 
 /*

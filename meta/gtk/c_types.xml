@@ -39,6 +39,7 @@
   <type name="GtkApplicationWindow*" ponyusearg="GtkApplicationWindow" ponyuserv="GtkApplicationWindow" ponyfnrv="GtkApplicationWindow"/>
   <type name="GtkBox*" ponyusearg="GtkBox" ponyuserv="GtkBox" ponyfnrv="GtkBox"/>
   <type name="GtkBuilder*" ponyusearg="GtkBuilder" ponyuserv="GtkBuilder" ponyfnrv="GtkBuilder"/>
+  <type name="GtkButton*" ponyusearg="GtkButton" ponyuserv="GtkButton" ponyfnrv="GtkButton"/>
   <type name="GObject*" ponyusearg="GObject" ponyuserv="GObject" ponyfnrv="GObject"/>
   <type name="GSList*" ponyusearg="GSList" ponyuserv="GSList" ponyfnrv="GSList"/>
 

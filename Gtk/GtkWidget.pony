@@ -1,12 +1,12 @@
 use "GLibSys"
 use "GLib"
-use @gtk_widget_show[None](widget: GtkWidget)
-use @gtk_widget_hide[None](widget: GtkWidget)
-use @gtk_widget_set_can_focus[None](widget: GtkWidget, can_focus: Bool)
-use @gtk_widget_get_can_focus[Bool](widget: GtkWidget)
-use @gtk_widget_has_focus[Bool](widget: GtkWidget)
-use @gtk_widget_set_name[None](widget: GtkWidget, name: Pointer[U8] tag)
-use @gtk_widget_get_name[Pointer[U8]](widget: GtkWidget)
+use @gtk_widget_show[None](gwidget: GtkWidget)
+use @gtk_widget_hide[None](gwidget: GtkWidget)
+use @gtk_widget_set_can_focus[None](gwidget: GtkWidget, gcan_focus: Bool)
+use @gtk_widget_get_can_focus[Bool](gwidget: GtkWidget)
+use @gtk_widget_has_focus[Bool](gwidget: GtkWidget)
+use @gtk_widget_set_name[None](gwidget: GtkWidget, gname: Pointer[U8] tag)
+use @gtk_widget_get_name[Pointer[U8]](gwidget: GtkWidget)
 
 
 /*

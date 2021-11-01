@@ -1,12 +1,12 @@
 use "GLibSys"
 use "GLib"
-use @gtk_window_set_title[None](window: GtkWindow, title: Pointer[U8] tag)
-use @gtk_window_get_title[Pointer[U8]](window: GtkWindow)
-use @gtk_window_close[None](window: GtkWindow)
-use @gtk_window_set_child[None](window: GtkWindow, child: GtkWidget)
-use @gtk_window_get_child[GtkWidget](window: GtkWindow)
-use @gtk_window_destroy[None](window: GtkWindow)
-use @gtk_window_get_default_size[None](window: GtkWindow, width: Pointer[I32], height: Pointer[I32])
+use @gtk_window_set_title[None](gwindow: GtkWindow, gtitle: Pointer[U8] tag)
+use @gtk_window_get_title[Pointer[U8]](gwindow: GtkWindow)
+use @gtk_window_close[None](gwindow: GtkWindow)
+use @gtk_window_set_child[None](gwindow: GtkWindow, gchild: GtkWidget)
+use @gtk_window_get_child[GtkWidget](gwindow: GtkWindow)
+use @gtk_window_destroy[None](gwindow: GtkWindow)
+use @gtk_window_get_default_size[None](gwindow: GtkWindow, gwidth: Pointer[I32], gheight: Pointer[I32])
 
 
 /*

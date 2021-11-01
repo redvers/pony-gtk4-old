@@ -1,6 +1,6 @@
 use "GLibSys"
 use "GLib"
-use @gtk_application_add_window[None](application: GtkApplication, window: GtkWindow)
+use @gtk_application_add_window[None](gapplication: GtkApplication, gwindow: GtkWindow)
 
 
 /*
