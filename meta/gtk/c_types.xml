@@ -33,6 +33,7 @@
   <type name="gboolean" ponyusearg="Bool" ponyuserv="Bool" ponyfnrv="Bool"/>
 
   <type name="GtkWindow*" ponyusearg="GtkWindow" ponyuserv="GtkWindow" ponyfnrv="GtkWindow"/>
+  <type name="GtkWindowGroup*" ponyusearg="GtkWindowGroup" ponyuserv="GtkWindowGroup" ponyfnrv="GtkWindowGroup"/>
   <type name="GtkWidget*" ponyusearg="GtkWidget" ponyuserv="GtkWidget" ponyfnrv="GtkWidget"/>
   <type name="GtkApplication*" ponyusearg="GtkApplication" ponyuserv="GtkApplication" ponyfnrv="GtkApplication"/>
   <type name="GtkAboutDialog*" ponyusearg="GtkAboutDialog" ponyuserv="GtkAboutDialog" ponyfnrv="GtkAboutDialog"/>
@@ -42,6 +43,7 @@
   <type name="GtkButton*" ponyusearg="GtkButton" ponyuserv="GtkButton" ponyfnrv="GtkButton"/>
   <type name="GObject*" ponyusearg="GObject" ponyuserv="GObject" ponyfnrv="GObject"/>
   <type name="GSList*" ponyusearg="GSList" ponyuserv="GSList" ponyfnrv="GSList"/>
+  <type name="GType" ponyusearg="U64" ponyuserv="U64" ponyfnrv="U64"/>
 
 
 

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <constructor name="gtk_notebook_new" render="1"/>
+  <method name="gtk_notebook_append_page" render="1"/>
+  <method name="gtk_notebook_append_page_menu" render="1"/>
+  <method name="gtk_notebook_detach_tab" render="1"/>
+  <method name="gtk_notebook_get_action_widget" render="1"/>
+  <method name="gtk_notebook_get_current_page" render="1"/>
+  <method name="gtk_notebook_get_group_name" render="1"/>
+  <method name="gtk_notebook_get_menu_label" render="1"/>
+  <method name="gtk_notebook_get_menu_label_text" render="1"/>
+  <method name="gtk_notebook_get_n_pages" render="1"/>
+  <method name="gtk_notebook_get_nth_page" render="1"/>
+  <method name="gtk_notebook_get_page" render="1"/>
+  <method name="gtk_notebook_get_pages" render="1"/>
+  <method name="gtk_notebook_get_scrollable" render="1"/>
+  <method name="gtk_notebook_get_show_border" render="1"/>
+  <method name="gtk_notebook_get_show_tabs" render="1"/>
+  <method name="gtk_notebook_get_tab_detachable" render="1"/>
+  <method name="gtk_notebook_get_tab_label" render="1"/>
+  <method name="gtk_notebook_get_tab_label_text" render="1"/>
+  <method name="gtk_notebook_get_tab_pos" render="1"/>
+  <method name="gtk_notebook_get_tab_reorderable" render="1"/>
+  <method name="gtk_notebook_insert_page" render="1"/>
+  <method name="gtk_notebook_insert_page_menu" render="1"/>
+  <method name="gtk_notebook_next_page" render="1"/>
+  <method name="gtk_notebook_page_num" render="1"/>
+  <method name="gtk_notebook_popup_disable" render="1"/>
+  <method name="gtk_notebook_popup_enable" render="1"/>
+  <method name="gtk_notebook_prepend_page" render="1"/>
+  <method name="gtk_notebook_prepend_page_menu" render="1"/>
+  <method name="gtk_notebook_prev_page" render="1"/>
+  <method name="gtk_notebook_remove_page" render="1"/>
+  <method name="gtk_notebook_reorder_child" render="1"/>
+  <method name="gtk_notebook_set_action_widget" render="1"/>
+  <method name="gtk_notebook_set_current_page" render="1"/>
+  <method name="gtk_notebook_set_group_name" render="1"/>
+  <method name="gtk_notebook_set_menu_label" render="1"/>
+  <method name="gtk_notebook_set_menu_label_text" render="1"/>
+  <method name="gtk_notebook_set_scrollable" render="1"/>
+  <method name="gtk_notebook_set_show_border" render="1"/>
+  <method name="gtk_notebook_set_show_tabs" render="1"/>
+  <method name="gtk_notebook_set_tab_detachable" render="1"/>
+  <method name="gtk_notebook_set_tab_label" render="1"/>
+  <method name="gtk_notebook_set_tab_label_text" render="1"/>
+  <method name="gtk_notebook_set_tab_pos" render="1"/>
+  <method name="gtk_notebook_set_tab_reorderable" render="1"/>
+</render>
+</bp>

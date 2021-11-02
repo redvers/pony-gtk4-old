@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <constructor name="gtk_button_new" render="1"/>
+  <constructor name="gtk_button_new_from_icon_name" render="1"/>
+  <constructor name="gtk_button_new_with_label" render="1"/>
+  <constructor name="gtk_button_new_with_mnemonic" render="1"/>
+  <method name="gtk_button_get_child" render="1"/>
+  <method name="gtk_button_get_has_frame" render="1"/>
+  <method name="gtk_button_get_icon_name" render="1"/>
+  <method name="gtk_button_get_label" render="1"/>
+  <method name="gtk_button_get_use_underline" render="1"/>
+  <method name="gtk_button_set_child" render="1"/>
+  <method name="gtk_button_set_has_frame" render="1"/>
+  <method name="gtk_button_set_icon_name" render="1"/>
+  <method name="gtk_button_set_label" render="1"/>
+  <method name="gtk_button_set_use_underline" render="1"/>
+</render>
+</bp>

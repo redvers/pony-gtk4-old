@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <constructor name="gtk_drop_down_new" render="1"/>
+  <constructor name="gtk_drop_down_new_from_strings" render="1"/>
+  <method name="gtk_drop_down_get_enable_search" render="1"/>
+  <method name="gtk_drop_down_get_expression" render="1"/>
+  <method name="gtk_drop_down_get_factory" render="1"/>
+  <method name="gtk_drop_down_get_list_factory" render="1"/>
+  <method name="gtk_drop_down_get_model" render="1"/>
+  <method name="gtk_drop_down_get_selected" render="1"/>
+  <method name="gtk_drop_down_get_selected_item" render="1"/>
+  <method name="gtk_drop_down_set_enable_search" render="1"/>
+  <method name="gtk_drop_down_set_expression" render="1"/>
+  <method name="gtk_drop_down_set_factory" render="1"/>
+  <method name="gtk_drop_down_set_list_factory" render="1"/>
+  <method name="gtk_drop_down_set_model" render="1"/>
+  <method name="gtk_drop_down_set_selected" render="1"/>
+</render>
+</bp>

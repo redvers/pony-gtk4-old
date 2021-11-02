@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <constructor name="gtk_icon_theme_new" render="1"/>
+  <function name="gtk_icon_theme_get_for_display" render="1"/>
+  <method name="gtk_icon_theme_add_resource_path" render="1"/>
+  <method name="gtk_icon_theme_add_search_path" render="1"/>
+  <method name="gtk_icon_theme_get_display" render="1"/>
+  <method name="gtk_icon_theme_get_icon_names" render="1"/>
+  <method name="gtk_icon_theme_get_icon_sizes" render="1"/>
+  <method name="gtk_icon_theme_get_resource_path" render="1"/>
+  <method name="gtk_icon_theme_get_search_path" render="1"/>
+  <method name="gtk_icon_theme_get_theme_name" render="1"/>
+  <method name="gtk_icon_theme_has_gicon" render="1"/>
+  <method name="gtk_icon_theme_has_icon" render="1"/>
+  <method name="gtk_icon_theme_lookup_by_gicon" render="1"/>
+  <method name="gtk_icon_theme_lookup_icon" render="1"/>
+  <method name="gtk_icon_theme_set_resource_path" render="1"/>
+  <method name="gtk_icon_theme_set_search_path" render="1"/>
+  <method name="gtk_icon_theme_set_theme_name" render="1"/>
+</render>
+</bp>

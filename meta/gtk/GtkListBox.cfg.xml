@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <constructor name="gtk_list_box_new" render="1"/>
+  <method name="gtk_list_box_append" render="1"/>
+  <method name="gtk_list_box_bind_model" render="1"/>
+  <method name="gtk_list_box_drag_highlight_row" render="1"/>
+  <method name="gtk_list_box_drag_unhighlight_row" render="1"/>
+  <method name="gtk_list_box_get_activate_on_single_click" render="1"/>
+  <method name="gtk_list_box_get_adjustment" render="1"/>
+  <method name="gtk_list_box_get_row_at_index" render="1"/>
+  <method name="gtk_list_box_get_row_at_y" render="1"/>
+  <method name="gtk_list_box_get_selected_row" render="1"/>
+  <method name="gtk_list_box_get_selected_rows" render="1"/>
+  <method name="gtk_list_box_get_selection_mode" render="1"/>
+  <method name="gtk_list_box_get_show_separators" render="1"/>
+  <method name="gtk_list_box_insert" render="1"/>
+  <method name="gtk_list_box_invalidate_filter" render="1"/>
+  <method name="gtk_list_box_invalidate_headers" render="1"/>
+  <method name="gtk_list_box_invalidate_sort" render="1"/>
+  <method name="gtk_list_box_prepend" render="1"/>
+  <method name="gtk_list_box_remove" render="1"/>
+  <method name="gtk_list_box_select_all" render="1"/>
+  <method name="gtk_list_box_select_row" render="1"/>
+  <method name="gtk_list_box_selected_foreach" render="1"/>
+  <method name="gtk_list_box_set_activate_on_single_click" render="1"/>
+  <method name="gtk_list_box_set_adjustment" render="1"/>
+  <method name="gtk_list_box_set_filter_func" render="1"/>
+  <method name="gtk_list_box_set_header_func" render="1"/>
+  <method name="gtk_list_box_set_placeholder" render="1"/>
+  <method name="gtk_list_box_set_selection_mode" render="1"/>
+  <method name="gtk_list_box_set_show_separators" render="1"/>
+  <method name="gtk_list_box_set_sort_func" render="1"/>
+  <method name="gtk_list_box_unselect_all" render="1"/>
+  <method name="gtk_list_box_unselect_row" render="1"/>
+</render>
+</bp>

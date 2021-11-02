@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <constructor name="gtk_assistant_new" render="1"/>
+  <method name="gtk_assistant_add_action_widget" render="1"/>
+  <method name="gtk_assistant_append_page" render="1"/>
+  <method name="gtk_assistant_commit" render="1"/>
+  <method name="gtk_assistant_get_current_page" render="1"/>
+  <method name="gtk_assistant_get_n_pages" render="1"/>
+  <method name="gtk_assistant_get_nth_page" render="1"/>
+  <method name="gtk_assistant_get_page" render="1"/>
+  <method name="gtk_assistant_get_page_complete" render="1"/>
+  <method name="gtk_assistant_get_page_title" render="1"/>
+  <method name="gtk_assistant_get_page_type" render="1"/>
+  <method name="gtk_assistant_get_pages" render="1"/>
+  <method name="gtk_assistant_insert_page" render="1"/>
+  <method name="gtk_assistant_next_page" render="1"/>
+  <method name="gtk_assistant_prepend_page" render="1"/>
+  <method name="gtk_assistant_previous_page" render="1"/>
+  <method name="gtk_assistant_remove_action_widget" render="1"/>
+  <method name="gtk_assistant_remove_page" render="1"/>
+  <method name="gtk_assistant_set_current_page" render="1"/>
+  <method name="gtk_assistant_set_forward_page_func" render="1"/>
+  <method name="gtk_assistant_set_page_complete" render="1"/>
+  <method name="gtk_assistant_set_page_title" render="1"/>
+  <method name="gtk_assistant_set_page_type" render="1"/>
+  <method name="gtk_assistant_update_buttons_state" render="1"/>
+</render>
+</bp>

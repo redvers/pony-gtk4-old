@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <constructor name="gtk_text_view_new" render="1"/>
+  <constructor name="gtk_text_view_new_with_buffer" render="1"/>
+  <method name="gtk_text_view_add_child_at_anchor" render="1"/>
+  <method name="gtk_text_view_add_overlay" render="1"/>
+  <method name="gtk_text_view_backward_display_line" render="1"/>
+  <method name="gtk_text_view_backward_display_line_start" render="1"/>
+  <method name="gtk_text_view_buffer_to_window_coords" render="1"/>
+  <method name="gtk_text_view_forward_display_line" render="1"/>
+  <method name="gtk_text_view_forward_display_line_end" render="1"/>
+  <method name="gtk_text_view_get_accepts_tab" render="1"/>
+  <method name="gtk_text_view_get_bottom_margin" render="1"/>
+  <method name="gtk_text_view_get_buffer" render="1"/>
+  <method name="gtk_text_view_get_cursor_locations" render="1"/>
+  <method name="gtk_text_view_get_cursor_visible" render="1"/>
+  <method name="gtk_text_view_get_editable" render="1"/>
+  <method name="gtk_text_view_get_extra_menu" render="1"/>
+  <method name="gtk_text_view_get_gutter" render="1"/>
+  <method name="gtk_text_view_get_indent" render="1"/>
+  <method name="gtk_text_view_get_input_hints" render="1"/>
+  <method name="gtk_text_view_get_input_purpose" render="1"/>
+  <method name="gtk_text_view_get_iter_at_location" render="1"/>
+  <method name="gtk_text_view_get_iter_at_position" render="1"/>
+  <method name="gtk_text_view_get_iter_location" render="1"/>
+  <method name="gtk_text_view_get_justification" render="1"/>
+  <method name="gtk_text_view_get_left_margin" render="1"/>
+  <method name="gtk_text_view_get_line_at_y" render="1"/>
+  <method name="gtk_text_view_get_line_yrange" render="1"/>
+  <method name="gtk_text_view_get_ltr_context" render="1"/>
+  <method name="gtk_text_view_get_monospace" render="1"/>
+  <method name="gtk_text_view_get_overwrite" render="1"/>
+  <method name="gtk_text_view_get_pixels_above_lines" render="1"/>
+  <method name="gtk_text_view_get_pixels_below_lines" render="1"/>
+  <method name="gtk_text_view_get_pixels_inside_wrap" render="1"/>
+  <method name="gtk_text_view_get_right_margin" render="1"/>
+  <method name="gtk_text_view_get_rtl_context" render="1"/>
+  <method name="gtk_text_view_get_tabs" render="1"/>
+  <method name="gtk_text_view_get_top_margin" render="1"/>
+  <method name="gtk_text_view_get_visible_rect" render="1"/>
+  <method name="gtk_text_view_get_wrap_mode" render="1"/>
+  <method name="gtk_text_view_im_context_filter_keypress" render="1"/>
+  <method name="gtk_text_view_move_mark_onscreen" render="1"/>
+  <method name="gtk_text_view_move_overlay" render="1"/>
+  <method name="gtk_text_view_move_visually" render="1"/>
+  <method name="gtk_text_view_place_cursor_onscreen" render="1"/>
+  <method name="gtk_text_view_remove" render="1"/>
+  <method name="gtk_text_view_reset_cursor_blink" render="1"/>
+  <method name="gtk_text_view_reset_im_context" render="1"/>
+  <method name="gtk_text_view_scroll_mark_onscreen" render="1"/>
+  <method name="gtk_text_view_scroll_to_iter" render="1"/>
+  <method name="gtk_text_view_scroll_to_mark" render="1"/>
+  <method name="gtk_text_view_set_accepts_tab" render="1"/>
+  <method name="gtk_text_view_set_bottom_margin" render="1"/>
+  <method name="gtk_text_view_set_buffer" render="1"/>
+  <method name="gtk_text_view_set_cursor_visible" render="1"/>
+  <method name="gtk_text_view_set_editable" render="1"/>
+  <method name="gtk_text_view_set_extra_menu" render="1"/>
+  <method name="gtk_text_view_set_gutter" render="1"/>
+  <method name="gtk_text_view_set_indent" render="1"/>
+  <method name="gtk_text_view_set_input_hints" render="1"/>
+  <method name="gtk_text_view_set_input_purpose" render="1"/>
+  <method name="gtk_text_view_set_justification" render="1"/>
+  <method name="gtk_text_view_set_left_margin" render="1"/>
+  <method name="gtk_text_view_set_monospace" render="1"/>
+  <method name="gtk_text_view_set_overwrite" render="1"/>
+  <method name="gtk_text_view_set_pixels_above_lines" render="1"/>
+  <method name="gtk_text_view_set_pixels_below_lines" render="1"/>
+  <method name="gtk_text_view_set_pixels_inside_wrap" render="1"/>
+  <method name="gtk_text_view_set_right_margin" render="1"/>
+  <method name="gtk_text_view_set_tabs" render="1"/>
+  <method name="gtk_text_view_set_top_margin" render="1"/>
+  <method name="gtk_text_view_set_wrap_mode" render="1"/>
+  <method name="gtk_text_view_starts_display_line" render="1"/>
+  <method name="gtk_text_view_window_to_buffer_coords" render="1"/>
+</render>
+</bp>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <constructor name="gtk_tree_view_new" render="1"/>
+  <constructor name="gtk_tree_view_new_with_model" render="1"/>
+  <method name="gtk_tree_view_append_column" render="1"/>
+  <method name="gtk_tree_view_collapse_all" render="1"/>
+  <method name="gtk_tree_view_collapse_row" render="1"/>
+  <method name="gtk_tree_view_columns_autosize" render="1"/>
+  <method name="gtk_tree_view_convert_bin_window_to_tree_coords" render="1"/>
+  <method name="gtk_tree_view_convert_bin_window_to_widget_coords" render="1"/>
+  <method name="gtk_tree_view_convert_tree_to_bin_window_coords" render="1"/>
+  <method name="gtk_tree_view_convert_tree_to_widget_coords" render="1"/>
+  <method name="gtk_tree_view_convert_widget_to_bin_window_coords" render="1"/>
+  <method name="gtk_tree_view_convert_widget_to_tree_coords" render="1"/>
+  <method name="gtk_tree_view_create_row_drag_icon" render="1"/>
+  <method name="gtk_tree_view_enable_model_drag_dest" render="1"/>
+  <method name="gtk_tree_view_enable_model_drag_source" render="1"/>
+  <method name="gtk_tree_view_expand_all" render="1"/>
+  <method name="gtk_tree_view_expand_row" render="1"/>
+  <method name="gtk_tree_view_expand_to_path" render="1"/>
+  <method name="gtk_tree_view_get_activate_on_single_click" render="1"/>
+  <method name="gtk_tree_view_get_background_area" render="1"/>
+  <method name="gtk_tree_view_get_cell_area" render="1"/>
+  <method name="gtk_tree_view_get_column" render="1"/>
+  <method name="gtk_tree_view_get_columns" render="1"/>
+  <method name="gtk_tree_view_get_cursor" render="1"/>
+  <method name="gtk_tree_view_get_dest_row_at_pos" render="1"/>
+  <method name="gtk_tree_view_get_drag_dest_row" render="1"/>
+  <method name="gtk_tree_view_get_enable_search" render="1"/>
+  <method name="gtk_tree_view_get_enable_tree_lines" render="1"/>
+  <method name="gtk_tree_view_get_expander_column" render="1"/>
+  <method name="gtk_tree_view_get_fixed_height_mode" render="1"/>
+  <method name="gtk_tree_view_get_grid_lines" render="1"/>
+  <method name="gtk_tree_view_get_headers_clickable" render="1"/>
+  <method name="gtk_tree_view_get_headers_visible" render="1"/>
+  <method name="gtk_tree_view_get_hover_expand" render="1"/>
+  <method name="gtk_tree_view_get_hover_selection" render="1"/>
+  <method name="gtk_tree_view_get_level_indentation" render="1"/>
+  <method name="gtk_tree_view_get_model" render="1"/>
+  <method name="gtk_tree_view_get_n_columns" render="1"/>
+  <method name="gtk_tree_view_get_path_at_pos" render="1"/>
+  <method name="gtk_tree_view_get_reorderable" render="1"/>
+  <method name="gtk_tree_view_get_row_separator_func" render="1"/>
+  <method name="gtk_tree_view_get_rubber_banding" render="1"/>
+  <method name="gtk_tree_view_get_search_column" render="1"/>
+  <method name="gtk_tree_view_get_search_entry" render="1"/>
+  <method name="gtk_tree_view_get_search_equal_func" render="1"/>
+  <method name="gtk_tree_view_get_selection" render="1"/>
+  <method name="gtk_tree_view_get_show_expanders" render="1"/>
+  <method name="gtk_tree_view_get_tooltip_column" render="1"/>
+  <method name="gtk_tree_view_get_tooltip_context" render="1"/>
+  <method name="gtk_tree_view_get_visible_range" render="1"/>
+  <method name="gtk_tree_view_get_visible_rect" render="1"/>
+  <method name="gtk_tree_view_insert_column" render="1"/>
+  <method name="gtk_tree_view_insert_column_with_attributes" render="1"/>
+  <method name="gtk_tree_view_insert_column_with_data_func" render="1"/>
+  <method name="gtk_tree_view_is_blank_at_pos" render="1"/>
+  <method name="gtk_tree_view_is_rubber_banding_active" render="1"/>
+  <method name="gtk_tree_view_map_expanded_rows" render="1"/>
+  <method name="gtk_tree_view_move_column_after" render="1"/>
+  <method name="gtk_tree_view_remove_column" render="1"/>
+  <method name="gtk_tree_view_row_activated" render="1"/>
+  <method name="gtk_tree_view_row_expanded" render="1"/>
+  <method name="gtk_tree_view_scroll_to_cell" render="1"/>
+  <method name="gtk_tree_view_scroll_to_point" render="1"/>
+  <method name="gtk_tree_view_set_activate_on_single_click" render="1"/>
+  <method name="gtk_tree_view_set_column_drag_function" render="1"/>
+  <method name="gtk_tree_view_set_cursor" render="1"/>
+  <method name="gtk_tree_view_set_cursor_on_cell" render="1"/>
+  <method name="gtk_tree_view_set_drag_dest_row" render="1"/>
+  <method name="gtk_tree_view_set_enable_search" render="1"/>
+  <method name="gtk_tree_view_set_enable_tree_lines" render="1"/>
+  <method name="gtk_tree_view_set_expander_column" render="1"/>
+  <method name="gtk_tree_view_set_fixed_height_mode" render="1"/>
+  <method name="gtk_tree_view_set_grid_lines" render="1"/>
+  <method name="gtk_tree_view_set_headers_clickable" render="1"/>
+  <method name="gtk_tree_view_set_headers_visible" render="1"/>
+  <method name="gtk_tree_view_set_hover_expand" render="1"/>
+  <method name="gtk_tree_view_set_hover_selection" render="1"/>
+  <method name="gtk_tree_view_set_level_indentation" render="1"/>
+  <method name="gtk_tree_view_set_model" render="1"/>
+  <method name="gtk_tree_view_set_reorderable" render="1"/>
+  <method name="gtk_tree_view_set_row_separator_func" render="1"/>
+  <method name="gtk_tree_view_set_rubber_banding" render="1"/>
+  <method name="gtk_tree_view_set_search_column" render="1"/>
+  <method name="gtk_tree_view_set_search_entry" render="1"/>
+  <method name="gtk_tree_view_set_search_equal_func" render="1"/>
+  <method name="gtk_tree_view_set_show_expanders" render="1"/>
+  <method name="gtk_tree_view_set_tooltip_cell" render="1"/>
+  <method name="gtk_tree_view_set_tooltip_column" render="1"/>
+  <method name="gtk_tree_view_set_tooltip_row" render="1"/>
+  <method name="gtk_tree_view_unset_rows_drag_dest" render="1"/>
+  <method name="gtk_tree_view_unset_rows_drag_source" render="1"/>
+</render>
+</bp>

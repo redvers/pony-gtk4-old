@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <constructor name="gtk_image_new" render="1"/>
+  <constructor name="gtk_image_new_from_file" render="1"/>
+  <constructor name="gtk_image_new_from_gicon" render="1"/>
+  <constructor name="gtk_image_new_from_icon_name" render="1"/>
+  <constructor name="gtk_image_new_from_paintable" render="1"/>
+  <constructor name="gtk_image_new_from_pixbuf" render="1"/>
+  <constructor name="gtk_image_new_from_resource" render="1"/>
+  <method name="gtk_image_clear" render="1"/>
+  <method name="gtk_image_get_gicon" render="1"/>
+  <method name="gtk_image_get_icon_name" render="1"/>
+  <method name="gtk_image_get_icon_size" render="1"/>
+  <method name="gtk_image_get_paintable" render="1"/>
+  <method name="gtk_image_get_pixel_size" render="1"/>
+  <method name="gtk_image_get_storage_type" render="1"/>
+  <method name="gtk_image_set_from_file" render="1"/>
+  <method name="gtk_image_set_from_gicon" render="1"/>
+  <method name="gtk_image_set_from_icon_name" render="1"/>
+  <method name="gtk_image_set_from_paintable" render="1"/>
+  <method name="gtk_image_set_from_pixbuf" render="1"/>
+  <method name="gtk_image_set_from_resource" render="1"/>
+  <method name="gtk_image_set_icon_size" render="1"/>
+  <method name="gtk_image_set_pixel_size" render="1"/>
+</render>
+</bp>

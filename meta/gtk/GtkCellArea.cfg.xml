@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <method name="gtk_cell_area_activate" render="1"/>
+  <method name="gtk_cell_area_activate_cell" render="1"/>
+  <method name="gtk_cell_area_add" render="1"/>
+  <method name="gtk_cell_area_add_focus_sibling" render="1"/>
+  <method name="gtk_cell_area_add_with_properties" render="1"/>
+  <method name="gtk_cell_area_apply_attributes" render="1"/>
+  <method name="gtk_cell_area_attribute_connect" render="1"/>
+  <method name="gtk_cell_area_attribute_disconnect" render="1"/>
+  <method name="gtk_cell_area_attribute_get_column" render="1"/>
+  <method name="gtk_cell_area_cell_get" render="1"/>
+  <method name="gtk_cell_area_cell_get_property" render="1"/>
+  <method name="gtk_cell_area_cell_get_valist" render="1"/>
+  <method name="gtk_cell_area_cell_set" render="1"/>
+  <method name="gtk_cell_area_cell_set_property" render="1"/>
+  <method name="gtk_cell_area_cell_set_valist" render="1"/>
+  <method name="gtk_cell_area_copy_context" render="1"/>
+  <method name="gtk_cell_area_create_context" render="1"/>
+  <method name="gtk_cell_area_event" render="1"/>
+  <method name="gtk_cell_area_focus" render="1"/>
+  <method name="gtk_cell_area_foreach" render="1"/>
+  <method name="gtk_cell_area_foreach_alloc" render="1"/>
+  <method name="gtk_cell_area_get_cell_allocation" render="1"/>
+  <method name="gtk_cell_area_get_cell_at_position" render="1"/>
+  <method name="gtk_cell_area_get_current_path_string" render="1"/>
+  <method name="gtk_cell_area_get_edit_widget" render="1"/>
+  <method name="gtk_cell_area_get_edited_cell" render="1"/>
+  <method name="gtk_cell_area_get_focus_cell" render="1"/>
+  <method name="gtk_cell_area_get_focus_from_sibling" render="1"/>
+  <method name="gtk_cell_area_get_focus_siblings" render="1"/>
+  <method name="gtk_cell_area_get_preferred_height" render="1"/>
+  <method name="gtk_cell_area_get_preferred_height_for_width" render="1"/>
+  <method name="gtk_cell_area_get_preferred_width" render="1"/>
+  <method name="gtk_cell_area_get_preferred_width_for_height" render="1"/>
+  <method name="gtk_cell_area_get_request_mode" render="1"/>
+  <method name="gtk_cell_area_has_renderer" render="1"/>
+  <method name="gtk_cell_area_inner_cell_area" render="1"/>
+  <method name="gtk_cell_area_is_activatable" render="1"/>
+  <method name="gtk_cell_area_is_focus_sibling" render="1"/>
+  <method name="gtk_cell_area_remove" render="1"/>
+  <method name="gtk_cell_area_remove_focus_sibling" render="1"/>
+  <method name="gtk_cell_area_request_renderer" render="1"/>
+  <method name="gtk_cell_area_set_focus_cell" render="1"/>
+  <method name="gtk_cell_area_snapshot" render="1"/>
+  <method name="gtk_cell_area_stop_editing" render="1"/>
+</render>
+</bp>

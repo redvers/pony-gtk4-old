@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <constructor name="gtk_window_new" render="1"/>
+  <function name="gtk_window_get_default_icon_name" render="1"/>
+  <function name="gtk_window_get_toplevels" render="1"/>
+  <function name="gtk_window_list_toplevels" render="1"/>
+  <function name="gtk_window_set_auto_startup_notification" render="1"/>
+  <function name="gtk_window_set_default_icon_name" render="1"/>
+  <function name="gtk_window_set_interactive_debugging" render="1"/>
+  <method name="gtk_window_close" render="1"/>
+  <method name="gtk_window_destroy" render="1"/>
+  <method name="gtk_window_fullscreen" render="1"/>
+  <method name="gtk_window_fullscreen_on_monitor" render="0"/>
+  <method name="gtk_window_get_application" render="1"/>
+  <method name="gtk_window_get_child" render="1"/>
+  <method name="gtk_window_get_decorated" render="1"/>
+  <method name="gtk_window_get_default_size" render="1"/>
+  <method name="gtk_window_get_default_widget" render="1"/>
+  <method name="gtk_window_get_deletable" render="1"/>
+  <method name="gtk_window_get_destroy_with_parent" render="1"/>
+  <method name="gtk_window_get_focus" render="1"/>
+  <method name="gtk_window_get_focus_visible" render="1"/>
+  <method name="gtk_window_get_group" render="1"/>
+  <method name="gtk_window_get_handle_menubar_accel" render="1"/>
+  <method name="gtk_window_get_hide_on_close" render="1"/>
+  <method name="gtk_window_get_icon_name" render="1"/>
+  <method name="gtk_window_get_mnemonics_visible" render="1"/>
+  <method name="gtk_window_get_modal" render="1"/>
+  <method name="gtk_window_get_resizable" render="1"/>
+  <method name="gtk_window_get_title" render="1"/>
+  <method name="gtk_window_get_titlebar" render="1"/>
+  <method name="gtk_window_get_transient_for" render="1"/>
+  <method name="gtk_window_has_group" render="1"/>
+  <method name="gtk_window_is_active" render="1"/>
+  <method name="gtk_window_is_fullscreen" render="1"/>
+  <method name="gtk_window_is_maximized" render="1"/>
+  <method name="gtk_window_maximize" render="1"/>
+  <method name="gtk_window_minimize" render="1"/>
+  <method name="gtk_window_present" render="1"/>
+  <method name="gtk_window_present_with_time" render="1"/>
+  <method name="gtk_window_set_application" render="1"/>
+  <method name="gtk_window_set_child" render="1"/>
+  <method name="gtk_window_set_decorated" render="1"/>
+  <method name="gtk_window_set_default_size" render="1"/>
+  <method name="gtk_window_set_default_widget" render="1"/>
+  <method name="gtk_window_set_deletable" render="1"/>
+  <method name="gtk_window_set_destroy_with_parent" render="1"/>
+  <method name="gtk_window_set_display" render="0"/>
+  <method name="gtk_window_set_focus" render="1"/>
+  <method name="gtk_window_set_focus_visible" render="1"/>
+  <method name="gtk_window_set_handle_menubar_accel" render="1"/>
+  <method name="gtk_window_set_hide_on_close" render="1"/>
+  <method name="gtk_window_set_icon_name" render="1"/>
+  <method name="gtk_window_set_mnemonics_visible" render="1"/>
+  <method name="gtk_window_set_modal" render="1"/>
+  <method name="gtk_window_set_resizable" render="1"/>
+  <method name="gtk_window_set_startup_id" render="1"/>
+  <method name="gtk_window_set_title" render="1"/>
+  <method name="gtk_window_set_titlebar" render="1"/>
+  <method name="gtk_window_set_transient_for" render="1"/>
+  <method name="gtk_window_unfullscreen" render="1"/>
+  <method name="gtk_window_unmaximize" render="1"/>
+  <method name="gtk_window_unminimize" render="1"/>
+</render>
+</bp>

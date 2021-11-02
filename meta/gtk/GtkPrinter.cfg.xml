@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <constructor name="gtk_printer_new" render="1"/>
+  <method name="gtk_printer_accepts_pdf" render="1"/>
+  <method name="gtk_printer_accepts_ps" render="1"/>
+  <method name="gtk_printer_compare" render="1"/>
+  <method name="gtk_printer_get_backend" render="1"/>
+  <method name="gtk_printer_get_capabilities" render="1"/>
+  <method name="gtk_printer_get_default_page_size" render="1"/>
+  <method name="gtk_printer_get_description" render="1"/>
+  <method name="gtk_printer_get_hard_margins" render="1"/>
+  <method name="gtk_printer_get_hard_margins_for_paper_size" render="1"/>
+  <method name="gtk_printer_get_icon_name" render="1"/>
+  <method name="gtk_printer_get_job_count" render="1"/>
+  <method name="gtk_printer_get_location" render="1"/>
+  <method name="gtk_printer_get_name" render="1"/>
+  <method name="gtk_printer_get_state_message" render="1"/>
+  <method name="gtk_printer_has_details" render="1"/>
+  <method name="gtk_printer_is_accepting_jobs" render="1"/>
+  <method name="gtk_printer_is_active" render="1"/>
+  <method name="gtk_printer_is_default" render="1"/>
+  <method name="gtk_printer_is_paused" render="1"/>
+  <method name="gtk_printer_is_virtual" render="1"/>
+  <method name="gtk_printer_list_papers" render="1"/>
+  <method name="gtk_printer_request_details" render="1"/>
+</render>
+</bp>

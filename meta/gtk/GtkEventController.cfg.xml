@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <method name="gtk_event_controller_get_current_event" render="1"/>
+  <method name="gtk_event_controller_get_current_event_device" render="1"/>
+  <method name="gtk_event_controller_get_current_event_state" render="1"/>
+  <method name="gtk_event_controller_get_current_event_time" render="1"/>
+  <method name="gtk_event_controller_get_name" render="1"/>
+  <method name="gtk_event_controller_get_propagation_limit" render="1"/>
+  <method name="gtk_event_controller_get_propagation_phase" render="1"/>
+  <method name="gtk_event_controller_get_widget" render="1"/>
+  <method name="gtk_event_controller_reset" render="1"/>
+  <method name="gtk_event_controller_set_name" render="1"/>
+  <method name="gtk_event_controller_set_propagation_limit" render="1"/>
+  <method name="gtk_event_controller_set_propagation_phase" render="1"/>
+</render>
+</bp>

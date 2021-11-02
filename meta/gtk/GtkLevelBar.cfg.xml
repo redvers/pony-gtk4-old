@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <constructor name="gtk_level_bar_new" render="1"/>
+  <constructor name="gtk_level_bar_new_for_interval" render="1"/>
+  <method name="gtk_level_bar_add_offset_value" render="1"/>
+  <method name="gtk_level_bar_get_inverted" render="1"/>
+  <method name="gtk_level_bar_get_max_value" render="1"/>
+  <method name="gtk_level_bar_get_min_value" render="1"/>
+  <method name="gtk_level_bar_get_mode" render="1"/>
+  <method name="gtk_level_bar_get_offset_value" render="1"/>
+  <method name="gtk_level_bar_get_value" render="1"/>
+  <method name="gtk_level_bar_remove_offset_value" render="1"/>
+  <method name="gtk_level_bar_set_inverted" render="1"/>
+  <method name="gtk_level_bar_set_max_value" render="1"/>
+  <method name="gtk_level_bar_set_min_value" render="1"/>
+  <method name="gtk_level_bar_set_mode" render="1"/>
+  <method name="gtk_level_bar_set_value" render="1"/>
+</render>
+</bp>

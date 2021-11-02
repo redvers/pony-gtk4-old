@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <constructor name="gtk_print_job_new" render="1"/>
+  <method name="gtk_print_job_get_collate" render="1"/>
+  <method name="gtk_print_job_get_n_up" render="1"/>
+  <method name="gtk_print_job_get_n_up_layout" render="1"/>
+  <method name="gtk_print_job_get_num_copies" render="1"/>
+  <method name="gtk_print_job_get_page_ranges" render="1"/>
+  <method name="gtk_print_job_get_page_set" render="1"/>
+  <method name="gtk_print_job_get_pages" render="1"/>
+  <method name="gtk_print_job_get_printer" render="1"/>
+  <method name="gtk_print_job_get_reverse" render="1"/>
+  <method name="gtk_print_job_get_rotate" render="1"/>
+  <method name="gtk_print_job_get_scale" render="1"/>
+  <method name="gtk_print_job_get_settings" render="1"/>
+  <method name="gtk_print_job_get_status" render="1"/>
+  <method name="gtk_print_job_get_surface" render="1"/>
+  <method name="gtk_print_job_get_title" render="1"/>
+  <method name="gtk_print_job_get_track_print_status" render="1"/>
+  <method name="gtk_print_job_send" render="1"/>
+  <method name="gtk_print_job_set_collate" render="1"/>
+  <method name="gtk_print_job_set_n_up" render="1"/>
+  <method name="gtk_print_job_set_n_up_layout" render="1"/>
+  <method name="gtk_print_job_set_num_copies" render="1"/>
+  <method name="gtk_print_job_set_page_ranges" render="1"/>
+  <method name="gtk_print_job_set_page_set" render="1"/>
+  <method name="gtk_print_job_set_pages" render="1"/>
+  <method name="gtk_print_job_set_reverse" render="1"/>
+  <method name="gtk_print_job_set_rotate" render="1"/>
+  <method name="gtk_print_job_set_scale" render="1"/>
+  <method name="gtk_print_job_set_source_fd" render="1"/>
+  <method name="gtk_print_job_set_source_file" render="1"/>
+  <method name="gtk_print_job_set_track_print_status" render="1"/>
+</render>
+</bp>

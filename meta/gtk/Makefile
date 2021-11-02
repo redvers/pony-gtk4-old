@@ -1,7 +1,7 @@
 all: gtk_about_dialog gtk_action_bar gtk_activate_action gtk_adjustment gtk_alternative_trigger gtk_any_filter gtk_app_chooser_button gtk_app_chooser_dialog gtk_app_chooser_widget gtk_application gtk_application_window gtk_aspect_frame gtk_assistant gtk_assistant_page gtk_at_context gtk_bin_layout gtk_bookmark_list gtk_bool_filter gtk_box gtk_box_layout gtk_builder gtk_builder_cscope gtk_builder_list_item_factory gtk_button gtk_calendar gtk_callback_action gtk_cclosure_expression gtk_cell_area gtk_cell_area_box gtk_cell_area_context gtk_cell_renderer gtk_cell_renderer_accel gtk_cell_renderer_combo gtk_cell_renderer_pixbuf gtk_cell_renderer_progress gtk_cell_renderer_spin gtk_cell_renderer_spinner gtk_cell_renderer_text gtk_cell_renderer_toggle gtk_cell_view gtk_center_box gtk_center_layout gtk_check_button gtk_closure_expression gtk_color_button gtk_color_chooser_dialog gtk_color_chooser_widget gtk_column_view gtk_column_view_column gtk_combo_box gtk_combo_box_text gtk_constant_expression gtk_constraint gtk_constraint_guide gtk_constraint_layout gtk_constraint_layout_child gtk_css_provider gtk_custom_filter gtk_custom_layout gtk_custom_sorter gtk_dialog gtk_directory_list gtk_drag_icon gtk_drag_source gtk_drawing_area gtk_drop_controller_motion gtk_drop_down gtk_drop_target gtk_drop_target_async gtk_editable gtk_editable_label gtk_emoji_chooser gtk_entry gtk_entry_buffer gtk_entry_completion gtk_event_controller gtk_event_controller_focus gtk_event_controller_key gtk_event_controller_legacy gtk_event_controller_motion gtk_event_controller_scroll gtk_every_filter gtk_expander gtk_expression gtk_file_chooser_dialog gtk_file_chooser_native gtk_file_chooser_widget gtk_file_filter gtk_filter gtk_filter_list_model gtk_fixed gtk_fixed_layout gtk_fixed_layout_child gtk_flatten_list_model gtk_flow_box gtk_flow_box_child gtk_font_button gtk_font_chooser_dialog gtk_font_chooser_widget gtk_frame gtk_gesture gtk_gesture_click gtk_gesture_drag gtk_gesture_long_press gtk_gesture_pan gtk_gesture_rotate gtk_gesture_single gtk_gesture_stylus gtk_gesture_swipe gtk_gesture_zoom gtk_gl_area gtk_grid gtk_grid_layout gtk_grid_layout_child gtk_grid_view gtk_header_bar gtk_icon_paintable gtk_icon_theme gtk_icon_view gtk_image gtk_im_context gtk_im_context_simple gtk_im_multicontext gtk_info_bar gtk_keyval_trigger gtk_label gtk_layout_child gtk_layout_manager gtk_level_bar gtk_link_button gtk_list_base gtk_list_box gtk_list_box_row gtk_list_item gtk_list_item_factory gtk_list_store gtk_list_view gtk_lock_button gtk_map_list_model gtk_media_controls gtk_media_file gtk_media_stream gtk_menu_button gtk_message_dialog gtk_mnemonic_action gtk_mnemonic_trigger gtk_mount_operation gtk_multi_filter gtk_multi_selection gtk_multi_sorter gtk_named_action gtk_native_dialog gtk_never_trigger gtk_no_selection gtk_notebook gtk_notebook_page gtk_nothing_action gtk_numeric_sorter gtk_object_expression gtk_overlay gtk_overlay_layout gtk_overlay_layout_child gtk_pad_controller gtk_page_setup gtk_page_setup_unix_dialog gtk_paned gtk_param_expression gtk_password_entry gtk_password_entry_buffer gtk_picture gtk_popover gtk_popover_menu gtk_popover_menu_bar gtk_print_context gtk_printer gtk_print_job gtk_print_operation gtk_print_settings gtk_print_unix_dialog gtk_progress_bar gtk_property_expression gtk_range gtk_recent_manager gtk_revealer gtk_scale gtk_scale_button gtk_scrollbar gtk_scrolled_window gtk_search_bar gtk_search_entry gtk_selection_filter_model gtk_separator gtk_settings gtk_shortcut gtk_shortcut_action gtk_shortcut_controller gtk_shortcut_label gtk_shortcuts_group gtk_shortcuts_section gtk_shortcuts_shortcut gtk_shortcuts_window gtk_shortcut_trigger gtk_signal_action gtk_signal_list_item_factory gtk_single_selection gtk_size_group gtk_slice_list_model gtk_snapshot gtk_sorter gtk_sort_list_model gtk_spin_button gtk_spinner gtk_stack gtk_stack_page gtk_stack_sidebar gtk_stack_switcher gtk_statusbar gtk_string_filter gtk_string_list gtk_string_object gtk_string_sorter gtk_style_context gtk_switch gtk_text gtk_text_buffer gtk_text_child_anchor gtk_text_mark gtk_text_tag gtk_text_tag_table gtk_text_view gtk_toggle_button gtk_tooltip gtk_tree_expander gtk_tree_list_model gtk_tree_list_row gtk_tree_list_row_sorter gtk_tree_model_filter gtk_tree_model_sort gtk_tree_selection gtk_tree_store gtk_tree_view gtk_tree_view_column gtk_video gtk_viewport gtk_volume_button gtk_widget gtk_widget_paintable gtk_window gtk_window_controls gtk_window_group gtk_window_handle
 
 gtk_about_dialog:
-	bash -x genpony.sh gtk_about_dialog AboutDialog
+	bash -x genpony.sh GtkAboutDialog AboutDialog
 #
 gtk_action_bar:
 ##	saxon-he -xi gtk_action_bar.xml makeprimitives.xsl primitive=ActionBar
@@ -28,10 +28,10 @@ gtk_app_chooser_widget:
 ##	saxon-he -xi gtk_app_chooser_widget.xml makeprimitives.xsl primitive=ChooserWidget
 #
 gtk_application:
-	bash -x genpony.sh gtk_application Application
+	bash -x genpony.sh GtkApplication Application
 #
 gtk_application_window:
-	bash -x genpony.sh gtk_application_window ApplicationWindow
+	bash -x genpony.sh GtkApplicationWindow ApplicationWindow
 #
 gtk_aspect_frame:
 ##	saxon-he -xi gtk_aspect_frame.xml makeprimitives.xsl primitive=AspectFrame
@@ -56,13 +56,13 @@ gtk_bool_filter:
 ##	saxon-he -xi gtk_bool_filter.xml makeprimitives.xsl primitive=
 #
 gtk_box:
-	bash -x genpony.sh gtk_box Box
+	bash -x genpony.sh GtkBox Box
 #
 gtk_box_layout:
 ##	saxon-he -xi gtk_box_layout.xml makeprimitives.xsl primitive=
 #
 gtk_builder:
-	bash -x genpony.sh gtk_builder Builder
+	bash -x genpony.sh GtkBuilder Builder
 #
 gtk_builder_cscope:
 ##	saxon-he -xi gtk_builder_cscope.xml makeprimitives.xsl primitive=
@@ -71,7 +71,7 @@ gtk_builder_list_item_factory:
 ##	saxon-he -xi gtk_builder_list_item_factory.xml makeprimitives.xsl primitive=
 #
 gtk_button:
-	bash -x genpony.sh gtk_button Button
+	bash -x genpony.sh GtkButton Button
 #
 gtk_calendar:
 ##	saxon-he -xi gtk_calendar.xml makeprimitives.xsl primitive=
@@ -742,7 +742,7 @@ gtk_volume_button:
 ##	saxon-he -xi gtk_volume_button.xml makeprimitives.xsl primitive=
 #
 gtk_widget: gtk_widget_private
-	bash -x genpony.sh gtk_widget Widget
+	bash -x genpony.sh GtkWidget Widget
 
 gtk_widget_private:
 	cp struct-templates/Gtk/GtkWidgetPrivate.txt ../../Gtk/GtkWidgetPrivate.pony
@@ -751,14 +751,22 @@ gtk_widget_paintable:
 ##	saxon-he -xi gtk_widget_paintable.xml makeprimitives.xsl primitive=
 #
 gtk_window:
-	bash -x genpony.sh gtk_window Window
+	bash -x genpony.sh GtkWindow Window
 #
 gtk_window_controls:
 ##	saxon-he -xi gtk_window_controls.xml makeprimitives.xsl primitive=
 #
-gtk_window_group:
-##	saxon-he -xi gtk_window_group.xml makeprimitives.xsl primitive=
+gtk_window_group: gtk_window_group_private
+	bash -x genpony.sh GtkWindowGroup WindowGroup
+
+gtk_window_group_private:
+	cp struct-templates/Gtk/GtkWindowGroupPrivate.txt ../../Gtk/GtkWindowGroupPrivate.pony
 #
 gtk_window_handle:
 ##	saxon-he -xi gtk_window_handle.xml makeprimitives.xsl primitive=
-#
+
+
+
+
+
+

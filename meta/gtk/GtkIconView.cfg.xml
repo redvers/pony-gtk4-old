@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <constructor name="gtk_icon_view_new" render="1"/>
+  <constructor name="gtk_icon_view_new_with_area" render="1"/>
+  <constructor name="gtk_icon_view_new_with_model" render="1"/>
+  <method name="gtk_icon_view_create_drag_icon" render="1"/>
+  <method name="gtk_icon_view_enable_model_drag_dest" render="1"/>
+  <method name="gtk_icon_view_enable_model_drag_source" render="1"/>
+  <method name="gtk_icon_view_get_activate_on_single_click" render="1"/>
+  <method name="gtk_icon_view_get_cell_rect" render="1"/>
+  <method name="gtk_icon_view_get_column_spacing" render="1"/>
+  <method name="gtk_icon_view_get_columns" render="1"/>
+  <method name="gtk_icon_view_get_cursor" render="1"/>
+  <method name="gtk_icon_view_get_dest_item_at_pos" render="1"/>
+  <method name="gtk_icon_view_get_drag_dest_item" render="1"/>
+  <method name="gtk_icon_view_get_item_at_pos" render="1"/>
+  <method name="gtk_icon_view_get_item_column" render="1"/>
+  <method name="gtk_icon_view_get_item_orientation" render="1"/>
+  <method name="gtk_icon_view_get_item_padding" render="1"/>
+  <method name="gtk_icon_view_get_item_row" render="1"/>
+  <method name="gtk_icon_view_get_item_width" render="1"/>
+  <method name="gtk_icon_view_get_margin" render="1"/>
+  <method name="gtk_icon_view_get_markup_column" render="1"/>
+  <method name="gtk_icon_view_get_model" render="1"/>
+  <method name="gtk_icon_view_get_path_at_pos" render="1"/>
+  <method name="gtk_icon_view_get_pixbuf_column" render="1"/>
+  <method name="gtk_icon_view_get_reorderable" render="1"/>
+  <method name="gtk_icon_view_get_row_spacing" render="1"/>
+  <method name="gtk_icon_view_get_selected_items" render="1"/>
+  <method name="gtk_icon_view_get_selection_mode" render="1"/>
+  <method name="gtk_icon_view_get_spacing" render="1"/>
+  <method name="gtk_icon_view_get_text_column" render="1"/>
+  <method name="gtk_icon_view_get_tooltip_column" render="1"/>
+  <method name="gtk_icon_view_get_tooltip_context" render="1"/>
+  <method name="gtk_icon_view_get_visible_range" render="1"/>
+  <method name="gtk_icon_view_item_activated" render="1"/>
+  <method name="gtk_icon_view_path_is_selected" render="1"/>
+  <method name="gtk_icon_view_scroll_to_path" render="1"/>
+  <method name="gtk_icon_view_select_all" render="1"/>
+  <method name="gtk_icon_view_select_path" render="1"/>
+  <method name="gtk_icon_view_selected_foreach" render="1"/>
+  <method name="gtk_icon_view_set_activate_on_single_click" render="1"/>
+  <method name="gtk_icon_view_set_column_spacing" render="1"/>
+  <method name="gtk_icon_view_set_columns" render="1"/>
+  <method name="gtk_icon_view_set_cursor" render="1"/>
+  <method name="gtk_icon_view_set_drag_dest_item" render="1"/>
+  <method name="gtk_icon_view_set_item_orientation" render="1"/>
+  <method name="gtk_icon_view_set_item_padding" render="1"/>
+  <method name="gtk_icon_view_set_item_width" render="1"/>
+  <method name="gtk_icon_view_set_margin" render="1"/>
+  <method name="gtk_icon_view_set_markup_column" render="1"/>
+  <method name="gtk_icon_view_set_model" render="1"/>
+  <method name="gtk_icon_view_set_pixbuf_column" render="1"/>
+  <method name="gtk_icon_view_set_reorderable" render="1"/>
+  <method name="gtk_icon_view_set_row_spacing" render="1"/>
+  <method name="gtk_icon_view_set_selection_mode" render="1"/>
+  <method name="gtk_icon_view_set_spacing" render="1"/>
+  <method name="gtk_icon_view_set_text_column" render="1"/>
+  <method name="gtk_icon_view_set_tooltip_cell" render="1"/>
+  <method name="gtk_icon_view_set_tooltip_column" render="1"/>
+  <method name="gtk_icon_view_set_tooltip_item" render="1"/>
+  <method name="gtk_icon_view_unselect_all" render="1"/>
+  <method name="gtk_icon_view_unselect_path" render="1"/>
+  <method name="gtk_icon_view_unset_model_drag_dest" render="1"/>
+  <method name="gtk_icon_view_unset_model_drag_source" render="1"/>
+</render>
+</bp>

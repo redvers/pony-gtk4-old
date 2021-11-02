@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <method name="gtk_media_stream_ended" render="1"/>
+  <method name="gtk_media_stream_error" render="1"/>
+  <method name="gtk_media_stream_error_valist" render="1"/>
+  <method name="gtk_media_stream_gerror" render="1"/>
+  <method name="gtk_media_stream_get_duration" render="1"/>
+  <method name="gtk_media_stream_get_ended" render="1"/>
+  <method name="gtk_media_stream_get_error" render="1"/>
+  <method name="gtk_media_stream_get_loop" render="1"/>
+  <method name="gtk_media_stream_get_muted" render="1"/>
+  <method name="gtk_media_stream_get_playing" render="1"/>
+  <method name="gtk_media_stream_get_timestamp" render="1"/>
+  <method name="gtk_media_stream_get_volume" render="1"/>
+  <method name="gtk_media_stream_has_audio" render="1"/>
+  <method name="gtk_media_stream_has_video" render="1"/>
+  <method name="gtk_media_stream_is_prepared" render="1"/>
+  <method name="gtk_media_stream_is_seekable" render="1"/>
+  <method name="gtk_media_stream_is_seeking" render="1"/>
+  <method name="gtk_media_stream_pause" render="1"/>
+  <method name="gtk_media_stream_play" render="1"/>
+  <method name="gtk_media_stream_prepared" render="1"/>
+  <method name="gtk_media_stream_realize" render="1"/>
+  <method name="gtk_media_stream_seek" render="1"/>
+  <method name="gtk_media_stream_seek_failed" render="1"/>
+  <method name="gtk_media_stream_seek_success" render="1"/>
+  <method name="gtk_media_stream_set_loop" render="1"/>
+  <method name="gtk_media_stream_set_muted" render="1"/>
+  <method name="gtk_media_stream_set_playing" render="1"/>
+  <method name="gtk_media_stream_set_volume" render="1"/>
+  <method name="gtk_media_stream_stream_ended" render="1"/>
+  <method name="gtk_media_stream_stream_prepared" render="1"/>
+  <method name="gtk_media_stream_stream_unprepared" render="1"/>
+  <method name="gtk_media_stream_unprepared" render="1"/>
+  <method name="gtk_media_stream_unrealize" render="1"/>
+  <method name="gtk_media_stream_update" render="1"/>
+</render>
+</bp>

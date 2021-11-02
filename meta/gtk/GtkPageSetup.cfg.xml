@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <constructor name="gtk_page_setup_new" render="1"/>
+  <constructor name="gtk_page_setup_new_from_file" render="1"/>
+  <constructor name="gtk_page_setup_new_from_gvariant" render="1"/>
+  <constructor name="gtk_page_setup_new_from_key_file" render="1"/>
+  <method name="gtk_page_setup_copy" render="1"/>
+  <method name="gtk_page_setup_get_bottom_margin" render="1"/>
+  <method name="gtk_page_setup_get_left_margin" render="1"/>
+  <method name="gtk_page_setup_get_orientation" render="1"/>
+  <method name="gtk_page_setup_get_page_height" render="1"/>
+  <method name="gtk_page_setup_get_page_width" render="1"/>
+  <method name="gtk_page_setup_get_paper_height" render="1"/>
+  <method name="gtk_page_setup_get_paper_size" render="1"/>
+  <method name="gtk_page_setup_get_paper_width" render="1"/>
+  <method name="gtk_page_setup_get_right_margin" render="1"/>
+  <method name="gtk_page_setup_get_top_margin" render="1"/>
+  <method name="gtk_page_setup_load_file" render="1"/>
+  <method name="gtk_page_setup_load_key_file" render="1"/>
+  <method name="gtk_page_setup_set_bottom_margin" render="1"/>
+  <method name="gtk_page_setup_set_left_margin" render="1"/>
+  <method name="gtk_page_setup_set_orientation" render="1"/>
+  <method name="gtk_page_setup_set_paper_size" render="1"/>
+  <method name="gtk_page_setup_set_paper_size_and_default_margins" render="1"/>
+  <method name="gtk_page_setup_set_right_margin" render="1"/>
+  <method name="gtk_page_setup_set_top_margin" render="1"/>
+  <method name="gtk_page_setup_to_file" render="1"/>
+  <method name="gtk_page_setup_to_gvariant" render="1"/>
+  <method name="gtk_page_setup_to_key_file" render="1"/>
+</render>
+</bp>

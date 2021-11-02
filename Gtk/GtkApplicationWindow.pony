@@ -1,8 +1,8 @@
 use "GLibSys"
 use "GLib"
-use @gtk_application_window_set_show_menubar[None](gwindow: GtkApplicationWindow, gshow_menubar: Bool)
-use @gtk_application_window_get_show_menubar[Bool](gwindow: GtkApplicationWindow)
 use @gtk_application_window_get_id[U32](gwindow: GtkApplicationWindow)
+use @gtk_application_window_get_show_menubar[Bool](gwindow: GtkApplicationWindow)
+use @gtk_application_window_set_show_menubar[None](gwindow: GtkApplicationWindow, gshow_menubar: Bool)
 
 
 /*
@@ -16,12 +16,12 @@ use @gtk_application_window_get_id[U32](gwindow: GtkApplicationWindow)
 */
 struct GtkApplicationWindow
   embed parent_instance: GtkWindow = GtkWindow
-  fun ref set_show_menubar(show_menubar: Bool): None =>
-    @gtk_application_window_set_show_menubar(this, show_menubar)
+  fun ref get_id(): U32 =>
+    @gtk_application_window_get_id(this)
 
   fun ref get_show_menubar(): Bool =>
     @gtk_application_window_get_show_menubar(this)
 
-  fun ref get_id(): U32 =>
-    @gtk_application_window_get_id(this)
+  fun ref set_show_menubar(show_menubar: Bool): None =>
+    @gtk_application_window_set_show_menubar(this, show_menubar)
 

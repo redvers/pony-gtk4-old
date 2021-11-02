@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <constructor name="gtk_header_bar_new" render="1"/>
+  <method name="gtk_header_bar_get_decoration_layout" render="1"/>
+  <method name="gtk_header_bar_get_show_title_buttons" render="1"/>
+  <method name="gtk_header_bar_get_title_widget" render="1"/>
+  <method name="gtk_header_bar_pack_end" render="1"/>
+  <method name="gtk_header_bar_pack_start" render="1"/>
+  <method name="gtk_header_bar_remove" render="1"/>
+  <method name="gtk_header_bar_set_decoration_layout" render="1"/>
+  <method name="gtk_header_bar_set_show_title_buttons" render="1"/>
+  <method name="gtk_header_bar_set_title_widget" render="1"/>
+</render>
+</bp>

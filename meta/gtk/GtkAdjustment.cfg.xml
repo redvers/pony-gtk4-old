@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <constructor name="gtk_adjustment_new" render="1"/>
+  <method name="gtk_adjustment_clamp_page" render="1"/>
+  <method name="gtk_adjustment_configure" render="1"/>
+  <method name="gtk_adjustment_get_lower" render="1"/>
+  <method name="gtk_adjustment_get_minimum_increment" render="1"/>
+  <method name="gtk_adjustment_get_page_increment" render="1"/>
+  <method name="gtk_adjustment_get_page_size" render="1"/>
+  <method name="gtk_adjustment_get_step_increment" render="1"/>
+  <method name="gtk_adjustment_get_upper" render="1"/>
+  <method name="gtk_adjustment_get_value" render="1"/>
+  <method name="gtk_adjustment_set_lower" render="1"/>
+  <method name="gtk_adjustment_set_page_increment" render="1"/>
+  <method name="gtk_adjustment_set_page_size" render="1"/>
+  <method name="gtk_adjustment_set_step_increment" render="1"/>
+  <method name="gtk_adjustment_set_upper" render="1"/>
+  <method name="gtk_adjustment_set_value" render="1"/>
+</render>
+</bp>

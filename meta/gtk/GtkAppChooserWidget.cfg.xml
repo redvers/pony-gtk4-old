@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <constructor name="gtk_app_chooser_widget_new" render="1"/>
+  <method name="gtk_app_chooser_widget_get_default_text" render="1"/>
+  <method name="gtk_app_chooser_widget_get_show_all" render="1"/>
+  <method name="gtk_app_chooser_widget_get_show_default" render="1"/>
+  <method name="gtk_app_chooser_widget_get_show_fallback" render="1"/>
+  <method name="gtk_app_chooser_widget_get_show_other" render="1"/>
+  <method name="gtk_app_chooser_widget_get_show_recommended" render="1"/>
+  <method name="gtk_app_chooser_widget_set_default_text" render="1"/>
+  <method name="gtk_app_chooser_widget_set_show_all" render="1"/>
+  <method name="gtk_app_chooser_widget_set_show_default" render="1"/>
+  <method name="gtk_app_chooser_widget_set_show_fallback" render="1"/>
+  <method name="gtk_app_chooser_widget_set_show_other" render="1"/>
+  <method name="gtk_app_chooser_widget_set_show_recommended" render="1"/>
+</render>
+</bp>

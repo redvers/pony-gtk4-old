@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <method name="gtk_cell_renderer_activate" render="1"/>
+  <method name="gtk_cell_renderer_get_aligned_area" render="1"/>
+  <method name="gtk_cell_renderer_get_alignment" render="1"/>
+  <method name="gtk_cell_renderer_get_fixed_size" render="1"/>
+  <method name="gtk_cell_renderer_get_is_expanded" render="1"/>
+  <method name="gtk_cell_renderer_get_is_expander" render="1"/>
+  <method name="gtk_cell_renderer_get_padding" render="1"/>
+  <method name="gtk_cell_renderer_get_preferred_height" render="1"/>
+  <method name="gtk_cell_renderer_get_preferred_height_for_width" render="1"/>
+  <method name="gtk_cell_renderer_get_preferred_size" render="1"/>
+  <method name="gtk_cell_renderer_get_preferred_width" render="1"/>
+  <method name="gtk_cell_renderer_get_preferred_width_for_height" render="1"/>
+  <method name="gtk_cell_renderer_get_request_mode" render="1"/>
+  <method name="gtk_cell_renderer_get_sensitive" render="1"/>
+  <method name="gtk_cell_renderer_get_state" render="1"/>
+  <method name="gtk_cell_renderer_get_visible" render="1"/>
+  <method name="gtk_cell_renderer_is_activatable" render="1"/>
+  <method name="gtk_cell_renderer_set_alignment" render="1"/>
+  <method name="gtk_cell_renderer_set_fixed_size" render="1"/>
+  <method name="gtk_cell_renderer_set_is_expanded" render="1"/>
+  <method name="gtk_cell_renderer_set_is_expander" render="1"/>
+  <method name="gtk_cell_renderer_set_padding" render="1"/>
+  <method name="gtk_cell_renderer_set_sensitive" render="1"/>
+  <method name="gtk_cell_renderer_set_visible" render="1"/>
+  <method name="gtk_cell_renderer_snapshot" render="1"/>
+  <method name="gtk_cell_renderer_start_editing" render="1"/>
+  <method name="gtk_cell_renderer_stop_editing" render="1"/>
+</render>
+</bp>

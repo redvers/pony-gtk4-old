@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <constructor name="gtk_spin_button_new" render="1"/>
+  <constructor name="gtk_spin_button_new_with_range" render="1"/>
+  <method name="gtk_spin_button_configure" render="1"/>
+  <method name="gtk_spin_button_get_adjustment" render="1"/>
+  <method name="gtk_spin_button_get_climb_rate" render="1"/>
+  <method name="gtk_spin_button_get_digits" render="1"/>
+  <method name="gtk_spin_button_get_increments" render="1"/>
+  <method name="gtk_spin_button_get_numeric" render="1"/>
+  <method name="gtk_spin_button_get_range" render="1"/>
+  <method name="gtk_spin_button_get_snap_to_ticks" render="1"/>
+  <method name="gtk_spin_button_get_update_policy" render="1"/>
+  <method name="gtk_spin_button_get_value" render="1"/>
+  <method name="gtk_spin_button_get_value_as_int" render="1"/>
+  <method name="gtk_spin_button_get_wrap" render="1"/>
+  <method name="gtk_spin_button_set_adjustment" render="1"/>
+  <method name="gtk_spin_button_set_climb_rate" render="1"/>
+  <method name="gtk_spin_button_set_digits" render="1"/>
+  <method name="gtk_spin_button_set_increments" render="1"/>
+  <method name="gtk_spin_button_set_numeric" render="1"/>
+  <method name="gtk_spin_button_set_range" render="1"/>
+  <method name="gtk_spin_button_set_snap_to_ticks" render="1"/>
+  <method name="gtk_spin_button_set_update_policy" render="1"/>
+  <method name="gtk_spin_button_set_value" render="1"/>
+  <method name="gtk_spin_button_set_wrap" render="1"/>
+  <method name="gtk_spin_button_spin" render="1"/>
+  <method name="gtk_spin_button_update" render="1"/>
+</render>
+</bp>

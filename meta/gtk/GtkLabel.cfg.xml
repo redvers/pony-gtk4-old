@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <constructor name="gtk_label_new" render="1"/>
+  <constructor name="gtk_label_new_with_mnemonic" render="1"/>
+  <method name="gtk_label_get_attributes" render="1"/>
+  <method name="gtk_label_get_current_uri" render="1"/>
+  <method name="gtk_label_get_ellipsize" render="1"/>
+  <method name="gtk_label_get_extra_menu" render="1"/>
+  <method name="gtk_label_get_justify" render="1"/>
+  <method name="gtk_label_get_label" render="1"/>
+  <method name="gtk_label_get_layout" render="1"/>
+  <method name="gtk_label_get_layout_offsets" render="1"/>
+  <method name="gtk_label_get_lines" render="1"/>
+  <method name="gtk_label_get_max_width_chars" render="1"/>
+  <method name="gtk_label_get_mnemonic_keyval" render="1"/>
+  <method name="gtk_label_get_mnemonic_widget" render="1"/>
+  <method name="gtk_label_get_selectable" render="1"/>
+  <method name="gtk_label_get_selection_bounds" render="1"/>
+  <method name="gtk_label_get_single_line_mode" render="1"/>
+  <method name="gtk_label_get_text" render="1"/>
+  <method name="gtk_label_get_use_markup" render="1"/>
+  <method name="gtk_label_get_use_underline" render="1"/>
+  <method name="gtk_label_get_width_chars" render="1"/>
+  <method name="gtk_label_get_wrap" render="1"/>
+  <method name="gtk_label_get_wrap_mode" render="1"/>
+  <method name="gtk_label_get_xalign" render="1"/>
+  <method name="gtk_label_get_yalign" render="1"/>
+  <method name="gtk_label_select_region" render="1"/>
+  <method name="gtk_label_set_attributes" render="1"/>
+  <method name="gtk_label_set_ellipsize" render="1"/>
+  <method name="gtk_label_set_extra_menu" render="1"/>
+  <method name="gtk_label_set_justify" render="1"/>
+  <method name="gtk_label_set_label" render="1"/>
+  <method name="gtk_label_set_lines" render="1"/>
+  <method name="gtk_label_set_markup" render="1"/>
+  <method name="gtk_label_set_markup_with_mnemonic" render="1"/>
+  <method name="gtk_label_set_max_width_chars" render="1"/>
+  <method name="gtk_label_set_mnemonic_widget" render="1"/>
+  <method name="gtk_label_set_selectable" render="1"/>
+  <method name="gtk_label_set_single_line_mode" render="1"/>
+  <method name="gtk_label_set_text" render="1"/>
+  <method name="gtk_label_set_text_with_mnemonic" render="1"/>
+  <method name="gtk_label_set_use_markup" render="1"/>
+  <method name="gtk_label_set_use_underline" render="1"/>
+  <method name="gtk_label_set_width_chars" render="1"/>
+  <method name="gtk_label_set_wrap" render="1"/>
+  <method name="gtk_label_set_wrap_mode" render="1"/>
+  <method name="gtk_label_set_xalign" render="1"/>
+  <method name="gtk_label_set_yalign" render="1"/>
+</render>
+</bp>

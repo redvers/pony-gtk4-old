@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <constructor name="gtk_print_settings_new" render="1"/>
+  <constructor name="gtk_print_settings_new_from_file" render="1"/>
+  <constructor name="gtk_print_settings_new_from_gvariant" render="1"/>
+  <constructor name="gtk_print_settings_new_from_key_file" render="1"/>
+  <method name="gtk_print_settings_copy" render="1"/>
+  <method name="gtk_print_settings_foreach" render="1"/>
+  <method name="gtk_print_settings_get" render="1"/>
+  <method name="gtk_print_settings_get_bool" render="1"/>
+  <method name="gtk_print_settings_get_collate" render="1"/>
+  <method name="gtk_print_settings_get_default_source" render="1"/>
+  <method name="gtk_print_settings_get_dither" render="1"/>
+  <method name="gtk_print_settings_get_double" render="1"/>
+  <method name="gtk_print_settings_get_double_with_default" render="1"/>
+  <method name="gtk_print_settings_get_duplex" render="1"/>
+  <method name="gtk_print_settings_get_finishings" render="1"/>
+  <method name="gtk_print_settings_get_int" render="1"/>
+  <method name="gtk_print_settings_get_int_with_default" render="1"/>
+  <method name="gtk_print_settings_get_length" render="1"/>
+  <method name="gtk_print_settings_get_media_type" render="1"/>
+  <method name="gtk_print_settings_get_n_copies" render="1"/>
+  <method name="gtk_print_settings_get_number_up" render="1"/>
+  <method name="gtk_print_settings_get_number_up_layout" render="1"/>
+  <method name="gtk_print_settings_get_orientation" render="1"/>
+  <method name="gtk_print_settings_get_output_bin" render="1"/>
+  <method name="gtk_print_settings_get_page_ranges" render="1"/>
+  <method name="gtk_print_settings_get_page_set" render="1"/>
+  <method name="gtk_print_settings_get_paper_height" render="1"/>
+  <method name="gtk_print_settings_get_paper_size" render="1"/>
+  <method name="gtk_print_settings_get_paper_width" render="1"/>
+  <method name="gtk_print_settings_get_print_pages" render="1"/>
+  <method name="gtk_print_settings_get_printer" render="1"/>
+  <method name="gtk_print_settings_get_printer_lpi" render="1"/>
+  <method name="gtk_print_settings_get_quality" render="1"/>
+  <method name="gtk_print_settings_get_resolution" render="1"/>
+  <method name="gtk_print_settings_get_resolution_x" render="1"/>
+  <method name="gtk_print_settings_get_resolution_y" render="1"/>
+  <method name="gtk_print_settings_get_reverse" render="1"/>
+  <method name="gtk_print_settings_get_scale" render="1"/>
+  <method name="gtk_print_settings_get_use_color" render="1"/>
+  <method name="gtk_print_settings_has_key" render="1"/>
+  <method name="gtk_print_settings_load_file" render="1"/>
+  <method name="gtk_print_settings_load_key_file" render="1"/>
+  <method name="gtk_print_settings_set" render="1"/>
+  <method name="gtk_print_settings_set_bool" render="1"/>
+  <method name="gtk_print_settings_set_collate" render="1"/>
+  <method name="gtk_print_settings_set_default_source" render="1"/>
+  <method name="gtk_print_settings_set_dither" render="1"/>
+  <method name="gtk_print_settings_set_double" render="1"/>
+  <method name="gtk_print_settings_set_duplex" render="1"/>
+  <method name="gtk_print_settings_set_finishings" render="1"/>
+  <method name="gtk_print_settings_set_int" render="1"/>
+  <method name="gtk_print_settings_set_length" render="1"/>
+  <method name="gtk_print_settings_set_media_type" render="1"/>
+  <method name="gtk_print_settings_set_n_copies" render="1"/>
+  <method name="gtk_print_settings_set_number_up" render="1"/>
+  <method name="gtk_print_settings_set_number_up_layout" render="1"/>
+  <method name="gtk_print_settings_set_orientation" render="1"/>
+  <method name="gtk_print_settings_set_output_bin" render="1"/>
+  <method name="gtk_print_settings_set_page_ranges" render="1"/>
+  <method name="gtk_print_settings_set_page_set" render="1"/>
+  <method name="gtk_print_settings_set_paper_height" render="1"/>
+  <method name="gtk_print_settings_set_paper_size" render="1"/>
+  <method name="gtk_print_settings_set_paper_width" render="1"/>
+  <method name="gtk_print_settings_set_print_pages" render="1"/>
+  <method name="gtk_print_settings_set_printer" render="1"/>
+  <method name="gtk_print_settings_set_printer_lpi" render="1"/>
+  <method name="gtk_print_settings_set_quality" render="1"/>
+  <method name="gtk_print_settings_set_resolution" render="1"/>
+  <method name="gtk_print_settings_set_resolution_xy" render="1"/>
+  <method name="gtk_print_settings_set_reverse" render="1"/>
+  <method name="gtk_print_settings_set_scale" render="1"/>
+  <method name="gtk_print_settings_set_use_color" render="1"/>
+  <method name="gtk_print_settings_to_file" render="1"/>
+  <method name="gtk_print_settings_to_gvariant" render="1"/>
+  <method name="gtk_print_settings_to_key_file" render="1"/>
+  <method name="gtk_print_settings_unset" render="1"/>
+</render>
+</bp>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bp xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include href="gir/Gtk-4.0.gir"/>
+<xi:include href="gir/cairo-1.0.gir"/>
+<xi:include href="gir/Gdk-4.0.gir"/>
+<xi:include href="gir/GdkPixbuf-2.0.gir"/>
+<xi:include href="gir/Gio-2.0.gir"/>
+<xi:include href="gir/GLib-2.0.gir"/>
+<xi:include href="gir/GModule-2.0.gir"/>
+<xi:include href="gir/GObject-2.0.gir"/>
+<xi:include href="gir/Graphene-1.0.gir"/>
+<xi:include href="gir/Gsk-4.0.gir"/>
+<xi:include href="gir/HarfBuzz-0.0.gir"/>
+<xi:include href="gir/Pango-1.0.gir"/>
+<xi:include href="gir/PangoCairo-1.0.gir"/>
+<xi:include href="c_types.xml"/>
+<render>
+  <constructor name="gtk_list_box_row_new" render="1"/>
+  <method name="gtk_list_box_row_changed" render="1"/>
+  <method name="gtk_list_box_row_get_activatable" render="1"/>
+  <method name="gtk_list_box_row_get_child" render="1"/>
+  <method name="gtk_list_box_row_get_header" render="1"/>
+  <method name="gtk_list_box_row_get_index" render="1"/>
+  <method name="gtk_list_box_row_get_selectable" render="1"/>
+  <method name="gtk_list_box_row_is_selected" render="1"/>
+  <method name="gtk_list_box_row_set_activatable" render="1"/>
+  <method name="gtk_list_box_row_set_child" render="1"/>
+  <method name="gtk_list_box_row_set_header" render="1"/>
+  <method name="gtk_list_box_row_set_selectable" render="1"/>
+</render>
+</bp>

@@ -11,3 +11,5 @@
 */
 struct GtkAdjustment
   embed parent_instance: GObject = GObject
+
+  fun ref gobject(): GObject => parent_instance
