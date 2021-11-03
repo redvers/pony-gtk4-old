@@ -25,24 +25,39 @@
   <type name="gssize" ponyusearg="ISize" ponyuserv="ISize" ponyfnrv="ISize"/>
   <type name="char" ponyusearg="U8" ponyuserv="U8" ponyfnrv="U8"/>
   <type name="gchar" ponyusearg="U8" ponyuserv="U8" ponyfnrv="U8"/>
+  <type name="float" ponyusearg="F32" ponyuserv="F32" ponyfnrv="F32"/>
+  <type name="double" ponyusearg="F64" ponyuserv="F64" ponyfnrv="F64"/>
   <type name="gdouble" ponyusearg="F64" ponyuserv="F64" ponyfnrv="F64"/>
   <type name="gchar*" ponyusearg="U8" ponyuserv="U8" ponyfnrv="String"/>
   <type name="gchar**" ponyusearg="Pointer[Pointer[U8]]" ponyuserv="Pointer[Pointer[U8]]" ponyfnrv="Pointer[Pointer[U8]]"/>
   <type name="char**" ponyusearg="Pointer[Pointer[U8]]" ponyuserv="Pointer[Pointer[U8]]" ponyfnrv="Pointer[Pointer[U8]]"/>
   <type name="const char**" ponyusearg="Pointer[Pointer[U8]]" ponyuserv="Pointer[Pointer[U8]]" ponyfnrv="Pointer[Pointer[U8]]"/>
   <type name="gboolean" ponyusearg="Bool" ponyuserv="Bool" ponyfnrv="Bool"/>
+  <type name="gconstpointer" ponyusearg="Pointer[None]" ponyuserv="Pointer[None]" ponyfnrv="Pointer[None]"/>
 
   <type name="GtkWindow*" ponyusearg="GtkWindow" ponyuserv="GtkWindow" ponyfnrv="GtkWindow"/>
   <type name="GtkWindowGroup*" ponyusearg="GtkWindowGroup" ponyuserv="GtkWindowGroup" ponyfnrv="GtkWindowGroup"/>
   <type name="GtkWidget*" ponyusearg="GtkWidget" ponyuserv="GtkWidget" ponyfnrv="GtkWidget"/>
+  <type name="GtkActionBar*" ponyusearg="GtkActionBar" ponyuserv="GtkActionBar" ponyfnrv="GtkActionBar"/>
+  <type name="GtkAdjustment*" ponyusearg="GtkAdjustment" ponyuserv="GtkAdjustment" ponyfnrv="GtkAdjustment"/>
   <type name="GtkApplication*" ponyusearg="GtkApplication" ponyuserv="GtkApplication" ponyfnrv="GtkApplication"/>
   <type name="GtkAboutDialog*" ponyusearg="GtkAboutDialog" ponyuserv="GtkAboutDialog" ponyfnrv="GtkAboutDialog"/>
   <type name="GtkApplicationWindow*" ponyusearg="GtkApplicationWindow" ponyuserv="GtkApplicationWindow" ponyfnrv="GtkApplicationWindow"/>
+  <type name="GtkAppChooserButton*" ponyusearg="GtkAppChooserButton" ponyuserv="GtkAppChooserButton" ponyfnrv="GtkAppChooserButton"/>
+  <type name="GtkAppChooserDialog*" ponyusearg="GtkAppChooserDialog" ponyuserv="GtkAppChooserDialog" ponyfnrv="GtkAppChooserDialog"/>
+  <type name="GtkAppChooserWidget*" ponyusearg="GtkAppChooserWidget" ponyuserv="GtkAppChooserWidget" ponyfnrv="GtkAppChooserWidget"/>
+  <type name="GtkAlternativeTrigger*" ponyusearg="GtkAlternativeTrigger" ponyuserv="GtkAlternativeTrigger" ponyfnrv="GtkAlternativeTrigger"/>
+  <type name="GtkAspectFrame*" ponyusearg="GtkAspectFrame" ponyuserv="GtkAspectFrame" ponyfnrv="GtkAspectFrame"/>
+  <type name="GtkAssistant*" ponyusearg="GtkAssistant" ponyuserv="GtkAssistant" ponyfnrv="GtkAssistant"/>
+  <type name="GtkAssistantPage*" ponyusearg="GtkAssistantPage" ponyuserv="GtkAssistantPage" ponyfnrv="GtkAssistantPage"/>
+  <type name="GtkShortcutTrigger*" ponyusearg="GtkShortcutTrigger" ponyuserv="GtkShortcutTrigger" ponyfnrv="GtkShortcutTrigger"/>
   <type name="GtkBox*" ponyusearg="GtkBox" ponyuserv="GtkBox" ponyfnrv="GtkBox"/>
   <type name="GtkBuilder*" ponyusearg="GtkBuilder" ponyuserv="GtkBuilder" ponyfnrv="GtkBuilder"/>
   <type name="GtkButton*" ponyusearg="GtkButton" ponyuserv="GtkButton" ponyfnrv="GtkButton"/>
   <type name="GObject*" ponyusearg="GObject" ponyuserv="GObject" ponyfnrv="GObject"/>
   <type name="GSList*" ponyusearg="GSList" ponyuserv="GSList" ponyfnrv="GSList"/>
+  <type name="GFile*" ponyusearg="GFile" ponyuserv="GFile" ponyfnrv="GFile"/>
+  <type name="GIcon*" ponyusearg="GIcon" ponyuserv="GIcon" ponyfnrv="GIcon"/>
   <type name="GType" ponyusearg="U64" ponyuserv="U64" ponyfnrv="U64"/>
 
 
@@ -52,7 +67,9 @@
   <type name="GApplicationFlags" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
   <type name="GtkBaselinePosition" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
   <type name="GtkOrientation" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
+  <type name="GtkDialogFlags" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
   <type name="GtkLicense" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
+  <type name="GtkAssistantPageType" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
 
   <reservedfns>
     <reserved name="new" newname="gnew"/>

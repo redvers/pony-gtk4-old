@@ -4,27 +4,35 @@ gtk_about_dialog:
 	bash -x genpony.sh GtkAboutDialog AboutDialog
 #
 gtk_action_bar:
+	bash -x genpony.sh GtkActionBar ActionBar
 ##	saxon-he -xi gtk_action_bar.xml makeprimitives.xsl primitive=ActionBar
 #
 gtk_activate_action:
+	bash -x genpony.sh GtkActivateAction ActivateAction
 ##	saxon-he -xi gtk_activate_action.xml makeprimitives.xsl primitive=ActivateAction
 #
 gtk_adjustment:
+	bash -x genpony.sh GtkAdjustment Adjustment
 ##	saxon-he -xi gtk_adjustment.xml makeprimitives.xsl primitive=Adjustment
 #
 gtk_alternative_trigger:
+	bash -x genpony.sh GtkAlternativeTrigger AlternativeTrigger
 ##	saxon-he -xi gtk_alternative_trigger.xml makeprimitives.xsl primitive=AlternativeTrigger
 #
 gtk_any_filter:
+	bash -x genpony.sh GtkAnyFilter AnyFilter
 #	saxon-he -xi gtk_any_filter.xml makeprimitives.xsl primitive=AnyFilter
 #
 gtk_app_chooser_button:
+	bash -x genpony.sh GtkAppChooserButton AppChooserButton
 ##	saxon-he -xi gtk_app_chooser_button.xml makeprimitives.xsl primitive=ChooserButton
 #
 gtk_app_chooser_dialog:
+	bash -x genpony.sh GtkAppChooserDialog AppChooserDialog
 ##	saxon-he -xi gtk_app_chooser_dialog.xml makeprimitives.xsl primitive=ChooserDialog
 #
 gtk_app_chooser_widget:
+	bash -x genpony.sh GtkAppChooserWidget AppChooserWidget
 ##	saxon-he -xi gtk_app_chooser_widget.xml makeprimitives.xsl primitive=ChooserWidget
 #
 gtk_application:
@@ -34,13 +42,16 @@ gtk_application_window:
 	bash -x genpony.sh GtkApplicationWindow ApplicationWindow
 #
 gtk_aspect_frame:
+	bash -x genpony.sh GtkAspectFrame AspectFrame
 ##	saxon-he -xi gtk_aspect_frame.xml makeprimitives.xsl primitive=AspectFrame
 #
 gtk_assistant:
+	bash -x genpony.sh GtkAssistant Assistant
 #	bash -x genpony.sh gtk_assistant Assistant
 ##	saxon-he -xi gtk_assistant.xml makeprimitives.xsl primitive=
 #
 gtk_assistant_page:
+	bash -x genpony.sh GtkAssistantPage AssistantPage
 ##	saxon-he -xi gtk_assistant_page.xml makeprimitives.xsl primitive=
 #
 gtk_at_context:
@@ -607,6 +618,7 @@ gtk_shortcuts_window:
 ##	saxon-he -xi gtk_shortcuts_window.xml makeprimitives.xsl primitive=
 #
 gtk_shortcut_trigger:
+	bash -x genpony.sh GtkShortcutTrigger ShortcutTrigger
 ##	saxon-he -xi gtk_shortcut_trigger.xml makeprimitives.xsl primitive=
 #
 gtk_signal_action:

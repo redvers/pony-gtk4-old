@@ -26,7 +26,7 @@
   <method name="gtk_assistant_get_page_complete" render="1"/>
   <method name="gtk_assistant_get_page_title" render="1"/>
   <method name="gtk_assistant_get_page_type" render="1"/>
-  <method name="gtk_assistant_get_pages" render="1"/>
+  <method name="gtk_assistant_get_pages" render="0"/>
   <method name="gtk_assistant_insert_page" render="1"/>
   <method name="gtk_assistant_next_page" render="1"/>
   <method name="gtk_assistant_prepend_page" render="1"/>
@@ -34,10 +34,10 @@
   <method name="gtk_assistant_remove_action_widget" render="1"/>
   <method name="gtk_assistant_remove_page" render="1"/>
   <method name="gtk_assistant_set_current_page" render="1"/>
-  <method name="gtk_assistant_set_forward_page_func" render="1"/>
+  <method name="gtk_assistant_set_forward_page_func" render="0"/>
   <method name="gtk_assistant_set_page_complete" render="1"/>
   <method name="gtk_assistant_set_page_title" render="1"/>
-  <method name="gtk_assistant_set_page_type" render="1"/>
+  <method name="gtk_assistant_set_page_type" render="0"/>
   <method name="gtk_assistant_update_buttons_state" render="1"/>
 </render>
 </bp>

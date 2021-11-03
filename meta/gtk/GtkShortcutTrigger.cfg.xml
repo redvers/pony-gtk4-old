@@ -16,13 +16,13 @@
 <xi:include href="c_types.xml"/>
 <render>
   <constructor name="gtk_shortcut_trigger_parse_string" render="1"/>
-  <method name="gtk_shortcut_trigger_compare" render="1"/>
-  <method name="gtk_shortcut_trigger_equal" render="1"/>
-  <method name="gtk_shortcut_trigger_hash" render="1"/>
-  <method name="gtk_shortcut_trigger_print" render="1"/>
-  <method name="gtk_shortcut_trigger_print_label" render="1"/>
-  <method name="gtk_shortcut_trigger_to_label" render="1"/>
-  <method name="gtk_shortcut_trigger_to_string" render="1"/>
-  <method name="gtk_shortcut_trigger_trigger" render="1"/>
+  <method name="gtk_shortcut_trigger_compare" render="0"/>
+  <method name="gtk_shortcut_trigger_equal" render="0"/>
+  <method name="gtk_shortcut_trigger_hash" render="0"/>
+  <method name="gtk_shortcut_trigger_print" render="0"/>
+  <method name="gtk_shortcut_trigger_print_label" render="0"/>
+  <method name="gtk_shortcut_trigger_to_label" render="0"/>
+  <method name="gtk_shortcut_trigger_to_string" render="0"/>
+  <method name="gtk_shortcut_trigger_trigger" render="0"/>
 </render>
 </bp>
