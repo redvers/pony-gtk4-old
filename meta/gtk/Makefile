@@ -54,43 +54,53 @@ gtk_assistant_page:
 	bash -x genpony.sh GtkAssistantPage AssistantPage
 ##	saxon-he -xi gtk_assistant_page.xml makeprimitives.xsl primitive=
 #
-gtk_at_context:
+#gtk_at_context: // Needs investigation
+#	bash -x genpony.sh GtkATContext ATContext
 ##	saxon-he -xi gtk_at_context.xml makeprimitives.xsl primitive=
 #
 gtk_bin_layout:
+	bash -x genpony.sh GtkBinLayout BinLayout
 ##	saxon-he -xi gtk_bin_layout.xml makeprimitives.xsl primitive=
 #
 gtk_bookmark_list:
+	bash -x genpony.sh GtkBookmarkList BookmarkList
 ##	saxon-he -xi gtk_bookmark_list.xml makeprimitives.xsl primitive=
 #
 gtk_bool_filter:
+	bash -x genpony.sh GtkBoolFilter BoolFilter
 ##	saxon-he -xi gtk_bool_filter.xml makeprimitives.xsl primitive=
 #
 gtk_box:
 	bash -x genpony.sh GtkBox Box
 #
 gtk_box_layout:
+	bash -x genpony.sh GtkBoxLayout BoxLayout
 ##	saxon-he -xi gtk_box_layout.xml makeprimitives.xsl primitive=
 #
 gtk_builder:
 	bash -x genpony.sh GtkBuilder Builder
 #
 gtk_builder_cscope:
+	bash -x genpony.sh GtkBuilderCScope BuilderCScope
 ##	saxon-he -xi gtk_builder_cscope.xml makeprimitives.xsl primitive=
 #
-gtk_builder_list_item_factory:
+#gtk_builder_list_item_factory:  // Needs generation repair
+#	bash -x genpony.sh GtkBuilderListItemFactory BuilderListItemFactory
 ##	saxon-he -xi gtk_builder_list_item_factory.xml makeprimitives.xsl primitive=
 #
 gtk_button:
 	bash -x genpony.sh GtkButton Button
 #
 gtk_calendar:
+	bash -x genpony.sh GtkCalendar Calendar
 ##	saxon-he -xi gtk_calendar.xml makeprimitives.xsl primitive=
 #
-gtk_callback_action:
+#gtk_callback_action: // Doesn't seem to be used
+#	bash -x genpony.sh GtkCallbackAction CallbackAction
 ##	saxon-he -xi gtk_callback_action.xml makeprimitives.xsl primitive=
 #
-gtk_cclosure_expression:
+#gtk_cclosure_expression: // Doesn't seem to be used
+#	bash -x genpony.sh GtkCClosureExpression CClosureExpression
 ##	saxon-he -xi gtk_cclosure_expression.xml makeprimitives.xsl primitive=
 #
 gtk_cell_area:
@@ -263,6 +273,7 @@ gtk_expander:
 ##	saxon-he -xi gtk_expander.xml makeprimitives.xsl primitive=
 #
 gtk_expression:
+	bash -x genpony.sh GtkExpression Expression
 ##	saxon-he -xi gtk_expression.xml makeprimitives.xsl primitive=
 #
 gtk_file_chooser_dialog:

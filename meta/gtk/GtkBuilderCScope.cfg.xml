@@ -16,8 +16,8 @@
 <xi:include href="c_types.xml"/>
 <render>
   <constructor name="gtk_builder_cscope_new" render="1"/>
-  <method name="gtk_builder_cscope_add_callback_symbol" render="1"/>
-  <method name="gtk_builder_cscope_add_callback_symbols" render="1"/>
-  <method name="gtk_builder_cscope_lookup_callback_symbol" render="1"/>
+  <method name="gtk_builder_cscope_add_callback_symbol" render="0"/>
+  <method name="gtk_builder_cscope_add_callback_symbols" render="0"/>
+  <method name="gtk_builder_cscope_lookup_callback_symbol" render="0"/>
 </render>
 </bp>

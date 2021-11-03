@@ -15,12 +15,12 @@
 <xi:include href="gir/PangoCairo-1.0.gir"/>
 <xi:include href="c_types.xml"/>
 <render>
-  <method name="gtk_expression_bind" render="1"/>
-  <method name="gtk_expression_evaluate" render="1"/>
+  <method name="gtk_expression_bind" render="0"/>
+  <method name="gtk_expression_evaluate" render="0"/>
   <method name="gtk_expression_get_value_type" render="1"/>
   <method name="gtk_expression_is_static" render="1"/>
-  <method name="gtk_expression_ref" render="1"/>
+  <method name="gtk_expression_ref" render="0"/>
   <method name="gtk_expression_unref" render="1"/>
-  <method name="gtk_expression_watch" render="1"/>
+  <method name="gtk_expression_watch" render="0"/>
 </render>
 </bp>

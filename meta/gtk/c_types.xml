@@ -50,14 +50,25 @@
   <type name="GtkAspectFrame*" ponyusearg="GtkAspectFrame" ponyuserv="GtkAspectFrame" ponyfnrv="GtkAspectFrame"/>
   <type name="GtkAssistant*" ponyusearg="GtkAssistant" ponyuserv="GtkAssistant" ponyfnrv="GtkAssistant"/>
   <type name="GtkAssistantPage*" ponyusearg="GtkAssistantPage" ponyuserv="GtkAssistantPage" ponyfnrv="GtkAssistantPage"/>
+  <type name="GtkBookmarkList*" ponyusearg="GtkBookmarkList" ponyuserv="GtkBookmarkList" ponyfnrv="GtkBookmarkList"/>
   <type name="GtkShortcutTrigger*" ponyusearg="GtkShortcutTrigger" ponyuserv="GtkShortcutTrigger" ponyfnrv="GtkShortcutTrigger"/>
   <type name="GtkBox*" ponyusearg="GtkBox" ponyuserv="GtkBox" ponyfnrv="GtkBox"/>
+  <type name="GtkBoxLayout*" ponyusearg="GtkBoxLayout" ponyuserv="GtkBoxLayout" ponyfnrv="GtkBoxLayout"/>
+  <type name="GtkBoolFilter*" ponyusearg="GtkBoolFilter" ponyuserv="GtkBoolFilter" ponyfnrv="GtkBoolFilter"/>
   <type name="GtkBuilder*" ponyusearg="GtkBuilder" ponyuserv="GtkBuilder" ponyfnrv="GtkBuilder"/>
+  <type name="GtkBuilderCScope*" ponyusearg="GtkBuilderCScope" ponyuserv="GtkBuilderCScope" ponyfnrv="GtkBuilderCScope"/>
+  <type name="GtkBuilderListItemFactory*" ponyusearg="GtkBuilderListItemFactory" ponyuserv="GtkBuilderListItemFactory" ponyfnrv="GtkBuilderListItemFactory"/>
   <type name="GtkButton*" ponyusearg="GtkButton" ponyuserv="GtkButton" ponyfnrv="GtkButton"/>
+  <type name="GtkCalendar*" ponyusearg="GtkCalendar" ponyuserv="GtkCalendar" ponyfnrv="GtkCalendar"/>
+  <type name="GtkCallbackAction*" ponyusearg="GtkCallbackAction" ponyuserv="GtkCallbackAction" ponyfnrv="GtkCallbackAction"/>
+  <type name="GtkCClosureExpression*" ponyusearg="GtkCClosureExpression" ponyuserv="GtkCClosureExpression" ponyfnrv="GtkCClosureExpression"/>
+  <type name="GtkExpression*" ponyusearg="GtkExpression" ponyuserv="GtkExpression" ponyfnrv="GtkExpression"/>
   <type name="GObject*" ponyusearg="GObject" ponyuserv="GObject" ponyfnrv="GObject"/>
   <type name="GSList*" ponyusearg="GSList" ponyuserv="GSList" ponyfnrv="GSList"/>
   <type name="GFile*" ponyusearg="GFile" ponyuserv="GFile" ponyfnrv="GFile"/>
   <type name="GIcon*" ponyusearg="GIcon" ponyuserv="GIcon" ponyfnrv="GIcon"/>
+  <type name="GBytes*" ponyusearg="GBytes" ponyuserv="GBytes" ponyfnrv="GBytes"/>
+  <type name="GDateTime*" ponyusearg="GDateTime" ponyuserv="GDateTime" ponyfnrv="GDateTime"/>
   <type name="GType" ponyusearg="U64" ponyuserv="U64" ponyfnrv="U64"/>
 
 
