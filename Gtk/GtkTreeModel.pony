@@ -13,4 +13,4 @@ struct GtkTreeIter
 
   Fields (Offset in bits):
 */
-interface GtkTreeModel
+struct GtkTreeModel

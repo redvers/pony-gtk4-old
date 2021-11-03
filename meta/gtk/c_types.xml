@@ -125,6 +125,7 @@
   <type name="GtkExpander*" ponyusearg="GtkExpander" ponyuserv="GtkExpander" ponyfnrv="GtkExpander"/>
   <type name="GtkExpression*" ponyusearg="GtkExpression" ponyuserv="GtkExpression" ponyfnrv="GtkExpression"/>
   <type name="GtkListItemFactory*" ponyusearg="GtkListItemFactory" ponyuserv="GtkListItemFactory" ponyfnrv="GtkListItemFactory"/>
+  <type name="GtkNativeDialog*" ponyusearg="GtkNativeDialog" ponyuserv="GtkNativeDialog" ponyfnrv="GtkNativeDialog"/>
   <type name="GtkSelectionModel*" ponyusearg="GtkSelectionModel" ponyuserv="GtkSelectionModel" ponyfnrv="GtkSelectionModel"/>
   <type name="GtkSorter*" ponyusearg="GtkSorter" ponyuserv="GtkSorter" ponyfnrv="GtkSorter"/>
   <type name="GtkTreeModel*" ponyusearg="GtkTreeModel" ponyuserv="GtkTreeModel" ponyfnrv="GtkTreeModel"/>

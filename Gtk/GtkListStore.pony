@@ -15,7 +15,7 @@ use @gtk_list_store_set_column_types[None](glist_store: GtkListStore, gn_columns
      000000: [Struct size=192,fid: f141]: parent  
      000192: [PointerType size=64]->[Struct size=,fid: f524]: priv  
 */
-struct GtkListStore is GtkTreeModel
+struct GtkListStore
   var parent: GObject = GObject
   var priv: NullablePointer[GtkListStorePrivate] = NullablePointer[GtkListStorePrivate].none()
   fun ref clear(): None =>
