@@ -22,26 +22,26 @@
   <method name="gtk_combo_box_get_active" render="1"/>
   <method name="gtk_combo_box_get_active_id" render="1"/>
   <method name="gtk_combo_box_get_active_iter" render="1"/>
-  <method name="gtk_combo_box_get_button_sensitivity" render="1"/>
+  <method name="gtk_combo_box_get_button_sensitivity" render="0"/>
   <method name="gtk_combo_box_get_child" render="1"/>
   <method name="gtk_combo_box_get_entry_text_column" render="1"/>
   <method name="gtk_combo_box_get_has_entry" render="1"/>
   <method name="gtk_combo_box_get_id_column" render="1"/>
   <method name="gtk_combo_box_get_model" render="1"/>
   <method name="gtk_combo_box_get_popup_fixed_width" render="1"/>
-  <method name="gtk_combo_box_get_row_separator_func" render="1"/>
+  <method name="gtk_combo_box_get_row_separator_func" render="0"/>
   <method name="gtk_combo_box_popdown" render="1"/>
   <method name="gtk_combo_box_popup" render="1"/>
-  <method name="gtk_combo_box_popup_for_device" render="1"/>
+  <method name="gtk_combo_box_popup_for_device" render="0"/>
   <method name="gtk_combo_box_set_active" render="1"/>
   <method name="gtk_combo_box_set_active_id" render="1"/>
   <method name="gtk_combo_box_set_active_iter" render="1"/>
-  <method name="gtk_combo_box_set_button_sensitivity" render="1"/>
+  <method name="gtk_combo_box_set_button_sensitivity" render="0"/>
   <method name="gtk_combo_box_set_child" render="1"/>
   <method name="gtk_combo_box_set_entry_text_column" render="1"/>
   <method name="gtk_combo_box_set_id_column" render="1"/>
   <method name="gtk_combo_box_set_model" render="1"/>
   <method name="gtk_combo_box_set_popup_fixed_width" render="1"/>
-  <method name="gtk_combo_box_set_row_separator_func" render="1"/>
+  <method name="gtk_combo_box_set_row_separator_func" render="0"/>
 </render>
 </bp>

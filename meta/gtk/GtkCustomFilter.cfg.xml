@@ -15,7 +15,7 @@
 <xi:include href="gir/PangoCairo-1.0.gir"/>
 <xi:include href="c_types.xml"/>
 <render>
-  <constructor name="gtk_custom_filter_new" render="1"/>
-  <method name="gtk_custom_filter_set_filter_func" render="1"/>
+  <constructor name="gtk_custom_filter_new" render="0"/>
+  <method name="gtk_custom_filter_set_filter_func" render="0"/>
 </render>
 </bp>

@@ -15,8 +15,8 @@
 <xi:include href="gir/PangoCairo-1.0.gir"/>
 <xi:include href="c_types.xml"/>
 <render>
-  <constructor name="gtk_constant_expression_new" render="1"/>
+  <constructor name="gtk_constant_expression_new" render="0"/>
   <constructor name="gtk_constant_expression_new_for_value" render="1"/>
-  <method name="gtk_constant_expression_get_value" render="1"/>
+  <method name="gtk_constant_expression_get_value" render="0"/>
 </render>
 </bp>

@@ -72,13 +72,13 @@
      <xsl:choose>
        <xsl:when test="position() = 0">
          <xsl:variable name="name"><xsl:value-of select="./@name"/></xsl:variable>
-         <xsl:variable name="pctype"><xsl:value-of select="./t:type/@c:type"/></xsl:variable>
+         <xsl:variable name="pctype"><xsl:value-of select="./*/@c:type"/></xsl:variable>
          <xsl:value-of select="$name"/>
 	 <xsl:value-of select="/bp/ctypes/type[@name=$pctype]/@pony2c"/>
        </xsl:when>
        <xsl:otherwise>
          <xsl:variable name="name"><xsl:value-of select="./@name"/></xsl:variable>
-         <xsl:variable name="pctype"><xsl:value-of select="./t:type/@c:type"/></xsl:variable>
+         <xsl:variable name="pctype"><xsl:value-of select="./*/@c:type"/></xsl:variable>
 	 <xsl:text>, </xsl:text><xsl:value-of select="$name"/>
 	 <xsl:value-of select="/bp/ctypes/type[@name=$pctype]/@pony2c"/>
        </xsl:otherwise>

@@ -24,7 +24,7 @@ use @gtk_adjustment_set_value[None](gadjustment: GtkAdjustment, gvalue: F64)
   Struct Align (bits): 64
 
   Fields (Offset in bits):
-     000000: [Struct size=192,fid: f141]: parent_instance
+     000000: [Struct size=192,fid: f141]: parent_instance  
 */
 struct GtkAdjustment
   embed parent_instance: GObject = GObject

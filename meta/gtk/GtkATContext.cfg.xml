@@ -15,8 +15,8 @@
 <xi:include href="gir/PangoCairo-1.0.gir"/>
 <xi:include href="c_types.xml"/>
 <render>
-  <constructor name="gtk_at_context_create" render="1"/>
-  <method name="gtk_at_context_get_accessible" render="1"/>
-  <method name="gtk_at_context_get_accessible_role" render="1"/>
+  <constructor name="gtk_at_context_create" render="0"/>
+  <method name="gtk_at_context_get_accessible" render="0"/>
+  <method name="gtk_at_context_get_accessible_role" render="0"/>
 </render>
 </bp>

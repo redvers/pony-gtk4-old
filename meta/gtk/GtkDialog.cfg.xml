@@ -16,10 +16,10 @@
 <xi:include href="c_types.xml"/>
 <render>
   <constructor name="gtk_dialog_new" render="1"/>
-  <constructor name="gtk_dialog_new_with_buttons" render="1"/>
+  <constructor name="gtk_dialog_new_with_buttons" render="0"/>
   <method name="gtk_dialog_add_action_widget" render="1"/>
   <method name="gtk_dialog_add_button" render="1"/>
-  <method name="gtk_dialog_add_buttons" render="1"/>
+  <method name="gtk_dialog_add_buttons" render="0"/>
   <method name="gtk_dialog_get_content_area" render="1"/>
   <method name="gtk_dialog_get_header_bar" render="1"/>
   <method name="gtk_dialog_get_response_for_widget" render="1"/>

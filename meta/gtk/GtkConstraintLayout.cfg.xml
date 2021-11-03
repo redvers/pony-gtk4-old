@@ -17,8 +17,8 @@
 <render>
   <constructor name="gtk_constraint_layout_new" render="1"/>
   <method name="gtk_constraint_layout_add_constraint" render="1"/>
-  <method name="gtk_constraint_layout_add_constraints_from_description" render="1"/>
-  <method name="gtk_constraint_layout_add_constraints_from_descriptionv" render="1"/>
+  <method name="gtk_constraint_layout_add_constraints_from_description" render="0"/>
+  <method name="gtk_constraint_layout_add_constraints_from_descriptionv" render="0"/>
   <method name="gtk_constraint_layout_add_guide" render="1"/>
   <method name="gtk_constraint_layout_observe_constraints" render="1"/>
   <method name="gtk_constraint_layout_observe_guides" render="1"/>

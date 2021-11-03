@@ -6,7 +6,7 @@
 <xsl:param name="namespace" />
 
        <!-- <xsl:template match="/bp/render/function"><xsl:call-template name="usefn"/></xsl:template> -->
-<xsl:template match="/bp/render/constructor"><xsl:call-template name="usefn"/></xsl:template>
+<xsl:template match="/bp/render/constructor[@render='1']"><xsl:call-template name="usefn"/></xsl:template>
 <!-- <xsl:template match="/bp/render/method"><xsl:call-template name="usefn"/></xsl:template> -->
 
 <xsl:template name="usefn">

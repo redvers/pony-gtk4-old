@@ -6,7 +6,7 @@
 <xsl:param name="namespace" />
 
 <xsl:template match="/bp">
-<xsl:for-each select="/bp/render/constructor"><xsl:call-template name="constructor"/></xsl:for-each>
+<xsl:for-each select="/bp/render/constructor[@render='1']"><xsl:call-template name="constructor"/></xsl:for-each>
 </xsl:template>
 <xsl:template match="/bp/render/constructor"><xsl:call-template name="constructor"/></xsl:template>
 

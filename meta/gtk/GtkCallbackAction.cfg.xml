@@ -15,6 +15,6 @@
 <xi:include href="gir/PangoCairo-1.0.gir"/>
 <xi:include href="c_types.xml"/>
 <render>
-  <constructor name="gtk_callback_action_new" render="1"/>
+  <constructor name="gtk_callback_action_new" render="0"/>
 </render>
 </bp>

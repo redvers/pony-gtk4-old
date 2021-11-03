@@ -2,107 +2,58 @@ all: gtk_about_dialog gtk_action_bar gtk_activate_action gtk_adjustment gtk_alte
 
 gtk_about_dialog:
 	bash -x genpony.sh GtkAboutDialog AboutDialog
-#
 gtk_action_bar:
 	bash -x genpony.sh GtkActionBar ActionBar
-##	saxon-he -xi gtk_action_bar.xml makeprimitives.xsl primitive=ActionBar
-#
 gtk_activate_action:
 	bash -x genpony.sh GtkActivateAction ActivateAction
-##	saxon-he -xi gtk_activate_action.xml makeprimitives.xsl primitive=ActivateAction
-#
 gtk_adjustment:
 	bash -x genpony.sh GtkAdjustment Adjustment
-##	saxon-he -xi gtk_adjustment.xml makeprimitives.xsl primitive=Adjustment
-#
 gtk_alternative_trigger:
 	bash -x genpony.sh GtkAlternativeTrigger AlternativeTrigger
-##	saxon-he -xi gtk_alternative_trigger.xml makeprimitives.xsl primitive=AlternativeTrigger
-#
 gtk_any_filter:
 	bash -x genpony.sh GtkAnyFilter AnyFilter
-#	saxon-he -xi gtk_any_filter.xml makeprimitives.xsl primitive=AnyFilter
-#
 gtk_app_chooser_button:
 	bash -x genpony.sh GtkAppChooserButton AppChooserButton
-##	saxon-he -xi gtk_app_chooser_button.xml makeprimitives.xsl primitive=ChooserButton
-#
 gtk_app_chooser_dialog:
 	bash -x genpony.sh GtkAppChooserDialog AppChooserDialog
-##	saxon-he -xi gtk_app_chooser_dialog.xml makeprimitives.xsl primitive=ChooserDialog
-#
 gtk_app_chooser_widget:
 	bash -x genpony.sh GtkAppChooserWidget AppChooserWidget
-##	saxon-he -xi gtk_app_chooser_widget.xml makeprimitives.xsl primitive=ChooserWidget
-#
 gtk_application:
 	bash -x genpony.sh GtkApplication Application
-#
 gtk_application_window:
 	bash -x genpony.sh GtkApplicationWindow ApplicationWindow
-#
 gtk_aspect_frame:
 	bash -x genpony.sh GtkAspectFrame AspectFrame
-##	saxon-he -xi gtk_aspect_frame.xml makeprimitives.xsl primitive=AspectFrame
-#
 gtk_assistant:
 	bash -x genpony.sh GtkAssistant Assistant
-#	bash -x genpony.sh gtk_assistant Assistant
-##	saxon-he -xi gtk_assistant.xml makeprimitives.xsl primitive=
-#
 gtk_assistant_page:
 	bash -x genpony.sh GtkAssistantPage AssistantPage
-##	saxon-he -xi gtk_assistant_page.xml makeprimitives.xsl primitive=
-#
-#gtk_at_context: // Needs investigation
-#	bash -x genpony.sh GtkATContext ATContext
-##	saxon-he -xi gtk_at_context.xml makeprimitives.xsl primitive=
-#
+gtk_at_context:
+	bash -x genpony.sh GtkATContext ATContext
 gtk_bin_layout:
 	bash -x genpony.sh GtkBinLayout BinLayout
-##	saxon-he -xi gtk_bin_layout.xml makeprimitives.xsl primitive=
-#
 gtk_bookmark_list:
 	bash -x genpony.sh GtkBookmarkList BookmarkList
-##	saxon-he -xi gtk_bookmark_list.xml makeprimitives.xsl primitive=
-#
 gtk_bool_filter:
 	bash -x genpony.sh GtkBoolFilter BoolFilter
-##	saxon-he -xi gtk_bool_filter.xml makeprimitives.xsl primitive=
-#
 gtk_box:
 	bash -x genpony.sh GtkBox Box
-#
 gtk_box_layout:
 	bash -x genpony.sh GtkBoxLayout BoxLayout
-##	saxon-he -xi gtk_box_layout.xml makeprimitives.xsl primitive=
-#
 gtk_builder:
 	bash -x genpony.sh GtkBuilder Builder
-#
 gtk_builder_cscope:
 	bash -x genpony.sh GtkBuilderCScope BuilderCScope
-##	saxon-he -xi gtk_builder_cscope.xml makeprimitives.xsl primitive=
-#
-#gtk_builder_list_item_factory:  // Needs generation repair
-#	bash -x genpony.sh GtkBuilderListItemFactory BuilderListItemFactory
-##	saxon-he -xi gtk_builder_list_item_factory.xml makeprimitives.xsl primitive=
-#
+gtk_builder_list_item_factory:
+	bash -x genpony.sh GtkBuilderListItemFactory BuilderListItemFactory
 gtk_button:
 	bash -x genpony.sh GtkButton Button
-#
 gtk_calendar:
 	bash -x genpony.sh GtkCalendar Calendar
-##	saxon-he -xi gtk_calendar.xml makeprimitives.xsl primitive=
-#
-#gtk_callback_action: // Doesn't seem to be used
-#	bash -x genpony.sh GtkCallbackAction CallbackAction
-##	saxon-he -xi gtk_callback_action.xml makeprimitives.xsl primitive=
-#
-#gtk_cclosure_expression: // Doesn't seem to be used
-#	bash -x genpony.sh GtkCClosureExpression CClosureExpression
-##	saxon-he -xi gtk_cclosure_expression.xml makeprimitives.xsl primitive=
-#
+gtk_callback_action:
+	bash -x genpony.sh GtkCallbackAction CallbackAction
+gtk_cclosure_expression:
+	bash -x genpony.sh GtkCClosureExpression CClosureExpression
 gtk_cell_area:
 ##	saxon-he -xi gtk_cell_area.xml makeprimitives.xsl primitive=
 #
@@ -143,67 +94,57 @@ gtk_cell_view:
 ##	saxon-he -xi gtk_cell_view.xml makeprimitives.xsl primitive=
 #
 gtk_center_box:
-##	saxon-he -xi gtk_center_box.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkCenterBox CenterBox
 gtk_center_layout:
-##	saxon-he -xi gtk_center_layout.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkCenterLayout CenterLayout
 gtk_check_button:
-#	bash -x genpony.sh gtk_check_button CheckButton
-##	saxon-he -xi gtk_check_button.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkCheckButton CheckButton
 gtk_closure_expression:
-##	saxon-he -xi gtk_closure_expression.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkClosureExpression ClosureExpression
 gtk_color_button:
-##	saxon-he -xi gtk_color_button.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkColorButton ColorButton
 gtk_color_chooser_dialog:
-##	saxon-he -xi gtk_color_chooser_dialog.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkColorChooserDialog ColorChooserDialog
 gtk_color_chooser_widget:
-##	saxon-he -xi gtk_color_chooser_widget.xml makeprimitives.xsl primitive=
-#
-gtk_column_view:
-##	saxon-he -xi gtk_column_view.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkColorChooserWidget ColorChooserWidget
+gtk_column_view: gtk_selection_model
+	bash -x genpony.sh GtkColumnView ColumnView
 gtk_column_view_column:
-##	saxon-he -xi gtk_column_view_column.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkColumnViewColumn ColumnViewColumn
 gtk_combo_box:
-##	saxon-he -xi gtk_combo_box.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkComboBox ComboBox
 gtk_combo_box_text:
-##	saxon-he -xi gtk_combo_box_text.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkComboBoxText ComboBoxText
 gtk_constant_expression:
-##	saxon-he -xi gtk_constant_expression.xml makeprimitives.xsl primitive=
-#
-gtk_constraint:
-##	saxon-he -xi gtk_constraint.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkConstantExpression ConstantExpression
+gtk_constraint: gtk_constraint_target
+	bash -x genpony.sh GtkConstraint Constraint
+gtk_constraint_target:
+	cp struct-templates/Gtk/GtkConstraintTarget.txt ../../Gtk/GtkConstraintTarget.pony
 gtk_constraint_guide:
-##	saxon-he -xi gtk_constraint_guide.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkConstraintGuide ConstraintGuide
 gtk_constraint_layout:
-##	saxon-he -xi gtk_constraint_layout.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkConstraintLayout ConstraintLayout
 gtk_constraint_layout_child:
-##	saxon-he -xi gtk_constraint_layout_child.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkConstraintLayoutChild ConstraintLayoutChild
 gtk_css_provider:
+	bash -x genpony.sh GtkCssProvider CssProvider
 ##	saxon-he -xi gtk_css_provider.xml makeprimitives.xsl primitive=
 #
 gtk_custom_filter:
+	bash -x genpony.sh GtkCustomFilter CustomFilter
 ##	saxon-he -xi gtk_custom_filter.xml makeprimitives.xsl primitive=
 #
 gtk_custom_layout:
+	bash -x genpony.sh GtkCustomLayout CustomLayout
 ##	saxon-he -xi gtk_custom_layout.xml makeprimitives.xsl primitive=
 #
 gtk_custom_sorter:
+	bash -x genpony.sh GtkCustomSorter CustomSorter
 ##	saxon-he -xi gtk_custom_sorter.xml makeprimitives.xsl primitive=
 #
 gtk_dialog:
+	bash -x genpony.sh GtkDialog Dialog
 #	bash -x genpony.sh gtk_dialog Dialog
 #
 gtk_directory_list:
@@ -274,8 +215,6 @@ gtk_expander:
 #
 gtk_expression:
 	bash -x genpony.sh GtkExpression Expression
-##	saxon-he -xi gtk_expression.xml makeprimitives.xsl primitive=
-#
 gtk_file_chooser_dialog:
 ##	saxon-he -xi gtk_file_chooser_dialog.xml makeprimitives.xsl primitive=
 #
@@ -427,11 +366,21 @@ gtk_list_item:
 ##	saxon-he -xi gtk_list_item.xml makeprimitives.xsl primitive=
 #
 gtk_list_item_factory:
+	bash -x genpony.sh GtkListItemFactory ListItemFactory
 ##	saxon-he -xi gtk_list_item_factory.xml makeprimitives.xsl primitive=
 #
-gtk_list_store:
+gtk_list_store: gtk_list_store_private gtk_tree_model
+	bash -x genpony.sh GtkListStore ListStore
 ##	saxon-he -xi gtk_list_store.xml makeprimitives.xsl primitive=
+gtk_list_store_private:
+	cp struct-templates/Gtk/GtkListStorePrivate.txt ../../Gtk/GtkListStorePrivate.pony
 #
+gtk_tree_model:
+	cp struct-templates/Gtk/GtkTreeModel.txt ../../Gtk/GtkTreeModel.pony
+
+gtk_selection_model:
+	cp struct-templates/Gtk/GtkSelectionModel.txt ../../Gtk/GtkSelectionModel.pony
+
 gtk_list_view:
 #	bash -x genpony.sh gtk_list_view ListView
 #
@@ -652,6 +601,7 @@ gtk_snapshot:
 ##	saxon-he -xi gtk_snapshot.xml makeprimitives.xsl primitive=
 #
 gtk_sorter:
+	bash -x genpony.sh GtkSorter Sorter
 ##	saxon-he -xi gtk_sorter.xml makeprimitives.xsl primitive=
 #
 gtk_sort_list_model:

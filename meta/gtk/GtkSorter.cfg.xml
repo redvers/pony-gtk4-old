@@ -15,8 +15,8 @@
 <xi:include href="gir/PangoCairo-1.0.gir"/>
 <xi:include href="c_types.xml"/>
 <render>
-  <method name="gtk_sorter_changed" render="1"/>
-  <method name="gtk_sorter_compare" render="1"/>
-  <method name="gtk_sorter_get_order" render="1"/>
+  <method name="gtk_sorter_changed" render="0"/>
+  <method name="gtk_sorter_compare" render="0"/>
+  <method name="gtk_sorter_get_order" render="0"/>
 </render>
 </bp>

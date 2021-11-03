@@ -15,26 +15,26 @@
 <xi:include href="gir/PangoCairo-1.0.gir"/>
 <xi:include href="c_types.xml"/>
 <render>
-  <constructor name="gtk_list_store_new" render="1"/>
+  <constructor name="gtk_list_store_new" render="0"/>
   <constructor name="gtk_list_store_newv" render="1"/>
-  <method name="gtk_list_store_append" render="1"/>
+  <method name="gtk_list_store_append" render="0"/>
   <method name="gtk_list_store_clear" render="1"/>
-  <method name="gtk_list_store_insert" render="1"/>
-  <method name="gtk_list_store_insert_after" render="1"/>
-  <method name="gtk_list_store_insert_before" render="1"/>
-  <method name="gtk_list_store_insert_with_values" render="1"/>
-  <method name="gtk_list_store_insert_with_valuesv" render="1"/>
-  <method name="gtk_list_store_iter_is_valid" render="1"/>
-  <method name="gtk_list_store_move_after" render="1"/>
-  <method name="gtk_list_store_move_before" render="1"/>
-  <method name="gtk_list_store_prepend" render="1"/>
-  <method name="gtk_list_store_remove" render="1"/>
+  <method name="gtk_list_store_insert" render="0"/>
+  <method name="gtk_list_store_insert_after" render="0"/>
+  <method name="gtk_list_store_insert_before" render="0"/>
+  <method name="gtk_list_store_insert_with_values" render="0"/>
+  <method name="gtk_list_store_insert_with_valuesv" render="0"/>
+  <method name="gtk_list_store_iter_is_valid" render="0"/>
+  <method name="gtk_list_store_move_after" render="0"/>
+  <method name="gtk_list_store_move_before" render="0"/>
+  <method name="gtk_list_store_prepend" render="0"/>
+  <method name="gtk_list_store_remove" render="0"/>
   <method name="gtk_list_store_reorder" render="1"/>
-  <method name="gtk_list_store_set" render="1"/>
+  <method name="gtk_list_store_set" render="0"/>
   <method name="gtk_list_store_set_column_types" render="1"/>
-  <method name="gtk_list_store_set_valist" render="1"/>
-  <method name="gtk_list_store_set_value" render="1"/>
-  <method name="gtk_list_store_set_valuesv" render="1"/>
-  <method name="gtk_list_store_swap" render="1"/>
+  <method name="gtk_list_store_set_valist" render="0"/>
+  <method name="gtk_list_store_set_value" render="0"/>
+  <method name="gtk_list_store_set_valuesv" render="0"/>
+  <method name="gtk_list_store_swap" render="0"/>
 </render>
 </bp>
