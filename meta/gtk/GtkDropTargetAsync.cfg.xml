@@ -15,11 +15,11 @@
 <xi:include href="gir/PangoCairo-1.0.gir"/>
 <xi:include href="c_types.xml"/>
 <render>
-  <constructor name="gtk_drop_target_async_new" render="1"/>
-  <method name="gtk_drop_target_async_get_actions" render="1"/>
-  <method name="gtk_drop_target_async_get_formats" render="1"/>
-  <method name="gtk_drop_target_async_reject_drop" render="1"/>
-  <method name="gtk_drop_target_async_set_actions" render="1"/>
-  <method name="gtk_drop_target_async_set_formats" render="1"/>
+  <constructor name="gtk_drop_target_async_new" render="0"/>
+  <method name="gtk_drop_target_async_get_actions" render="0"/>
+  <method name="gtk_drop_target_async_get_formats" render="0"/>
+  <method name="gtk_drop_target_async_reject_drop" render="0"/>
+  <method name="gtk_drop_target_async_set_actions" render="0"/>
+  <method name="gtk_drop_target_async_set_formats" render="0"/>
 </render>
 </bp>

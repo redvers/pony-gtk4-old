@@ -17,11 +17,11 @@
 <render>
   <constructor name="gtk_drag_source_new" render="1"/>
   <method name="gtk_drag_source_drag_cancel" render="1"/>
-  <method name="gtk_drag_source_get_actions" render="1"/>
-  <method name="gtk_drag_source_get_content" render="1"/>
-  <method name="gtk_drag_source_get_drag" render="1"/>
-  <method name="gtk_drag_source_set_actions" render="1"/>
-  <method name="gtk_drag_source_set_content" render="1"/>
-  <method name="gtk_drag_source_set_icon" render="1"/>
+  <method name="gtk_drag_source_get_actions" render="0"/>
+  <method name="gtk_drag_source_get_content" render="0"/>
+  <method name="gtk_drag_source_get_drag" render="0"/>
+  <method name="gtk_drag_source_set_actions" render="0"/>
+  <method name="gtk_drag_source_set_content" render="0"/>
+  <method name="gtk_drag_source_set_icon" render="0"/>
 </render>
 </bp>

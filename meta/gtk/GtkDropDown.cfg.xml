@@ -16,7 +16,7 @@
 <xi:include href="c_types.xml"/>
 <render>
   <constructor name="gtk_drop_down_new" render="1"/>
-  <constructor name="gtk_drop_down_new_from_strings" render="1"/>
+  <constructor name="gtk_drop_down_new_from_strings" render="0"/>
   <method name="gtk_drop_down_get_enable_search" render="1"/>
   <method name="gtk_drop_down_get_expression" render="1"/>
   <method name="gtk_drop_down_get_factory" render="1"/>

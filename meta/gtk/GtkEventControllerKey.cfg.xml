@@ -18,7 +18,7 @@
   <constructor name="gtk_event_controller_key_new" render="1"/>
   <method name="gtk_event_controller_key_forward" render="1"/>
   <method name="gtk_event_controller_key_get_group" render="1"/>
-  <method name="gtk_event_controller_key_get_im_context" render="1"/>
-  <method name="gtk_event_controller_key_set_im_context" render="1"/>
+  <method name="gtk_event_controller_key_get_im_context" render="0"/>
+  <method name="gtk_event_controller_key_set_im_context" render="0"/>
 </render>
 </bp>

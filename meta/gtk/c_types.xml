@@ -101,6 +101,28 @@
   <type name="GtkCustomLayout*" ponyusearg="GtkCustomLayout" ponyuserv="GtkCustomLayout" ponyfnrv="GtkCustomLayout"/>
   <type name="GtkCustomSorter*" ponyusearg="GtkCustomSorter" ponyuserv="GtkCustomSorter" ponyfnrv="GtkCustomSorter"/>
   <type name="GtkDialog*" ponyusearg="GtkDialog" ponyuserv="GtkDialog" ponyfnrv="GtkDialog"/>
+  <type name="GtkDirectoryList*" ponyusearg="GtkDirectoryList" ponyuserv="GtkDirectoryList" ponyfnrv="GtkDirectoryList"/>
+  <type name="GtkDragIcon*" ponyusearg="GtkDragIcon" ponyuserv="GtkDragIcon" ponyfnrv="GtkDragIcon"/>
+  <type name="GtkDragSource*" ponyusearg="GtkDragSource" ponyuserv="GtkDragSource" ponyfnrv="GtkDragSource"/>
+  <type name="GtkDrawingArea*" ponyusearg="GtkDrawingArea" ponyuserv="GtkDrawingArea" ponyfnrv="GtkDrawingArea"/>
+  <type name="GtkDropControllerMotion*" ponyusearg="GtkDropControllerMotion" ponyuserv="GtkDropControllerMotion" ponyfnrv="GtkDropControllerMotion"/>
+  <type name="GtkDropDown*" ponyusearg="GtkDropDown" ponyuserv="GtkDropDown" ponyfnrv="GtkDropDown"/>
+  <type name="GtkDropTarget*" ponyusearg="GtkDropTarget" ponyuserv="GtkDropTarget" ponyfnrv="GtkDropTarget"/>
+  <type name="GtkDropTargetAsync*" ponyusearg="GtkDropTargetAsync" ponyuserv="GtkDropTargetAsync" ponyfnrv="GtkDropTargetAsync"/>
+  <type name="GtkEditable*" ponyusearg="GtkEditable" ponyuserv="GtkEditable" ponyfnrv="GtkEditable"/>
+  <type name="GtkEditableLabel*" ponyusearg="GtkEditableLabel" ponyuserv="GtkEditableLabel" ponyfnrv="GtkEditableLabel"/>
+  <type name="GtkEmojiChooser*" ponyusearg="GtkEmojiChooser" ponyuserv="GtkEmojiChooser" ponyfnrv="GtkEmojiChooser"/>
+  <type name="GtkEntry*" ponyusearg="GtkEntry" ponyuserv="GtkEntry" ponyfnrv="GtkEntry"/>
+  <type name="GtkEntryBuffer*" ponyusearg="GtkEntryBuffer" ponyuserv="GtkEntryBuffer" ponyfnrv="GtkEntryBuffer"/>
+  <type name="GtkEntryCompletion*" ponyusearg="GtkEntryCompletion" ponyuserv="GtkEntryCompletion" ponyfnrv="GtkEntryCompletion"/>
+  <type name="GtkEventController*" ponyusearg="GtkEventController" ponyuserv="GtkEventController" ponyfnrv="GtkEventController"/>
+  <type name="GtkEventControllerFocus*" ponyusearg="GtkEventControllerFocus" ponyuserv="GtkEventControllerFocus" ponyfnrv="GtkEventControllerFocus"/>
+  <type name="GtkEventControllerKey*" ponyusearg="GtkEventControllerKey" ponyuserv="GtkEventControllerKey" ponyfnrv="GtkEventControllerKey"/>
+  <type name="GtkEventControllerLegacy*" ponyusearg="GtkEventControllerLegacy" ponyuserv="GtkEventControllerLegacy" ponyfnrv="GtkEventControllerLegacy"/>
+  <type name="GtkEventControllerMotion*" ponyusearg="GtkEventControllerMotion" ponyuserv="GtkEventControllerMotion" ponyfnrv="GtkEventControllerMotion"/>
+  <type name="GtkEventControllerScroll*" ponyusearg="GtkEventControllerScroll" ponyuserv="GtkEventControllerScroll" ponyfnrv="GtkEventControllerScroll"/>
+  <type name="GtkEveryFilter*" ponyusearg="GtkEveryFilter" ponyuserv="GtkEveryFilter" ponyfnrv="GtkEveryFilter"/>
+  <type name="GtkExpander*" ponyusearg="GtkExpander" ponyuserv="GtkExpander" ponyfnrv="GtkExpander"/>
   <type name="GtkExpression*" ponyusearg="GtkExpression" ponyuserv="GtkExpression" ponyfnrv="GtkExpression"/>
   <type name="GtkListItemFactory*" ponyusearg="GtkListItemFactory" ponyuserv="GtkListItemFactory" ponyfnrv="GtkListItemFactory"/>
   <type name="GtkSelectionModel*" ponyusearg="GtkSelectionModel" ponyuserv="GtkSelectionModel" ponyfnrv="GtkSelectionModel"/>
@@ -123,6 +145,7 @@
   <type name="GType" ponyusearg="U64" ponyuserv="U64" ponyfnrv="U64"/>
   <type name="GType*" ponyusearg="U64" ponyuserv="U64" ponyfnrv="U64"/>
   <type name="GList*" ponyusearg="GList" ponyuserv="GList" ponyfnrv="GList"/>
+  <type name="const GError*" ponyusearg="GError" ponyuserv="GError" ponyfnrv="GError"/>
 
 
 
@@ -140,6 +163,8 @@
   <type name="GtkConstraintAttribute" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
   <type name="GtkConstraintStrength" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
   <type name="GtkResponseType" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
+  <type name="GtkEntryIconPosition" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
+  <type name="GtkEventControllerScrollFlags" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
 
   <reservedfns>
     <reserved name="new" newname="gnew"/>

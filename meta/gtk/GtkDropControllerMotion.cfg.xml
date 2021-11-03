@@ -15,9 +15,9 @@
 <xi:include href="gir/PangoCairo-1.0.gir"/>
 <xi:include href="c_types.xml"/>
 <render>
-  <constructor name="gtk_drop_controller_motion_new" render="1"/>
-  <method name="gtk_drop_controller_motion_contains_pointer" render="1"/>
-  <method name="gtk_drop_controller_motion_get_drop" render="1"/>
-  <method name="gtk_drop_controller_motion_is_pointer" render="1"/>
+  <constructor name="gtk_drop_controller_motion_new" render="0"/>
+  <method name="gtk_drop_controller_motion_contains_pointer" render="0"/>
+  <method name="gtk_drop_controller_motion_get_drop" render="0"/>
+  <method name="gtk_drop_controller_motion_is_pointer" render="0"/>
 </render>
 </bp>

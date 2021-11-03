@@ -129,90 +129,58 @@ gtk_constraint_layout_child:
 	bash -x genpony.sh GtkConstraintLayoutChild ConstraintLayoutChild
 gtk_css_provider:
 	bash -x genpony.sh GtkCssProvider CssProvider
-##	saxon-he -xi gtk_css_provider.xml makeprimitives.xsl primitive=
-#
 gtk_custom_filter:
 	bash -x genpony.sh GtkCustomFilter CustomFilter
-##	saxon-he -xi gtk_custom_filter.xml makeprimitives.xsl primitive=
-#
 gtk_custom_layout:
 	bash -x genpony.sh GtkCustomLayout CustomLayout
-##	saxon-he -xi gtk_custom_layout.xml makeprimitives.xsl primitive=
-#
 gtk_custom_sorter:
 	bash -x genpony.sh GtkCustomSorter CustomSorter
-##	saxon-he -xi gtk_custom_sorter.xml makeprimitives.xsl primitive=
-#
 gtk_dialog:
 	bash -x genpony.sh GtkDialog Dialog
-#	bash -x genpony.sh gtk_dialog Dialog
-#
 gtk_directory_list:
-##	saxon-he -xi gtk_directory_list.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkDirectoryList DirectoryList
 gtk_drag_icon:
-##	saxon-he -xi gtk_drag_icon.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkDragIcon DragIcon
 gtk_drag_source:
-##	saxon-he -xi gtk_drag_source.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkDragSource DragSource
 gtk_drawing_area:
-#	bash -x genpony.sh gtk_drawing_area DrawingArea
-#
+	bash -x genpony.sh GtkDrawingArea DrawingArea
 gtk_drop_controller_motion:
-##	saxon-he -xi gtk_drop_controller_motion.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkDropControllerMotion DropControllerMotion
 gtk_drop_down:
-##	saxon-he -xi gtk_drop_down.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkDropDown DropDown
 gtk_drop_target:
-##	saxon-he -xi gtk_drop_target.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkDropTarget DropTarget
 gtk_drop_target_async:
-##	saxon-he -xi gtk_drop_target_async.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkDropTargetAsync DropTargetAsync
 gtk_editable:
-#	bash -x genpony.sh gtk_editable Editable
-#
+	cp struct-templates/Gtk/GtkEditable.txt ../../Gtk/GtkEditable.pony
 gtk_editable_label:
-##	saxon-he -xi gtk_editable_label.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkEditableLabel EditableLabel
 gtk_emoji_chooser:
-##	saxon-he -xi gtk_emoji_chooser.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkEmojiChooser EmojiChooser
 gtk_entry:
-#	bash -x genpony.sh gtk_entry Entry
-#
+	bash -x genpony.sh GtkEntry Entry
 gtk_entry_buffer:
-#	bash -x genpony.sh gtk_entry_buffer EntryBuffer
-#
+	bash -x genpony.sh GtkEntryBuffer EntryBuffer
 gtk_entry_completion:
-##	saxon-he -xi gtk_entry_completion.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkEntryCompletion EntryCompletion
 gtk_event_controller:
-#	bash -x genpony.sh gtk_event_controller EventController
-#
+	bash -x genpony.sh GtkEventController EventController
 gtk_event_controller_focus:
-##	saxon-he -xi gtk_event_controller_focus.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkEventControllerFocus EventControllerFocus
 gtk_event_controller_key:
-##	saxon-he -xi gtk_event_controller_key.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkEventControllerKey EventControllerKey
 gtk_event_controller_legacy:
-##	saxon-he -xi gtk_event_controller_legacy.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkEventControllerLegacy EventControllerLegacy
 gtk_event_controller_motion:
-##	saxon-he -xi gtk_event_controller_motion.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkEventControllerMotion EventControllerMotion
 gtk_event_controller_scroll:
-##	saxon-he -xi gtk_event_controller_scroll.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkEventControllerScroll EventControllerScroll
 gtk_every_filter:
-##	saxon-he -xi gtk_every_filter.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkEveryFilter EveryFilter
 gtk_expander:
-##	saxon-he -xi gtk_expander.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkExpander Expander
 gtk_expression:
 	bash -x genpony.sh GtkExpression Expression
 gtk_file_chooser_dialog:
@@ -427,6 +395,7 @@ gtk_named_action:
 ##	saxon-he -xi gtk_named_action.xml makeprimitives.xsl primitive=
 #
 gtk_native_dialog:
+	bash -x genpony.sh GtkNativeDialog NativeDialog
 ##	saxon-he -xi gtk_native_dialog.xml makeprimitives.xsl primitive=
 #
 gtk_never_trigger:

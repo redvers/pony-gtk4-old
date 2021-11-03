@@ -15,17 +15,17 @@
 <xi:include href="gir/PangoCairo-1.0.gir"/>
 <xi:include href="c_types.xml"/>
 <render>
-  <constructor name="gtk_drop_target_new" render="1"/>
-  <method name="gtk_drop_target_get_actions" render="1"/>
-  <method name="gtk_drop_target_get_current_drop" render="1"/>
-  <method name="gtk_drop_target_get_drop" render="1"/>
-  <method name="gtk_drop_target_get_formats" render="1"/>
-  <method name="gtk_drop_target_get_gtypes" render="1"/>
-  <method name="gtk_drop_target_get_preload" render="1"/>
-  <method name="gtk_drop_target_get_value" render="1"/>
-  <method name="gtk_drop_target_reject" render="1"/>
-  <method name="gtk_drop_target_set_actions" render="1"/>
-  <method name="gtk_drop_target_set_gtypes" render="1"/>
-  <method name="gtk_drop_target_set_preload" render="1"/>
+  <constructor name="gtk_drop_target_new" render="0"/>
+  <method name="gtk_drop_target_get_actions" render="0"/>
+  <method name="gtk_drop_target_get_current_drop" render="0"/>
+  <method name="gtk_drop_target_get_drop" render="0"/>
+  <method name="gtk_drop_target_get_formats" render="0"/>
+  <method name="gtk_drop_target_get_gtypes" render="0"/>
+  <method name="gtk_drop_target_get_preload" render="0"/>
+  <method name="gtk_drop_target_get_value" render="0"/>
+  <method name="gtk_drop_target_reject" render="0"/>
+  <method name="gtk_drop_target_set_actions" render="0"/>
+  <method name="gtk_drop_target_set_gtypes" render="0"/>
+  <method name="gtk_drop_target_set_preload" render="0"/>
 </render>
 </bp>

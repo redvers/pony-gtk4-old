@@ -16,7 +16,7 @@
 <xi:include href="c_types.xml"/>
 <render>
   <constructor name="gtk_entry_completion_new" render="1"/>
-  <constructor name="gtk_entry_completion_new_with_area" render="1"/>
+  <constructor name="gtk_entry_completion_new_with_area" render="0"/>
   <method name="gtk_entry_completion_complete" render="1"/>
   <method name="gtk_entry_completion_compute_prefix" render="1"/>
   <method name="gtk_entry_completion_get_completion_prefix" render="1"/>
@@ -32,7 +32,7 @@
   <method name="gtk_entry_completion_insert_prefix" render="1"/>
   <method name="gtk_entry_completion_set_inline_completion" render="1"/>
   <method name="gtk_entry_completion_set_inline_selection" render="1"/>
-  <method name="gtk_entry_completion_set_match_func" render="1"/>
+  <method name="gtk_entry_completion_set_match_func" render="0"/>
   <method name="gtk_entry_completion_set_minimum_key_length" render="1"/>
   <method name="gtk_entry_completion_set_model" render="1"/>
   <method name="gtk_entry_completion_set_popup_completion" render="1"/>

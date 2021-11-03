@@ -15,17 +15,17 @@
 <xi:include href="gir/PangoCairo-1.0.gir"/>
 <xi:include href="c_types.xml"/>
 <render>
-  <method name="gtk_event_controller_get_current_event" render="1"/>
-  <method name="gtk_event_controller_get_current_event_device" render="1"/>
-  <method name="gtk_event_controller_get_current_event_state" render="1"/>
+  <method name="gtk_event_controller_get_current_event" render="0"/>
+  <method name="gtk_event_controller_get_current_event_device" render="0"/>
+  <method name="gtk_event_controller_get_current_event_state" render="0"/>
   <method name="gtk_event_controller_get_current_event_time" render="1"/>
   <method name="gtk_event_controller_get_name" render="1"/>
-  <method name="gtk_event_controller_get_propagation_limit" render="1"/>
-  <method name="gtk_event_controller_get_propagation_phase" render="1"/>
+  <method name="gtk_event_controller_get_propagation_limit" render="0"/>
+  <method name="gtk_event_controller_get_propagation_phase" render="0"/>
   <method name="gtk_event_controller_get_widget" render="1"/>
   <method name="gtk_event_controller_reset" render="1"/>
   <method name="gtk_event_controller_set_name" render="1"/>
-  <method name="gtk_event_controller_set_propagation_limit" render="1"/>
-  <method name="gtk_event_controller_set_propagation_phase" render="1"/>
+  <method name="gtk_event_controller_set_propagation_limit" render="0"/>
+  <method name="gtk_event_controller_set_propagation_phase" render="0"/>
 </render>
 </bp>
