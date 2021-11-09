@@ -16,11 +16,11 @@
 <xi:include href="c_types.xml"/>
 <render>
   <constructor name="gtk_fixed_new" render="1"/>
-  <method name="gtk_fixed_get_child_position" render="1"/>
-  <method name="gtk_fixed_get_child_transform" render="1"/>
+  <method name="gtk_fixed_get_child_position" render="0"/>
+  <method name="gtk_fixed_get_child_transform" render="0"/>
   <method name="gtk_fixed_move" render="1"/>
   <method name="gtk_fixed_put" render="1"/>
   <method name="gtk_fixed_remove" render="1"/>
-  <method name="gtk_fixed_set_child_transform" render="1"/>
+  <method name="gtk_fixed_set_child_transform" render="0"/>
 </render>
 </bp>

@@ -174,58 +174,36 @@ gtk_expression:
 	bash -x genpony.sh GtkExpression Expression
 gtk_file_chooser_dialog:
 	bash -x genpony.sh GtkFileChooserDialog FileChooserDialog
-##	saxon-he -xi gtk_file_chooser_dialog.xml makeprimitives.xsl primitive=
-#
 gtk_file_chooser_native:
 	bash -x genpony.sh GtkFileChooserNative FileChooserNative
-##	saxon-he -xi gtk_file_chooser_native.xml makeprimitives.xsl primitive=
-#
 gtk_file_chooser_widget:
 	bash -x genpony.sh GtkFileChooserWidget FileChooserWidget
-##	saxon-he -xi gtk_file_chooser_widget.xml makeprimitives.xsl primitive=
-#
 gtk_file_filter:
 	bash -x genpony.sh GtkFileFilter FileFilter
-##	saxon-he -xi gtk_file_filter.xml makeprimitives.xsl primitive=
-#
 gtk_filter:
 	bash -x genpony.sh GtkFilter Filter
-##	saxon-he -xi gtk_filter.xml makeprimitives.xsl primitive=
-#
 gtk_filter_list_model:
 	bash -x genpony.sh GtkFilterListModel FilterListModel
-##	saxon-he -xi gtk_filter_list_model.xml makeprimitives.xsl primitive=
-#
 gtk_fixed:
-##	saxon-he -xi gtk_fixed.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkFixed Fixed
 gtk_fixed_layout:
-##	saxon-he -xi gtk_fixed_layout.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkFixedLayout FixedLayout
 gtk_fixed_layout_child:
-##	saxon-he -xi gtk_fixed_layout_child.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkFixedLayoutChild FixedLayoutChild
 gtk_flatten_list_model:
-##	saxon-he -xi gtk_flatten_list_model.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkFlattenListModel FlattenListModel
 gtk_flow_box:
-##	saxon-he -xi gtk_flow_box.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkFlowBox FlowBox
 gtk_flow_box_child:
-##	saxon-he -xi gtk_flow_box_child.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkFlowBoxChild FlowBoxChild
 gtk_font_button:
-##	saxon-he -xi gtk_font_button.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkFontButton FontButton
 gtk_font_chooser_dialog:
-##	saxon-he -xi gtk_font_chooser_dialog.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkFontChooserDialog FontChooserDialog
 gtk_font_chooser_widget:
-##	saxon-he -xi gtk_font_chooser_widget.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkFontChooserWidget FontChooserWidget
 gtk_frame:
-#	bash -x genpony.sh gtk_frame Frame
-#
+	bash -x genpony.sh GtkFrame Frame
 gtk_gesture:
 #	bash -x genpony.sh gtk_gesture Gesture
 #

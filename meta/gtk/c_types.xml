@@ -47,6 +47,7 @@
   <type name="float" ponyusearg="F32" ponyuserv="F32" ponyfnrv="F32"/>
   <type name="float*" ponyusearg="Pointer[F32]" ponyuserv="Pointer[F32]" ponyfnrv="Pointer[F32]"/>
   <type name="double" ponyusearg="F64" ponyuserv="F64" ponyfnrv="F64"/>
+  <type name="double*" ponyusearg="Pointer[F64]" ponyuserv="Pointer[F64]" ponyfnrv="Pointer[F64]"/>
   <type name="gdouble" ponyusearg="F64" ponyuserv="F64" ponyfnrv="F64"/>
   <type name="gchar**" ponyusearg="Pointer[Pointer[U8]]" ponyuserv="Pointer[Pointer[U8]]" ponyfnrv="Pointer[Pointer[U8]]"/>
   <type name="char**" ponyusearg="Pointer[Pointer[U8]]" ponyuserv="Pointer[Pointer[U8]]" ponyfnrv="Pointer[Pointer[U8]]"/>
@@ -146,6 +147,16 @@
   <type name="GtkFileFilter*" ponyusearg="GtkFileFilter" ponyuserv="GtkFileFilter" ponyfnrv="GtkFileFilter"/>
   <type name="GtkFilter*" ponyusearg="GtkFilter" ponyuserv="GtkFilter" ponyfnrv="GtkFilter"/>
   <type name="GtkFilterListModel*" ponyusearg="GtkFilterListModel" ponyuserv="GtkFilterListModel" ponyfnrv="GtkFilterListModel"/>
+  <type name="GtkFixed*" ponyusearg="GtkFixed" ponyuserv="GtkFixed" ponyfnrv="GtkFixed"/>
+  <type name="GtkFixedLayout*" ponyusearg="GtkFixedLayout" ponyuserv="GtkFixedLayout" ponyfnrv="GtkFixedLayout"/>
+  <type name="GtkFixedLayoutChild*" ponyusearg="GtkFixedLayoutChild" ponyuserv="GtkFixedLayoutChild" ponyfnrv="GtkFixedLayoutChild"/>
+  <type name="GtkFlattenListModel*" ponyusearg="GtkFlattenListModel" ponyuserv="GtkFlattenListModel" ponyfnrv="GtkFlattenListModel"/>
+  <type name="GtkFlowBox*" ponyusearg="GtkFlowBox" ponyuserv="GtkFlowBox" ponyfnrv="GtkFlowBox"/>
+  <type name="GtkFlowBoxChild*" ponyusearg="GtkFlowBoxChild" ponyuserv="GtkFlowBoxChild" ponyfnrv="GtkFlowBoxChild"/>
+  <type name="GtkFontButton*" ponyusearg="GtkFontButton" ponyuserv="GtkFontButton" ponyfnrv="GtkFontButton"/>
+  <type name="GtkFontChooserDialog*" ponyusearg="GtkFontChooserDialog" ponyuserv="GtkFontChooserDialog" ponyfnrv="GtkFontChooserDialog"/>
+  <type name="GtkFontChooserWidget*" ponyusearg="GtkFontChooserWidget" ponyuserv="GtkFontChooserWidget" ponyfnrv="GtkFontChooserWidget"/>
+  <type name="GtkFrame*" ponyusearg="GtkFrame" ponyuserv="GtkFrame" ponyfnrv="GtkFrame"/>
   <type name="GtkListItemFactory*" ponyusearg="GtkListItemFactory" ponyuserv="GtkListItemFactory" ponyfnrv="GtkListItemFactory"/>
   <type name="GtkListView*" ponyusearg="GtkListView" ponyuserv="GtkListView" ponyfnrv="GtkListView"/>
   <type name="GtkMapListModel*" ponyusearg="GtkMapListModel" ponyuserv="GtkMapListModel" ponyfnrv="GtkMapListModel"/>
@@ -196,6 +207,10 @@
   <type name="GtkCellAllocCallback" ponyusearg="Pointer[None]" ponyuserv="Pointer[None]" ponyfnrv="Pointer[None]"/>
   <type name="GtkCellCallback" ponyusearg="Pointer[None]" ponyuserv="Pointer[None]" ponyfnrv="Pointer[None]"/>
   <type name="GtkMapListModelMapFunc" ponyusearg="Pointer[None]" ponyuserv="Pointer[None]" ponyfnrv="Pointer[None]"/>
+  <type name="GtkFlowBoxCreateWidgetFunc" ponyusearg="Pointer[None]" ponyuserv="Pointer[None]" ponyfnrv="Pointer[None]"/>
+  <type name="GtkFlowBoxForeachFunc" ponyusearg="Pointer[None]" ponyuserv="Pointer[None]" ponyfnrv="Pointer[None]"/>
+  <type name="GtkFlowBoxFilterFunc" ponyusearg="Pointer[None]" ponyuserv="Pointer[None]" ponyfnrv="Pointer[None]"/>
+  <type name="GtkFlowBoxSortFunc" ponyusearg="Pointer[None]" ponyuserv="Pointer[None]" ponyfnrv="Pointer[None]"/>
   <type name="GDestroyNotify" ponyusearg="Pointer[None]" ponyuserv="Pointer[None]" ponyfnrv="Pointer[None]"/>
   <type name="GtkConstraintRelation" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
   <type name="GtkConstraintAttribute" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
@@ -206,6 +221,7 @@
   <type name="GtkDirectionType" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
   <type name="GtkStateFlags" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
   <type name="GtkEventControllerScrollFlags" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
+  <type name="GtkSelectionMode" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
   <type name="GdkRectangle*" ponyusearg="GdkRectangle" ponyuserv="GdkRectangle" ponyfnrv="GdkRectangle"/>
   <type name="GdkEvent*" ponyusearg="GdkEvent" ponyuserv="GdkEvent" ponyfnrv="GdkEvent"/>
   <type name="const GdkRectangle*" ponyusearg="GdkRectangle" ponyuserv="GdkRectangle" ponyfnrv="GdkRectangle"/>

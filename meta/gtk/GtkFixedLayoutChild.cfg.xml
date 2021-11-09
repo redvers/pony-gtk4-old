@@ -15,7 +15,7 @@
 <xi:include href="gir/PangoCairo-1.0.gir"/>
 <xi:include href="c_types.xml"/>
 <render>
-  <method name="gtk_fixed_layout_child_get_transform" render="1"/>
-  <method name="gtk_fixed_layout_child_set_transform" render="1"/>
+  <method name="gtk_fixed_layout_child_get_transform" render="0"/>
+  <method name="gtk_fixed_layout_child_set_transform" render="0"/>
 </render>
 </bp>
