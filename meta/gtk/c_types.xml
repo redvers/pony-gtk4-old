@@ -140,7 +140,19 @@
   <type name="GtkEveryFilter*" ponyusearg="GtkEveryFilter" ponyuserv="GtkEveryFilter" ponyfnrv="GtkEveryFilter"/>
   <type name="GtkExpander*" ponyusearg="GtkExpander" ponyuserv="GtkExpander" ponyfnrv="GtkExpander"/>
   <type name="GtkExpression*" ponyusearg="GtkExpression" ponyuserv="GtkExpression" ponyfnrv="GtkExpression"/>
+  <type name="GtkFileChooserDialog*" ponyusearg="GtkFileChooserDialog" ponyuserv="GtkFileChooserDialog" ponyfnrv="GtkFileChooserDialog"/>
+  <type name="GtkFileChooserWidget*" ponyusearg="GtkFileChooserWidget" ponyuserv="GtkFileChooserWidget" ponyfnrv="GtkFileChooserWidget"/>
+  <type name="GtkFileChooserNative*" ponyusearg="GtkFileChooserNative" ponyuserv="GtkFileChooserNative" ponyfnrv="GtkFileChooserNative"/>
+  <type name="GtkFileFilter*" ponyusearg="GtkFileFilter" ponyuserv="GtkFileFilter" ponyfnrv="GtkFileFilter"/>
+  <type name="GtkFilter*" ponyusearg="GtkFilter" ponyuserv="GtkFilter" ponyfnrv="GtkFilter"/>
+  <type name="GtkFilterListModel*" ponyusearg="GtkFilterListModel" ponyuserv="GtkFilterListModel" ponyfnrv="GtkFilterListModel"/>
   <type name="GtkListItemFactory*" ponyusearg="GtkListItemFactory" ponyuserv="GtkListItemFactory" ponyfnrv="GtkListItemFactory"/>
+  <type name="GtkListView*" ponyusearg="GtkListView" ponyuserv="GtkListView" ponyfnrv="GtkListView"/>
+  <type name="GtkMapListModel*" ponyusearg="GtkMapListModel" ponyuserv="GtkMapListModel" ponyfnrv="GtkMapListModel"/>
+  <type name="GtkLockButton*" ponyusearg="GtkLockButton" ponyuserv="GtkLockButton" ponyfnrv="GtkLockButton"/>
+  <type name="GtkMediaControls*" ponyusearg="GtkMediaControls" ponyuserv="GtkMediaControls" ponyfnrv="GtkMediaControls"/>
+  <type name="GtkMediaFile*" ponyusearg="GtkMediaFile" ponyuserv="GtkMediaFile" ponyfnrv="GtkMediaFile"/>
+  <type name="GtkMediaStream*" ponyusearg="GtkMediaStream" ponyuserv="GtkMediaStream" ponyfnrv="GtkMediaStream"/>
   <type name="GtkNativeDialog*" ponyusearg="GtkNativeDialog" ponyuserv="GtkNativeDialog" ponyfnrv="GtkNativeDialog"/>
   <type name="GtkSelectionModel*" ponyusearg="GtkSelectionModel" ponyuserv="GtkSelectionModel" ponyfnrv="GtkSelectionModel"/>
   <type name="GtkSorter*" ponyusearg="GtkSorter" ponyuserv="GtkSorter" ponyfnrv="GtkSorter"/>
@@ -153,6 +165,7 @@
 
 
   <type name="GObject*" ponyusearg="GObject" ponyuserv="GObject" ponyfnrv="GObject"/>
+  <type name="GInputStream*" ponyusearg="GInputStream" ponyuserv="GInputStream" ponyfnrv="GInputStream"/>
   <type name="GSList*" ponyusearg="GSList" ponyuserv="GSList" ponyfnrv="GSList"/>
   <type name="GFile*" ponyusearg="GFile" ponyuserv="GFile" ponyfnrv="GFile"/>
   <type name="GValue*" ponyusearg="GValue" ponyuserv="GValue" ponyfnrv="GValue"/>
@@ -182,6 +195,8 @@
   <type name="GtkCellRendererState" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
   <type name="GtkCellAllocCallback" ponyusearg="Pointer[None]" ponyuserv="Pointer[None]" ponyfnrv="Pointer[None]"/>
   <type name="GtkCellCallback" ponyusearg="Pointer[None]" ponyuserv="Pointer[None]" ponyfnrv="Pointer[None]"/>
+  <type name="GtkMapListModelMapFunc" ponyusearg="Pointer[None]" ponyuserv="Pointer[None]" ponyfnrv="Pointer[None]"/>
+  <type name="GDestroyNotify" ponyusearg="Pointer[None]" ponyuserv="Pointer[None]" ponyfnrv="Pointer[None]"/>
   <type name="GtkConstraintRelation" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
   <type name="GtkConstraintAttribute" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
   <type name="GtkConstraintStrength" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>

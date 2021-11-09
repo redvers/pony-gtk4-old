@@ -56,59 +56,32 @@ gtk_cclosure_expression:
 	bash -x genpony.sh GtkCClosureExpression CClosureExpression
 gtk_cell_area:
 	bash -x genpony.sh GtkCellArea CellArea
-##	saxon-he -xi gtk_cell_area.xml makeprimitives.xsl primitive=
-#
 gtk_cell_area_box:
 	bash -x genpony.sh GtkCellAreaBox CellAreaBox
-##	saxon-he -xi gtk_cell_area_box.xml makeprimitives.xsl primitive=
-#
 gtk_cell_area_context:
 	bash -x genpony.sh GtkCellAreaContext CellAreaContext
-##	saxon-he -xi gtk_cell_area_context.xml makeprimitives.xsl primitive=
-#
 gtk_cell_renderer: gtk_cell_renderer_private
 	bash -x genpony.sh GtkCellRenderer CellRenderer
-##	saxon-he -xi gtk_cell_renderer.xml makeprimitives.xsl primitive=
-#
 gtk_cell_renderer_private:
 	cp struct-templates/Gtk/GtkCellRendererPrivate.txt ../../Gtk/GtkCellRendererPrivate.pony
-
 gtk_cell_renderer_accel:
 	bash -x genpony.sh GtkCellRendererAccel CellRendererAccel
-##	saxon-he -xi gtk_cell_renderer_accel.xml makeprimitives.xsl primitive=
-#
 gtk_cell_renderer_combo:
 	bash -x genpony.sh GtkCellRendererCombo CellRendererCombo
-##	saxon-he -xi gtk_cell_renderer_combo.xml makeprimitives.xsl primitive=
-#
 gtk_cell_renderer_pixbuf:
 	bash -x genpony.sh GtkCellRendererPixbuf CellRendererPixbuf
-##	saxon-he -xi gtk_cell_renderer_pixbuf.xml makeprimitives.xsl primitive=
-#
 gtk_cell_renderer_progress:
 	bash -x genpony.sh GtkCellRendererProgress CellRendererProgress
-##	saxon-he -xi gtk_cell_renderer_progress.xml makeprimitives.xsl primitive=
-#
 gtk_cell_renderer_spin:
 	bash -x genpony.sh GtkCellRendererSpin CellRendererSpin
-##	saxon-he -xi gtk_cell_renderer_spin.xml makeprimitives.xsl primitive=
-#
 gtk_cell_renderer_spinner:
 	bash -x genpony.sh GtkCellRendererSpinner CellRendererSpinner
-##	saxon-he -xi gtk_cell_renderer_spinner.xml makeprimitives.xsl primitive=
-#
 gtk_cell_renderer_text:
 	bash -x genpony.sh GtkCellRendererText CellRendererText
-##	saxon-he -xi gtk_cell_renderer_text.xml makeprimitives.xsl primitive=
-#
 gtk_cell_renderer_toggle:
 	bash -x genpony.sh GtkCellRendererToggle CellRendererToggle
-##	saxon-he -xi gtk_cell_renderer_toggle.xml makeprimitives.xsl primitive=
-#
 gtk_cell_view:
 	bash -x genpony.sh GtkCellView CClosureExpression
-##	saxon-he -xi gtk_cell_view.xml makeprimitives.xsl primitive=
-#
 gtk_center_box:
 	bash -x genpony.sh GtkCenterBox CenterBox
 gtk_center_layout:
@@ -200,21 +173,27 @@ gtk_expander:
 gtk_expression:
 	bash -x genpony.sh GtkExpression Expression
 gtk_file_chooser_dialog:
+	bash -x genpony.sh GtkFileChooserDialog FileChooserDialog
 ##	saxon-he -xi gtk_file_chooser_dialog.xml makeprimitives.xsl primitive=
 #
 gtk_file_chooser_native:
+	bash -x genpony.sh GtkFileChooserNative FileChooserNative
 ##	saxon-he -xi gtk_file_chooser_native.xml makeprimitives.xsl primitive=
 #
 gtk_file_chooser_widget:
+	bash -x genpony.sh GtkFileChooserWidget FileChooserWidget
 ##	saxon-he -xi gtk_file_chooser_widget.xml makeprimitives.xsl primitive=
 #
 gtk_file_filter:
+	bash -x genpony.sh GtkFileFilter FileFilter
 ##	saxon-he -xi gtk_file_filter.xml makeprimitives.xsl primitive=
 #
 gtk_filter:
+	bash -x genpony.sh GtkFilter Filter
 ##	saxon-he -xi gtk_filter.xml makeprimitives.xsl primitive=
 #
 gtk_filter_list_model:
+	bash -x genpony.sh GtkFilterListModel FilterListModel
 ##	saxon-he -xi gtk_filter_list_model.xml makeprimitives.xsl primitive=
 #
 gtk_fixed:
@@ -351,41 +330,28 @@ gtk_list_item:
 #
 gtk_list_item_factory:
 	bash -x genpony.sh GtkListItemFactory ListItemFactory
-##	saxon-he -xi gtk_list_item_factory.xml makeprimitives.xsl primitive=
-#
 gtk_list_store: gtk_list_store_private gtk_tree_model gtk_tree_path
 	bash -x genpony.sh GtkListStore ListStore
-##	saxon-he -xi gtk_list_store.xml makeprimitives.xsl primitive=
 gtk_list_store_private:
 	cp struct-templates/Gtk/GtkListStorePrivate.txt ../../Gtk/GtkListStorePrivate.pony
-#
 gtk_tree_model:
 	cp struct-templates/Gtk/GtkTreeModel.txt ../../Gtk/GtkTreeModel.pony
-	
 gtk_tree_path:
 	cp struct-templates/Gtk/GtkTreePath.txt ../../Gtk/GtkTreePath.pony
-
 gtk_selection_model:
 	cp struct-templates/Gtk/GtkSelectionModel.txt ../../Gtk/GtkSelectionModel.pony
-
 gtk_list_view:
-#	bash -x genpony.sh gtk_list_view ListView
-#
+	bash -x genpony.sh GtkListView ListView
 gtk_lock_button:
-##	saxon-he -xi gtk_lock_button.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkLockButton LockButton
 gtk_map_list_model:
-##	saxon-he -xi gtk_map_list_model.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkMapListModel MapListModel
 gtk_media_controls:
-##	saxon-he -xi gtk_media_controls.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkMediaControls MediaControls
 gtk_media_file:
-##	saxon-he -xi gtk_media_file.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkMediaFile MediaFile
 gtk_media_stream:
-##	saxon-he -xi gtk_media_stream.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkMediaStream MediaStream
 gtk_menu_button:
 ##	saxon-he -xi gtk_menu_button.xml makeprimitives.xsl primitive=
 #

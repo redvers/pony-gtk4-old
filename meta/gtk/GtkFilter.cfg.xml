@@ -15,8 +15,8 @@
 <xi:include href="gir/PangoCairo-1.0.gir"/>
 <xi:include href="c_types.xml"/>
 <render>
-  <method name="gtk_filter_changed" render="1"/>
-  <method name="gtk_filter_get_strictness" render="1"/>
-  <method name="gtk_filter_match" render="1"/>
+  <method name="gtk_filter_changed" render="0"/>
+  <method name="gtk_filter_get_strictness" render="0"/>
+  <method name="gtk_filter_match" render="0"/>
 </render>
 </bp>

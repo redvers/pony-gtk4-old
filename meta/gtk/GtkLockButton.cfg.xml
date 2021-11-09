@@ -15,8 +15,8 @@
 <xi:include href="gir/PangoCairo-1.0.gir"/>
 <xi:include href="c_types.xml"/>
 <render>
-  <constructor name="gtk_lock_button_new" render="1"/>
-  <method name="gtk_lock_button_get_permission" render="1"/>
-  <method name="gtk_lock_button_set_permission" render="1"/>
+  <constructor name="gtk_lock_button_new" render="0"/>
+  <method name="gtk_lock_button_get_permission" render="0"/>
+  <method name="gtk_lock_button_set_permission" render="0"/>
 </render>
 </bp>

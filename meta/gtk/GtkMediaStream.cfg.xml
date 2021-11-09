@@ -16,9 +16,9 @@
 <xi:include href="c_types.xml"/>
 <render>
   <method name="gtk_media_stream_ended" render="1"/>
-  <method name="gtk_media_stream_error" render="1"/>
-  <method name="gtk_media_stream_error_valist" render="1"/>
-  <method name="gtk_media_stream_gerror" render="1"/>
+  <method name="gtk_media_stream_error" render="0"/>
+  <method name="gtk_media_stream_error_valist" render="0"/>
+  <method name="gtk_media_stream_gerror" render="0"/>
   <method name="gtk_media_stream_get_duration" render="1"/>
   <method name="gtk_media_stream_get_ended" render="1"/>
   <method name="gtk_media_stream_get_error" render="1"/>
@@ -27,15 +27,15 @@
   <method name="gtk_media_stream_get_playing" render="1"/>
   <method name="gtk_media_stream_get_timestamp" render="1"/>
   <method name="gtk_media_stream_get_volume" render="1"/>
-  <method name="gtk_media_stream_has_audio" render="1"/>
-  <method name="gtk_media_stream_has_video" render="1"/>
+  <method name="gtk_media_stream_has_audio" render="0"/>
+  <method name="gtk_media_stream_has_video" render="0"/>
   <method name="gtk_media_stream_is_prepared" render="1"/>
   <method name="gtk_media_stream_is_seekable" render="1"/>
   <method name="gtk_media_stream_is_seeking" render="1"/>
   <method name="gtk_media_stream_pause" render="1"/>
   <method name="gtk_media_stream_play" render="1"/>
   <method name="gtk_media_stream_prepared" render="1"/>
-  <method name="gtk_media_stream_realize" render="1"/>
+  <method name="gtk_media_stream_realize" render="0"/>
   <method name="gtk_media_stream_seek" render="1"/>
   <method name="gtk_media_stream_seek_failed" render="1"/>
   <method name="gtk_media_stream_seek_success" render="1"/>
@@ -47,7 +47,7 @@
   <method name="gtk_media_stream_stream_prepared" render="1"/>
   <method name="gtk_media_stream_stream_unprepared" render="1"/>
   <method name="gtk_media_stream_unprepared" render="1"/>
-  <method name="gtk_media_stream_unrealize" render="1"/>
+  <method name="gtk_media_stream_unrealize" render="0"/>
   <method name="gtk_media_stream_update" render="1"/>
 </render>
 </bp>
