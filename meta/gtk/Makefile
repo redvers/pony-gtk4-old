@@ -55,42 +55,58 @@ gtk_callback_action:
 gtk_cclosure_expression:
 	bash -x genpony.sh GtkCClosureExpression CClosureExpression
 gtk_cell_area:
+	bash -x genpony.sh GtkCellArea CellArea
 ##	saxon-he -xi gtk_cell_area.xml makeprimitives.xsl primitive=
 #
 gtk_cell_area_box:
+	bash -x genpony.sh GtkCellAreaBox CellAreaBox
 ##	saxon-he -xi gtk_cell_area_box.xml makeprimitives.xsl primitive=
 #
 gtk_cell_area_context:
+	bash -x genpony.sh GtkCellAreaContext CellAreaContext
 ##	saxon-he -xi gtk_cell_area_context.xml makeprimitives.xsl primitive=
 #
-gtk_cell_renderer:
+gtk_cell_renderer: gtk_cell_renderer_private
+	bash -x genpony.sh GtkCellRenderer CellRenderer
 ##	saxon-he -xi gtk_cell_renderer.xml makeprimitives.xsl primitive=
 #
+gtk_cell_renderer_private:
+	cp struct-templates/Gtk/GtkCellRendererPrivate.txt ../../Gtk/GtkCellRendererPrivate.pony
+
 gtk_cell_renderer_accel:
+	bash -x genpony.sh GtkCellRendererAccel CellRendererAccel
 ##	saxon-he -xi gtk_cell_renderer_accel.xml makeprimitives.xsl primitive=
 #
 gtk_cell_renderer_combo:
+	bash -x genpony.sh GtkCellRendererCombo CellRendererCombo
 ##	saxon-he -xi gtk_cell_renderer_combo.xml makeprimitives.xsl primitive=
 #
 gtk_cell_renderer_pixbuf:
+	bash -x genpony.sh GtkCellRendererPixbuf CellRendererPixbuf
 ##	saxon-he -xi gtk_cell_renderer_pixbuf.xml makeprimitives.xsl primitive=
 #
 gtk_cell_renderer_progress:
+	bash -x genpony.sh GtkCellRendererProgress CellRendererProgress
 ##	saxon-he -xi gtk_cell_renderer_progress.xml makeprimitives.xsl primitive=
 #
 gtk_cell_renderer_spin:
+	bash -x genpony.sh GtkCellRendererSpin CellRendererSpin
 ##	saxon-he -xi gtk_cell_renderer_spin.xml makeprimitives.xsl primitive=
 #
 gtk_cell_renderer_spinner:
+	bash -x genpony.sh GtkCellRendererSpinner CellRendererSpinner
 ##	saxon-he -xi gtk_cell_renderer_spinner.xml makeprimitives.xsl primitive=
 #
 gtk_cell_renderer_text:
+	bash -x genpony.sh GtkCellRendererText CellRendererText
 ##	saxon-he -xi gtk_cell_renderer_text.xml makeprimitives.xsl primitive=
 #
 gtk_cell_renderer_toggle:
+	bash -x genpony.sh GtkCellRendererToggle CellRendererToggle
 ##	saxon-he -xi gtk_cell_renderer_toggle.xml makeprimitives.xsl primitive=
 #
 gtk_cell_view:
+	bash -x genpony.sh GtkCellView CClosureExpression
 ##	saxon-he -xi gtk_cell_view.xml makeprimitives.xsl primitive=
 #
 gtk_center_box:

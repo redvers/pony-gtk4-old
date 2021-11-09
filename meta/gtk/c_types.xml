@@ -45,6 +45,7 @@
   <type name="char" ponyusearg="U8" ponyuserv="U8" ponyfnrv="U8"/>
   <type name="gchar" ponyusearg="U8" ponyuserv="U8" ponyfnrv="U8"/>
   <type name="float" ponyusearg="F32" ponyuserv="F32" ponyfnrv="F32"/>
+  <type name="float*" ponyusearg="Pointer[F32]" ponyuserv="Pointer[F32]" ponyfnrv="Pointer[F32]"/>
   <type name="double" ponyusearg="F64" ponyuserv="F64" ponyfnrv="F64"/>
   <type name="gdouble" ponyusearg="F64" ponyuserv="F64" ponyfnrv="F64"/>
   <type name="gchar**" ponyusearg="Pointer[Pointer[U8]]" ponyuserv="Pointer[Pointer[U8]]" ponyfnrv="Pointer[Pointer[U8]]"/>
@@ -79,6 +80,20 @@
   <type name="GtkButton*" ponyusearg="GtkButton" ponyuserv="GtkButton" ponyfnrv="GtkButton"/>
   <type name="GtkCalendar*" ponyusearg="GtkCalendar" ponyuserv="GtkCalendar" ponyfnrv="GtkCalendar"/>
   <type name="GtkCallbackAction*" ponyusearg="GtkCallbackAction" ponyuserv="GtkCallbackAction" ponyfnrv="GtkCallbackAction"/>
+  <type name="GtkCellArea*" ponyusearg="GtkCellArea" ponyuserv="GtkCellArea" ponyfnrv="GtkCellArea"/>
+  <type name="GtkCellAreaBox*" ponyusearg="GtkCellAreaBox" ponyuserv="GtkCellAreaBox" ponyfnrv="GtkCellAreaBox"/>
+  <type name="GtkCellAreaContext*" ponyusearg="GtkCellAreaContext" ponyuserv="GtkCellAreaContext" ponyfnrv="GtkCellAreaContext"/>
+  <type name="GtkCellEditable*" ponyusearg="GtkCellEditable" ponyuserv="GtkCellEditable" ponyfnrv="GtkCellEditable"/>
+  <type name="GtkCellRenderer*" ponyusearg="GtkCellRenderer" ponyuserv="GtkCellRenderer" ponyfnrv="GtkCellRenderer"/>
+  <type name="GtkCellRendererAccel*" ponyusearg="GtkCellRendererAccel" ponyuserv="GtkCellRendererAccel" ponyfnrv="GtkCellRendererAccel"/>
+  <type name="GtkCellRendererCombo*" ponyusearg="GtkCellRendererCombo" ponyuserv="GtkCellRendererCombo" ponyfnrv="GtkCellRendererCombo"/>
+  <type name="GtkCellRendererPixbuf*" ponyusearg="GtkCellRendererPixbuf" ponyuserv="GtkCellRendererPixbuf" ponyfnrv="GtkCellRendererPixbuf"/>
+  <type name="GtkCellRendererProgress*" ponyusearg="GtkCellRendererProgress" ponyuserv="GtkCellRendererProgress" ponyfnrv="GtkCellRendererProgress"/>
+  <type name="GtkCellRendererSpin*" ponyusearg="GtkCellRendererSpin" ponyuserv="GtkCellRendererSpin" ponyfnrv="GtkCellRendererSpin"/>
+  <type name="GtkCellRendererSpinner*" ponyusearg="GtkCellRendererSpinner" ponyuserv="GtkCellRendererSpinner" ponyfnrv="GtkCellRendererSpinner"/>
+  <type name="GtkCellRendererText*" ponyusearg="GtkCellRendererText" ponyuserv="GtkCellRendererText" ponyfnrv="GtkCellRendererText"/>
+  <type name="GtkCellRendererToggle*" ponyusearg="GtkCellRendererToggle" ponyuserv="GtkCellRendererToggle" ponyfnrv="GtkCellRendererToggle"/>
+  <type name="GtkCellRendererView*" ponyusearg="GtkCellRendererView" ponyuserv="GtkCellRendererView" ponyfnrv="GtkCellRendererView"/>
   <type name="GtkCenterBox*" ponyusearg="GtkCenterBox" ponyuserv="GtkCenterBox" ponyfnrv="GtkCenterBox"/>
   <type name="GtkCenterLayout*" ponyusearg="GtkCenterLayout" ponyuserv="GtkCenterLayout" ponyfnrv="GtkCenterLayout"/>
   <type name="GtkCheckButton*" ponyusearg="GtkCheckButton" ponyuserv="GtkCheckButton" ponyfnrv="GtkCheckButton"/>
@@ -128,6 +143,7 @@
   <type name="GtkNativeDialog*" ponyusearg="GtkNativeDialog" ponyuserv="GtkNativeDialog" ponyfnrv="GtkNativeDialog"/>
   <type name="GtkSelectionModel*" ponyusearg="GtkSelectionModel" ponyuserv="GtkSelectionModel" ponyfnrv="GtkSelectionModel"/>
   <type name="GtkSorter*" ponyusearg="GtkSorter" ponyuserv="GtkSorter" ponyfnrv="GtkSorter"/>
+  <type name="GtkSnapshot*" ponyusearg="GtkSnapshot" ponyuserv="GtkSnapshot" ponyfnrv="GtkSnapshot"/>
   <type name="GtkTreeModel*" ponyusearg="GtkTreeModel" ponyuserv="GtkTreeModel" ponyfnrv="GtkTreeModel"/>
   <type name="GtkTreeIter*" ponyusearg="GtkTreeIter" ponyuserv="GtkTreeIter" ponyfnrv="GtkTreeIter"/>
   <type name="GtkListStore*" ponyusearg="GtkListStore" ponyuserv="GtkListStore" ponyfnrv="GtkListStore"/>
@@ -160,12 +176,22 @@
   <type name="GtkLicense" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
   <type name="GtkAssistantPageType" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
   <type name="GtkSortType" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
+  <type name="GtkCellEditable" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
+  <type name="GtkCellRendererState" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
+  <type name="GtkCellAllocCallback" ponyusearg="Pointer[None]" ponyuserv="Pointer[None]" ponyfnrv="Pointer[None]"/>
+  <type name="GtkCellCallback" ponyusearg="Pointer[None]" ponyuserv="Pointer[None]" ponyfnrv="Pointer[None]"/>
   <type name="GtkConstraintRelation" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
   <type name="GtkConstraintAttribute" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
   <type name="GtkConstraintStrength" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
   <type name="GtkResponseType" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
   <type name="GtkEntryIconPosition" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
+  <type name="GtkSizeRequestMode" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
+  <type name="GtkDirectionType" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
+  <type name="GtkStateFlags" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
   <type name="GtkEventControllerScrollFlags" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
+  <type name="GdkRectangle*" ponyusearg="GdkRectangle" ponyuserv="GdkRectangle" ponyfnrv="GdkRectangle"/>
+  <type name="GdkEvent*" ponyusearg="GdkEvent" ponyuserv="GdkEvent" ponyfnrv="GdkEvent"/>
+  <type name="const GdkRectangle*" ponyusearg="GdkRectangle" ponyuserv="GdkRectangle" ponyfnrv="GdkRectangle"/>
 
   <reservedfns>
     <reserved name="new" newname="gnew"/>
