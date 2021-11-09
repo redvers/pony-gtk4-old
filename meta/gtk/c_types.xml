@@ -94,6 +94,7 @@
   <type name="GtkCellRendererText*" ponyusearg="GtkCellRendererText" ponyuserv="GtkCellRendererText" ponyfnrv="GtkCellRendererText"/>
   <type name="GtkCellRendererToggle*" ponyusearg="GtkCellRendererToggle" ponyuserv="GtkCellRendererToggle" ponyfnrv="GtkCellRendererToggle"/>
   <type name="GtkCellRendererView*" ponyusearg="GtkCellRendererView" ponyuserv="GtkCellRendererView" ponyfnrv="GtkCellRendererView"/>
+  <type name="GtkCellView*" ponyusearg="GtkCellView" ponyuserv="GtkCellView" ponyfnrv="GtkCellView"/>
   <type name="GtkCenterBox*" ponyusearg="GtkCenterBox" ponyuserv="GtkCenterBox" ponyfnrv="GtkCenterBox"/>
   <type name="GtkCenterLayout*" ponyusearg="GtkCenterLayout" ponyuserv="GtkCenterLayout" ponyfnrv="GtkCenterLayout"/>
   <type name="GtkCheckButton*" ponyusearg="GtkCheckButton" ponyuserv="GtkCheckButton" ponyfnrv="GtkCheckButton"/>
