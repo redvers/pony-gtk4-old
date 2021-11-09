@@ -353,7 +353,7 @@ gtk_list_item_factory:
 	bash -x genpony.sh GtkListItemFactory ListItemFactory
 ##	saxon-he -xi gtk_list_item_factory.xml makeprimitives.xsl primitive=
 #
-gtk_list_store: gtk_list_store_private gtk_tree_model
+gtk_list_store: gtk_list_store_private gtk_tree_model gtk_tree_path
 	bash -x genpony.sh GtkListStore ListStore
 ##	saxon-he -xi gtk_list_store.xml makeprimitives.xsl primitive=
 gtk_list_store_private:
@@ -361,6 +361,9 @@ gtk_list_store_private:
 #
 gtk_tree_model:
 	cp struct-templates/Gtk/GtkTreeModel.txt ../../Gtk/GtkTreeModel.pony
+	
+gtk_tree_path:
+	cp struct-templates/Gtk/GtkTreePath.txt ../../Gtk/GtkTreePath.pony
 
 gtk_selection_model:
 	cp struct-templates/Gtk/GtkSelectionModel.txt ../../Gtk/GtkSelectionModel.pony

@@ -147,6 +147,7 @@
   <type name="GtkSnapshot*" ponyusearg="GtkSnapshot" ponyuserv="GtkSnapshot" ponyfnrv="GtkSnapshot"/>
   <type name="GtkTreeModel*" ponyusearg="GtkTreeModel" ponyuserv="GtkTreeModel" ponyfnrv="GtkTreeModel"/>
   <type name="GtkTreeIter*" ponyusearg="GtkTreeIter" ponyuserv="GtkTreeIter" ponyfnrv="GtkTreeIter"/>
+  <type name="GtkTreePath*" ponyusearg="GtkTreePath" ponyuserv="GtkTreePath" ponyfnrv="GtkTreePath"/>
   <type name="GtkListStore*" ponyusearg="GtkListStore" ponyuserv="GtkListStore" ponyfnrv="GtkListStore"/>
 
 
