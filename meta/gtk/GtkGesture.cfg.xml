@@ -15,22 +15,22 @@
 <xi:include href="gir/PangoCairo-1.0.gir"/>
 <xi:include href="c_types.xml"/>
 <render>
-  <method name="gtk_gesture_get_bounding_box" render="1"/>
-  <method name="gtk_gesture_get_bounding_box_center" render="1"/>
-  <method name="gtk_gesture_get_device" render="1"/>
+  <method name="gtk_gesture_get_bounding_box" render="0"/>
+  <method name="gtk_gesture_get_bounding_box_center" render="0"/>
+  <method name="gtk_gesture_get_device" render="0"/>
   <method name="gtk_gesture_get_group" render="1"/>
-  <method name="gtk_gesture_get_last_event" render="1"/>
-  <method name="gtk_gesture_get_last_updated_sequence" render="1"/>
-  <method name="gtk_gesture_get_point" render="1"/>
-  <method name="gtk_gesture_get_sequence_state" render="1"/>
+  <method name="gtk_gesture_get_last_event" render="0"/>
+  <method name="gtk_gesture_get_last_updated_sequence" render="0"/>
+  <method name="gtk_gesture_get_point" render="0"/>
+  <method name="gtk_gesture_get_sequence_state" render="0"/>
   <method name="gtk_gesture_get_sequences" render="1"/>
   <method name="gtk_gesture_group" render="1"/>
-  <method name="gtk_gesture_handles_sequence" render="1"/>
+  <method name="gtk_gesture_handles_sequence" render="0"/>
   <method name="gtk_gesture_is_active" render="1"/>
   <method name="gtk_gesture_is_grouped_with" render="1"/>
   <method name="gtk_gesture_is_recognized" render="1"/>
-  <method name="gtk_gesture_set_sequence_state" render="1"/>
-  <method name="gtk_gesture_set_state" render="1"/>
+  <method name="gtk_gesture_set_sequence_state" render="0"/>
+  <method name="gtk_gesture_set_state" render="0"/>
   <method name="gtk_gesture_ungroup" render="1"/>
 </render>
 </bp>

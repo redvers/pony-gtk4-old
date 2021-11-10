@@ -157,6 +157,23 @@
   <type name="GtkFontChooserDialog*" ponyusearg="GtkFontChooserDialog" ponyuserv="GtkFontChooserDialog" ponyfnrv="GtkFontChooserDialog"/>
   <type name="GtkFontChooserWidget*" ponyusearg="GtkFontChooserWidget" ponyuserv="GtkFontChooserWidget" ponyfnrv="GtkFontChooserWidget"/>
   <type name="GtkFrame*" ponyusearg="GtkFrame" ponyuserv="GtkFrame" ponyfnrv="GtkFrame"/>
+  <type name="GtkGesture*" ponyusearg="GtkGesture" ponyuserv="GtkGesture" ponyfnrv="GtkGesture"/>
+  <type name="GtkGestureClick*" ponyusearg="GtkGestureClick" ponyuserv="GtkGestureClick" ponyfnrv="GtkGestureClick"/>
+  <type name="GtkGestureDrag*" ponyusearg="GtkGestureDrag" ponyuserv="GtkGestureDrag" ponyfnrv="GtkGestureDrag"/>
+  <type name="GtkGestureLongPress*" ponyusearg="GtkGestureLongPress" ponyuserv="GtkGestureLongPress" ponyfnrv="GtkGestureLongPress"/>
+  <type name="GtkGesturePan*" ponyusearg="GtkGesturePan" ponyuserv="GtkGesturePan" ponyfnrv="GtkGesturePan"/>
+  <type name="GtkGestureRotate*" ponyusearg="GtkGestureRotate" ponyuserv="GtkGestureRotate" ponyfnrv="GtkGestureRotate"/>
+  <type name="GtkGestureSingle*" ponyusearg="GtkGestureSingle" ponyuserv="GtkGestureSingle" ponyfnrv="GtkGestureSingle"/>
+  <type name="GtkGestureStylus*" ponyusearg="GtkGestureStylus" ponyuserv="GtkGestureStylus" ponyfnrv="GtkGestureStylus"/>
+  <type name="GtkGestureSwipe*" ponyusearg="GtkGestureSwipe" ponyuserv="GtkGestureSwipe" ponyfnrv="GtkGestureSwipe"/>
+  <type name="GtkGestureZoom*" ponyusearg="GtkGestureZoom" ponyuserv="GtkGestureZoom" ponyfnrv="GtkGestureZoom"/>
+  <type name="GtkGLArea*" ponyusearg="GtkGLArea" ponyuserv="GtkGLArea" ponyfnrv="GtkGLArea"/>
+  <type name="GtkGrid*" ponyusearg="GtkGrid" ponyuserv="GtkGrid" ponyfnrv="GtkGrid"/>
+  <type name="GtkGridLayout*" ponyusearg="GtkGridLayout" ponyuserv="GtkGridLayout" ponyfnrv="GtkGridLayout"/>
+  <type name="GtkGridLayoutChild*" ponyusearg="GtkGridLayoutChild" ponyuserv="GtkGridLayoutChild" ponyfnrv="GtkGridLayoutChild"/>
+  <type name="GtkGridView*" ponyusearg="GtkGridView" ponyuserv="GtkGridView" ponyfnrv="GtkGridView"/>
+  <type name="GtkHeaderBar*" ponyusearg="GtkHeaderBar" ponyuserv="GtkHeaderBar" ponyfnrv="GtkHeaderBar"/>
+
   <type name="GtkListItemFactory*" ponyusearg="GtkListItemFactory" ponyuserv="GtkListItemFactory" ponyfnrv="GtkListItemFactory"/>
   <type name="GtkListView*" ponyusearg="GtkListView" ponyuserv="GtkListView" ponyfnrv="GtkListView"/>
   <type name="GtkMapListModel*" ponyusearg="GtkMapListModel" ponyuserv="GtkMapListModel" ponyfnrv="GtkMapListModel"/>
@@ -213,6 +230,7 @@
   <type name="GtkFlowBoxSortFunc" ponyusearg="Pointer[None]" ponyuserv="Pointer[None]" ponyfnrv="Pointer[None]"/>
   <type name="GDestroyNotify" ponyusearg="Pointer[None]" ponyuserv="Pointer[None]" ponyfnrv="Pointer[None]"/>
   <type name="GtkConstraintRelation" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
+  <type name="GtkPositionType" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
   <type name="GtkConstraintAttribute" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
   <type name="GtkConstraintStrength" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>
   <type name="GtkResponseType" ponyusearg="I32" ponyuserv="I32" ponyfnrv="I32"/>

@@ -17,7 +17,7 @@
 <render>
   <method name="gtk_gesture_single_get_button" render="1"/>
   <method name="gtk_gesture_single_get_current_button" render="1"/>
-  <method name="gtk_gesture_single_get_current_sequence" render="1"/>
+  <method name="gtk_gesture_single_get_current_sequence" render="0"/>
   <method name="gtk_gesture_single_get_exclusive" render="1"/>
   <method name="gtk_gesture_single_get_touch_only" render="1"/>
   <method name="gtk_gesture_single_set_button" render="1"/>

@@ -205,53 +205,37 @@ gtk_font_chooser_widget:
 gtk_frame:
 	bash -x genpony.sh GtkFrame Frame
 gtk_gesture:
-#	bash -x genpony.sh gtk_gesture Gesture
-#
+	bash -x genpony.sh GtkGesture Gesture
 gtk_gesture_click:
-#	bash -x genpony.sh gtk_gesture_click GestureClick
-#
+	bash -x genpony.sh GtkGestureClick GestureClick
 gtk_gesture_drag:
-#	bash -x genpony.sh gtk_gesture_drag GestureDrag
-#
+	bash -x genpony.sh GtkGestureDrag GestureDrag
 gtk_gesture_long_press:
-##	saxon-he -xi gtk_gesture_long_press.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkGestureLongPress GestureLongPress
 gtk_gesture_pan:
-##	saxon-he -xi gtk_gesture_pan.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkGesturePan GesturePan
 gtk_gesture_rotate:
-##	saxon-he -xi gtk_gesture_rotate.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkGestureRotate GestureRotate
 gtk_gesture_single:
-##	saxon-he -xi gtk_gesture_single.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkGestureSingle GestureSingle
 gtk_gesture_stylus:
-##	saxon-he -xi gtk_gesture_stylus.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkGestureStylus GestureStylus
 gtk_gesture_swipe:
-##	saxon-he -xi gtk_gesture_swipe.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkGestureSwipe GestureSwipe
 gtk_gesture_zoom:
-##	saxon-he -xi gtk_gesture_zoom.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkGestureZoom GestureZoom
 gtk_gl_area:
-##	saxon-he -xi gtk_gl_area.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkGLArea GLArea
 gtk_grid:
-##	saxon-he -xi gtk_grid.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkGrid Grid
 gtk_grid_layout:
-##	saxon-he -xi gtk_grid_layout.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkGridLayout GridLayout
 gtk_grid_layout_child:
-##	saxon-he -xi gtk_grid_layout_child.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkGridLayoutChild GridLayoutChild
 gtk_grid_view:
-##	saxon-he -xi gtk_grid_view.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkGridView GridView
 gtk_header_bar:
-##	saxon-he -xi gtk_header_bar.xml makeprimitives.xsl primitive=
-#
+	bash -x genpony.sh GtkHeaderBar HeaderBar
 gtk_icon_paintable:
 ##	saxon-he -xi gtk_icon_paintable.xml makeprimitives.xsl primitive=
 #

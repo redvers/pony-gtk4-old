@@ -16,9 +16,9 @@
 <xi:include href="c_types.xml"/>
 <render>
   <constructor name="gtk_gesture_stylus_new" render="1"/>
-  <method name="gtk_gesture_stylus_get_axes" render="1"/>
-  <method name="gtk_gesture_stylus_get_axis" render="1"/>
-  <method name="gtk_gesture_stylus_get_backlog" render="1"/>
-  <method name="gtk_gesture_stylus_get_device_tool" render="1"/>
+  <method name="gtk_gesture_stylus_get_axes" render="0"/>
+  <method name="gtk_gesture_stylus_get_axis" render="0"/>
+  <method name="gtk_gesture_stylus_get_backlog" render="0"/>
+  <method name="gtk_gesture_stylus_get_device_tool" render="0"/>
 </render>
 </bp>
