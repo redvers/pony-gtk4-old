@@ -53,7 +53,7 @@ gtk_calendar:
 gtk_callback_action:
 	bash -x genpony.sh GtkCallbackAction CallbackAction
 gtk_cclosure_expression:
-	bash -x genpony.sh GtkCClosureExpression CClosureExpression
+#	bash -x genpony.sh GtkCClosureExpression CClosureExpression
 gtk_cell_area:
 	bash -x genpony.sh GtkCellArea CellArea
 gtk_cell_area_box:
@@ -238,58 +238,40 @@ gtk_header_bar:
 	bash -x genpony.sh GtkHeaderBar HeaderBar
 gtk_icon_paintable:
 ##	saxon-he -xi gtk_icon_paintable.xml makeprimitives.xsl primitive=
-#
 gtk_icon_theme:
 ##	saxon-he -xi gtk_icon_theme.xml makeprimitives.xsl primitive=
-#
 gtk_icon_view:
 ##	saxon-he -xi gtk_icon_view.xml makeprimitives.xsl primitive=
-#
 gtk_image:
 ##	saxon-he -xi gtk_image.xml makeprimitives.xsl primitive=
-#
 gtk_im_context:
 ##	saxon-he -xi gtk_im_context.xml makeprimitives.xsl primitive=
-#
 gtk_im_context_simple:
 ##	saxon-he -xi gtk_im_context_simple.xml makeprimitives.xsl primitive=
-#
 gtk_im_multicontext:
 ##	saxon-he -xi gtk_im_multicontext.xml makeprimitives.xsl primitive=
-#
 gtk_info_bar:
 ##	saxon-he -xi gtk_info_bar.xml makeprimitives.xsl primitive=
-#
 gtk_keyval_trigger:
 ##	saxon-he -xi gtk_keyval_trigger.xml makeprimitives.xsl primitive=
-#
 gtk_label:
 #	bash -x genpony.sh gtk_label Label
-#
 gtk_layout_child:
 ##	saxon-he -xi gtk_layout_child.xml makeprimitives.xsl primitive=
-#
 gtk_layout_manager:
 ##	saxon-he -xi gtk_layout_manager.xml makeprimitives.xsl primitive=
-#
 gtk_level_bar:
 ##	saxon-he -xi gtk_level_bar.xml makeprimitives.xsl primitive=
-#
 gtk_link_button:
 ##	saxon-he -xi gtk_link_button.xml makeprimitives.xsl primitive=
-#
 gtk_list_base:
 ##	saxon-he -xi gtk_list_base.xml makeprimitives.xsl primitive=
-#
 gtk_list_box:
 ##	saxon-he -xi gtk_list_box.xml makeprimitives.xsl primitive=
-#
 gtk_list_box_row:
 ##	saxon-he -xi gtk_list_box_row.xml makeprimitives.xsl primitive=
-#
 gtk_list_item:
 ##	saxon-he -xi gtk_list_item.xml makeprimitives.xsl primitive=
-#
 gtk_list_item_factory:
 	bash -x genpony.sh GtkListItemFactory ListItemFactory
 gtk_list_store: gtk_list_store_private gtk_tree_model gtk_tree_path
@@ -316,346 +298,224 @@ gtk_media_stream:
 	bash -x genpony.sh GtkMediaStream MediaStream
 gtk_menu_button:
 ##	saxon-he -xi gtk_menu_button.xml makeprimitives.xsl primitive=
-#
 gtk_message_dialog:
 ##	saxon-he -xi gtk_message_dialog.xml makeprimitives.xsl primitive=
-#
 gtk_mnemonic_action:
 ##	saxon-he -xi gtk_mnemonic_action.xml makeprimitives.xsl primitive=
-#
 gtk_mnemonic_trigger:
 ##	saxon-he -xi gtk_mnemonic_trigger.xml makeprimitives.xsl primitive=
-#
 gtk_mount_operation:
 ##	saxon-he -xi gtk_mount_operation.xml makeprimitives.xsl primitive=
-#
 gtk_multi_filter:
 ##	saxon-he -xi gtk_multi_filter.xml makeprimitives.xsl primitive=
-#
 gtk_multi_selection:
 ##	saxon-he -xi gtk_multi_selection.xml makeprimitives.xsl primitive=
-#
 gtk_multi_sorter:
 ##	saxon-he -xi gtk_multi_sorter.xml makeprimitives.xsl primitive=
-#
 gtk_named_action:
 ##	saxon-he -xi gtk_named_action.xml makeprimitives.xsl primitive=
-#
 gtk_native_dialog:
 	bash -x genpony.sh GtkNativeDialog NativeDialog
-##	saxon-he -xi gtk_native_dialog.xml makeprimitives.xsl primitive=
-#
 gtk_never_trigger:
 ##	saxon-he -xi gtk_never_trigger.xml makeprimitives.xsl primitive=
-#
 gtk_no_selection:
 ##	saxon-he -xi gtk_no_selection.xml makeprimitives.xsl primitive=
-#
 gtk_notebook:
 ##	saxon-he -xi gtk_notebook.xml makeprimitives.xsl primitive=
-#
 gtk_notebook_page:
 ##	saxon-he -xi gtk_notebook_page.xml makeprimitives.xsl primitive=
-#
 gtk_nothing_action:
 ##	saxon-he -xi gtk_nothing_action.xml makeprimitives.xsl primitive=
-#
 gtk_numeric_sorter:
 ##	saxon-he -xi gtk_numeric_sorter.xml makeprimitives.xsl primitive=
-#
 gtk_object_expression:
 ##	saxon-he -xi gtk_object_expression.xml makeprimitives.xsl primitive=
-#
 gtk_overlay:
 ##	saxon-he -xi gtk_overlay.xml makeprimitives.xsl primitive=
-#
 gtk_overlay_layout:
 ##	saxon-he -xi gtk_overlay_layout.xml makeprimitives.xsl primitive=
-#
 gtk_overlay_layout_child:
 ##	saxon-he -xi gtk_overlay_layout_child.xml makeprimitives.xsl primitive=
-#
 gtk_pad_controller:
 ##	saxon-he -xi gtk_pad_controller.xml makeprimitives.xsl primitive=
-#
 gtk_page_setup:
 ##	saxon-he -xi gtk_page_setup.xml makeprimitives.xsl primitive=
-#
 gtk_page_setup_unix_dialog:
 ##	saxon-he -xi gtk_page_setup_unix_dialog.xml makeprimitives.xsl primitive=
-#
 gtk_paned:
 ##	saxon-he -xi gtk_paned.xml makeprimitives.xsl primitive=
-#
 gtk_param_expression:
 ##	saxon-he -xi gtk_param_expression.xml makeprimitives.xsl primitive=
-#
 gtk_password_entry:
 ##	saxon-he -xi gtk_password_entry.xml makeprimitives.xsl primitive=
-#
 gtk_password_entry_buffer:
 ##	saxon-he -xi gtk_password_entry_buffer.xml makeprimitives.xsl primitive=
-#
 gtk_picture:
 ##	saxon-he -xi gtk_picture.xml makeprimitives.xsl primitive=
-#
 gtk_popover:
 ##	saxon-he -xi gtk_popover.xml makeprimitives.xsl primitive=
-#
 gtk_popover_menu:
 ##	saxon-he -xi gtk_popover_menu.xml makeprimitives.xsl primitive=
-#
 gtk_popover_menu_bar:
 ##	saxon-he -xi gtk_popover_menu_bar.xml makeprimitives.xsl primitive=
-#
 gtk_print_context:
 ##	saxon-he -xi gtk_print_context.xml makeprimitives.xsl primitive=
-#
 gtk_printer:
 ##	saxon-he -xi gtk_printer.xml makeprimitives.xsl primitive=
-#
 gtk_print_job:
 ##	saxon-he -xi gtk_print_job.xml makeprimitives.xsl primitive=
-#
 gtk_print_operation:
 ##	saxon-he -xi gtk_print_operation.xml makeprimitives.xsl primitive=
-#
 gtk_print_settings:
 ##	saxon-he -xi gtk_print_settings.xml makeprimitives.xsl primitive=
-#
 gtk_print_unix_dialog:
 ##	saxon-he -xi gtk_print_unix_dialog.xml makeprimitives.xsl primitive=
-#
 gtk_progress_bar:
 #	bash -x genpony.sh gtk_progress_bar ProgressBar
 ##	saxon-he -xi gtk_progress_bar.xml makeprimitives.xsl primitive=
-#
 gtk_property_expression:
 ##	saxon-he -xi gtk_property_expression.xml makeprimitives.xsl primitive=
-#
 gtk_range:
 ##	saxon-he -xi gtk_range.xml makeprimitives.xsl primitive=
-#
 gtk_recent_manager:
 ##	saxon-he -xi gtk_recent_manager.xml makeprimitives.xsl primitive=
-#
 gtk_revealer:
 ##	saxon-he -xi gtk_revealer.xml makeprimitives.xsl primitive=
-#
 gtk_scale:
 ##	saxon-he -xi gtk_scale.xml makeprimitives.xsl primitive=
-#
 gtk_scale_button:
 ##	saxon-he -xi gtk_scale_button.xml makeprimitives.xsl primitive=
-#
 gtk_scrollbar:
 ##	saxon-he -xi gtk_scrollbar.xml makeprimitives.xsl primitive=
-#
 gtk_scrolled_window:
 ##	saxon-he -xi gtk_scrolled_window.xml makeprimitives.xsl primitive=
-#
 gtk_search_bar:
 ##	saxon-he -xi gtk_search_bar.xml makeprimitives.xsl primitive=
-#
 gtk_search_entry:
 ##	saxon-he -xi gtk_search_entry.xml makeprimitives.xsl primitive=
-#
 gtk_selection_filter_model:
 ##	saxon-he -xi gtk_selection_filter_model.xml makeprimitives.xsl primitive=
-#
 gtk_separator:
 ##	saxon-he -xi gtk_separator.xml makeprimitives.xsl primitive=
-#
 gtk_settings:
 ##	saxon-he -xi gtk_settings.xml makeprimitives.xsl primitive=
-#
 gtk_shortcut:
 ##	saxon-he -xi gtk_shortcut.xml makeprimitives.xsl primitive=
-#
 gtk_shortcut_action:
 ##	saxon-he -xi gtk_shortcut_action.xml makeprimitives.xsl primitive=
-#
 gtk_shortcut_controller:
 ##	saxon-he -xi gtk_shortcut_controller.xml makeprimitives.xsl primitive=
-#
 gtk_shortcut_label:
 ##	saxon-he -xi gtk_shortcut_label.xml makeprimitives.xsl primitive=
-#
 gtk_shortcuts_group:
 ##	saxon-he -xi gtk_shortcuts_group.xml makeprimitives.xsl primitive=
-#
 gtk_shortcuts_section:
 ##	saxon-he -xi gtk_shortcuts_section.xml makeprimitives.xsl primitive=
-#
 gtk_shortcuts_shortcut:
 ##	saxon-he -xi gtk_shortcuts_shortcut.xml makeprimitives.xsl primitive=
-#
 gtk_shortcuts_window:
 ##	saxon-he -xi gtk_shortcuts_window.xml makeprimitives.xsl primitive=
-#
 gtk_shortcut_trigger:
 	bash -x genpony.sh GtkShortcutTrigger ShortcutTrigger
-##	saxon-he -xi gtk_shortcut_trigger.xml makeprimitives.xsl primitive=
-#
 gtk_signal_action:
 ##	saxon-he -xi gtk_signal_action.xml makeprimitives.xsl primitive=
-#
 gtk_signal_list_item_factory:
 ##	saxon-he -xi gtk_signal_list_item_factory.xml makeprimitives.xsl primitive=
-#
 gtk_single_selection:
 #	bash -x genpony.sh gtk_single_selection SingleSelection
-##	saxon-he -xi gtk_single_selection.xml makeprimitives.xsl primitive=
-#
 gtk_size_group:
 ##	saxon-he -xi gtk_size_group.xml makeprimitives.xsl primitive=
-#
 gtk_slice_list_model:
 ##	saxon-he -xi gtk_slice_list_model.xml makeprimitives.xsl primitive=
-#
 gtk_snapshot:
 ##	saxon-he -xi gtk_snapshot.xml makeprimitives.xsl primitive=
-#
 gtk_sorter:
 	bash -x genpony.sh GtkSorter Sorter
-##	saxon-he -xi gtk_sorter.xml makeprimitives.xsl primitive=
-#
 gtk_sort_list_model:
 ##	saxon-he -xi gtk_sort_list_model.xml makeprimitives.xsl primitive=
-#
 gtk_spin_button:
 ##	saxon-he -xi gtk_spin_button.xml makeprimitives.xsl primitive=
-#
 gtk_spinner:
 ##	saxon-he -xi gtk_spinner.xml makeprimitives.xsl primitive=
-#
 gtk_stack:
 ##	saxon-he -xi gtk_stack.xml makeprimitives.xsl primitive=
-#
 gtk_stack_page:
 ##	saxon-he -xi gtk_stack_page.xml makeprimitives.xsl primitive=
-#
 gtk_stack_sidebar:
 ##	saxon-he -xi gtk_stack_sidebar.xml makeprimitives.xsl primitive=
-#
 gtk_stack_switcher:
 ##	saxon-he -xi gtk_stack_switcher.xml makeprimitives.xsl primitive=
-#
 gtk_statusbar:
 ##	saxon-he -xi gtk_statusbar.xml makeprimitives.xsl primitive=
-#
 gtk_string_filter:
 ##	saxon-he -xi gtk_string_filter.xml makeprimitives.xsl primitive=
-#
 gtk_string_list:
 ##	saxon-he -xi gtk_string_list.xml makeprimitives.xsl primitive=
-#
 gtk_string_object:
 ##	saxon-he -xi gtk_string_object.xml makeprimitives.xsl primitive=
-#
 gtk_string_sorter:
 ##	saxon-he -xi gtk_string_sorter.xml makeprimitives.xsl primitive=
-#
 gtk_style_context:
 ##	saxon-he -xi gtk_style_context.xml makeprimitives.xsl primitive=
-#
 gtk_switch:
 ##	saxon-he -xi gtk_switch.xml makeprimitives.xsl primitive=
-#
 gtk_text:
 ##	saxon-he -xi gtk_text.xml makeprimitives.xsl primitive=
-#
 gtk_text_buffer:
 #	bash -x genpony.sh gtk_text_buffer TextBuffer
-##	saxon-he -xi gtk_text_buffer.xml makeprimitives.xsl primitive=
-#
 gtk_text_child_anchor:
 ##	saxon-he -xi gtk_text_child_anchor.xml makeprimitives.xsl primitive=
-#
 gtk_text_mark:
 ##	saxon-he -xi gtk_text_mark.xml makeprimitives.xsl primitive=
-#
 gtk_text_tag:
 ##	saxon-he -xi gtk_text_tag.xml makeprimitives.xsl primitive=
-#
 gtk_text_tag_table:
 ##	saxon-he -xi gtk_text_tag_table.xml makeprimitives.xsl primitive=
-#
 gtk_text_view:
 #	bash -x genpony.sh gtk_text_view TextView
-##	saxon-he -xi gtk_text_view.xml makeprimitives.xsl primitive=
-#
 gtk_toggle_button:
 ##	saxon-he -xi gtk_toggle_button.xml makeprimitives.xsl primitive=
-#
 gtk_tooltip:
 ##	saxon-he -xi gtk_tooltip.xml makeprimitives.xsl primitive=
-#
 gtk_tree_expander:
 ##	saxon-he -xi gtk_tree_expander.xml makeprimitives.xsl primitive=
-#
 gtk_tree_list_model:
 #	bash -x genpony.sh gtk_tree_list_model TreeListModel
-#
 gtk_tree_list_row:
 #	bash -x genpony.sh gtk_tree_list_row TreeListRow
-#
 gtk_tree_list_row_sorter:
 ##	saxon-he -xi gtk_tree_list_row_sorter.xml makeprimitives.xsl primitive=
-#
 gtk_tree_model_filter:
 ##	saxon-he -xi gtk_tree_model_filter.xml makeprimitives.xsl primitive=
-#
 gtk_tree_model_sort:
 ##	saxon-he -xi gtk_tree_model_sort.xml makeprimitives.xsl primitive=
-#
 gtk_tree_selection:
 ##	saxon-he -xi gtk_tree_selection.xml makeprimitives.xsl primitive=
-#
 gtk_tree_store:
 ##	saxon-he -xi gtk_tree_store.xml makeprimitives.xsl primitive=
-#
 gtk_tree_view:
 ##	saxon-he -xi gtk_tree_view.xml makeprimitives.xsl primitive=
-#
 gtk_tree_view_column:
 ##	saxon-he -xi gtk_tree_view_column.xml makeprimitives.xsl primitive=
-#
 gtk_video:
 ##	saxon-he -xi gtk_video.xml makeprimitives.xsl primitive=
-#
 gtk_viewport:
 ##	saxon-he -xi gtk_viewport.xml makeprimitives.xsl primitive=
-#
 gtk_volume_button:
 ##	saxon-he -xi gtk_volume_button.xml makeprimitives.xsl primitive=
-#
 gtk_widget: gtk_widget_private
 	bash -x genpony.sh GtkWidget Widget
-
 gtk_widget_private:
 	cp struct-templates/Gtk/GtkWidgetPrivate.txt ../../Gtk/GtkWidgetPrivate.pony
-#
 gtk_widget_paintable:
 ##	saxon-he -xi gtk_widget_paintable.xml makeprimitives.xsl primitive=
-#
 gtk_window:
 	bash -x genpony.sh GtkWindow Window
-#
 gtk_window_controls:
 ##	saxon-he -xi gtk_window_controls.xml makeprimitives.xsl primitive=
-#
 gtk_window_group: gtk_window_group_private
 	bash -x genpony.sh GtkWindowGroup WindowGroup
-
 gtk_window_group_private:
 	cp struct-templates/Gtk/GtkWindowGroupPrivate.txt ../../Gtk/GtkWindowGroupPrivate.pony
-#
 gtk_window_handle:
 ##	saxon-he -xi gtk_window_handle.xml makeprimitives.xsl primitive=
-
-
-
-
-
-
